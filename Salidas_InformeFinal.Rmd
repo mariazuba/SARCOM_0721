@@ -506,6 +506,8 @@ g1 + g2
 
 ```
 
+# Ajuste del modelo a los datos
+
 ```{r Fig26,warning=F, include=T, message=F, echo=T,fig.height=6.7,fig.width=6.5,fig.align="center",fig.path=dir.Fig,dev=fig}
 
 yrs   <- rep2$years

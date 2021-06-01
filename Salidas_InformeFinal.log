@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.22)  31 MAY 2021 22:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.22)  1 JUN 2021 00:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -633,7 +633,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line
 .fd
 File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<Figuras/Fig2-1.pdf, id=16, 469.755pt x 252.945pt>
+<Figuras/Fig2-1.pdf, id=20, 469.755pt x 252.945pt>
 File: Figuras/Fig2-1.pdf Graphic file (type pdf)
 <use Figuras/Fig2-1.pdf>
 Package pdftex.def Info: Figuras/Fig2-1.pdf  used on input line 145.
@@ -642,47 +642,47 @@ Package pdftex.def Info: Figuras/Fig2-1.pdf  used on input line 145.
 
 {/Users/mariajosezunigabasualto/Library/TinyTeX/texmf-var/fonts/map/pdftex/updm
 ap/pdftex.map} <./Figuras/Fig2-1.pdf>]
-<Figuras/Fig3-1.pdf, id=34, 433.62pt x 237.88875pt>
+<Figuras/Fig3-1.pdf, id=38, 433.62pt x 237.88875pt>
 File: Figuras/Fig3-1.pdf Graphic file (type pdf)
 <use Figuras/Fig3-1.pdf>
 Package pdftex.def Info: Figuras/Fig3-1.pdf  used on input line 175.
 (pdftex.def)             Requested size: 433.63878pt x 237.89903pt.
-<Figuras/Fig4-1.pdf, id=35, 418.56375pt x 237.88875pt>
+<Figuras/Fig4-1.pdf, id=39, 418.56375pt x 237.88875pt>
 File: Figuras/Fig4-1.pdf Graphic file (type pdf)
 <use Figuras/Fig4-1.pdf>
 Package pdftex.def Info: Figuras/Fig4-1.pdf  used on input line 188.
 (pdftex.def)             Requested size: 418.56271pt x 237.88815pt.
 [2 <./Figuras/Fig3-1.pdf>]
-<Figuras/Fig7-1.pdf, id=45, 252.945pt x 252.945pt>
+<Figuras/Fig7-1.pdf, id=49, 252.945pt x 252.945pt>
 File: Figuras/Fig7-1.pdf Graphic file (type pdf)
 <use Figuras/Fig7-1.pdf>
 Package pdftex.def Info: Figuras/Fig7-1.pdf  used on input line 209.
 (pdftex.def)             Requested size: 252.94823pt x 252.94823pt.
 [3 <./Figuras/Fig4-1.pdf>]
-<Figuras/Fig8-1.pdf, id=56, 469.755pt x 252.945pt>
+<Figuras/Fig8-1.pdf, id=60, 469.755pt x 252.945pt>
 File: Figuras/Fig8-1.pdf Graphic file (type pdf)
 <use Figuras/Fig8-1.pdf>
 Package pdftex.def Info: Figuras/Fig8-1.pdf  used on input line 228.
 (pdftex.def)             Requested size: 469.75386pt x 252.94438pt.
 [4 <./Figuras/Fig7-1.pdf>]
-<Figuras/Fig15-1.pdf, id=66, 361.35pt x 216.81pt>
+<Figuras/Fig15-1.pdf, id=70, 361.35pt x 216.81pt>
 File: Figuras/Fig15-1.pdf Graphic file (type pdf)
 <use Figuras/Fig15-1.pdf>
 Package pdftex.def Info: Figuras/Fig15-1.pdf  used on input line 252.
 (pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
 [5 <./Figuras/Fig8-1.pdf>]
-<Figuras/Fig16-1.pdf, id=77, 650.43pt x 325.215pt>
+<Figuras/Fig16-1.pdf, id=81, 650.43pt x 325.215pt>
 File: Figuras/Fig16-1.pdf Graphic file (type pdf)
 <use Figuras/Fig16-1.pdf>
 Package pdftex.def Info: Figuras/Fig16-1.pdf  used on input line 285.
 (pdftex.def)             Requested size: 469.76817pt x 234.88408pt.
 [6 <./Figuras/Fig15-1.pdf>] [7 <./Figuras/Fig16-1.pdf>]
-<Figuras/Fig19-1.pdf, id=99, 578.16pt x 325.215pt>
+<Figuras/Fig19-1.pdf, id=103, 578.16pt x 325.215pt>
 File: Figuras/Fig19-1.pdf Graphic file (type pdf)
 <use Figuras/Fig19-1.pdf>
 Package pdftex.def Info: Figuras/Fig19-1.pdf  used on input line 330.
 (pdftex.def)             Requested size: 469.75385pt x 264.23653pt.
-<Figuras/Fig20-1.pdf, id=100, 361.35pt x 578.16pt>
+<Figuras/Fig20-1.pdf, id=104, 361.35pt x 578.16pt>
 File: Figuras/Fig20-1.pdf Graphic file (type pdf)
 <use Figuras/Fig20-1.pdf>
 Package pdftex.def Info: Figuras/Fig20-1.pdf  used on input line 353.
@@ -692,13 +692,13 @@ Underfull \vbox (badness 10000) detected at line 390
  []
 
 [9 <./Figuras/Fig20-1.pdf>]
-<Figuras/Fig21-1.pdf, id=119, 650.43pt x 289.08pt>
+<Figuras/Fig21-1.pdf, id=123, 650.43pt x 289.08pt>
 File: Figuras/Fig21-1.pdf Graphic file (type pdf)
 <use Figuras/Fig21-1.pdf>
 Package pdftex.def Info: Figuras/Fig21-1.pdf  used on input line 392.
 (pdftex.def)             Requested size: 469.76817pt x 208.78584pt.
 [10 <./Figuras/Fig21-1.pdf>]
-<Figuras/Fig22-1.pdf, id=130, 650.43pt x 433.62pt>
+<Figuras/Fig22-1.pdf, id=134, 650.43pt x 433.62pt>
 File: Figuras/Fig22-1.pdf Graphic file (type pdf)
 <use Figuras/Fig22-1.pdf>
 Package pdftex.def Info: Figuras/Fig22-1.pdf  used on input line 432.
@@ -708,7 +708,7 @@ Underfull \vbox (badness 10000) detected at line 469
  []
 
 [12 <./Figuras/Fig22-1.pdf>]
-<Figuras/Fig23-1.pdf, id=148, 650.43pt x 289.08pt>
+<Figuras/Fig23-1.pdf, id=153, 650.43pt x 289.08pt>
 File: Figuras/Fig23-1.pdf Graphic file (type pdf)
 <use Figuras/Fig23-1.pdf>
 Package pdftex.def Info: Figuras/Fig23-1.pdf  used on input line 471.
@@ -718,394 +718,394 @@ Overfull \vbox (0.31781pt too high) detected at line 509
  []
 
 [13 <./Figuras/Fig23-1.pdf>]
-<Figuras/Fig24-1.pdf, id=161, 650.43pt x 433.62pt>
+<Figuras/Fig24-1.pdf, id=165, 650.43pt x 433.62pt>
 File: Figuras/Fig24-1.pdf Graphic file (type pdf)
 <use Figuras/Fig24-1.pdf>
 Package pdftex.def Info: Figuras/Fig24-1.pdf  used on input line 511.
 (pdftex.def)             Requested size: 469.76817pt x 313.17879pt.
 [14 <./Figuras/Fig24-1.pdf>]
-<Figuras/Fig26-1.pdf, id=175, 469.755pt x 483.8075pt>
+<Figuras/Fig26-1.pdf, id=180, 469.755pt x 483.8075pt>
 File: Figuras/Fig26-1.pdf Graphic file (type pdf)
 <use Figuras/Fig26-1.pdf>
-Package pdftex.def Info: Figuras/Fig26-1.pdf  used on input line 586.
+Package pdftex.def Info: Figuras/Fig26-1.pdf  used on input line 590.
 (pdftex.def)             Requested size: 469.75386pt x 483.80632pt.
 [15]
-Underfull \vbox (badness 10000) detected at line 625
+Underfull \vbox (badness 10000) detected at line 629
  []
 
 [16 <./Figuras/Fig26-1.pdf>]
-<Figuras/Fig27-1.pdf, id=189, 650.43pt x 505.89pt>
+<Figuras/Fig27-1.pdf, id=194, 650.43pt x 505.89pt>
 File: Figuras/Fig27-1.pdf Graphic file (type pdf)
 <use Figuras/Fig27-1.pdf>
-Package pdftex.def Info: Figuras/Fig27-1.pdf  used on input line 657.
+Package pdftex.def Info: Figuras/Fig27-1.pdf  used on input line 661.
 (pdftex.def)             Requested size: 469.76817pt x 365.37524pt.
 [17]
-Underfull \vbox (badness 10000) detected at line 690
+Underfull \vbox (badness 10000) detected at line 694
  []
 
 
-Overfull \vbox (0.11197pt too high) detected at line 690
+Overfull \vbox (0.11197pt too high) detected at line 694
  []
 
 [18 <./Figuras/Fig27-1.pdf>]
-<Figuras/Fig28-1.pdf, id=204, 578.16pt x 505.89pt>
+<Figuras/Fig28-1.pdf, id=209, 578.16pt x 505.89pt>
 File: Figuras/Fig28-1.pdf Graphic file (type pdf)
 <use Figuras/Fig28-1.pdf>
-Package pdftex.def Info: Figuras/Fig28-1.pdf  used on input line 692.
+Package pdftex.def Info: Figuras/Fig28-1.pdf  used on input line 696.
 (pdftex.def)             Requested size: 469.75385pt x 411.0346pt.
 [19 <./Figuras/Fig28-1.pdf>]
-<Figuras/Fig29-1.pdf, id=215, 578.16pt x 505.89pt>
+<Figuras/Fig29-1.pdf, id=220, 578.16pt x 505.89pt>
 File: Figuras/Fig29-1.pdf Graphic file (type pdf)
 <use Figuras/Fig29-1.pdf>
-Package pdftex.def Info: Figuras/Fig29-1.pdf  used on input line 727.
+Package pdftex.def Info: Figuras/Fig29-1.pdf  used on input line 731.
 (pdftex.def)             Requested size: 469.75385pt x 411.0346pt.
 [20 <./Figuras/Fig29-1.pdf>]
-<Figuras/Fig30-1.pdf, id=225, 578.16pt x 505.89pt>
+<Figuras/Fig30-1.pdf, id=230, 578.16pt x 505.89pt>
 File: Figuras/Fig30-1.pdf Graphic file (type pdf)
 <use Figuras/Fig30-1.pdf>
-Package pdftex.def Info: Figuras/Fig30-1.pdf  used on input line 762.
+Package pdftex.def Info: Figuras/Fig30-1.pdf  used on input line 766.
 (pdftex.def)             Requested size: 469.75385pt x 411.0346pt.
 [21]
-Underfull \vbox (badness 10000) detected at line 858
+Underfull \vbox (badness 10000) detected at line 862
  []
 
 [22 <./Figuras/Fig30-1.pdf>]
-Underfull \vbox (badness 10000) detected at line 858
+Underfull \vbox (badness 10000) detected at line 862
  []
 
 
-Underfull \vbox (badness 10000) detected at line 858
+Underfull \vbox (badness 10000) detected at line 862
  []
 
 [23]
-<Figuras/Fig31-1.pdf, id=243, 722.7pt x 361.35pt>
+<Figuras/Fig31-1.pdf, id=248, 722.7pt x 361.35pt>
 File: Figuras/Fig31-1.pdf Graphic file (type pdf)
 <use Figuras/Fig31-1.pdf>
-Package pdftex.def Info: Figuras/Fig31-1.pdf  used on input line 860.
+Package pdftex.def Info: Figuras/Fig31-1.pdf  used on input line 864.
 (pdftex.def)             Requested size: 469.76045pt x 234.88023pt.
 
-Underfull \vbox (badness 4048) detected at line 882
+Underfull \vbox (badness 4048) detected at line 886
  []
 
 [24 <./Figuras/Fig31-1.pdf>]
-Underfull \vbox (badness 10000) detected at line 943
+Underfull \vbox (badness 10000) detected at line 947
  []
 
 
-Overfull \vbox (1.90346pt too high) detected at line 943
+Overfull \vbox (1.90346pt too high) detected at line 947
  []
 
 [25]
-Underfull \vbox (badness 10000) detected at line 999
+Underfull \vbox (badness 10000) detected at line 1003
  []
 
 
-Overfull \vbox (1.90346pt too high) detected at line 999
+Overfull \vbox (1.90346pt too high) detected at line 1003
  []
 
 [26]
-<Figuras/Fig32-1.pdf, id=262, 505.89pt x 505.89pt>
+<Figuras/Fig32-1.pdf, id=267, 505.89pt x 505.89pt>
 File: Figuras/Fig32-1.pdf Graphic file (type pdf)
 <use Figuras/Fig32-1.pdf>
-Package pdftex.def Info: Figuras/Fig32-1.pdf  used on input line 1001.
+Package pdftex.def Info: Figuras/Fig32-1.pdf  used on input line 1005.
 (pdftex.def)             Requested size: 469.76265pt x 469.76265pt.
 
-Underfull \vbox (badness 1527) detected at line 1061
+Underfull \vbox (badness 1527) detected at line 1065
  []
 
 [27 <./Figuras/Fig32-1.pdf>]
-Underfull \vbox (badness 10000) detected at line 1159
+Underfull \vbox (badness 10000) detected at line 1163
  []
 
 
-Overfull \vbox (0.94945pt too high) detected at line 1159
+Overfull \vbox (0.94945pt too high) detected at line 1163
  []
 
 [28]
-Underfull \vbox (badness 10000) detected at line 1159
+Underfull \vbox (badness 10000) detected at line 1163
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1159
+Underfull \vbox (badness 10000) detected at line 1163
  []
 
 [29]
-<Figuras/Fig33-1.pdf, id=283, 722.7pt x 722.7pt>
+<Figuras/Fig33-1.pdf, id=288, 722.7pt x 722.7pt>
 File: Figuras/Fig33-1.pdf Graphic file (type pdf)
 <use Figuras/Fig33-1.pdf>
-Package pdftex.def Info: Figuras/Fig33-1.pdf  used on input line 1161.
+Package pdftex.def Info: Figuras/Fig33-1.pdf  used on input line 1165.
 (pdftex.def)             Requested size: 469.76045pt x 469.76045pt.
 [30]
-Underfull \vbox (badness 10000) detected at line 1198
+Underfull \vbox (badness 10000) detected at line 1202
  []
 
 [31 <./Figuras/Fig33-1.pdf>]
-<Figuras/Fig34-1.pdf, id=302, 361.35pt x 289.08pt>
+<Figuras/Fig34-1.pdf, id=307, 361.35pt x 289.08pt>
 File: Figuras/Fig34-1.pdf Graphic file (type pdf)
 <use Figuras/Fig34-1.pdf>
-Package pdftex.def Info: Figuras/Fig34-1.pdf  used on input line 1200.
+Package pdftex.def Info: Figuras/Fig34-1.pdf  used on input line 1204.
 (pdftex.def)             Requested size: 361.34912pt x 289.07928pt.
 
-Underfull \vbox (badness 4595) detected at line 1228
+Underfull \vbox (badness 4595) detected at line 1232
  []
 
 [32 <./Figuras/Fig34-1.pdf>]
-<Figuras/Fig35-1.pdf, id=313, 578.16pt x 433.62pt>
+<Figuras/Fig35-1.pdf, id=318, 578.16pt x 433.62pt>
 File: Figuras/Fig35-1.pdf Graphic file (type pdf)
 <use Figuras/Fig35-1.pdf>
-Package pdftex.def Info: Figuras/Fig35-1.pdf  used on input line 1252.
+Package pdftex.def Info: Figuras/Fig35-1.pdf  used on input line 1256.
 (pdftex.def)             Requested size: 469.75385pt x 352.31538pt.
 [33]
-Underfull \vbox (badness 10000) detected at line 1288
+Underfull \vbox (badness 10000) detected at line 1292
  []
 
 [34 <./Figuras/Fig35-1.pdf>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 1295.
+(Font)              <10> on input line 1299.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 1295.
+(Font)              <7> on input line 1299.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 1295.
+(Font)              <5> on input line 1299.
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1314--1315
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1318--1319
 []\T1/lmr/m/n/10 1990/91|  
  []
 
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1333--1334
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1337--1338
 []\T1/lmr/m/n/10 1991/92|  
  []
 
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1352--1353
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1356--1357
 []\T1/lmr/m/n/10 1992/93|  
  []
 
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1371--1372
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1375--1376
 []\T1/lmr/m/n/10 1993/94|  
  []
 
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1390--1391
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1394--1395
 []\T1/lmr/m/n/10 1994/95|  
  []
 
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1409--1410
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1413--1414
 []\T1/lmr/m/n/10 1995/96|  
  []
 
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1428--1429
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1432--1433
 []\T1/lmr/m/n/10 1996/97|  
  []
 
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1447--1448
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1451--1452
 []\T1/lmr/m/n/10 1997/98|  
  []
 
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1466--1467
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1470--1471
 []\T1/lmr/m/n/10 1998/99|  
  []
 
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1485--1486
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1489--1490
 []\T1/lmr/m/n/10 1999/00|  
  []
 
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1504--1505
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1508--1509
 []\T1/lmr/m/n/10 2000/01|  
  []
 
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1523--1524
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1527--1528
 []\T1/lmr/m/n/10 2001/02|  
  []
 
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1542--1543
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1546--1547
 []\T1/lmr/m/n/10 2002/03|  
  []
 
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1561--1562
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1565--1566
 []\T1/lmr/m/n/10 2003/04|  
  []
 
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1580--1581
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1584--1585
 []\T1/lmr/m/n/10 2004/05|  
  []
 
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1599--1600
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1603--1604
 []\T1/lmr/m/n/10 2005/06|  
  []
 
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1618--1619
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1622--1623
 []\T1/lmr/m/n/10 2006/07|  
  []
 
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1637--1638
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1641--1642
 []\T1/lmr/m/n/10 2007/08|  
  []
 
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1656--1657
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1660--1661
 []\T1/lmr/m/n/10 2008/09|  
  []
 
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1675--1676
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1679--1680
 []\T1/lmr/m/n/10 2009/10|  
  []
 
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1694--1695
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1698--1699
 []\T1/lmr/m/n/10 2010/11|  
  []
 
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1713--1714
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1717--1718
 []\T1/lmr/m/n/10 2011/12|  
  []
 
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1732--1733
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1736--1737
 []\T1/lmr/m/n/10 2012/13|  
  []
 
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1751--1752
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1755--1756
 []\T1/lmr/m/n/10 2013/14|  
  []
 
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1770--1771
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1774--1775
 []\T1/lmr/m/n/10 2014/15|  
  []
 
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1789--1790
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1793--1794
 []\T1/lmr/m/n/10 2015/16|  
  []
 
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1808--1809
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1812--1813
 []\T1/lmr/m/n/10 2016/17|  
  []
 
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1827--1828
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1831--1832
 []\T1/lmr/m/n/10 2017/18|  
  []
 
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1846--1847
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1850--1851
 []\T1/lmr/m/n/10 2018/19|  
  []
 
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1865--1866
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1869--1870
 []\T1/lmr/m/n/10 2019/20|  
  []
 
 
-Overfull \hbox (6.81586pt too wide) in paragraph at lines 1884--1885
+Overfull \hbox (6.81586pt too wide) in paragraph at lines 1888--1889
 []\T1/lmr/m/n/10 2020/21|  
  []
 
 [35]
-Underfull \vbox (badness 10000) detected at line 2002
+Underfull \vbox (badness 10000) detected at line 2006
  []
 
 
-Underfull \vbox (badness 10000) detected at line 2002
+Underfull \vbox (badness 10000) detected at line 2006
  []
 
 [36]
-<Figuras/Fig36-1.pdf, id=341, 252.945pt x 252.945pt>
+<Figuras/Fig36-1.pdf, id=346, 252.945pt x 252.945pt>
 File: Figuras/Fig36-1.pdf Graphic file (type pdf)
 <use Figuras/Fig36-1.pdf>
-Package pdftex.def Info: Figuras/Fig36-1.pdf  used on input line 2028.
+Package pdftex.def Info: Figuras/Fig36-1.pdf  used on input line 2032.
 (pdftex.def)             Requested size: 252.94823pt x 252.94823pt.
 [37]
-Underfull \vbox (badness 10000) detected at line 2088
+Underfull \vbox (badness 10000) detected at line 2092
  []
 
 
-Overfull \vbox (0.72253pt too high) detected at line 2088
+Overfull \vbox (0.72253pt too high) detected at line 2092
  []
 
 [38 <./Figuras/Fig36-1.pdf>]
-Underfull \vbox (badness 10000) detected at line 2146
+Underfull \vbox (badness 10000) detected at line 2150
  []
 
 [39]
-<Figuras/Fig37-1.pdf, id=360, 650.43pt x 325.215pt>
+<Figuras/Fig37-1.pdf, id=365, 650.43pt x 325.215pt>
 File: Figuras/Fig37-1.pdf Graphic file (type pdf)
 <use Figuras/Fig37-1.pdf>
-Package pdftex.def Info: Figuras/Fig37-1.pdf  used on input line 2185.
+Package pdftex.def Info: Figuras/Fig37-1.pdf  used on input line 2189.
 (pdftex.def)             Requested size: 469.76817pt x 234.88408pt.
 [40]
-<Figuras/Fig38-1.pdf, id=365, 542.025pt x 252.945pt>
+<Figuras/Fig38-1.pdf, id=370, 542.025pt x 252.945pt>
 File: Figuras/Fig38-1.pdf Graphic file (type pdf)
 <use Figuras/Fig38-1.pdf>
-Package pdftex.def Info: Figuras/Fig38-1.pdf  used on input line 2221.
+Package pdftex.def Info: Figuras/Fig38-1.pdf  used on input line 2225.
 (pdftex.def)             Requested size: 469.77148pt x 219.22668pt.
 [41 <./Figuras/Fig37-1.pdf>]
-Underfull \vbox (badness 10000) detected at line 2280
+Underfull \vbox (badness 10000) detected at line 2284
  []
 
 [42 <./Figuras/Fig38-1.pdf>]
-Underfull \vbox (badness 10000) detected at line 2337
+Underfull \vbox (badness 10000) detected at line 2341
  []
 
 [43]
-Underfull \vbox (badness 10000) detected at line 2401
+Underfull \vbox (badness 10000) detected at line 2405
  []
 
 
-Overfull \vbox (1.90346pt too high) detected at line 2401
+Overfull \vbox (1.90346pt too high) detected at line 2405
  []
 
 [44]
-<Figuras/Fig39-1.pdf, id=396, 578.16pt x 469.755pt>
+<Figuras/Fig39-1.pdf, id=401, 578.16pt x 469.755pt>
 File: Figuras/Fig39-1.pdf Graphic file (type pdf)
 <use Figuras/Fig39-1.pdf>
-Package pdftex.def Info: Figuras/Fig39-1.pdf  used on input line 2403.
+Package pdftex.def Info: Figuras/Fig39-1.pdf  used on input line 2407.
 (pdftex.def)             Requested size: 469.75385pt x 381.675pt.
 [45] [46 <./Figuras/Fig39-1.pdf>] [47]
-<Figuras/Fig40-1.pdf, id=421, 289.08pt x 289.08pt>
+<Figuras/Fig40-1.pdf, id=426, 289.08pt x 289.08pt>
 File: Figuras/Fig40-1.pdf Graphic file (type pdf)
 <use Figuras/Fig40-1.pdf>
-Package pdftex.def Info: Figuras/Fig40-1.pdf  used on input line 2877.
+Package pdftex.def Info: Figuras/Fig40-1.pdf  used on input line 2881.
 (pdftex.def)             Requested size: 289.09251pt x 289.09251pt.
 [48]
-<Figuras/Fig41-1.pdf, id=426, 289.08pt x 289.08pt>
+<Figuras/Fig41-1.pdf, id=431, 289.08pt x 289.08pt>
 File: Figuras/Fig41-1.pdf Graphic file (type pdf)
 <use Figuras/Fig41-1.pdf>
-Package pdftex.def Info: Figuras/Fig41-1.pdf  used on input line 2911.
+Package pdftex.def Info: Figuras/Fig41-1.pdf  used on input line 2915.
 (pdftex.def)             Requested size: 289.09251pt x 289.09251pt.
 [49 <./Figuras/Fig40-1.pdf>]
 
-LaTeX Warning: Command \' invalid in math mode on input line 2940.
+LaTeX Warning: Command \' invalid in math mode on input line 2944.
 
 [50 <./Figuras/Fig41-1.pdf>] (./Salidas_InformeFinal.aux)
 Package rerunfilecheck Info: File `Salidas_InformeFinal.out' has not changed.
-(rerunfilecheck)             Checksum: 86DA5EA923702FFC53C8DAB4436A5726;300.
+(rerunfilecheck)             Checksum: E2343EC7C407DC542ABB5777D93E99C8;504.
  ) 
 Here is how much of TeX's memory you used:
- 11208 strings out of 480990
- 166326 string characters out of 5906108
- 556920 words of memory out of 5000000
- 28108 multiletter control sequences out of 15000+600000
+ 11212 strings out of 480990
+ 166408 string characters out of 5906108
+ 557122 words of memory out of 5000000
+ 28110 multiletter control sequences out of 15000+600000
  443983 words of font info for 67 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  71i,8n,74p,1202b,441s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1127,10 +1127,10 @@ sezunigabasualto/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtk10.pfb></
 Users/mariajosezunigabasualto/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/
 lmtt10.pfb></Users/mariajosezunigabasualto/Library/TinyTeX/texmf-dist/fonts/typ
 e1/public/lm/lmtti10.pfb>
-Output written on Salidas_InformeFinal.pdf (50 pages, 556733 bytes).
+Output written on Salidas_InformeFinal.pdf (50 pages, 556914 bytes).
 PDF statistics:
- 508 PDF objects out of 1000 (max. 8388607)
- 382 compressed objects within 4 object streams
- 61 named destinations out of 1000 (max. 500000)
- 170 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 513 PDF objects out of 1000 (max. 8388607)
+ 387 compressed objects within 4 object streams
+ 63 named destinations out of 1000 (max. 500000)
+ 178 words of extra memory for PDF output out of 10000 (max. 10000000)
 
