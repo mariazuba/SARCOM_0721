@@ -93,5 +93,12 @@ mcmc.csv
 INFORME_FINAL.Rproj
 .DS_Store
 Salidas_InformeFinal.log
+<<<<<<< HEAD
 AnalisisSensibilidad.log
 InformeFinal_SardComun_Julio2021.log
+=======
+InformeFinal_SardComun_Julio2021.pdf
+InformeFinal_SardComun_Julio2021.log
+PORTADA.log
+PORTADA.aux
+>>>>>>> abc5a9e0a9e7270ff752a61a9bd1a843ddbf4001
