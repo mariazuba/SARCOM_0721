@@ -34,9 +34,7 @@ header-includes:
 - \fancyfoot[C]{\cincopuntos \thepage \\ \vspace{-0.2cm} ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ \\ \vspace{-0.2cm} \cincopuntos CONVENIO DE DESEMPEÑO 2020 IFOP/SUBSECRETARÍA DE ECONOMíA Y EMT \\ \vspace{-0.1cm} SEGUNDO INFORME. SARDINA COMÚN DE LA  REGIÓN DE VALPARAÍSO A LA REGIÓN DE LOS LAGOS, 2021. \textbf{ANEXO I}.}
 ---
 
-
 \pagebreak
-
 
 ## Sensibilidad al MPDH
 
@@ -75,7 +73,6 @@ system("~/admb-12.2/admb MAE0321")
 system("./MAE0321")
 ```
 
-
 ```{r  leer datos, echo=FALSE, warning=FALSE, include=T}
 setwd(dir.1)
 
@@ -93,7 +90,6 @@ dat2         <- data2
 rep2         <- reptoRlist("MAE0321.rep")
 std2         <- read.table("MAE0321.std",header=T,sep="",na="NA",fill=T) 
 ```
-
 
 ```{r Actualizacion, warning=F, include=F, message=F, echo=T,eval=F}
   
@@ -237,8 +233,474 @@ std2         <- read.table("MAE0321.std",header=T,sep="",na="NA",fill=T)
   
 ```
 
+\small
+
++------------+----------------------------------------------------------------------------------------+
+| Escenarios | Descripción                                                                            |
++============+========================================================================================+
+| S1         | igual a caso base                                                                      |
++------------+----------------------------------------------------------------------------------------+
+| S2         | cambia CV mpdh a 0.3                                                                   |
++------------+----------------------------------------------------------------------------------------+
+| S3         | cambia CV crucero otoño a 0.25                                                         |
++------------+----------------------------------------------------------------------------------------+
+| S4         | cambia CV crucero verano a 0.15                                                        |
++------------+----------------------------------------------------------------------------------------+
+| S5         | cambia CV mpdh 0.3 y CV crucero otoño a 0.25                                           |
++------------+----------------------------------------------------------------------------------------+
+| S6         | cambia CV mpdh 0.3, CV crucero otoño a 0.25 y CV crucero verano 0.15                   |
++------------+----------------------------------------------------------------------------------------+
+| S7         | índice MPDH actualizado, CV mpdh 0.3, CV crucero otoño a 0.30 y CV crucero verano 0.30 |
++------------+----------------------------------------------------------------------------------------+
+| S8         | índice MPDH actualizado, CV mpdh 0.3, CV crucero otoño a 0.25 y CV crucero verano 0.15 |
++------------+----------------------------------------------------------------------------------------+
+| S9         |                                                                                        |
++------------+----------------------------------------------------------------------------------------+
+| S10        |                                                                                        |
++------------+----------------------------------------------------------------------------------------+
+
+: Escenarios de sensibilidad respecto a coeficientes de variación (CV) de cruceros acústicos y mpdh
+
+
+
+```{r dataindices,warning=F, include=T, message=F, echo=F }
+
+yrs   <- rep2$years
+nyrs  <- length(yrs)
+lasty <- yrs[nyrs]
+cvBcV   <-0.30
+cvBcO   <-0.30
+cvBcH   <-0.30
+cvdes   <-0.01
+
+Carpeta<-"/Sensibilidad_mph/"
+  dir<-paste(dir.0,Carpeta,sep="")
+admb<-"MAE0321"
+#######################################################################################
+
+years       <- rep2$years
+nyears      <- length(years)
+retros      <- seq(1,7)
+nretros     <- length(retros)
+
+                      
+retroRecl    <- matrix(0,nrow=nyears,ncol=nretros)
+retroPel     <- matrix(0,nrow=nyears,ncol=nretros)
+retroMph     <- matrix(0,nrow=nyears,ncol=nretros)
+retroDes     <- matrix(0,nrow=nyears,ncol=nretros)
+
+
+for(i in 1:(nretros)){
+  rep <- reptoRlist(paste(dir,admb,"s",i,".rep",sep=""))
+  retroRecl[,i]  <- c(rep$reclaspred)
+  retroPel[,i]   <- c(rep$pelacespred)
+  retroMph[,i]   <- c(rep$mphpred)
+  retroDes[,i]   <- c(rep$desembarquepred)
+}
+
+
+
+ind_obs             <- cbind(c(rep2$reclasobs),
+                             c(rep2$pelacesobs),
+                             c(rep2$mphobs),
+                             c(rep2$desembarqueobs))
+ind_obs[ind_obs==0] <- NA
+colnames(ind_obs)   <- c('Crucero_verano', 
+                         'Crucero_otoño',
+                         'Crucero_huevos', 
+                         'Desembarques') 
+
+ind               <- data.frame(ind_obs) %>% 
+                     mutate(Series='observado') %>% 
+                     mutate (years=years) %>% 
+                     melt(id.var=c('years', 'Series'))       
+
+datR <- data.frame(years=years,
+                   S1=retroRecl[,1],
+                   S2=retroRecl[,2],
+                   S3=retroRecl[,3],
+                   S4=retroRecl[,4],
+                   S5=retroRecl[,5],
+                   S6=retroRecl[,6],
+                   S7=retroRecl[,7])%>% 
+         mutate(Series=rep("Crucero_verano",nyears))%>%
+         melt(id.var=c('years', 'Series'))
+
+datBT <- data.frame(years=years,
+                   S1=retroPel[,1],
+                   S2=retroPel[,2],
+                   S3=retroPel[,3],
+                   S4=retroPel[,4],
+                   S5=retroPel[,5],
+                   S6=retroPel[,6],
+                   S7=retroPel[,7])%>% 
+         mutate(Series=rep("Crucero_Otoño",nyears))%>%
+         melt(id.var=c('years', 'Series'))
+
+datBD <- data.frame(years=years,
+                   S1=retroMph[,1],
+                   S2=retroMph[,2],
+                   S3=retroMph[,3],
+                   S4=retroMph[,4],
+                   S5=retroMph[,5],
+                   S6=retroMph[,6],
+                   S7=retroMph[,7])%>% 
+         mutate(Series=rep("Crucero_huevos",nyears))%>%
+         melt(id.var=c('years', 'Series'))
+
+datF <- data.frame(years=years,
+                   S1=retroDes[,1],
+                   S2=retroDes[,2],
+                   S3=retroDes[,3],
+                   S4=retroDes[,4],
+                   S5=retroDes[,5],
+                   S6=retroDes[,6],
+                   S7=retroDes[,7])%>% 
+         mutate(Series=rep("Desembarques",nyears))%>%
+         melt(id.var=c('years', 'Series'))
+
+data2 <- data.frame(rbind(ind,datR,datBT,datBD,datF)) 
+
+
+
+
+```
+
+```{r Fig26,warning=F, include=T, message=F, echo=F,fig.height=6.7,fig.width=6.5,fig.align="center",fig.path=dir.Fig,dev=fig}
+f1<- ggplot(data2 %>% filter(Series=="Crucero_verano"),
+            aes(years,value)) +   
+     geom_line(aes(colour=variable), size=0.3)+
+    geom_point(data = data2 %>% filter(Series=='observado', variable=='Crucero_verano'),
+       aes(years,value), shape = 19, colour = 'gray30') +
+     geom_errorbar(data = data2 %>% filter(Series=='observado', variable=='Crucero_verano'),
+       aes(ymin = value*exp(-1.96*cvBcV), ymax = value*exp(1.96*cvBcV)), color = 'gray30') +
+     labs(x = '', y = '',colour='Asesorías')  +
+     scale_x_continuous(breaks = seq(from = 1990, to = 2021, by = 5)) +
+     scale_colour_manual(values=seq(1,7,1))+
+     theme_bw(base_size=9) + 
+     ggtitle('Crucero_verano')+
+     theme(plot.title = element_text(hjust = 0.5),legend.position="none")
+
+f2<- ggplot(data2 %>% filter(Series=="Crucero_Otoño"),
+            aes(years,value)) +   
+     geom_line(aes(colour=variable), size=0.3)+
+    geom_point(data = data2 %>% filter(Series=='observado', variable=='Crucero_otoño'),
+       aes(years,value), shape = 19, colour = 'gray30') +
+     geom_errorbar(data = data2 %>% filter(Series=='observado', variable=='Crucero_otoño'),
+       aes(ymin = value*exp(-1.96*cvBcO), ymax = value*exp(1.96*cvBcO)), color = 'gray30') +
+     labs(x = '', y = '',colour='Asesorías')  +
+     scale_x_continuous(breaks = seq(from = 1990, to = 2021, by = 5)) +
+     scale_colour_manual(values=seq(1,7,1))+
+     theme_bw(base_size=9) + 
+     ggtitle('Crucero_Otoño')+
+     theme(plot.title = element_text(hjust = 0.5),legend.position="none")
+
+f3<- ggplot(data2 %>% filter(Series=="Crucero_huevos"),
+            aes(years,value)) +   
+     geom_line(aes(colour=variable), size=0.3)+
+    geom_point(data = data2 %>% filter(Series=='observado', variable=='Crucero_huevos'),
+       aes(years,value), shape = 19, colour = 'gray30') +
+     geom_errorbar(data = data2 %>% filter(Series=='observado', variable=='Crucero_huevos'),
+       aes(ymin = value*exp(-1.96*cvBcH), ymax = value*exp(1.96*cvBcH)), color = 'gray30') +
+     labs(x = '', y = '',colour='Asesorías')  +
+     scale_x_continuous(breaks = seq(from = 1990, to = 2021, by = 5)) +
+     scale_colour_manual(values=seq(1,7,1))+
+     theme_bw(base_size=9) + 
+     ggtitle('Crucero_huevos')+
+     theme(plot.title = element_text(hjust = 0.5),legend.position="none")
+
+
+(f1/f2/f3)
+
+
+```
+
+
+
+
+```{r VariablesMarzo_std, echo=F,message=FALSE, warning=FALSE, include=T}
+
+years<-rep2$years
+nyears<-length(years)
+
+Rt2      <- subset(std2,name=="Reclutas")$value 
+Rt2std   <- subset(std2,name=="Reclutas")$std
+BT2      <- subset(std2,name=="BT")$value   
+BT2std   <- subset(std2,name=="BT")$std
+BD2      <- subset(std2,name=="SSB")$value   
+BD2std   <- subset(std2,name=="SSB")$std
+Ft2      <- subset(std2,name=="log_Ft")$value   
+Ft2std   <- subset(std2,name=="log_Ft")$std
+
+VarPob<- data.frame(x=years, 
+                    Rt2=Rt2,
+                    BT2=BT2,
+                    BD2=BD2,
+                    Ft2=exp(Ft2), 
+         lowerRt2 = (Rt2 -1.96*Rt2std), 
+         upperRt2 = (Rt2+1.96*Rt2std),
+         lowerBT2 = (BT2 -1.96*BT2std),
+         upperBT2 = (BT2+1.96*BT2std),
+         lowerBD2 = (BD2 -1.96*BD2std), 
+         upperBD2 = (BD2+1.96*BD2std),
+         lowerFt2 = exp(Ft2 -1.96*Ft2std), 
+         upperFt2 = exp(Ft2+1.96*Ft2std))
+
+```
+
+```{r variables, echo=F,message=FALSE, warning=FALSE, include=T}
+
+Carpeta<-"/Sensibilidad_mph/"
+  dir<-paste(dir.0,Carpeta,sep="")
+
+
+admb<-"MAE0321"
+#######################################################################################
+
+years       <- rep2$years
+nyears      <- length(years)
+retros      <- seq(1,7)
+nretros     <- length(retros)
+
+                      
+retroR      <- matrix(0,nrow=nyears,ncol=nretros)
+retroBD     <- matrix(0,nrow=nyears,ncol=nretros)
+retroBT     <- matrix(0,nrow=nyears,ncol=nretros)
+retroF      <- matrix(0,nrow=nyears,ncol=nretros)
+retroBD_BDrms     <- matrix(0,nrow=nyears,ncol=nretros)
+
+for(i in 1:(nretros)){
+  rep <- reptoRlist(paste(dir,admb,"s",i,".rep",sep=""))
+  std <- read.table(paste(dir,admb,"s",i,".std",sep=""),header=T,sep="",na="NA",fill=T) 
+  retroR[,i]  <- c(rep$Reclutas)
+  retroBD[,i] <- c(rep$SSB)
+  retroBT[,i] <- c(rep$BT)
+  retroF[,i]  <- c(rep$Ftot) 
+  retroBD_BDrms[,i]     <-c(subset(std,name=="RPRequ3")$value)
+}
+
+
+# Diferencia relativa con caso base actual 
+    rel.diff.r   <- matrix(NA, nrow=nyears, ncol=(nretros))
+    rel.diff.ssb <- matrix(NA, nrow=nyears, ncol=(nretros))
+    rel.diff.bt  <- matrix(NA, nrow=nyears, ncol=(nretros))
+    rel.diff.f   <- matrix(NA, nrow=nyears, ncol=(nretros))
+    rel.diff.bd_bdrms   <- matrix(NA, nrow=nyears, ncol=(nretros))
+    
+    for(j in 1:nretros){
+      rel.diff.r[,j]          <- (retroR[,(j)]-retroR[,1])/retroR[,1]
+      rel.diff.ssb[,j]        <- (retroBD[,(j)]-retroBD[,1])/retroBD[,1]
+      rel.diff.bt[,j]         <- (retroBT[,(j)]-retroBT[,1])/retroBT[,1]
+      rel.diff.f[,j]          <- (retroF[,(j)]-retroF[,1])/retroF[,1]
+      rel.diff.bd_bdrms[,j]   <- (retroBD_BDrms[,(j)]-retroBD_BDrms[,1])/retroBD_BDrms[,1]
+    }
+    
+    
+```
+
+```{r data1, echo=F,message=FALSE, warning=FALSE, include=T}
+
+datR <- data.frame(years=years,
+                   S1=retroR[,1],
+                   S2=retroR[,2],
+                   S3=retroR[,3],
+                   S4=retroR[,4],
+                   S5=retroR[,5],
+                   S6=retroR[,6],
+                   S7=retroR[,7])%>% 
+         mutate(Series=rep("Reclutamientos",nyears))%>%
+         melt(id.var=c('years', 'Series'))
+
+datBT <- data.frame(years=years,
+                   S1=retroBT[,1],
+                   S2=retroBT[,2],
+                   S3=retroBT[,3],
+                   S4=retroBT[,4],
+                   S5=retroBT[,5],
+                   S6=retroBT[,6],
+                   S7=retroBT[,7])%>% 
+         mutate(Series=rep("Biomasa_total",nyears))%>%
+         melt(id.var=c('years', 'Series'))
+
+datBD <- data.frame(years=years,
+                   S1=retroBD[,1],
+                   S2=retroBD[,2],
+                   S3=retroBD[,3],
+                   S4=retroBD[,4],
+                   S5=retroBD[,5],
+                   S6=retroBD[,6],
+                   S7=retroBD[,7])%>% 
+         mutate(Series=rep("Biomasa_desovante",nyears))%>%
+         melt(id.var=c('years', 'Series'))
+
+datF <- data.frame(years=years,
+                   S1=retroF[,1],
+                   S2=retroF[,2],
+                   S3=retroF[,3],
+                   S4=retroF[,4],
+                   S5=retroF[,5],
+                   S6=retroF[,6],
+                   S7=retroF[,7])%>% 
+         mutate(Series=rep("Mortalidad_por_pesca",nyears))%>%
+         melt(id.var=c('years', 'Series'))
+
+data1 <- data.frame(rbind(datR,datBT,datBD,datF)) 
+
+
+
+```
+
+```{r Fig1,echo=F, message=FALSE, warning=FALSE, include=T, fig.align="center", fig.height=6, fig.width=8,fig.path=dir.Fig,dev=fig}
+#######################################################################################
+# GRAFICAS
+#######################################################################################
+f1<- ggplot(data1 %>% filter(Series=="Reclutamientos"),
+            aes(years,value)) +   
+     geom_line(aes(colour=variable), size=0.3)+
+     labs(x = '', y = '',colour='Asesorías')  +
+     scale_x_continuous(breaks = seq(from = 1990, to = 2021, by = 5)) +
+     scale_colour_manual(values=seq(1,7,1))+
+     theme_bw(base_size=9) + 
+     ggtitle('Reclutamientos')+
+     theme(plot.title = element_text(hjust = 0.5),legend.position="none")
+
+f2<- ggplot(data1 %>% filter(Series=="Biomasa_total"),
+            aes(years,value)) +  
+     geom_line(aes(colour=variable), size=0.3)+
+     labs(x = '', y = 'toneladas',colour='Asesorías')  +
+     scale_x_continuous(breaks = seq(from = 1990, to = 2021, by = 5)) +
+     scale_colour_manual(values=seq(1,7,1))+
+     theme_bw(base_size=9) + 
+     ggtitle('Biomasa total')+
+     theme(plot.title = element_text(hjust = 0.5),legend.position="none")
+
+f3<- ggplot(data1 %>% filter(Series=="Biomasa_desovante"),
+            aes(years,value)) +  
+     geom_line(aes(colour=variable), size=0.3)+
+     labs(x = '', y = 'toneladas',colour='Asesorías')  +
+     scale_x_continuous(breaks = seq(from = 1990, to = 2021, by = 5)) +
+     scale_colour_manual(values=seq(1,7,1))+
+     theme_bw(base_size=9) + 
+     ggtitle('Biomasa desovante')+
+     theme(plot.title = element_text(hjust = 0.5),legend.position="left")
+
+f4<- ggplot(data1 %>% filter(Series=="Mortalidad_por_pesca"),
+            aes(years,value)) +
+     geom_line(aes(colour=variable), size=0.3)+
+     labs(x = '', y = '',colour='Asesorías')  +
+     scale_x_continuous(breaks = seq(from = 1990, to = 2021, by = 5)) +
+     scale_colour_manual(values=seq(1,7,1))+
+     theme_bw(base_size=9) + 
+     ggtitle('Mortalidad por pesca')+
+     theme(plot.title = element_text(hjust = 0.5),legend.position="none")
+
+(f1/f2) | (f3/f4)
+```
+
+```{r diferencias, echo=F,message=FALSE, warning=FALSE, include=T}
+
+datR <- data.frame(years=years,
+                   S1=rel.diff.r[,1],
+                   S2=rel.diff.r[,2],
+                   S3=rel.diff.r[,3],
+                   S4=rel.diff.r[,4],
+                   S5=rel.diff.r[,5],
+                   S6=rel.diff.r[,6],
+                   S7=rel.diff.r[,7])%>% 
+         mutate(Series=rep("Reclutamientos",nyears))%>%
+         melt(id.var=c('years', 'Series'))
+
+datBT <- data.frame(years=years,
+                   S1=rel.diff.bt[,1],
+                   S2=rel.diff.bt[,2],
+                   S3=rel.diff.bt[,3],
+                   S4=rel.diff.bt[,4],
+                   S5=rel.diff.bt[,5],
+                   S6=rel.diff.bt[,6],
+                   S7=rel.diff.bt[,7])%>% 
+         mutate(Series=rep("Biomasa_total",nyears))%>%
+         melt(id.var=c('years', 'Series'))
+
+datBD <- data.frame(years=years,
+                   S1=rel.diff.ssb[,1],
+                   S2=rel.diff.ssb[,2],
+                   S3=rel.diff.ssb[,3],
+                   S4=rel.diff.ssb[,4],
+                   S5=rel.diff.ssb[,5],
+                   S6=rel.diff.ssb[,6],
+                   S7=rel.diff.ssb[,7])%>% 
+         mutate(Series=rep("Biomasa_desovante",nyears))%>%
+         melt(id.var=c('years', 'Series'))
+
+datF <- data.frame(years=years,
+                   S1=rel.diff.f[,1],
+                   S2=rel.diff.f[,2],
+                   S3=rel.diff.f[,3],
+                   S4=rel.diff.f[,4],
+                   S5=rel.diff.f[,5],
+                   S6=rel.diff.f[,6],
+                   S7=rel.diff.f[,7])%>% 
+         mutate(Series=rep("Mortalidad_por_pesca",nyears))%>%
+         melt(id.var=c('years', 'Series'))
+
+data <- data.frame(rbind(datR,datBT,datBD,datF)) 
+
+
+
+```
+
+```{r Fig2,echo=F, message=FALSE, warning=FALSE, include=T, fig.align="center", fig.height=6, fig.width=8,fig.path=dir.Fig,dev=fig}
+#######################################################################################
+# GRAFICAS
+#######################################################################################
+f1<- ggplot(data %>% filter(Series=="Reclutamientos"),
+            aes(years,value)) +   ylim(-0.30, 0.30) + 
+     geom_line(aes(colour=variable), size=0.3)+
+     labs(x = '', y = 'Diferencia relativa',colour='Asesorías')  +
+     scale_x_continuous(breaks = seq(from = 1990, to = 2021, by = 5)) +
+     scale_colour_manual(values=seq(1,7,1))+
+     theme_bw(base_size=9) + 
+     ggtitle('Reclutamientos')+
+     theme(plot.title = element_text(hjust = 0.5),legend.position="none")
+
+f2<- ggplot(data %>% filter(Series=="Biomasa_total"),
+            aes(years,value)) +   ylim(-0.30, 0.30) + 
+     geom_line(aes(colour=variable), size=0.3)+
+     labs(x = '', y = 'Diferencia relativa',colour='Asesorías')  +
+     scale_x_continuous(breaks = seq(from = 1990, to = 2021, by = 5)) +
+     scale_colour_manual(values=seq(1,7,1))+
+     theme_bw(base_size=9) + 
+     ggtitle('Biomasa total')+
+     theme(plot.title = element_text(hjust = 0.5),legend.position="none")
+
+f3<- ggplot(data %>% filter(Series=="Biomasa_desovante"),
+            aes(years,value)) +   ylim(-0.30, 0.30) + 
+     geom_line(aes(colour=variable), size=0.3)+
+     labs(x = '', y = 'Diferencia relativa',colour='Asesorías')  +
+     scale_x_continuous(breaks = seq(from = 1990, to = 2021, by = 5)) +
+     scale_colour_manual(values=seq(1,7,1))+
+     theme_bw(base_size=9) + 
+     ggtitle('Biomasa desovante')+
+     theme(plot.title = element_text(hjust = 0.5),legend.position="left")
+
+f4<- ggplot(data %>% filter(Series=="Mortalidad_por_pesca"),
+            aes(years,value)) +
+      ylim(-0.30, 0.30) + 
+     geom_line(aes(colour=variable), size=0.3)+
+     labs(x = '', y = 'Diferencia relativa',colour='Asesorías')  +
+     scale_x_continuous(breaks = seq(from = 1990, to = 2021, by = 5)) +
+     scale_colour_manual(values=seq(1,7,1))+
+     theme_bw(base_size=9) + 
+     ggtitle('Mortalidad por pesca')+
+     theme(plot.title = element_text(hjust = 0.5),legend.position="none")
+
+(f1/f2) | (f3/f4)
+```
 
 \pagebreak
+
+\pagebreak
+
 ## Corrección de las capturas
 
 +---------+------+---------------------+----------------+----------------+--------------+----------------------+----+
@@ -299,6 +761,4 @@ std2         <- read.table("MAE0321.std",header=T,sep="",na="NA",fill=T)
 |         | 2015 |                     |                |                |              |                      |    |
 +---------+------+---------------------+----------------+----------------+--------------+----------------------+----+
 
-:    Capturas corregidas por periodo y método en sardina común. Desembarque oficial indica aquella serie de captura construida con información de SERNAPESCA descrita en este proyecto. “Prop. Encuesta” indica la proporción de corrección considerando descarte y sub-reportes solo con información desde encuestas. “Prop. Encuesta más Censura” indica la proporción resultante de combinar la información desde encuestas con el método estadístico de datos censurador. “Captura Cor.” Indica la captura corregida usando las proporciones descritas. “CV” indica el coeficiente de variación de la estimación de captura corregida.
-
-
+: Capturas corregidas por periodo y método en sardina común. Desembarque oficial indica aquella serie de captura construida con información de SERNAPESCA descrita en este proyecto. "Prop. Encuesta" indica la proporción de corrección considerando descarte y sub-reportes solo con información desde encuestas. "Prop. Encuesta más Censura" indica la proporción resultante de combinar la información desde encuestas con el método estadístico de datos censurador. "Captura Cor." Indica la captura corregida usando las proporciones descritas. "CV" indica el coeficiente de variación de la estimación de captura corregida.
