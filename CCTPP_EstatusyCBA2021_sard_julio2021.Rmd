@@ -1,0 +1,218 @@
+---
+title: "Taller datos y modelos: Anchoveta y sardina común ZCS - Análisis Preliminares"
+author: "María José Zúñiga"
+date: 'Sesión N°4: 02-07-2021'
+output:
+   beamer_presentation:
+    colortheme: rose
+    theme: Antibes
+subtitle: Comité Científico de Pesquerías de Pequeños Pelágicos
+institute: INSTITUTO DE FOMENTO PESQUERO
+---
+
+#
+
+- Avances en escenarios de sensibilidad (resultados preliminares)
+     * Cambios en CV de los cruceros acústicos de verano y otoño
+     * Cambios en CV del crucero de huevos
+     * Actualización de la biomasa desovante estimada por el crucero de huevos
+     * Considerando nuevos índices de densidad de huevos para el crucero de huevos 
+     * Corrección de captura utilizando ponderadores estimados por Wiff et al. (2015)
+
+
+
+
+# Escenarios de sensibilidad analizados 
+
+\tiny
++------------+------------------------------------------------------------------------------------------+
+| Escenarios | Descripción                                                                              |
++============+==========================================================================================+
+| S1         | igual a caso base                                                                        |
++------------+------------------------------------------------------------------------------------------+
+| S2         | cambia CV MPDH a 0.3                                                                     |
++------------+------------------------------------------------------------------------------------------+
+| S3         | cambia CV crucero otoño a 0.25                                                           |
++------------+------------------------------------------------------------------------------------------+
+| S4         | cambia CV crucero verano a 0.15                                                          |
++------------+------------------------------------------------------------------------------------------+
+| S5         | cambia CV mpdh 0.3 y CV crucero otoño a 0.25                                             |
++------------+------------------------------------------------------------------------------------------+
+| S6         | cambia CV mpdh 0.3, CV crucero otoño a 0.25 y CV crucero verano 0.15                     |
++------------+------------------------------------------------------------------------------------------+
+| S7         | índice MPDH actualizado, CV mpdh 0.3, CV crucero otoño a 0.30 y CV crucero verano 0.30   |
++------------+------------------------------------------------------------------------------------------+
+| S8         | índice MPDH actualizado, CV mpdh 0.3, CV crucero otoño a 0.25 y CV crucero verano 0.15   |
++------------+------------------------------------------------------------------------------------------+
+| S9         | CV de crucero mpdh = 0.3, CV pelaces = 0.25, CV reclas = 0.15, cambia índice de mpdh Nº1 |
++------------+------------------------------------------------------------------------------------------+
+| S10        | CV de crucero mpdh = 0.3, CV pelaces = 0.25, CV reclas = 0.15, cambia índice de mpdh Nº2 |
++------------+------------------------------------------------------------------------------------------+
+| S11        | CV de crucero mpdh = 0.3, CV pelaces = 0.25, CV reclas = 0.15, cambia índice de mpdh Nº3 |
++------------+------------------------------------------------------------------------------------------+
+| S12        | CV de crucero mpdh = 0.3, CV pelaces = 0.25, CV reclas = 0.15, cambia índice de mpdh Nº4 |
++------------+------------------------------------------------------------------------------------------+
+| ...        |                                                                                          |
++------------+------------------------------------------------------------------------------------------+
+
+
+## Escenarios Futuros
+
+- Analizar bloques de capturabilidad
+- Analizar la sensibilidad  CVs de  prior de capturabilidad de los cruceros 
+- Analizar series de corrección de capturas propuestas por Wiff et al. (2015)
+
+Se utilizará como indicadores de desempeño los perfiles de verosimilitud, análisis retrospectivo y análisis de residuos para recomendar posibles cambios a caso base en taller de datos y modelos.
+
+# Perfiles de Verosimilitud caso base actual
+
+```{=tex}
+\begin{columns}
+\column{0.5\textwidth}
+\begin{center}
+Sardina común
+\includegraphics[width=1\textwidth]{Figuras/F34_verosimilitud_marz-1.pdf}
+\end{center}
+
+\column{0.5\textwidth}
+
+\begin{center}
+Anchoveta centro-sur
+\includegraphics[width=1\textwidth]{Figuras/F34_verosimilitud_marzAnch-1.pdf}
+\end{center}
+\end{columns}
+```
+
+# \small índices de densidad de huevos alternativos a la BD estimada por MPDH
+
+\tiny
++------------+------------------------------------------------------------------------------+
+| índice     | Descripción                                                                  |
++============+==============================================================================+
+| índice Nº1 | índice de densidad de huevos estandarizado obtenido con MLG familia Tweedie  |
++------------+------------------------------------------------------------------------------+
+| índice Nº2 | índice obtenido mediante la multiplicación de la densidad de huevos (h/m2) y |
+|            |                                                                              |
+|            | la duración del período de desove                                            |
++------------+------------------------------------------------------------------------------+
+| índice Nº3 | índice obtenido mediante la multiplicación de la densidad de huevos (h/m2) y |
+|            |                                                                              |
+|            | el área de desove                                                            |
++------------+------------------------------------------------------------------------------+
+| índice Nº4 | índice obtenido mediante la multiplicación de la densidad de huevos (h/m2),  |
+|            |                                                                              |
+|            | el área de desove y la duración del período de desove                        |
++------------+------------------------------------------------------------------------------+
+
+```{=tex}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Figuras/areadesove_duracioncruceroCCTPPjulio-1.pdf}
+\end{center}
+```
+
+
+```{=tex}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Figuras/índices_alternativosCCTPPjulio-1.pdf}
+\end{center}
+```
+
+
+# \small Ajustes del modelo a los índices de cruceros acústicos y crucero de huevos
+## Sardina común
+```{=tex}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Figuras/Fig26CCTPPjulio-1.pdf}
+\end{center}
+```
+
+# \small Sensibilidad de las variables poblacionales
+## Sardina común
+```{=tex}
+\begin{center}
+\includegraphics[width=0.85\textwidth]{Figuras/Fig1CCTPPjulio-1.pdf}
+\end{center}
+```
+
+
+
+# \small Ajustes del modelo a los índices de cruceros acústicos y crucero de huevos
+## Anchoveta centro-sur
+```{=tex}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Figuras/Fig26CCTPPjulioAnch-1.pdf}
+\end{center}
+```
+
+# \small Sensibilidad de las variables poblacionales
+## Anchoveta centro-sur
+```{=tex}
+\begin{center}
+\includegraphics[width=0.85\textwidth]{Figuras/Fig1CCTPPjulioAnch-1.pdf}
+\end{center}
+```
+
+
+# Escenarios de corrección de capturas Anchoveta centro-sur
+
+
+```{=tex}
+\begin{center}
+\includegraphics[width=0.7\textwidth]{Figuras/Fig5-CCTPPjulio.pdf}
+\end{center}
+```
+
+
+# Escenarios de corrección de capturas sardina común centro-sur
+
+```{r desembarques y descarte, echo=FALSE,eval=T}
+bioyear<-c("1990-91","1991-92","1992-93","1993-94","1994-95","1995-96","1996-97","1997-98","1998-99","1999-00","2000-01",
+           "2001-02","2002-03","2003-04","2004-05","2005-06","2006-07","2007-08","2008-09","2009-10","2010-11","2011-12",
+           "2012,13","2013-14","2014-15","2015-16","2016-17","2017-18","2018-19","2019-20","2020-21")
+desemYdesc<-c(494567,514787,250237,358949,361735,120608,552515,73892,212993,205616,52469,317467,293654,387597,252695,
+              516296,358380,742168,942051,627588,828172,859565,418607,520667,417249,300574,407403,355545,319650,289779,219260)
+desc<-c(rep(1,10),rep(1.04,16),rep(1.02,2),rep(1.06,2),1.04)
+desembarque<-desemYdesc/desc
+
+porcDesc<-c(rep("0%",10),rep("4%",16),rep("2%",2),rep("6%",2),"4%")
+
+data<-data.frame("Año biológico"=bioyear,
+                 "Desembarques t."=round(desembarque,0),
+                 "Porcentaje descarte" =porcDesc,
+                 "Captura descartada t."=round(desemYdesc-desembarque,0),
+                 "Captura total t."=round(desemYdesc,0))
+```
+
+```{r Fig5CCTPPsard, echo=F, message=FALSE, warning=FALSE, include=T,echo=F, message=FALSE, warning=FALSE, include=T,fig.align="center", fig.height=6, fig.width=8,fig.path="Figuras/",dev="pdf",eval=F}
+
+# Tabla 24. Capturas corregidas por período y método en sardina común
+
+year<-seq(1990,2015,1)
+desemoficial <-c(285757,564879,452012,244101,341247,126715,446669,441149,317416,781004,722465,324462,331440,300337,352626,272645,422865,271702,803891,852043,745086,894836,850170,227927,529537,430834)
+propEnc      <-c(rep(0.171,7),rep(0.002,4),rep(0.186,3),rep(0.313,6),rep(0.391,3),rep(0.195,3))
+propEncCens  <-c(rep(0.152,7),rep(0.025,4),rep(0.170,3),rep(0.215,6),rep(0.228,3),rep(0.150,3))
+
+CapCorrEnc<-round((1+propEnc)*desemoficial,0)
+CapCorrEncCens<-round((1+propEncCens)*desemoficial,0)
+
+CV<-c(rep(0.194,7),rep(0.186,4),rep(0.188,3),rep(0.163,6),rep(0.169,3),rep(0.165,3))
+
+tabla24Sard<-cbind(year,desemoficial,propEnc,propEncCens,CapCorrEnc,CapCorrEncCens,CV)
+
+
+
+par(mfrow=c(1,1),mar=c(2,4,1,1)+0.5)
+plot(seq(1990,2020,1),c(desemoficial,rep(NA,5)),type="o",col=1,pch=19,ylab="Desembarques/Capturas",xlab="Años",main="Sardina común",ylim=c(0,1250000))
+lines(seq(1990,2020,1),c(CapCorrEnc,rep(NA,5)),col=2)
+lines(seq(1990,2020,1),c(CapCorrEncCens,rep(NA,5)),col=4)
+lines(seq(1990,2020,1),c(NA,desembarque[1:30]),col=3,lwd=2)
+legend(1995,1230000,c("Desembarques oficiales","Capturas Corregidas Encuestas","Capturas Corregidas Encuestas + Censuras","Capturas Evaluación IFOP"),col=c(1,2,4,3),lwd=c(1,1,1,2),pch=c(19,NA,NA,NA),bty="n",cex=0.8)
+
+```
+
+```{=tex}
+\begin{center}
+\includegraphics[width=0.7\textwidth]{Figuras/Fig5CCTPPsard-1.pdf}
+\end{center}
+```
+
