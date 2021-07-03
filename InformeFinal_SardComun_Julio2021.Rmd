@@ -275,7 +275,7 @@ Para el año 2020 la CBA inicial recomendada incorpora un 2% de descarte, establ
 +------+---------------+-------------------+------------------+---------------+
 | 2020 | 321           | 321               | 321              | 258           |
 +------+---------------+-------------------+------------------+---------------+
-| 2021 | 201           | \-                | \-               | \-            |
+| 2021 | 201           | 251               | \-               | \-            |
 +------+---------------+-------------------+------------------+---------------+
 
 : \label{Tab2} Capturas biológicamente aceptables recomendadas por el CCT-PP en las distintas etapas de establecimiento de CBA y estatus de sardina común y el Desembarque registrado.
@@ -803,7 +803,7 @@ En la revisión por pares de sardina se cuestionó este análisis, señalando qu
 | 2018 | 2.424.330     | 13   | 1.577.507    | 7    |
 | 2019 | 2.275.425     | 5    | 1.421.176    | 8    |
 | 2020 | 1.050.175     | 7    | 867.257      | 4    |
-| 2021 | 2.363.380     | 4    | \-           | \-   |
+| 2021 | 2.363.380     | 4    | 1.100.020    | 7    |
 
 : \label{Tab11} Estimaciones de las biomasas acústicas de verano y otoño y los CVs estadísticos estimados en cada uno de ellos.
 
@@ -1280,23 +1280,18 @@ El período de análisis de la evaluación de stock comienza en 1990/91 hasta el
 #### Datos actualizados
 
 \quad
-
+-   Desembarque 2020/21
+-   Pesos medios e iniciales 2020/21
 -   Biomasa del crucero acústico de enero 2021
 -   Composición de edad del crucero acústico de enero 2021
+-   Biomasa del crucero acústico de otoño 2021
+-   Composición de edad del crucero acústico de otoño 2021
 
 #### Datos supuestos
 
 \quad
 
-A la fecha aún no se cuenta con información pesquera del primer semestre 2021 que permita completar el año biológico 2010/21. Para estos casos se utilizan los siguientes supuestos.
-
--   *Captura 2020/21 sin incorporar descarte*: Se asume igual a 210.827 t. calculado desde el desembarque segundo semestre 2020 (69.841 mil t.) más 0,7xCBA inicial 2021 (CBA 2021 = 201.409 t, 70%CBA2021 = 140.986 t.) (**Tabla 17**)
--   *Porcentaje de Descarte 2020/21*: Se asume igual a un 4% de descarte (acordado en sesión del 25 de febrero del CCT-PP) lo que equivale a una captura descartada de 8.433 t. (\textbf{Tabla \ref{Tab17}})
--   *Captura 2020/21 con descarte incorporado*: 210.827 t. + 8.433 = 219.260 t. (\textbf{Tabla \ref{Tab17}})
--   *Composición de edad de la flota 2020/21*: no ingresa valor (igual a 0)
--   *Pesos medios e iniciales 2020/21*: Se asume pesos medios igual al promedio de los últimos 5 años. Los pesos iniciales son calculados en función de los pesos medios para el 2020/21 (detalles del cálculo en sección metodología).
--   *Biomasa del crucero acústico de mayo 2021* no ingresa valor (igual a 0)
--   *Composición de edad del crucero acústico de mayo 2021* no ingresa valor (igual a 0)
+-   *Porcentaje de Descarte 2020/21*: Se asume igual a un 4% de descarte (acordado en sesión del 25 de febrero del CCT-PP) lo que equivale a una captura descartada de **xxx t.** (\textbf{Tabla \ref{Tab17}})
 
 \vspace{-0.2cm}
 
@@ -1306,7 +1301,7 @@ A la fecha aún no se cuenta con información pesquera del primer semestre 2021 
 
 -   Escenarios de reclutamiento promedio
 -   Mortalidad por pesca igual a F~RMS~
--   Pesos igual al promedio últimos 5 años
+-   Pesos igual al promedio últimos 5 años (**Revisar este supuesto**)
 -   Proporción de captura semestral 70/30
 
 \vspace{-0.2cm}
@@ -1398,7 +1393,7 @@ La biomasa total estimada por el crucero de enero 2021 retorno a los niveles obs
 +------------+-----------------+-----------------+-------------------+
 | 2020       | 1.050.175       | 867.257         |                   |
 +------------+-----------------+-----------------+-------------------+
-| 2021       | 2.363.380       |                 |                   |
+| 2021       | 2.363.380       | 1.100.020       |                   |
 +------------+-----------------+-----------------+-------------------+
 
 : \label{Tab16} Índices de abundancia utilizadas en la evaluación de stock de sardina común provenientes de los cruceros de Verano (RECLAS), Otoño (PELACES), crucero de huevos (MPDH).
@@ -1564,14 +1559,14 @@ Aranís *et al*. (2006) estimaron una talla media de madurez en 11,5 cm LT cuand
   \resizebox{13cm}{!} {
   \begin{tabular}{|c|c|c|l|l|}
   \hline
- Parámetro     & Pendiente   & Talla media de  &                    &                \\ 
- de posición   & $\beta_1$   &  madurez        & Método             & Fuente         \\ 
- $\beta_0$     &             & $L_{50\%}$ (cm) &                    &    \\ \hline 
+ Parámetro     & Pendiente   & Talla media de  &                    &                           \\ 
+ de posición   & $\beta_1$   &  madurez        & Método             & Fuente                    \\ 
+ $\beta_0$     &             & $L_{50\%}$ (cm) &                    &                           \\ \hline 
                &             & 11              & EMS Macroscópicos  & Arrizaga (1981)            \\
                &             & 10              & Histología         & Mujica y Rojas (1984)      \\
-               &             & 11                & IGS                & Cubillos y Arancibia (1993)\\
- 11,6            & -1,05         & 11              & EMS macroscópicos  & Arancibia  \textit{et al}. (1994) \\
- 20,32         & -2,05       & 10                & EMS macroscópicos  & Cubillos \textit{et al}. (1999)  \\
+               &             & 11              & IGS                & Cubillos y Arancibia (1993)\\
+ 11,6          & -1,05       & 11              & EMS macroscópicos  & Arancibia  \textit{et al}. (1994) \\
+ 20,32         & -2,05       & 10              & EMS macroscópicos  & Cubillos \textit{et al}. (1999)  \\
                &             & 11,5            & EMS macroscópicos  & Aranís \textit{et al}. (2005)    \\
  18,442        & -1,644      & 11,2            & Histología         & Cubillos \textit{et al}. (2009)  \\ \hline
   \end{tabular}}
@@ -1604,7 +1599,7 @@ Para propósitos de evaluación de stock se había estado empleando 1,2 como val
   \resizebox{16cm}{!} {
   \begin{tabular}{|c|c|c|l|l|}
   \hline
-Área          & Método                     & M ($año^{-1}$)       & Datos      & Referencia                     \\ \hline
+Área          & Método                   & M ($año^{-1}$)       & Datos      & Referencia                     \\ \hline
 Talcahuano  & Pauly (1980)               & 0,85                 & 1990-1991  & Cubillos \& Arancibia (1993)   \\
 VIII Región & Average of several methods & 1,30                 & 1990-1993  & Cubillos \textit{et al}. (1994)   \\  
 Talcahuano  & Average weighted           & 0,96  [0,71 - 1,3]   & 1990-1997  & Cubillos \textit{et al}. (1998)   \\
@@ -1698,7 +1693,7 @@ Se comparan los resultados de los principales indicadores de estatus del modelo 
 \begin{figure}
 \centering
 \includegraphics[width=0.8\textwidth]{Figuras/Fig32-1.pdf}
-\caption{Comparación con asesorías anteriores del reclutamiento, biomasa desovante y mortalidad por pesca (F año-1) de la sardina común. Los años en el eje x corresponden a año biológico. }
+\caption{Comparación con asesorías anteriores del reclutamiento, biomasa desovante y mortalidad por pesca ($F año^{-1}$) de la sardina común. Los años en el eje x corresponden a año biológico. }
 \label{Fig32}
 \end{figure}
 ```
@@ -1975,17 +1970,27 @@ En la \textbf{Tabla \ref{Tab21}} se muestran los valores calculados en la asesor
 ```
 ### 4.2.3. Estado de explotación
 
-La **Figura 39** muestra que en el inicio de la serie histórica la biomasa indicaría una caída BD\<BD~RMS~ entre los años 1994 y 1995 producto probablemente de fallas sucesivas en los reclutamientos. El estado de la pesquería de sardina común durante los años 1998 y 2006 estuvo marcado por condiciones ambientales "El Niño" 1997-1998, provocando la caída hacia niveles inferiores de la biomasa desovante límite (BD~LIM~) bajo el cual una pesquería califica de agotada o colapsada. A partir del 2007 comienza un período favorable para la condición de sardina común, ingresando a un proceso de expansión poblacional que permite el año 2009 desplazarse hacia un nivel de biomasa desovante superior al BD~RMS~. En la evaluación actual (marzo 2021) la BD~2020/2021~ esperada está un 46% bajo BD~RMS~ (**Figura 39**). Dado que la biomasa desovante se sustenta principalmente por la fracción adulta de individuos (edad 1+), cuya abundancia disminuyó producto de bajos reclutamientos ocurridos por dos años consecutivos (2019 - 2020), la biomasa desovante del año biológico 2020/21 se redujo significativamente respecto de años previos, posicionándola en una condición desfavorable por debajo del objetivo de manejo.
+La \textbf{Figura \ref{Fig39}} muestra que en el inicio de la serie histórica la biomasa indicaría una caída BD\<BD~RMS~ entre los años 1994 y 1995 producto probablemente de fallas sucesivas en los reclutamientos. El estado de la pesquería de sardina común durante los años 1998 y 2006 estuvo marcado por condiciones ambientales "El Niño" 1997-1998, provocando la caída hacia niveles inferiores de la biomasa desovante límite (BD~LIM~) bajo el cual una pesquería califica de agotada o colapsada. A partir del 2007 comienza un período favorable para la condición de sardina común, ingresando a un proceso de expansión poblacional que permite el año 2009 desplazarse hacia un nivel de biomasa desovante superior al BD~RMS~. En la evaluación actual (marzo 2021) la BD~2020/2021~ esperada está un 46% bajo BD~RMS~ (\textbf{Figura \ref{Fig39}}). Dado que la biomasa desovante se sustenta principalmente por la fracción adulta de individuos (edad 1+), cuya abundancia disminuyó producto de bajos reclutamientos ocurridos por dos años consecutivos (2019 - 2020), la biomasa desovante del año biológico 2020/21 se redujo significativamente respecto de años previos, posicionándola en una condición desfavorable por debajo del objetivo de manejo.
 
-En términos de la mortalidad por pesca (Ft año^-1^), ésta se había mantenido por sobre el nivel objetivo de referencia F~RMS~ en prácticamente toda la serie histórica analizada producto de la alta selección de juveniles capturados antes de que estos maduren (**Figura 39**). La alta selectividad de juveniles conlleva a un valor de F~RMS~ (F60%BDPR) más moderado que una selectividad cercana o por sobre la ojiva de madurez. A partir del año 2013 los niveles de Ft se han mantenido bajo el nivel de referencia generado posiblemente por las caídas de los reclutamientos en algunos años y las bajas CBAs recomendadas luego de la implementación de los PBRs. Con respecto a la razón entre F~2020/21~ y F~RMS~ fue de 0.61, siendo un 39% menor a F~RMS~, no obstante, este valor se debe considerar preliminar ya que está basado en un supuesto de captura 2020/21 (**Figura 39**).
+En términos de la mortalidad por pesca (Ft año^-1^), ésta se había mantenido por sobre el nivel objetivo de referencia F~RMS~ en prácticamente toda la serie histórica analizada producto de la alta selección de juveniles capturados antes de que estos maduren (\textbf{Figura \ref{Fig39}}). La alta selectividad de juveniles conlleva a un valor de F~RMS~ (F60%BDPR) más moderado que una selectividad cercana o por sobre la ojiva de madurez. A partir del año 2013 los niveles de Ft se han mantenido bajo el nivel de referencia generado posiblemente por las caídas de los reclutamientos en algunos años y las bajas CBAs recomendadas luego de la implementación de los PBRs. Con respecto a la razón entre F~2020/21~ y F~RMS~ fue de 0.61, siendo un 39% menor a F~RMS~, no obstante, este valor se debe considerar preliminar ya que está basado en un supuesto de captura 2020/21 (\textbf{Figura \ref{Fig39}}).
 
-La condición estimada con información preliminar para el año 2020/2021 indica que la sardina común se encuentra en sobreexplotación (46% bajo BD~RMS~ y 39% bajo F~RMS~), con un 38% de probabilidad de colapso y sin riesgo de sobrepesca (**Tabla 24** y **Figura 41**).
+La condición estimada con información preliminar para el año 2020/2021 indica que la sardina común se encuentra en sobreexplotación (46% bajo BD~RMS~ y 39% bajo F~RMS~), con un 38% de probabilidad de colapso y sin riesgo de sobrepesca (\textbf{Tabla \ref{Tab22}}  y \textbf{Figura \ref{Fig40}}).
 
 ```{=tex}
 \vspace{-0.3cm}
 \small
 ```
-\textbf{Figura 39}. a) Razón $BD/BD_{RMS}$, b) la distribución de probabilidad de $BD_{last}/BD_{RMS}$, c) razón $F/F_{RMS}$ y d) la distribución de probabilidad $F_{last}/F_{RMS}$. Los años en el eje x corresponden a año biológico. \vspace{0.1cm} \normalsize
+
+```{=tex}
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{Figuras/Fig39-1.pdf}
+\caption{a) Razón $BD/BD_{RMS}$, b) la distribución de probabilidad de $BD_{last}/BD_{RMS}$, c) razón $F/F_{RMS}$ y d) la distribución de probabilidad $F_{last}/F_{RMS}$. Los años en el eje x corresponden a año biológico.}
+\label{Fig39}
+\end{figure}
+```
+
+ \vspace{0.1cm} \normalsize
 
 \pagebreak
 
@@ -2136,14 +2141,16 @@ La condición estimada con información preliminar para el año 2020/2021 indica
 \pagebreak
 
 ```{=tex}
-\vspace{-0.3cm}
-\footnotesize
+\begin{figure}
+\centering
+\includegraphics[width=0.4\textwidth]{Figuras/Fig40-1.pdf}
+\includegraphics[width=0.4\textwidth]{Figuras/Fig41-1.pdf}
+\includegraphics[width=0.8\textwidth]{Figuras/Fig41b-1.pdf}
+\caption{Diagrama de fases de explotación de la biomasa desovante respecto de la mortalidad por pesca de la asesoría de septiembre 2020  y marzo 2021 (panel superior) y julio 2021 (panel inferior). Los ejes están estandarizados a los valores que generan el RMS proxy. Cruz azul corresponde a los intervalos de confianza de la razón $BD/BD_{RMS}$ y $F/F_{RMS}$. El año con cruz continua corresponde a "*Estatus completo*" y la cruz con línea discontinua a "*Estatus preliminar*".}
+\label{Fig40}
+\end{figure}
 ```
-```{=tex}
-\vspace{-0.3cm}
-\footnotesize
-```
-\textbf{Figura 41}. Diagrama de fases de explotación de la biomasa desovante respecto de la mortalidad por pesca de la asesoría de septiembre 2020 (panel superior) y marzo 2021 (panel inferior). Los ejes están estandarizados a los valores que generan el RMS proxy. Cruz azul corresponde a los intervalos de confianza de la razón BD/BD~RMS~ y F/F~RMS~. El año con cruz continua corresponde a "*Estatus completo*" y la cruz con línea discontinua a "*Estatus preliminar*". \vspace{0.5cm} \normalsize
+ \normalsize
 
 \pagebreak
 
@@ -2183,21 +2190,31 @@ La condición estimada con información preliminar para el año 2020/2021 indica
 
 ### CBA 2021 Inicial (Asesoría de septiembre 2020)
 
-Para el cálculo CBA 2021 se proyectó la población 2 años biológicos hacia el futuro (julio2020-junio2021 y julio2021-junio2022) en base a tres escenarios de reclutamiento: a) un escenario desfavorable que consiste en el reclutamiento promedio del período 1991-2007 (113 mil millones de ind.), b) un escenario favorable que corresponde al promedio de los reclutamientos del período 2008 - 2012 (411 mil millones de ind.) y un escenario que representa el período reciente entre el 2013-2020 (173 mil millones de ind.) (**Figura 42**). \vspace{0.5cm}
+Para el cálculo CBA 2021 se proyectó la población 2 años biológicos hacia el futuro (julio2020-junio2021 y julio2021-junio2022) en base a tres escenarios de reclutamiento: a) un escenario desfavorable que consiste en el reclutamiento promedio del período 1991-2007 (113 mil millones de ind.), b) un escenario favorable que corresponde al promedio de los reclutamientos del período 2008 - 2012 (411 mil millones de ind.) y un escenario que representa el período reciente entre el 2013-2020 (173 mil millones de ind.) (\textbf{Figura \ref{Fig42}}).
 
-\small
+\vspace{0.5cm}
 
-\textbf{Figura 42}. Escenarios de reclutamiento proyectado asesoría de septiembre 2020. \vspace{0.5cm} \normalsize
+
+```{=tex}
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{Figuras/Fig42-1.pdf}
+\caption{Escenarios de reclutamiento proyectado asesoría de septiembre 2020.}
+\label{Fig42}
+\end{figure}
+```
+
+ \normalsize
 
 El cálculo de la CBA inicial para el año calendario 2021 se obtiene como el promedio ponderado según la estacionalidad semestral de la pesquería que a la fecha se asume 70% para el primer semestre y 30% para el segundo semestre, bajo un criterio de explotación de F60%SPR, sujeto a percentiles de probabilidad entre el 10% y 50%.
 
-La **Tabla 25** muestra los rangos de capturas para el año 2021 estimada bajo un escenario de Rprom(1991-2007) podría situarse entre 195 mil t. y 250 mil t. y bajo un escenario de Rprom(2008-2012) entre 353 mil t. y 448 mil t. y bajo un escenario de Rprom(2013-2020) entre 223 mil t. y 301 mil t.
+La \textbf{Tabla \ref{Tab25}} muestra los rangos de capturas para el año 2021 estimada bajo un escenario de Rprom(1991-2007) podría situarse entre 195 mil t. y 250 mil t. y bajo un escenario de Rprom(2008-2012) entre 353 mil t. y 448 mil t. y bajo un escenario de Rprom(2013-2020) entre 223 mil t. y 301 mil t.
 
-Para evaluar el efecto que tiene la decisión de la CBA en base a los percentiles (10%-50%) que en general son menores a la captura al RMS (percentil del 50%), se calculó el resguardo a lo cual equivale cada percentil (**Tabla 26**). Esos niveles variaron entre un 5% para un percentil del 40% a un 22% en promedio, considerando un percentil de probabilidad del 10% para los tres escenarios de reclutamiento.
+Para evaluar el efecto que tiene la decisión de la CBA en base a los percentiles (10%-50%) que en general son menores a la captura al RMS (percentil del 50%), se calculó el resguardo a lo cual equivale cada percentil (\textbf{Tabla \ref{Tab26}}). Esos niveles variaron entre un 5% para un percentil del 40% a un 22% en promedio, considerando un percentil de probabilidad del 10% para los tres escenarios de reclutamiento.
 
-Considerando que no se cuenta con el % de descarte actualizado al 2020, para la asesoría de septiembre 2020 se muestran 2 escenarios de descarte, la **Tabla 27** muestra los rangos de captura menos el 2% correspondiente al descarte 2017 y la **Tabla 28** muestra los rangos de captura con el descuento del 6% (descarte 2019).
+Considerando que no se cuenta con el % de descarte actualizado al 2020, para la asesoría de septiembre 2020 se muestran 2 escenarios de descarte, la \textbf{Tabla \ref{Tab27}} muestra los rangos de captura menos el 2% correspondiente al descarte 2017 y la \textbf{Tabla \ref{Tab28}} muestra los rangos de captura con el descuento del 6% (descarte 2019).
 
-En la secta sesión del CCT-PP 2020 (Acta de Sesión Nº6, octubre 2020 [^6].) se recomendó una CBA máxima 2021 de 201.409 toneladas correspondiente al escenario de reclutamiento promedio bajo (1991-2007), 20% de percentil de captura (equivalente a un 14% resguardo) y el descuento del 6% de descarte (**Tabla 28**).
+En la secta sesión del CCT-PP 2020 (Acta de Sesión Nº6, octubre 2020 [^6].) se recomendó una CBA máxima 2021 de 201.409 toneladas correspondiente al escenario de reclutamiento promedio bajo (1991-2007), 20% de percentil de captura (equivalente a un 14% resguardo) y el descuento del 6% de descarte (\textbf{Tabla \ref{Tab28}}).
 
 [^6]: <https://www.subpesca.cl/portal/616/articles-108975_documento.pdf>
 
@@ -2258,21 +2275,29 @@ En la secta sesión del CCT-PP 2020 (Acta de Sesión Nº6, octubre 2020 [^6].) s
 
 ### Primera revisión CBA 2021 (Asesoría de marzo 2021)
 
-Para el cálculo CBA 2021 se proyectó la población 1 año biológico hacia el futuro (julio2021-junio2022) en base a tres escenarios de reclutamiento: a) un escenario desfavorable que consiste en el reclutamiento promedio del período 1991-2007 (113 mil millones de ind.), b) un escenario favorable que corresponde al promedio de los reclutamientos del período 2008 - 2012 (405 mil millones de ind.) y un escenario que representa el período reciente entre el 2013-2021 (180 mil millones de ind.) (**Figura 43**).
+Para el cálculo CBA 2021 se proyectó la población 1 año biológico hacia el futuro (julio2021-junio2022) en base a tres escenarios de reclutamiento: a) un escenario desfavorable que consiste en el reclutamiento promedio del período 1991-2007 (113 mil millones de ind.), b) un escenario favorable que corresponde al promedio de los reclutamientos del período 2008 - 2012 (405 mil millones de ind.) y un escenario que representa el período reciente entre el 2013-2021 (180 mil millones de ind.) (\textbf{Figura \ref{Fig43}}).
 
 \vspace{0.5cm}
 
-\small
 
-\textbf{Figura 43}. Escenarios de reclutamiento proyectado asesoría de marzo 2021. \vspace{0.5cm} \normalsize
+```{=tex}
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{Figuras/Fig43-1.pdf}
+\caption{Escenarios de reclutamiento proyectado asesoría de marzo 2021. }
+\label{Fig43}
+\end{figure}
+```
+
+\normalsize
 
 El cálculo de la primera revisión de la CBA para el año calendario 2021 se obtiene como el promedio ponderado según la estacionalidad semestral de la pesquería que a la fecha se asume 70% para el primer semestre y 30% para el segundo semestre, bajo un criterio de explotación de F60%SPR, sujeto a percentiles de probabilidad de captura entre el 10% y 50%.
 
-La **Tabla 29** muestra los rangos de capturas para el año 2021 estimada bajo un escenario de Rprom(1990-2007) podría situarse entre 234 mil t. y 272 mil t. y bajo un escenario de Rprom(2008-2012) entre 269 mil t. y 313 mil t. y bajo un escenario de Rprom(2013-2021) entre 236 mil t. y 279 mil t.
+La \textbf{Tabla \ref{Tab29}} muestra los rangos de capturas para el año 2021 estimada bajo un escenario de Rprom(1990-2007) podría situarse entre 234 mil t. y 272 mil t. y bajo un escenario de Rprom(2008-2012) entre 269 mil t. y 313 mil t. y bajo un escenario de Rprom(2013-2021) entre 236 mil t. y 279 mil t.
 
-Para evaluar el efecto que tiene la decisión de la CBA en base a los percentiles (10%-50%) que en general son menores a la captura al RMS (percentil del 50%), se calculó el resguardo a lo cual equivale cada percentil (**Tabla 30**). Esos niveles variaron entre un 3% para un percentil del 40% a un 14% en promedio, considerando un percentil de probabilidad del 10% para los tres escenarios de reclutamiento.
+Para evaluar el efecto que tiene la decisión de la CBA en base a los percentiles (10%-50%) que en general son menores a la captura al RMS (percentil del 50%), se calculó el resguardo a lo cual equivale cada percentil (\textbf{Tabla \ref{Tab30}}). Esos niveles variaron entre un 3% para un percentil del 40% a un 14% en promedio, considerando un percentil de probabilidad del 10% para los tres escenarios de reclutamiento.
 
-En la primera sesión del CCT-PP 2021 (febrero 2021) se acordó utilizar un 4% de descarte para el supuesto de descarte proyectado de sardina común, en base a esto, la **Tabla 31** muestra los rangos de captura menos el 4% de descarte. La **Tabla 31b** muestra las diferencias porcentuales entre la CBA inicial menos el 6% de descarte y la primera revisión de CBA 2012 menos el 4%.
+En la primera sesión del CCT-PP 2021 (febrero 2021) se acordó utilizar un 4% de descarte para el supuesto de descarte proyectado de sardina común, en base a esto, la \textbf{Tabla \ref{Tab31}} muestra los rangos de captura menos el 4% de descarte. La \textbf{Tabla \ref{Tab31b}} muestra las diferencias porcentuales entre la CBA inicial menos el 6% de descarte y la primera revisión de CBA 2012 menos el 4%.
 
 \vspace{0.5cm}
 
@@ -2290,16 +2315,7 @@ En la primera sesión del CCT-PP 2021 (febrero 2021) se acordó utilizar un 4% d
 : \label{Tab29} Primera revisión de CBA 2021 de sardina común calculada bajo $F_{RMS}$ , con sus respectivos percentiles de captura entre 10\% y 50\% y tres escenarios de reclutamientos.
 \vspace{-0.5cm}
 
-```{=tex}
-\small
-\begin{center} 
-\textbf{Tabla 30.}
-\end{center}
-\begin{center} 
-\vspace{-0.2cm} Reguardo de la Captura al RMS.
-\end{center}
-\vspace{-0.2cm}
-```
+
 |     | $R_{1991-2007}$ | $R_{2008-2012}$ | $R_{2013-2020}$ |
 |-----|-----------------|-----------------|-----------------|
 | 10% |                 |                 |                 |
@@ -2339,21 +2355,28 @@ En la primera sesión del CCT-PP 2021 (febrero 2021) se acordó utilizar un 4% d
 
 ### Segunda revisión CBA 2021 (Asesoría de julio 2021)
 
-Para el cálculo CBA 2021 se proyectó la población 1 año biológico hacia el futuro (julio2021-junio2022) en base a tres escenarios de reclutamiento: a) un escenario desfavorable que consiste en el reclutamiento promedio del período 1991-2007 (113 mil millones de ind.), b) un escenario favorable que corresponde al promedio de los reclutamientos del período 2008 - 2012 (405 mil millones de ind.) y un escenario que representa el período reciente entre el 2013-2021 (180 mil millones de ind.) (**Figura 43**).
+Para el cálculo CBA 2021 se proyectó la población 1 año biológico hacia el futuro (julio2021-junio2022) en base a tres escenarios de reclutamiento: a) un escenario desfavorable que consiste en el reclutamiento promedio del período 1991-2007 (113 mil millones de ind.), b) un escenario favorable que corresponde al promedio de los reclutamientos del período 2008 - 2012 (405 mil millones de ind.) y un escenario que representa el período reciente entre el 2013-2021 (180 mil millones de ind.) (\textbf{Figura \ref{Fig44}}).
 
 \vspace{0.5cm}
 
-\small
 
-\textbf{Figura 43}. Escenarios de reclutamiento proyectado asesoría de marzo 2021. \vspace{0.5cm} \normalsize
+```{=tex}
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{Figuras/Fig44-1.pdf}
+\caption{Escenarios de reclutamiento proyectado asesoría de julio 2021. }
+\label{Fig44}
+\end{figure}
+```
+
 
 El cálculo de la primera revisión de la CBA para el año calendario 2021 se obtiene como el promedio ponderado según la estacionalidad semestral de la pesquería que a la fecha se asume 70% para el primer semestre y 30% para el segundo semestre, bajo un criterio de explotación de F60%SPR, sujeto a percentiles de probabilidad de captura entre el 10% y 50%.
 
-La **Tabla 29** muestra los rangos de capturas para el año 2021 estimada bajo un escenario de Rprom(1990-2007) podría situarse entre 234 mil t. y 272 mil t. y bajo un escenario de Rprom(2008-2012) entre 269 mil t. y 313 mil t. y bajo un escenario de Rprom(2013-2021) entre 236 mil t. y 279 mil t.
+La \textbf{Tabla \ref{Tab32}} muestra los rangos de capturas para el año 2021 estimada bajo un escenario de Rprom(1990-2007) podría situarse entre 234 mil t. y 272 mil t. y bajo un escenario de Rprom(2008-2012) entre 269 mil t. y 313 mil t. y bajo un escenario de Rprom(2013-2021) entre 236 mil t. y 279 mil t.
 
-Para evaluar el efecto que tiene la decisión de la CBA en base a los percentiles (10%-50%) que en general son menores a la captura al RMS (percentil del 50%), se calculó el resguardo a lo cual equivale cada percentil (**Tabla 30**). Esos niveles variaron entre un 3% para un percentil del 40% a un 14% en promedio, considerando un percentil de probabilidad del 10% para los tres escenarios de reclutamiento.
+Para evaluar el efecto que tiene la decisión de la CBA en base a los percentiles (10%-50%) que en general son menores a la captura al RMS (percentil del 50%), se calculó el resguardo a lo cual equivale cada percentil (\textbf{Tabla \ref{Tab33}}). Esos niveles variaron entre un 3% para un percentil del 40% a un 14% en promedio, considerando un percentil de probabilidad del 10% para los tres escenarios de reclutamiento.
 
-En la primera sesión del CCT-PP 2021 (febrero 2021) se acordó utilizar un 4% de descarte para el supuesto de descarte proyectado de sardina común, en base a esto, la **Tabla 31** muestra los rangos de captura menos el 4% de descarte. La **Tabla 31b** muestra las diferencias porcentuales entre la CBA inicial menos el 6% de descarte y la primera revisión de CBA 2012 menos el 4%.
+En la primera sesión del CCT-PP 2021 (febrero 2021) se acordó utilizar un 4% de descarte para el supuesto de descarte proyectado de sardina común, en base a esto, la \textbf{Tabla \ref{Tab34}} muestra los rangos de captura menos el 4% de descarte. La \textbf{Tabla \ref{Tab35}} muestra las diferencias porcentuales entre la CBA inicial menos el 6% de descarte y la primera revisión de CBA 2012 menos el 4%.
 
 \vspace{0.5cm}
 
@@ -2480,805 +2503,48 @@ No obstante, dado los altos niveles de reclutamiento estimados para el 2021 en b
 
 \pagebreak
 
+
+### 4.3.4. Proyección del stock (Asesoría de julio 2021)
+
+En relación al estatus 2020/21, en la asesoría previa (septiembre 2020) la proyección mostraba una alta probabilidad (100 %) de sobreexplotación y un 42 % de probabilidad de colapso de sardina común para el año 2020/21 producto de la disminución del reclutamiento los años 2019 y 2020 junto a la disminución de la biomasa adulta (1+ años) el 2020 independiente de los escenario de reclutamiento futuros y ponderadores de F~RMS~ (**Tabla 32 y Figuras 44**). La primera actualización del estatus 2020/21 con información del crucero de venaro 2021 (asesoría de marzo 2021) confirman una condición de sobreexplotación (100% de probabilidad) y un 38% de probabilidad de colapso (**Tabla 33**).
+
+No obstante, dado los altos niveles de reclutamiento estimados para el 2021 en base a la actualización de la información de biomasa total y composición de edad del crucero de verano 2021 se proyecta una recuperación del estatus para el año biológico 2021/22, retornando a una condición de plena-explotación con un 26% de probabilidad de sobre-explotación y un 3% de probabilidad de colapso (**Tabla 33 y Figura 45**), independiente del escenario de reclutamiento proyectado.
+
+\vspace{0.5cm}
+
+```{=tex}
+\small
+\begin{center} 
+\textbf{Tabla 33.}
+\end{center}
+\begin{center} 
+\vspace{-0.2cm} Incertidumbre del estatus actual 2020/21 y proyectado 2021/22 bajo tres escenarios de reclutamiento y ponderadores de $F_{RMS}$
+\end{center}
+\vspace{-0.2cm}
+```
+```{=tex}
+\vspace{-0.7cm}
+\scriptsize
+```
+-   p[BD\<0,9BD~RMS~] = probabilidad de sobre-explotación
+-   p[BD\<0,5BD~RMS~] = probabilidad de colapso
+
+\pagebreak
+
+\small
+
+\textbf{Figura 45}. Diagramas de fases de explotación de la biomasa desovante respecto de la mortalidad por pesca mostrando el estatus de sardina común para el año previo 2019/20 (punto naranjo), año actual 2020/21 (punto y cruz rojo) y año proyectado 2021/22 (punto verde) bajo un escenario de reclutamiento promedio bajo [1991-2007] (panel superior), reclutamiento promedio alto [2008-2012] (panel intermedio), reclutamiento promedio reciente [2013-2021] (panel inferior) y ponderadores de F~RMS~ (1,0.9 y 0.7). **Asesoría de julio 2021**. \vspace{0.5cm} \normalsize \\vspace{0.5cm}
+
+\normalsize
+
+\pagebreak
+
 ## 4.4. Objetivo específico 4:
 
 \vspace{-0.2cm}
 
 *"Informar el avance del Programa de Mejoramiento Continuo de la Calidad en la Asesoría Científica (PMCCAC) realizado durante el presente estudio, respecto al cumplimiento de recomendaciones formuladas en procesos de RPEI y priorizadas por el CCT, cuando corresponda."*
 
-### 4.4.1. Esquema de trabajo y plan de actividades.
-
-Los procesos de evaluación de stock son de carácter dinámico e involucran un mejoramiento continuo tendiente a facilitar la administración de los recursos pesqueros explotables. En este sentido, el Instituto de Fomento Pesquero, específicamente el Departamento de Evaluación de Recursos (DER), mantiene un ánimo de colaboración con la administración pesquera que da espacio para la discusión de mejoras analíticas y técnicas, como también, la detección de brechas de investigación.
-
-Es en este marco, y en coherencia con los requerimientos indicados en los Términos Técnicos de Referencia (TTR) del proyecto "Estatus y posibilidades de explotación biológicamente sustentables de los principales recursos pesqueros nacionales", años 2017 a 2021, que el DER ha reconocido un conjunto de actividades que pueden ser desarrolladas y abordadas con SSPA, las cuales han sido discutidas e implementadas durante este período. Además de los correspondientes informes técnicos, se han identificado una serie de aspectos a ser abordados en el marco de la evaluación de stock. Para ello se propone el esquema de trabajo presentado en el **Figura 46**, el cual fue discutido y consensuado con la SSPA en reunión efectuada el día 12 de junio de 2017 (Zúñiga *et al*. 2018). El esquema general se mantiene para los futuros proyectos de la siguiente forma.
-
-i)  Especificación de EV(t+1) (septiembre) sobre la base de las MM(t) presentadas en la asesoría anterior, EV(t) las cuales serán presentadas y discutidas con el CCT-PP para la definición del caso base, EV(t+1), utilizado para establecer el estatus y CBA.
-ii) Revisión de datos y modelo, IFOP presenta propuestas de MM(t+1) para trabajar durante el desarrollo de este proyecto que recogerán algunas de las observaciones a la EV(t) de revisores por pares (RPP) nacionales, CCT-PP y SSPA, junto a recomendaciones de la RPP internacional realizadas a especies pelágicas.
-iii) IFOP presenta propuesta de modelo alternativo cuyos avances son presentados en la primera sesión anual del CCT-PP (enero).
-iv) Finalmente, en la etapa de revisión y actualización de la EV(t+2 y t+3) a realizarse en marzo y julio, también se comparará con los resultados de la EV(t+1 y t+2) correspondiente a las asesorías previas (septiembre y marzo respectivamente).
-
-```{=tex}
-\begin{center}
-\includegraphics[width=1\textwidth]{Figuras/Figura47.png}
-\end{center}
-```
-\small
-
-\textbf{Figura 46}. Esquema de trabajo de Datos y Modelos propuesto por SSPA e IFOP para la implementación de mejoras y modificaciones (MM) a la evaluación de stock (EV) durante el desarrollo del Proyecto de Estatus y CBA de las pesquerías de Pelágicos. \vspace{0.5cm} \normalsize
-
-### 4.4.2. Mejoras realizadas al modelo de evaluación de stock
-
-En relación a las recomendaciones adicionales realizadas en las Revisiones por Pares Internacional de sardina común y anchoveta centro sur, a continuación, se informa los cambios realizados al modelo base (**Tabla 34**). En primer lugar, se consideran las recomendaciones que modifica la ponderación de datos del Modelo Anual Edad estructurado (CV de las capturas, CV índice de MPDH, actualización de los tamaños de muestra), se asume una prior no informativa para la capturabilidad del crucero de otoño, se penaliza la mortalidad por pesca de los años 1991 y 1992 y se utiliza un valor fijo de mortalidad natural igual a 1,0 año^-1^) realizadas en la revisión por pares de sardina común en septiembre del 2013. En segundo lugar, se propone un nuevo modelo base que considera algunas de las recomendaciones de la Revisión Por Pares de anchoveta centro-sur realizada en agosto del 2015 y que son transversales para sardina común. Estos cambios forman parte del plan de mejoramiento continuo que conducen a reducir la incertidumbre del estado del stock de sardina común de la zona centro-sur. Estas mejoras constituirán un Estándar Metodológico en la evaluación de sardina común, cuyos protocolos se mantendrán vigentes hasta que se considere necesario perfeccionarlos.
-
-#### Cambios realizados al modelo base a partir del año 2014:
-
-Considerando que el caso base representa el "mejor" modelo para proporcionar estimaciones de la actual condición de la población y la recomendación de manejo, la evaluación de stock utilizada previo al 2014 fue contrastada frente a un nuevo escenario implementado el año 2014 (Zúñiga & Canales, 2014) el cual ha sido utilizado a la fecha (**Tabla 34**). La comparación entre la evaluación de stock base anterior y el nuevo escenario base (febrero 2014) no presenta diferencias significativas a nivel de ajustes ni verosimilitud, sin embargo, las variables poblacionales se re-escalan por la disminución de la mortalidad natural (M=1,0), con niveles de reclutamiento y biomasa más bajos en el caso base anterior al 2014. La mortalidad por pesca refleja el efecto de la penalización de las Fs 1991 y1992, sin embargo, no genera cambios significativos en la estimación de F para los últimos años de la serie histórica.
-
-Con respecto a los CV de las capturas, debido a que existe poca o ninguna información en los datos y estructura del modelo para estimar la captura total, el modelo se ajusta asumiendo que las capturas se conocen exactamente o con altos niveles de precisión. Bajo este supuesto, las estimaciones de N del modelo y los parámetros de separabilidad permitirían determinar F anual. Sin embargo, para la ecuación de Baranov, no existe una solución analítica para los valores de F, por lo tanto, se deben tratar como parámetros estimables, pero altamente limitados (CV bajos) de tal manera que las capturas totales se puedan estimar de manera muy precisa. El peso relativo designado a la estimación de captura total al ajustar el modelo de evaluación fue debatido durante el taller de revisión por pares de sardina común, donde se consideró que la limitación sobre los F efectivamente utilizada fue débil (CV=10%). Se sugiere un CV =1% asumiendo que las capturas son conocidas exactamente.
-
-Adicionalmente, los CV de la biomasa desovante estimada a partir de los cruceros de huevos exceden el 55% en general y en dos de los nueve cruceros las estimaciones exceden el 100%. En el modelo de evaluación se asume como más informativos que lo indicado a partir de los resultados reales del crucero, asignando el mismo peso que a los resultados de los cruceros acústicos CV=30%. En el taller de revisión por pares se sugiere que las estimaciones del crucero de huevos no tendrían un contenido de información real o muy poco con relación al tamaño del stock desovante y, por lo tanto, incluir un CV=30% es poco realista, y puede dar lugar a ruido y a estimaciones inapropiadas. Se sugiere eliminar el índice de crucero de huevos o aumentar considerablemente la varianza asumida.
-
-Para la ponderación de proporción de edad en las capturas y cruceros acústicos (tamaños de muestra) se utiliza un enfoque de ponderación iterativa, la cual es deseable revisar al incorporar las nuevas composiciones de edad, o dado que estos valores pueden variar dependiendo de los cambios en los supuestos del modelo. Considerando los nuevos datos adicionales y los cambios en el modelo en febrero 2014, estas estimaciones sobre el tamaño real de la muestra fueron actualizadas.
-
-En relación de la capturabilidad del crucero de verano, en las evaluaciones previas al 2014, este era asumido igual o cercano a 1,0, considerando que el reclutamiento de la sardina común es menos extendido en el tiempo respecto de la anchoveta y se puede medir en un solo crucero, el crucero de verano reflejaría de mejor forma los niveles de la población dejando el crucero de otoño como índice relativo de los cambios en la fracción disponible para la flota (Castillo *com. pers.*). Al respecto, en el taller de Revisión Por Pares (RPP) se discutió sobre los problemas asociados con la corrección de orilla, la composición de especies, frecuencia de talla, cardúmenes no detectados y corrección de superficie y costa, etc de los cruceros acústicos. Existe la posibilidad de dar lugar a estimaciones considerablemente menores o mayores que la abundancia real. En base a esto, Polacheck (2014), señala que no existe una razón a priori para asumir que "q" en un crucero debería ser más cercano a 1,0 que, en el otro, ni que "q" para cualquiera de los cruceros es cercano a 1. Se sugiere asumir una prior no informativo como elección más apropiada para un caso base. De esta forma, la capturabilidad de los cruceros acústicos se asume una distribución a priori lognormal con media 0 y error estándar 100.
-
-En el caso de la penalización de la mortalidad por pesca, con el objeto de obtener valores biológicamente aceptables, a menudo se emplean penalizaciones a ciertas estimaciones o parámetros. En el modelo de evaluación empleado hasta febrero 2014, las estimaciones de las tasas de mortalidad por pesca en 1991 y 1992 son muy altas. El revisor de RPP señala que dichas estimaciones altas parecen ser incoherentes con la información disponible de la pesquería. En esos años hubo estimaciones muy bajas de reclutamiento y del stock desovante asociados con estos altos niveles de F, producto de que para esos años existe poca información a parte de la estructura de edad para la captura
-
-#### Modelo base actual:
-
-\quad
-
-En la asesoría de marzo 2017 (Zúñiga, 2017a) IFOP presentó un nuevo modelo donde se recogen algunas de las recomendaciones de la revisión por pares internacional realizada en agosto del 2015 (**Tabla 34**) y otras recomendaciones de sardina común. El CCT-PP solicitó que el modelo base utilizado en las etapas de revisión de CBA (1era y 2da revisión de CBA) sea consistente con la determinación original de septiembre 2016 (Canales & Zúñiga, 2016). En la sesión del CCT-PP de los días 6 y 7 de julio 2017 IFOP presentó el modelo base actualizado y mejorado seleccionado a partir de un análisis de sensibilidad de 6 escenarios que consideraron los siguientes elementos:
-
-a)  Corrección de la matriz de pesos iniciales
-b)  Exclusión de la biomasa de los cruceros PELACES del año 2003, 2005 y 2015
-c)  Cambios en los tamaños de muestra de la estructura de edad del RECLAS, PELACES y de la captura, bajo los métodos de Francis (2011) y McAllister & Ianelli (1997) considerando una media armónica y no aritmética como se había trabajado.
-
-Uno de los mejores desempeños fue obtenido por el escenario que consideró los puntos a, b y una ponderación de tamaños de muestra de RECLAS, PELACES y captura bajo el método de McAllister & Ianelli (1997), siendo seleccionado como modelo base para la actual evaluación de stock. El modelo base se sustenta en que los perfiles de verosimilitud dan cuenta que existe un mejor comportamiento con los nuevos tamaños de muestra (CCT-PP Acta 2017/04). Los resultados del análisis de sensibilidad realizado para seleccionar el modelo base actual fueron presentados en el informe de marzo y julio 2017 (Zúñiga, 2017a y b). Los tamaños de muestra son actualizados cada vez que se incorporan nuevas piezas de información de composiciones de edad a la evaluación de stock, por lo tanto, los valores absolutos pueden variar levemente entre actualizaciones.
-
-**Incorporación del descarte**: El Artículo 7°B de la actual Ley General de Pesca y Acuicultura (LGPA, N° 18.892) indica que no podrá realizarse el descarte de individuos de una especie objetivo, cualquiera sea su régimen de acceso, y su fauna acompañante, salvo que se i) haya fijado una cuota global anual de captura para la especie objetivo y, ii) que en el proceso de establecimiento de la cuota global anual de captura se haya considerado el descarte. En este sentido, en Zúñiga & Quiroz (2017) se expusieron algunos escenarios presentados al CCT-PP en octubre 2017 para incorporar el descarte en el modelo de evaluación de stock, que potencialmente representan fuentes de mortalidad por pesca a la fecha no documentada. Estos escenarios fueron revisados por el CCT-PP (Acta 06/2017) donde fue seleccionado el escenario 5 que considera un 4% de descarte. Por lo tanto, la diferencia del modelo base utilizado en marzo 2018 con el presentado en septiembre 2017 tiene que ver con la incorporación del descarte en la serie de desembarques.
-
-#### Procesamiento y liberación de datos para la estimación de estatus y CBA sardina común y anchoveta centro-sur:
-
-\quad
-
-En general, los datos utilizados en la estimación de estatus y CBA de los stocks pelágicos requieren procesar las siguientes fuentes de datos:
-
--   Bitácoras biológicas (pesos y tallas)
-
-    -   Bitácoras de frecuencia de tallas
-    -   Bitácoras de capturas
-    -   Muestreos de otolitos
-
-Una de las problemáticas identificadas en cada hito de revisión de CBA está relacionada con los tiempos de procesamiento de la información y los tiempos requeridos para obtener los datos de bitácoras en tiempo real. Al respecto, el tiempo de proceso de la información es de 45 a 60 días entre el registro de los datos muestreados, su validación y análisis, por lo tanto, se debe considerar un desfase de al menos 2 meses en la información disponible para ser usada en la modelación. Para disminuir este desfase a un mes se solicitó la colaboración del Departamento de Gestión de Muestreo, Departamento de Evaluación Directa, Departamento de Evaluación de Pesquerías y Departamento de Evaluación de Recurso. Todos estos departamentos evaluaron los tiempos requeridos para el proceso de información y proponen fechas de envío de dato a los encargados correspondientes. \vspace{0.5cm}
-
-#### Revisión de supuestos para asesoría de marzo:
-
-\quad
-
-En términos de actualización de datos, en las asesorías realizadas en septiembre de un año y julio del siguiente año, contamos con información completa del año biológico. Sin embargo, en la asesoría realizada en marzo (segundo hito de revisión de CBA) sólo contamos con información actualizada del crucero de verano, el resto de la información se basa en supuestos. Dada la incertidumbre que generan los supuestos realizados en las asesorías de marzo, en la sesión 02/2019 del CCT-PP se acordó que los datos supuestos sean los siguientes: a) Captura (2019/20) equivalente a cuota establecida (CBA inicial 2020), b) Biomasa del crucero de otoño (2020) igual a cero, c) Composición de edad del crucero de otoño (2020) igual a cero, d) Composición de edad de la flota (2019/20) igual a cero, e) Pesos (2019/20) igual al promedio de los últimos 5 años de la serie. En este hito el estatus de la población de sardina común será considerado "Estatus preliminar" ya que está basada en supuestos.
-
-#### Revisión de supuestos de proyección:
-
-\quad
-
-En la sesión 02/2019 se presentó al CCT-PP la revisión de los supuestos utilizados para la proyección del stock y cálculo de la CBA junto a una propuesta de nuevos supuestos dado la tendencia de las biomasas, pesos medios y proporción de las capturas que ha tenido una tendencia distinta durante los últimos 6 años de la serie. En relación a los pesos medios, hasta la asesoría de marzo 2019 se proyectaba con el peso medio del último año de evaluación. Sin embargo, en ausencia de pesos medios se asume el peso promedio de los últimos 5 años. Para ser consistente con el supuesto, se propone al CCT-PP proyectar utilizando el promedio de los últimos 5 años, considerando la tendencia a partir del 2013 a estabilizarse. En el caso de los reclutamientos, hasta la asesoría de marzo 2019 se utilizaba escenarios de reclutamiento recientes (promedio 2008-2019) y escenario de reclutamientos históricos (Promedio estimado por el modelo con error). Sin embargo, la tendencia de los reclutamientos cambia a partir del 2013 reflejado en un análisis de quiebres donde se observan tres períodos distintos. De esta forma se sugiere cambiar el supuesto de reclutamiento histórico y recientes, por los períodos identificados en el análisis de quiebres. Considerando que el modelo de evaluación de stock de sardina común emplea información agregada en año biológico, la población es proyectada uno o dos años biológicos hacia el futuro (a inicios de julio de un año a junio del año siguiente). Por consiguiente, el cálculo de la captura en año calendario se obtiene como el promedio ponderado según la estacionalidad semestral de la pesquería. Al respecto, hasta la asesoría de marzo 2019 se utilizaba la proporción de 80 % primer semestre y 20 % segundo semestre, sin embargo, un análisis de quiebres de la serie de proporción de desembarques del primer semestre muestra que a partir del 2010 la proporción disminuye en torno al 70 % para el primer semestre, por lo tanto, la proporción 80/20 ya no correspondería para este período. De este modo, el cálculo de CBA se obtiene como el promedio ponderado según la estacionalidad semestral de la pesquería del período más reciente en 70 % para el primer semestre y 30 % para el segundo semestre del año calendario. En el presente informe se consideran los nuevos supuestos de proyección para el cálculo de la CBA 2021.
-
-\pagebreak
-
-```{=tex}
-\small
-\begin{center} 
-\textbf{Tabla 34.}
-\end{center}
-\begin{center} 
-\vspace{-0.2cm} Resumen de los principales cambios introducidos al modelo anual en edad (MAE) para la selección del caso base, recomendados en la Revisión por Pares Internacional de sardina común (septiembre, 2013) y anchoveta (agosto 2015).
-\end{center}
-\vspace{-0.2cm}
-```
-```{=tex}
-\begin{table}[h]
-  \centering
-  \resizebox{16cm}{!} {
-  \begin{tabular}{|l|l|l|l|}
-  \hline
- Datos, parámetros, supuestos  & Modelo base Previo          & Modelo base 2014            & Modelo base actual \\ 
- o procesos                    & al 2014                     &                             & \\ \hline
- Matriz de pesos iniciales     & Sin corregir                & Sin corregir                & Corregida         \\ \hline
- Mortalidad natural            & fija  $1,2 año^{-1}$        & fija $1,0 año^{-1}$         & fija  $1,0 año^{-1}$ \\ \hline
- Serie de Biomasa desovante    & Se considera                & Se aumenta                  & Se aumenta \\
- (MPDH)                        & proporcional a la           & considerablemente la        & considerablemente la \\
-                               &  biomasa desovante          & varianza asumida del        & varianza asumida del \\
-                               &                             & crucero de huevos           & crucero de huevos \\
-                               &                             & (cambia de CV=0,3 a 100)    & (cambia de CV=0,3 a 100) \\ \hline
- Biomasa acústica del crucero  & Serie completa              & Serie completa              & Se excluye los años 2003, 2005 y 2015\\ 
- de otoño (PELACES)            &                             &                             &  \\ \hline
- Composición de edad del       & Serie completa              & Serie completa              & Se excluye año 2015 \\
- crucero de otoño (PELACES)    &                             &                             & \\ \hline
- Coeficiente de variación      & $\sigma_f=0,1$              & $\sigma_f=0,01$             & $\sigma_f=0,01$           \\
- de las Capturas Totales       &                             &                             & \\ \hline
- Método de estimación de los   & Media aritmética de         & Media aritmética de         &    Media armónica de \\
- Tamaños de muestra            & McAllister \& Ianelli (1997) & McAllister \& Ianelli (1997) & McAllister \& Ianelli (1997)\\ \hline
- Tamaños de muestra $n^f$ flota,& $n^f=40$ $n^{cv}=9$ $n^{co}=8$& $n^f=38$ $n^{cv}=10$ $n^{co}=8$& $n^f=12$ $n^{cv}=7$ $n^{co}=6$ \\ 
-  $n^{cv}$ RECLAS, $n^{co}$ PELACES&                             &                             &   \\ \hline
- Capturabilidad (q) de los     & q igual o en torno          & Se asume prior no           & Se asume prior no \\
- Cruceros Acústicos            & al valor 1,0 para cruceros  & informativo para q          & informativo para q  \\
-                               & acústicos de verano RECLAS  & RECLAS y PELACES            & RECLAS y PELACES \\ \hline
- Mortalidad por pesca (Ft)     & Sin penalización            & Penalización sobre Ft       & Penalización sobre Ft en \\
- en 1991 y 1992                &                             & en 1991 y 1992              & 1991 y 1992 \\ \hline  
-  \end{tabular}}
-    \end{table}
-```
-\normalsize
-
-### 4.4.3. Avances en reducción de brechas
-
-#### Actividades desarrolladas durante el año 2018:
-
-\quad
-
-Durante el año 2018 se realizaron talleres de trabajo interno (Grupo de pesquerías pelágicas de IFOP), en los cuales se abordó el desarrollo de temáticas transversales para los pequeños pelágicos, cuyos resultados fueron presentados en las sesiones del CCT-PP durante el 2018. Adicionalmente, el grupo participó en cursos de capacitación, pasantías y talleres internacionales orientados al proceso de mejora continua y disminución de brechas del conocimiento de peces pelágicos (**Figura 47**). A continuación, se detallan las principales actividades desarrolladas.
-
-\vspace{0.3cm}
-
-\underline{a) Modelo alternativo N°1: Modelo anual con información de tallas en año calendario}
-
-Entre diciembre y enero del 2017 se realizó un taller interno del grupo de trabajo de pequeños pelágicos de IFOP con el objetivo de implementar en la plataforma de modelación de ADMB un modelo con observaciones en tallas y dinámica en edades en escala anual para ser comparado con el modelo actualmente en uso e identificar las principales fortalezas y debilidades de ambos modelos. Los principales resultados de este taller de trabajo fueron los siguientes:
-
-a)  Estandarizar el modelo de evaluación de tal forma que facilite la interpretación de los procesos que describen la dinámica de los recursos pelágicos.
-b)  Estandarizar las salidas del modelo en R Project para facilitar la comparación de los resultados.
-c)  Identificar las problemáticas transversales de los recursos pelágicos en términos de modelación.
-d)  Elaboración de un listado de tareas pendientes para la calibración del modelo alternativo
-e)  Elaboración de un reporte con los avances realizados en el taller (Zúñiga *et al*. 2018 a y b).
-f)  Presentación de los resultados de este taller al CCT-PP en enero del 2018 (Acta 01/2018)
-
-El objetivo del grupo de trabajo es transitar desde el actual enfoque de modelación usado en cada uno de los stocks hacia un modelo estructurado a la edad en escala anual e intra-anual (semestral, trimestral y mensual) y que sea coherente con los procesos biológico-pesqueros y a la suficiencia de información en los 5 stocks de peces pelágicos pequeños de Chile (anchoveta norte, centro-norte, centro-sur, sardina común y sardina austral).
-
-\vspace{0.5cm}
-
-\underline{b) Modelo alternativo N° 2: Incorporación de datos de la X Región a la evaluación de stock}
-
-Históricamente la evaluación de stock de anchoveta y sardina común de la zona centro-sur ha utilizado información del monitoreo de las pesquerías industrial y artesanal entre San Antonio a Valdivia. Sin embargo, desde el 2005 se inició e incorporó el monitoreo de las pesquerías artesanales de sardina austral, sardina común, anchoveta y jurel, capturado en el mar Interior de la X región, correspondiente a la zona de pesca de Chiloé, recopilándose información bio-pesquera principalmente de las lanchas cerqueras artesanales al arribar a puerto y secundariamente a bordo (embarques) y en los principales centros de descarga. La flota artesanal de la Región de Los Lagos creció con el ingreso de nuevas naves hasta el 2012. Desde el 2013 y hasta el 2017 se redujo paulatinamente la flota, producto de la fuerte disminución de los recursos y las menores cuotas de pesca (Aranis *et al*. 2017). Dado que la definición del estatus y determinación de la CBA se realiza para el stock de sardina común entre Valparaíso y Los Lagos, se ha solicitado considerar la información del mar interior de ésta última región en la evaluación de stock. Al respecto, Zúñiga *et al*. (2018) muestran algunos resultados preliminares de la incorporación de esta información. Sin embargo, han surgido dudas si esta información debe ser incluida al modelo de evaluación actual o debe ser considerado como otro stock. Al respecto, Parada *et al*. (2013) analizó la dinámica de partículas permitiendo explicar la concentración de reclutas-juveniles en el área norte (Valparaíso - Biobío) y la mayor presencia de adultos en la zona sur (regiones Araucanía - Los Ríos), el elemento biológico que explicaría la preferencia de juveniles en el norte puede ser de carácter ambiental, dado que es mayor la fortaleza de los afloramientos y con ello los aportes de nutrientes y entre otros, es un área con zonas protegidas con mayores temperaturas que el sur. En tanto, el sur resulta propicio a la fracción adulta como área de encuentro reproductivo, baja actividad extractiva y la concentración adulta estaría asociada probablemente al retorno y reconocimiento de una fracción de la población- a su zona ecológica de puesta natal, impresa en los estadios tempranos en su hábitat original, conocido en otras especies como el natal homing. Sin embargo, en aguas interiores de Chiloé, no se evidencian estos procesos oceanográficos y la dinámica y efectos de las zonas abiertas, son muy diferentes, por lo cual la estrategia reproductiva utilizada por sardina y anchoveta si bien es similar respecto de la estacionalidad de los eventos, se han observado diferencias en las tácticas reproductivas asociadas probablemente a la dinámica oceanográfica propia de la influencia de fuertes cambios diarios de marea, una fuerte variación de la picnoclina relacionado con las contribuciones de agua dulce de las zonas más continentales (Aranis *et al*. 2018). Estos resultados fueron presentados al CCT-PP en la sesión de julio 2018, donde se discutió ampliamente respecto de considerar esta zona como parte de la unidad poblacional centro-sur. Al respecto, el CCT-PP recomendó incorporar al FIPA un estudio de unidades poblacionales de anchoveta y sardina común en aguas interiores y zona centro-sur. Mientras se resuelve este problema se sugiere explorar la incorporación de datos de aguas interiores bajo el enfoque de un solo stock de manera paralela al modelo base (Acta 04/2018).
-
-\vspace{0.3cm}
-
-\underline{c) Exploración de nueva plataforma de modelación (Stock synthesis)}
-
-Durante los días 22 al 28 de enero 2018 el grupo de trabajo de pequeños pelágicos de IFOP asistió al "Curso Avanzado de evaluación de recursos pesqueros con la plataforma de modelado Stock Synthesis" dirigido por el científico evaluador de CAPAM Dr. Juan Valero y la Dra. Melissa Haltuch (NOAA) en la Universidad de Concepción.
-
-Este curso fue la continuación de un curso introductorio en el uso de Stock Synthesis (SS) que fue realizado en el 2014 en la Universidad de Concepción. En el curso impartido en enero 2018 se revisó la versión más reciente de SS, se analizaron modelos alternativos, ejes de incertidumbre y ponderación de datos, aplicación de diferentes puntos biológicos de referencia, proyección y análisis de riesgo en SS.
-
-Según Methot (2009) uno de los principales beneficios de trabajar con esta plataforma de modelado es que mejora la comunicación, la eficiencia y la educación en la comunidad de evaluación pesquera. Reduce el tiempo que lleva producir un informe de evaluación gracias a un paquete de procesamiento de salidas r4ss. Además, reduce el riesgo de errores en los códigos, ya que son códigos probados y estandarizados.
-
-Para el grupo de trabajo pequeños pelágicos de IFOP, esta herramienta de modelación es muy útil para el proceso de estandarización de entrada y salida de datos al modelo, y de los resultados presentados en los informes de estatus. Además, existe una menor dependencia de capacidades de codificación, lo que facilitaría la implementación de modelos alternativos a una escala menor al año (semestral, trimestral y mensual).
-
-\vspace{0.3cm}
-
-\underline{d) Estandarización de informes de estatus de pesquerías pelágicas}
-
-En el marco del plan de trabajo entre los días 20 al 22 de febrero se realizó en dependencias del IFOP, un segundo taller de carácter interno con el fin de revisar formato y contenido de los informes de evaluación de stock en particular para los stocks de anchoveta (norte, centro-norte y centro-sur), sardina común y sardina austral. Lo anterior, con el propósito de estandarizar la entrega de información y resultados entre recursos y de este modo, facilitar lectura, comprensión y análisis tanto en el proceso de asesoría como a usuarios en general. Además, este proceso de estandarización en forma y contenidos permitirá avanzar en forma continua y conjunta en el desarrollo de mejoras entre recursos. Como principal resultado del taller N°2 de estandarización, se generó una propuesta tanto del formato del informe como de análisis a realizar en cada recurso, con énfasis en los requerimientos solicitados a los stocks de pelágicos. Los productos se presentan en Zúñiga *et al*. (2018a y 2018b,ANEXO IV).
-
-\vspace{0.3cm}
-
-\underline{e) Taller de capacitación: Hacia la Evaluación de Estrategias de Manejo}
-
-Entre el 5 y 8 de marzo del 2018 se desarrolló el Taller de Evaluación de Estrategias de Manejo (EEM) en el marco del convenio de cooperación entre IFOP y CSIRO (Commonwealth Scientific and Industrial Research Organisation), en el auditorio de IFOP, Valparaíso. El grupo de trabajo de CSIRO (Rich Little, Geoff Tuck, Jeremy Day, Bec Gorton y Claudio Castillo-Jordán) realizó charlas introductorias de EEM, descripción de los componentes de un EEM, algunos casos de estudio y un práctico de EEM en Excel.
-
-El objetivo principal de este convenio es la asesoría del grupo de trabajo de CSIRO a evaluadores de stock de IFOP en la implementación de EEM en los principales recursos de las pesquerías chilenas. Al respecto, en una primera etapa se desarrolló una versión inicial para la pesquería de merluza del sur en el software EEM desarrollado por CSIRO basado en la evaluación actual de merluza del sur. En primer lugar, se implementó el modelo de IFOP en Stock Synthesis para luego evaluar EEM en el software desarrollado por CSIRO. El objetivo fue mostrar el proceso, los beneficios y las dificultades de su uso y finalmente proporcionar una guía inicial para el desarrollo de una EEM para Chile.
-
-La EEM es una herramienta cuantitativa de simulación utilizada para evaluar los impactos de las decisiones de manejo sobre los niveles poblacionales de un recurso pesquero. Permite a los administradores o usuarios, probar distintas opciones de manejo sin tener que implementarlas en la realidad. Para implementar EEM es preciso conocer el procedimiento de manejo actualmente en uso (evaluación de stock y reglas de control), identificar las fuentes de incertidumbre que pueden afectar la toma de decisión y el qué hacer de una pesquería. Es por ello que es fundamental la participación de los administradores, comités de manejo y los comités científicos de pesquerías en la implementación de la EEM en Chile.
-
-Lo fundamental para la EEM es la simulación del proceso de manejo de pesquerías incluida la recopilación, análisis o evaluación de datos y la toma de decisiones. Esta herramienta permite a los administradores simular y probar procedimientos de muestreo, evaluación y decisión para determinar su efectividad, incluida la eficacia de las medidas de manejo. Por ejemplo, en el caso de las pesquerías pelágicas centro-sur, una de las medidas de manejo que desea ser probada por los administradores son los criterios utilizados para dar inicio o término a una veda (Soporte de vedas).
-
-\vspace{0.3cm}
-
-\underline{f) Soporte de monitoreo para bajar la escala de modelación}
-
-Continuando con el marco del plan de trabajo propuesto, el día 4 de mayo de 2018 se realizó en dependencias del IFOP, un tercer taller de carácter interno entre el grupo de investigadores del Departamento de Evaluación de Recursos (DER) y el grupo de investigadores del Departamento de Evaluación de Pesquerías (DEP) para evaluar la suficiencia de información, discutir los criterios utilizados cuando la información no es suficiente e identificar las posibles dificultades de trabajar en escala menor al año al momento de las actualizaciones de Estatus y CBA. Al respecto, los investigadores del DEP señalaron que el tiempo de proceso de la información es de 45 a 60 días entre el registro de los datos muestreados, su validación y análisis, por lo tanto, se debe considerar un desfase de al menos 2 meses en la información disponible para ser usada en la modelación. Además, se presentaron algunos criterios utilizados cuando existen vacíos de información y finalmente se evaluó la posibilidad de contar con claves talla-edad en escala mensual. Los productos se presentan en Zúñiga *et al*. (2018a y 2018b, ANEXO V).
-
-\vspace{0.3cm}
-
-\underline{g) Análisis de riesgo (buffer) y proyección basada en cruceros}
-
-Actualmente el CCT-PP determina el rango de CBA seleccionando un nivel de riesgo (entre un percentil del 10%-50%) y un escenario de reclutamiento proyectado (recientes o histórico). Con el objeto de analizar el nivel de riesgo de exceder el objetivo de manejo seleccionado al momento de efectuar la toma de decisiones para determinar la CBA, IFOP ha analizado la definición de un nivel de resguardo entre la CBA y la captura al RMS, denominado buffer, cuya estimación se calcula a partir de la probabilidad de sobrepesca considerada aceptable (P\*) y el error estándar de la captura al RMS (sigma), bajo el supuesto que esta presenta una distribución normal. Esta metodología ha sido presentada al CCT-PP (Acta sesión 05/2017), sin embargo, aún no ha sido implementada ya que se requiere avanzar en un trabajo detallado para analizar la incertidumbre asociada a la evaluación de stock. Esta metodología fue implementada para el modelo base de septiembre 2017 (CBA inicial 2018), marzo 2018 (1era revisión CBA 2018) y julio 2018 (2da revisión CBA 2018) y fue evaluado el efecto de la actualización de datos en la definición de un buffer y para evaluar la incertidumbre científica contenida en el buffer en relación a los parámetros del modelo, se probaron 7 escenarios alternativos de mortalidad natural invariable en el tiempo y 4 escenarios alternativos para las desviaciones del reclutamiento promedio (sigmaR). Estos resultados fueron reportados en Zúñiga *et al*. (2018) y discutidos en la Sesión 4 del CCT-PP. Entre los resultados más destacados se aprecia que la distribución de probabilidad de la CBA varía en las distintas fases de decisión (CBA inicial, 1era revisión y 2da revisión) y también entre los distintos recursos (ejemplo, sardina común y anchoveta centro-sur) dependiendo de su dispersión (incertidumbre de la CBA~RMS~) dando como resultado niveles de riesgo muy disímiles entre pesquerías. Por lo tanto, una de las problemáticas identificadas fue definir qué nivel de resguardo utilizar en una pesquería que se encuentra en plena-explotación versus aquella que se encuentra agotada o colapsada. De este modo, para fortalecer la decisión del nivel de riesgo de la CBA se explora una estrategia de explotación tipo escalera que considera el nivel de reducción de la biomasa desovante (BD/BD~RMS~) y condiciones más probables de biomasa de crucero de verano. Esta estrategia de explotación tipo escalera consiste en una regla de control que reduce la mortalidad por pesca si la biomasa desovante está por debajo del punto biológico de referencia objetivo (BD~RMS~). Los avances en esta materia son presentados en Zúñiga (2019b, ANEXO III).
-
-Además, para tener una apreciación más realista respecto de los posibles estados de la naturaleza, se analizaron escenarios de biomasa esperada del crucero hidroacústicos con el fin de facilitar la toma de decisión del CCT-PP. Los niveles de biomasa de crucero evaluados permiten reflejar distintas condiciones del recurso. Sin embargo, se analizó la proyección de solo un año hacia el futuro, lo cual no permite evaluar el impacto de la estrategia de explotación en el mediano plazo o evaluar si es posible recuperar un stock que se encuentra en el área de agotamiento o colapso. De este modo, para evaluar el efecto de una estrategia de explotación tipo escalera u otros, es necesario avanzar hacia el desarrollo de una Evaluación de Estrategias de Manejo, que permita probar mediante simulación, la robustez de la regla de control de captura diseñada, frente a las principales fuentes de incertidumbre de la pesquería.
-
-\vspace{0.3cm}
-
-\underline{h) Pasantía en School of Aquatic and Fishery Sciences, University of Washington}
-
-Durante el período de Octubre-Diciembre 2018 se realizó una pasantía financiada por el laboratorio del Dr. Ray Hilborn, en la School of Aquatic and Fishery Sciences, University of Washington, para trabajar en temas relacionados con evaluación y manejo de pesquerías. El objetivo principal del trabajo desarrollado consistió en evaluar modelos de evaluación de stock alternativos para el caso de anchoveta de la zona centro-sur de Chile, considerando escalas temporales más pequeñas que el año (semestrales, trimestrales, mensuales, etc.) y escalas espaciales más acotadas (datos agregados en función de distintas zonas de pesca). De este modo se implementaron modelos alternativos en la plataforma "Stock Synthesis" más acordes a la dinámica biológico pesquera de este recurso. Este trabajo fue desarrollado en colaboración con el Dr. Juan Valero, la Dra. Melissa Haltuch, la Dra. Maite Pons y el Dr. Ray Hilborn. Durante este período se discutió el uso alternativo y apropiado de los datos, ponderación de datos en modelo integrados, diagnóstico y selección de modelos, posibles implicancias para el manejo, entre otras cosas.
-
-En enero 2019 se presentaron los avances del trabajo realizado al CCT-PP quienes ratificaron el enfoque planteado por IFOP apoyando la continuidad de esta línea de trabajo y la realización de un segundo taller a fines del 2019 con la asesoría de un experto internacional que permita identificar los modelos candidatos a "caso base" complementario a los actualmente en uso (Acta 01/2019http://www.subpesca.cl/portal/616/articles-103170\_documento.pdf) considerando la participación de miembros del CCT-PP y Subpesca.
-
-\vspace{0.3cm}
-
-\underline{i) Taller internacional:}
-
-\underline{Modelos alternativos implementación "Stock Synthesis" en distintas escalas espaciales y temporales}
-
-Posteriormente, con la asesoría del Dr. Valero se realizó un taller de trabajo en la sede del Instituto de Fomento Pesquero (IFOP) en Valparaíso, Chile del 17 al 21 de Diciembre de 2018, donde se extendieron los avances logrados durante el trabajo con anchoveta centro-sur al resto de los stocks de pequeños pelágicos de Chile: anchoveta norte, anchoveta centro-norte, sardina común centro-sur y sardina austral. Durante el taller se implementaron y discutieron uso alternativo y apropiado de datos, ponderación de datos en modelos integrados, diagnósticos y selección de modelos para cada uno de los stocks, tratamiento de incertidumbres de modelos incluyendo enfoques Bayesianos (MCMC fueron corridos y analizados). El Dr. Valero generó un reporte con recomendaciones para continuar con el desarrollo y mejoras en la calibración de los modelos integrados en "Stock Synthesis" y que permita llegar a modelos candidatos a ser utilizados, o contrastados directamente con modelos base usados actualmente para la provisión de asesoría a la toma de decisiones.
-
-```{=tex}
-\begin{center}
-\includegraphics[width=1\textwidth]{Figuras/Figura48.png}
-\end{center}
-```
-\small
-
-\textbf{Figura 47}. Trabajo desarrollado durante el 2018 orientado al proceso de mejora continua y disminución de brechas del conocimiento de peces pelágicos. \vspace{0.5cm}
-
-\normalsize
-
-#### Actividades desarrolladas durante el año 2019:
-
-\quad
-
-Durante el 2019 se realizaron actividades relacionadas con el proceso de mejora continua y disminución de brechas del conocimiento y asesoría para la toma de decisión de pesquerías de peces pelágicos pequeños (**Figura 48**). Las principales actividades relacionadas con el proceso de mejora continua fueron la la revisión por pares y benchmark de evaluación de stock de anchoveta de la zona norte. Se presentó los resultados del trabajo "Spatial stock assessment of anchovy (\textit{Engraulis ringens}) off Central Southern Chile using the "areas-as-fleets" approach." en ICES Annual Science Conference 2019 y se realizó un Curso de Evaluación de Estrategias di Manejo dictado por el Dr. Cubillos (**Tabla 35**). Como parte de la asesoría para la toma de desición de estatus y CBA, el grupo de pesquerías pelágicas de IFOP realizó una serie de presentaciones en las sesiones del Comité Científico Técnico de Pesquerías Pelágicas (**Tabla 36**). Finalmente, a solicitud de Subpesca, se participó en talleres del proyecto FIPA 2018-49 "Diseño e implementación de evaluación de estrategias de manejo (EEM) en las pesquerías de anchoveta y sardina común" que desarrolló la escuela de Ciencias del mar de la Pontificia Universidad Católica de Valparaíso en conjunto con el Instituto de Investigación Pesquera (**Tabla 37**).
-
-```{=tex}
-\begin{center}
-\includegraphics[width=1\textwidth]{Figuras/Figura49.png}
-\end{center}
-```
-\small
-
-\textbf{Figura 48}. Trabajo desarrollado durante el 2019 orientado al proceso de mejora continua y disminución de brechas del conocimiento y asesoría para la toma de decisión de pesquerás de peces pelágicos pequeños. \vspace{0.5cm} \normalsize
-
-\pagebreak
-
-```{=tex}
-\small
-\begin{center} 
-\textbf{Tabla 35.}
-\end{center}
-\begin{center} 
-\vspace{-0.2cm} Eventos relacionados al proceso de mejora continua y disminución de brechas
-\end{center}
-\vspace{-0.2cm}
-```
-```{=tex}
-\begin{table}[h]
-  \centering
-  \resizebox{16cm}{!} {
-  \begin{tabular}{|l|l|}
-  \hline
-  Eventos durante año 2019          &  Contenidos \\ \hline
-  \textbf{Taller N° 1}              & Durante los días 11 al 13 de marzo del 2019 se realizó el taller de \\
-  Revisión por Pares                & revisión por pares del stock de anchoveta del sur de Perú y norte de Chile \\
-  Anchoveta Norte                   & por el Dr. James Ianelli, experto del centro de ciencia pesquera de Alaska \\
-  Marzo 2019                        & de la NOAA (National Oceanic and Atmospheric Administration). \\
-                                    & \\ \hline
-  \textbf{Taller N° 2}              & “Benchmark Stock Assessment” de los diferentes casos del modelo base a usar \\ 
-  Benchmark Anchoveta Norte         & en base a las recomendaciones realizadas por el Dr. Jim Ianelli. \\
-  Junio 2019                          & Para este taller se contará con la asesoría de la Dr. Carolina Minte-Vera. \\
-                                    & \\ \hline
-  \textbf{Presentación en ICES}     & “Spatial stock assessment of anchovy (\textit{Engraulis ringens}) off Central \\
-  Annual Science Conference 2019    & Southern Chile using the “areas-as-fleets” approach.” fue presentado en \\ 
-  Anchoveta VALPO a LAGOS           & modalidad de presentación oral en ICES Annual Science Conference 2019, \\
-  9 - 12 septiembre, en             & (theme session E: Integrating information on population structure and migration \\
-  Gothenburg, Suecia                & into fisheries stock assessment and management). \\ 
-                                    & \\ \hline
-  \textbf{Curso de Evaluación}      &  \\
-  \textbf{de Estrategias de Manejo} & Curso “Implementación de Evaluación de Estrategias de Manejo en ADMB”. \\
-  17 al 20 de diciembre 2019        & dictado por el Dr. Luis Cubillos de la Universidad de Concepción. \\
-  Sala OTIC, Viña del Mar           &   \\ \hline
-  \end{tabular}}
-    \end{table}
-```
-\pagebreak
-
-```{=tex}
-\small
-\begin{center} 
-\textbf{Tabla 36.}
-\end{center}
-\begin{center} 
-\vspace{-0.2cm} Presentaciones del grupo de pesquerías pelágicas de IFOP en las sesiones del Comité Científico Técnico de Pesquerías Pelágicas calendarizadas para el año 2019.
-\end{center}
-\vspace{-0.2cm}
-```
-```{=tex}
-\begin{table}[h]
-  \centering
-  \resizebox{16cm}{!} {
-  \begin{tabular}{|l|l|}
-  \hline
-  Sesiones 2019           & Presentaciones del grupo pelágicos del DER/IFOP \\ \hline
-                          & \\
-  \textbf{Sesión N°1}       & Presentación del Trabajo desarrollado durante año 2018 según  \\ 
-  10 al 11 de enero 2019  & programa de trabajo propuesto \\ 
-                          & \\ \hline
-                          & \\
-  \textbf{Sesión N°2}       & Presentación de resultados de primera revisión de estatus y CBA 2019  \\
-  4 y 5 de abril 2019     & de anchoveta y sardina común de las Regiones de Valparaíso a Los Lagos \\ 
-                          & \\ \hline
-                          & \\
-                          & -   Presentación de resultados de actualización de estatus y CBA 2019 \\
-  \textbf{Sesión N°3}     &   de anchoveta Regiones ATCMA a COQ y \\
-  2 y 3 de mayo 2019      & -   Resultados de la Revisión por Pares de la evaluación del stock \\
-                          &   de la anchoveta Zona Norte. \\ 
-                          & \\ \hline
-                          & \\
-                            & - Presentación de resultados de actualización de estatus y CBA 2019 \\
-                          &   de sardina austral Regiones LAGOS y AYSEN. \\
-    \textbf{Sesión N°4}   & -   Taller de datos y modelos de pesquerías pelágicas.\\
-    4 y 5 de julio 2019   & -   Presentación de la programación del trabajo asociado a la \\
-                          &   implementación de las recomendaciones de la Revisión Por Pares \\
-                          &   de Anchoveta Norte. \\ 
-                          & \\ \hline
-                          & \\
-   \textbf{Sesión N°5}      & Presentación de resultados de actualización de estatus y CBA 2019 \\
-  22 y 23 de agosto 2019  & de anchoveta y sardina común Regiones de Valparaíso a Los Lagos \\ 
-                          & \\ \hline
-                          & \\
-                          & Presentación de análisis alternativos que permitan explorar y \\
-   \textbf{Sesión extraordinaria} & evaluar el impacto de la proyección del reclutamiento y \\
-   27 de septiembre 2019  & nivel de riesgo en la determinación de CBA de sardina común (\textbf{ANEXO II, Volumen II}). \\
-                          & \\ \hline
-  \textbf{Sesión N°6}     & \\
-  16 y 18 de octubre 2019   & Presentación de resultados de estatus 2019 y CBA 2020 de pesquerías pelágicas. \\ 
-                          & \\ \hline
-  \end{tabular}}
-    \end{table}
-```
-\pagebreak
-
-```{=tex}
-\small
-\begin{center} 
-\textbf{Tabla 37.}
-\end{center}
-\begin{center} 
-\vspace{-0.2cm} Participación en talleres del proyecto FIPA 2018-49 “Diseño e implementación de evaluación de estrategias de manejo (EEM) en las pesquerías de anchoveta y sardina común” que desarrolló la escuela de Ciencias del mar de la Pontificia Universidad Católica de Valparaíso en conjunto con el Instituto de Investigación Pesquera.
-\end{center}
-\vspace{-0.2cm}
-```
-```{=tex}
-\begin{table}[h]
-  \centering
-  \resizebox{16cm}{!} {
-  \begin{tabular}{|l|l|}
-  \hline
-    Actividades                  & Objetivo \\ \hline
-                                 & \\
-    \textbf{Curso EEM}           & Curso: Introducción a la evaluación de procedimientos/estrategias \\
-    17-19, y 23 de julio, 2019   & de manejo de recursos marinos. El objetivo del curso fue proporcionar \\
-    Aula Media “Ximena Reyes”    & los conocimientos fundamentales en la evaluación de procedimientos / \\
-    Esc. Ciencias del Mar. PUCV. & estrategias de manejo y explotación de recursos marinos. \\
-                                 & \\ \hline
-                                 & \\
-    \textbf{Taller N°1}          & Identificación y priorización de las principales fuentes de \\
-    24 julio 2019                & incertidumbre involucradas en el procedimiento de manejo de las \\
-    Dinamarca 399, cerro Panteón & pesquerías de anchoveta y sardina común. \\
-    Valparaíso.                  & \\ \hline
-                                 &  \\
-    \textbf{Taller N°2}          & Se reúne a las partes involucradas con el objeto de identificar reglas \\
-    11 octubre 2019              & de decisión, objetivos operacionales y sus variables de desempeño \\
-    Aula Media “Ximena Reyes”    & relevantes que representen el interés de cada sector que compone las \\ 
-    Esc. Ciencias del Mar. PUCV. & pesquerías de anchoveta y sardina común. \\ 
-                                 & \\ \hline
-                                 &  \\
-                                 & Seminario-Taller “Evaluación de Estrategias de Manejo en Recursos \\
-    \textbf{Seminario-Taller}    & Pelágicos en Chile”.  Participación de expertos extranjeros Dra. Carryn \\
-    9 al 11 de marzo               & de Moor y Dr. Jim Ianelli. \\
-    Hotel Pullman San Martín,    &  •   Expertos extranjeros presentan experiencias de EEM en Sud Africa y USA.\\
-    Viña del Mar.                &  •   Grupo PUCV + INPESCA presentan resultados del proyecto FIPA 2018/49. \\
-                                 &  •   Investigadores del Grupo Pelágicos del DER/IFOP realiza dos presentaciones: \\
-                                 &    1. “Procedimientos de manejo de pesquerías de pelágicos pequeños en la zona \\
-                                 &    centro-sur: PBRs, Evaluación y proceso de actualización de la CBA”. \\
-                                 &    2. “Implementación de EEM en la anchoveta norte de Chile: Puesta en marcha \\ 
-                                 &    de un proceso de asesoría científica integral para el manejo pesquero.” \\ 
-                                 & \\ \hline
-  \end{tabular}}
-    \end{table}
-```
-\normalsize
-
-\pagebreak
-
-#### Actividades desarrolladas durante el año 2020:
-
-Durante el año 2020 se realizaron talleres de trabajo interno (Grupo de pesquerías pelágicas de IFOP), en los cuales se abordó el desarrollo de temáticas transversales para los pequeños pelágicos (**Figura 48**). El objetivo del grupo de trabajo fue transitar desde el actual enfoque de modelación usado en los stock de anchoveta centro-norte, sardina austral de la Región de Los Lagos (modelos estructurados a la talla), hacia un modelo estructurado a la edad en escala anual y en el caso de anchoveta centro-sur pasar de un modelo en año calendario a un modelo en año biológico. Los resultados de estos trabajos han sido presentados en las sesiones del CCT-PP durante el 2020 (**Tabla 38**). Como parte de la asesoría para la toma de desición de estatus y CBA, el grupo de pesquerías pelágicas de IFOP ha realizado una serie de presentaciones en las sesiones del Comité Científico Técnico de Pesquerías Pelágicas y aún quedan actividades programadas para las sesiones 5 y 6. \vspace{0.5cm}
-
-```{=tex}
-\begin{center}
-\includegraphics[width=1\textwidth]{Figuras/Imagen11.png}
-\end{center}
-```
-\small
-
-\textbf{Figura 48}. Trabajo desarrollado durante el 2020 orientado al proceso de mejora continua y disminución de brechas del conocimiento y asesoría para la toma de decisión de pesquerás de peces pelágicos pequeños. \vspace{0.5cm} \normalsize
-
-\pagebreak
-
-```{=tex}
-\small
-\begin{center} 
-\textbf{Tabla 38.}
-\end{center}
-\begin{center} 
-\vspace{-0.2cm} Presentaciones del grupo de pesquerías pelágicas de IFOP en las sesiones del Comité Científico Técnico de Pesquerías Pelágicas calendarizadas para el año 2020.
-\end{center}
-\vspace{-0.2cm}
-```
-```{=tex}
-\begin{table}[h]
-  \centering
-  \resizebox{16cm}{!} {
-  \begin{tabular}{|l|l|}
-  \hline
-  Sesiones 2020           & Presentaciones del grupo pelágicos del DER/IFOP \\ \hline
-                          & \\
-  \textbf{Sesión N°1}     & a)  Revisión de los avances y propuesta de programación de modelos  \\
-  5 y 6 de Marzo 2020     & alternativos para las principales pesquerías de pequeños pelágicos: \\
-                          &   1)    Anchoveta norte \\
-                          &   2)    Anchoveta centro-norte \\
-                          &   3)    Anchoveta centro-sur \\
-                          &   4)    Sardina austral. \\
-                          & b)  Revisión de la incorporación del descarte a la evaluación de stock \\
-                          & en los hitos del ciclo de manejo y su proyección en la CBA de anchoveta \\
-                          & y sardina común centro-sur. \\
-                          & c)  Protocolo para el establecimiento de resguardo (niveles de riesgo) \\
-                          & en la toma de decisiones de CBA. \\ \hline
-                          & \\
-  \textbf{Sesión N°2}     & Presentación de resultados de primera revisión de estatus y CBA 2020 de \\
-  3 de abril 2020         & anchoveta y sardina común de las Regiones de Valparaíso a Los Lagos \\ 
-                          & \\ \hline
-                          & \\
-                          & -   Presentación de resultados de actualización de estatus y CBA 2020 de \\
-  \textbf{Sesión N°3}     & anchoveta Regiones ATCMA a COQ. \\
-  14 y 15 mayo 2020       & -   Resultados del taller de datos y modelos de anchoveta Regiones de \\
-                          & Valparaíso a Los Lagos (\textbf{ANEXO II, Volumen I}). \\ \hline
-                          & \\
-                          & -   Actualización de estatus y CBA 2020 de sardina austral Regiones de \\
-                          & Los  Lagos y Aysen.\\
-  \textbf{Sesión N°4}     & -   Actualización de estatus y CBA 2020 de anchoveta zona norte. \\
-  2 y 3 de Julio 2020     & -   Revisión de datos y modelos \\
-                          &  a) Modelo alternativo de anchoveta Regiones Atacama y Coquimbo y \\
-                          &  b) Revisión de la proyección de la CBA de anchoveta zona norte. \\ \hline
-                          & \\
-                          & -   Presentación de resultados de actualización de estatus y CBA 2020 de \\
-                          &  anchoveta y sardina común Regiones de Valparaíso a Los Lagos \\
-  \textbf{Sesión N°5}     & -   Revisión de datos y modelos \\
-  20 y 21 de agosto 2020  &    a)   Modelo alternativo de sardina austral Región de Los Lagos \\
-                          &    b)   Revisión de los criterios utilizados para la toma de decisión 2021 \\
-                          &      de anchoveta centro-norte (resguardos respecto a la CBA). \\
-                          &   c) Revisión de Puntos Biológicos de Referencia de anchoveta centro-sur \\
-                          &      utilizando un modelo en año biológico. \\ \hline
-  \end{tabular}}
-    \end{table}
-```
-\normalsize
-
-\pagebreak
-
-### 4.4.4. Recomendaciones realizadas en Revisión por Pares Externa e independiente (RPEI)
-
-Como parte del proceso de mejora continua en el desarrollo de presente proyecto y sin perjuicio de otras recomendaciones, la **Tabla 39** se resume la forma de abordar las sugerencias y correcciones recomendadas en la revisión por pares de sardina común centro-sur para el mejoramiento del proceso de evaluación de stock (estudios y programas de investigación) que pueden conducir a una reducción en la incertidumbre del estado del stock de sardina común. \vspace{0.5cm}
-
-```{=tex}
-\small
-\begin{center} 
-\textbf{Tabla 39a.}
-\end{center}
-\begin{center} 
-\vspace{-0.2cm} Año de implementación y porcentaje de avance de las recomendaciones realizadas en el Taller de Revisión Por Pares Externa e Independiente
-\end{center}
-\vspace{-0.2cm}
-```
-```{=tex}
-\begin{table}[h]
-  \centering
-  \resizebox{16cm}{!} {
-  \begin{tabular}{|c|l|l|l|c|c|}
-  \hline
-  N  &  Ítem           &                      &   Observación                                   &   Año          &  \% Avance \\ 
-     &               &                      &                                                 &              & \\ \hline
-       &                 & Frecuencia temporal  & Implementar un modelo a escala más fina,        & 2020-21      & 95\% \\
-     &                 &                      & (frecuencia temporal semestral, trimestral)     &              & \\
-     &               &                      &                                                 &              & \\
-     &               & Selectividad         & Explorar funciones de selectividad                &  2020-21     & 5\% \\
-  1  &  Modelo de    &                      & alternativas a la logística                     &              & \\ 
-     & evaluación    &                      &                                                 &              & \\
-     &               &                        & Analizar el potencial reproductivo              &                & 5\% \\
-     &               & Potencial            & considerando la importancia de los peces        &  2020-21     & \\
-     &               & reproductivo         & más viejos/grandes para el stock desovante      &              & \\
-     &               &                      & efectivo                                        &              & \\ \hline
-     &               &                      &                                                 &              & \\
-     &               &                      & Estimar M en el modelo, discutir su efecto      &              & \\
-     &               & Mortalidad natural   & en los resultados y en la selección del         &  2014        & 100\%\\
- 2   & Parámetros    &                      & caso base y  una posible tasa diferencial       &              & \\
-     & historia de   &                      & de M a la edad                                  &              & \\
-     & vida          &                      &                                                 &              & \\
-     &               &                      & Documentar y analizar la edad de primera        &              & \\
-     &               & Madurez              & madurez apropiada en la ojiva de madurez        &  2020/21     & \\
-     &               &                      & (no necesariamente constante a través del       &              & \\
-     &               &                      & tiempo).                                        &              & \\ \hline
-     &               &                      &                                                 &              & \\
-     &               &                      & Estudiar la clasificación de los peces          &              & \\
-     &               &                      & con edades asignadas al grupo de edad           &  2020/21     & 50\%\\
-     &               & Determinación de     & cero en escala biológica y la agregación        &              & \\
-     &               & Edad y clave talla   & de los datos de capturas en una única matriz    &              & \\
-     &               & edad                 & anual.                                          &              & \\
-     &               &                      &                                                 &              & \\
-     &               &                      & Estudiar el efecto en las estimaciones          &              & \\
-     &               &                      & anuales del Peso Medio a la Edad y en la        &  2020/21     & 5\%\\
-     & Asignación de &                      & estimación de biomasa desovante.                &              & \\
-   3 & Edad y clave  &                      &                                                 &              & \\
-     & talla-edad    &                      & Estimar el alcance real de los errores en       &              & \\
-     &               &                      & la determinación de edad y su efecto en los     &  2020/21     & 50\% \\
-     &               &                      & resultados de la evaluación.                    &              & \\
-     &               &                      &                                                 &              & \\ 
-     &               &                      & Desarrollar experimentos del diseño de          &              & \\
-     &               &                      & muestreo del proceso de descarga en el          &  2015        & 100\%\\
-     &               & Distribución de talla& desembarque para la obtención de frecuencia     &              & \\
-     &               & de la Captura        & de tallas.                                      &              & \\
-     &               &                      &                                                 &              & \\
-     &               &                      & Analizar y re-estimar la frecuencia de          &              & \\
-     &               &                      & tallas para los años 1998-2001 donde las        &              & \\
-     &               &                      & capturas totales fueron corregidas.  Evaluar    &  2020/21     &  50\%\\
-     &               &                      & el posible efecto y proporcionar una            &              & \\
-     &               &                      & estimación más realista de la composición de    &              & \\
-     &               &                      &  talla/edad de las capturas en esos años.       &              & \\\hline
-  \end{tabular}}
-    \end{table}
-```
-\pagebreak
-
-```{=tex}
-\small
-\begin{center} 
-\textbf{Tabla 39b.}
-\end{center}
-\begin{center} 
-\vspace{-0.2cm} Año de implementación y porcentaje de avance de las recomendaciones realizadas en el Taller de Revisión Por Pares Externa e Independiente
-\end{center}
-\vspace{-0.2cm}
-```
-```{=tex}
-\begin{table}[h]
-  \centering
-  \resizebox{16cm}{!} {
-  \begin{tabular}{|c|l|l|l|c|c|}
-  \hline
-  N  &  Ítem           &                      &   Observación                                    &  Año        &    \% Avance \\ 
-     &               &                      &                                                  &             & \\ \hline
-     &               &                      &                                                  & 2020/21     & 50\% \\
-     &               &                      & Comparar las claves tallas-edad de las           &             & \\
-     &               & Claves talla-edad de & capturas y los cruceros acústicos.               &             & \\
-     &               & cruceros acústicos y &                                                  &             & \\        
-   3 &               & capturas comerciales & Las claves talla-edad podrían utilizarse         & 2020/21     & 50\% \\
-     &               &                      & para entregar estimaciones de la distribución    &             & \\
-     &               &                      & de edad en los cruceros PELACES en aquellos      &             & \\
-     &               &                      & años en los que no existen estimaciones de edad  &             & \\ \hline
-     &               &                      &                                                  &             & \\
-     &               &                      & Analizar el efecto de asumir distintos valores   &             & \\
-     &               &                      & para los CVs de los cruceros.                    &             & \\
-     &               &                      &                                                  & 2020/21     & 75\% \\
-     &               &                      & Analizar el efecto distintos tamaños de muestra  &             & \\ 
-     &               & Crucero acústico     & (muy altos y muy bajos) de los datos de captura  &             & \\
-     &               &                      & a la edad de la flota sobre el ajuste de los     &             & \\
-     &               &                      & cruceros RECLAS y PELACES.                       &             & \\ 
-     &               &                      &                                                  &             & \\
-     &               & Crucero de huevos    & Eliminar el índice de crucero de huevos o        & 2014        & 100\%\\ 
-     & Información   &                      & aumentar considerablemente la varianza asumida.  &             & \\ 
-  4  & utilizada en  &                      &                                                  &             & \\
-     & la evaluación &                      & Analizar la Información sobre captura no declarada&            & \\
-     & y su peso     &                      &                                                   &            & \\
-     & relativo      &                      & Analizar datos de desembarques verificados y no   &            & \\ 
-     &               & Captura total        & verificados recopilados por SERNAPESCA en años    &            & \\ 
-     &               &                      & más recientes y  Estimar sub-reporte de años más  &            & \\ 
-     &               &                      & recientes                                         & 2020/21    & 50\%\\ 
-     &               &                      &                                                   &            & \\
-     &               &                      & Actualizar estimaciones sobre el tamaño real de   &            & \\ 
-     &               &                      & la muestra al incorporar nuevas composiciones de  &            & \\ 
-     &               &                      & talla/edad. (Eval stock)                          &            & \\
-     &               &                      &                                                   &            & \\
-     &               & Proporciones         & Analizar y evaluar las ponderaciones apropiadas   & 2020/21    & 50\%\\ 
-     &               & talla/edad           & para los datos de frecuencia de edad y talla.     &            & \\
-     &               &                      &                                                   &            & \\
-     &               &                      & Calcular las CV de las proporciones de frecuencia &            & \\ 
-     &               &                      & de edad y Analizar si se debería designar un peso &            & \\
-     &               &                      & equivalente a los datos de frecuencia de cada año.&            & \\ \hline
-     &               &                      &                                                   &            & \\
-     &               &                      & Analizar el procedimiento de extrapolación,       &            & \\
-     &               &                      & comparando los enfoques de estimación alternativos& 2020/21    & \\
-  5  &               &Corrección de orilla  & para las áreas costeras                           &            & \\
-     &               &                      &                                                   &            & \\
-     &               &                      & Analizar los ajustes del diseño/implementación    & 2020/21    & \\ 
-     &               &                      & para entregar una mejor estimación de estas áreas &            & \\
-     &               &                      & costeras.                                         &            & \\
-     &               &                      &                                                   &            & \\ \hline
-  \end{tabular}}
-    \end{table}
-```
-\pagebreak
-
-```{=tex}
-\small
-\begin{center} 
-\textbf{Tabla 39c.}
-\end{center}
-\begin{center} 
-\vspace{-0.2cm} Año de implementación y porcentaje de avance de las recomendaciones realizadas en el Taller de Revisión Por Pares Externa e Independiente
-\end{center}
-\vspace{-0.2cm}
-```
-```{=tex}
-\begin{table}[h]
-  \centering
-  \resizebox{16cm}{!} {
-  \begin{tabular}{|c|l|l|l|c|c|}
-  \hline
-  N  &  Ítem           &                      &   Observación                                         & Año     &   \% Avance \\ 
-     &               &                      &                                                       &         & \\ \hline
-     &               &                      & Desarrollar estimaciones derivadas de un rango de     & 2020/21 & \\ 
-  5  &               &                      & datos alternativos para la frecuencia de talla en     &         & \\
-     &               &                      & base a los distintos supuestos para la selectividad   &         & \\
-     &               &                      & de equipos de muestreo y su cobertura espacial.       &         & \\ 
-     & Cruceros      &  Distribución        &                                                       &         & \\
-     & Acústicos     &  de tallas           & Mejorar la estimación de frecuencia de talla en       &         & \\ 
-     &               &                      & futuros cruceros e incluir un análisis de estrategias & 2020/21 & \\
-     &               &                      & de muestreo alternativas y la cantidad apropiada de   &         & \\
-     &               &                      & esfuerzo de muestreo y su cobertura espacial.         &         & \\ \hline
-     &               &                      &                                                       &         & \\
-     &               &                      & Analizar la incertidumbre del modelo e incorporar en  &         & \\
-     &               &                      & los resultados generales de la evaluación y en la     & 2020/21 & 75\% \\ 
-     &               & Incertidumbre        & recomendación de manejo para proporcionar una medida  &         & \\
-     &               &                      & razonable de la incertidumbre y del riesgo, para ello &         & \\
-     &               &                      & se debe tomar en cuenta un rango más amplio de        &         & \\
-     & Representación&                      & escenarios de sensibilidad.                           &         & \\
-     & de la         &                      &                                                       &         & \\
-     & incertidumbre &                      & Construir escenarios para explorar el efecto de sobre & 2020/21 & 75\% \\ 
-     & en las        & Captura totales      & o sub-reportes  (fuente de incertidumbre en la        &         & \\
-  6  & estimaciones  &                      & evaluación y recomendación de manejo)                 &         & \\
-     & del modelo de &                      &                                                       &         & \\
-     & evaluación de &                      & Analizar el efecto de una combinación de factores     & 2020/21 & 75\% \\ 
-     & stock y       &                      & (escenarios) para analizar la incertidumbre total.    &         & \\
-     & proyección    &                      &                                                       &         & \\
-     &               & Cálculo de Riesgo    & Analizar la estimación de riesgo (la probabilidad de  &         & \\ 
-     &               & Asociado con los     & que una captura dará lugar a un F mayor que el objetivo)&2020/21 & 75\% \\ 
-     &               & Niveles de Captura - & Analizar la estimación de riesgo de los escenarios de &         & \\
-     &               & CBA                  & reclutamiento.                                        &         & \\
-     &               &                      &                                                       &         & \\ \hline
-     &               &                      &                                                       &         & \\
-     &               &                      & Desarrollar un sistema de control más riguroso que    & 2020/21 & 95\% \\ 
-     &               &                      & garantice que todas las versiones del programa de     &         & \\
-     & Implementación&                      & evaluación y los archivos de control sean archivados. &         & \\
-  7  & del modelo de & Codificación y       &                                                       &         & \\
-     & evaluación    & documentación        & Revisión cuidadosa del código, los archivos de entrada&2020/21 & 95\% \\
-     &               &                      & y los resultados para garantizar la ejecución apropiada&        & \\
-     &               &                      & de las modificaciones y las ejecuciones.              &         & \\
-     &               &                      &                                                       &         & \\ 
-     &               & Estimaciones de      & Reducción del CVs capturas de 10\% a 1\%              & 2014    & 100\% \\
-     &               & capturas totales     &                                                       &         & \\
-     &               &                      &                                                       &         & \\ \hline
- \end{tabular}}
-    \end{table}
-```
-\pagebreak
-
-```{=tex}
-\small
-\begin{center} 
-\textbf{Tabla 39d.}
-\end{center}
-\begin{center} 
-\vspace{-0.2cm} Año de implementación y porcentaje de avance de las recomendaciones realizadas en el Taller de Revisión Por Pares Externa e Independiente
-\end{center}
-\vspace{-0.2cm}
-```
-```{=tex}
-\begin{table}[h]
-  \centering
-  \resizebox{16cm}{!} {
-  \begin{tabular}{|c|l|l|l|c|c|}
-  \hline
-  N  &  Ítem           &                      &   Observación                                         & Año    &    \% Avance \\ 
-     &               &                      &                                                       &        & \\ \hline    
-     &               &                      & Utilizar una matriz de captura al peso más estrechamente& 2020/21 & 5\% \\
-     &               &                      & ligado al período de tiempo real en que el modelo está &       & \\
-     &               &                      & estimando las biomasas.                                &       & \\ 
-     &               &                      &                                                        &       & \\
-     &               & Pesos medios a la    & Utilizar datos reales recopilados de los datos de edad &       & \\
-     &               & edad                 & y peso a la talla para generar estimaciones directamente& 2020/21 & 5\% \\
-     &               &                      & observables del peso medio a la edad en ese momento.   &       & \\
-     &               &                      &                                                        &       & \\
-     &               &                      & Analizar la consecuencia de la variabilidad en las     & 2020/21 & 50\% \\
-     &               &                      & estimaciones de peso a la edad en la recomendación de  &       & \\
-     &               &                      & la evaluación.                                         &       & \\ \hline
-     &               &                      &                                                        &       & \\
-     &               &                      & Prior restrictiva en q para el crucero RECLAS y una    & 2014  & 100\% \\
-     &               &                      & prior no uniforme para los cruceros PELACES            &       & \\
-     & Implementación&                      &                                                        &       & \\
-   7 & del modelo de &                      & Eliminar o aumentar considerablemente la varianza      & 2014  & 100\% \\
-     & evaluación    &                      & asumida del crucero de huevos                          &       & \\
-     &               &                      &                                                        &       & \\
-     &               & Selección del caso   & Estimar M en el modelo de evaluación o utilizar un     &       & \\
-     &               & base                 & rango de valores fijos de M, ampliando en rango de     & 2020/21 & 50\% \\
-     &               &                      & estimaciones indirectas y el valor estimado a partir   &       & \\
-     &               &                      & del modelo.                                            &       & \\
-     &               &                      &                                                        &       & \\
-     &               &                      & Limitar sobre F en 1991 y 1992 o iniciar el modelo en  &  2014  & 100\% \\
-     &               &                      & una fecha anterior para haber tenido en cuenta las     &       & \\
-     &               &                      & capturas iniciales y considerables que se estaban      &       & \\
-     &               &                      & realizando.                                            &       & \\
-     &               &                      &                                                        &       & \\
-     &               &                      & Estimaciones de captura total, estimar sub-reporte de  &2020/21 & 50\% \\
-     &               &                      & las capturas más recientes.                            &       & \\ \hline
- \end{tabular}}
-    \end{table}
-```
-\normalsize
-
-\pagebreak
-
-### 4.4.5. Recomendaciones realizadas en Informe de evaluación técnica de proyectos del programa de investigación básica o permanente para la regulación pesquera y de acuicultura.
-
-Recomendaciones realizadas en Informe de evaluación técnica de proyectos del programa de investigación básica o permanente para la regulación pesquera y de acuicultura. A continuación, se describe las principales observaciones realizadas para el primer y segundo informe (Zúñiga, 2019 y Zúniga *et al*. 2020), las cuales serán acogidas como parte del programa de mejoramiento continuo y por lo tanto, serán abordadas durante el período 2020-21. \vspace{0.5cm}
-
-```{=tex}
-\small
-\begin{center} 
-\textbf{Tabla 40.}
-\end{center}
-\begin{center} 
-\vspace{-0.2cm} Principales observaciones realizadas para el primer y segundo informe 2019 (Zúñiga, 2019), las cuales serán acogidas como parte del programa de mejoramiento continuo y por lo tanto, serán abordadas durante el período 2020-21. 
-\end{center}
-\vspace{-0.2cm}
-```
-```{=tex}
-\begin{table}[h]
-  \centering
-  \resizebox{15cm}{!} {
-  \begin{tabular}{|l|l|}
-  \hline
-  Ítem                    & Observación                                                                \\ 
-                          &                                                                            \\ \hline    
-  Corrección de capturas  & Análisis de sensibilidad respecto de los resultados                        \\
-                          & del proyecto de corrección de capturas que da cuenta de                    \\
-                          & sub-reporte, sobre-reporte y descarte                                      \\ \hline
-                          &                                                                            \\
-   Pesos medios en los    & Realizar análisis que respalde que el aumento de los pesos medios          \\
-  últimos cinco años      & no se debe a problemas de muestreos, cambio de zonas de pesca, etc.        \\
-                          & o en sus defectos sea efectivamente que los individuos a las mismas        \\
-                          & tallas/edad han incrementado su peso, y las implicancias para la           \\
-                          & población de ello. Evaluar el impacto directo en las estimaciones          \\
-                          & de biomasa, PBR y CBA                                                      \\ \hline
-                          &                                                                            \\
-   Mortalidad natural     & Las estimaciones de mortalidad natural (M) de anchoveta y sardina común    \\
-                          & necesitan ser revisadas y tienen un alto impacto en la evaluación de       \\
-                          & stock, puntos biológicos de referencia y CBA. Se desprende de esta          \\
-                          & revisión (Objetivo 4), que la temática no solo aflora en esta revisión,    \\
-                          & sino que ha sido señalado anteriormente por otros revisores. Ambos         \\
-                          & stocks han sufridos fuertes variaciones poblaciones durante la última      \\
-                          & década (2010 - 2019) lo cual amerita al menos el estudiar la variabilidad  \\
-                          & de M entre edades para ambas especies.                                      \\ \hline
-                          &                                                                            \\
-                          & El desarrollo de proyectos FIPA ha entregado nuevos antecedentes respecto  \\
-                          & del crecimiento de ambas especies en la zona centro sur, que debieran      \\
-   Parámetros de          & permitir una revisión de la misma. Por lo anterior, se solicita la         \\
-   Crecimiento  y M       & revisión de M de ambos recursos considerando la variación entre juveniles  \\
-                          & y adultos al menos, utilizando método de M adecuados a los recursos, e     \\
-                          & informar estimaciones de M con su incertidumbre.                           \\ \hline
-                          &                                                                            \\
-   Estimación de CBA      & No existe diferencia significativa entre las CTP estimadas de anchoveta,   \\
-                          & se argumenta que se debe a la baja variación existe en grupo de edad 0.    \\
-                          & Solicita un análisis que permita respaldar este argumento.                 \\ \hline
-                          &                                                                            \\
-                          & Se señala que los nuevos escenarios de reclutamientos propuestos al CCT en  \\
-                          & ambas especies se basan en un análisis de quiebre. Al respecto, esos       \\
-  Escenarios de           & análisis no se encontraron disponibles en el informe, ni en términos       \\
-  Reclutamiento           & metodológicos ni en los resultados (Solo Figuras). Se solicita incorporar  \\
-  proyectado              & el análisis de quiebres tanto a nivel de la metodología como de los        \\
-                          & resultados. Si bien la contribución del análisis de quiebre es más que     \\
-                          & obvia, no los son sus resultados y metodología.                            \\ \hline
-    \end{tabular}}
-    \end{table}
-```
-\normalsize
 
 \pagebreak
 
