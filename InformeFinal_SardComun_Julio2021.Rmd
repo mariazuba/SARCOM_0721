@@ -364,34 +364,57 @@ En este sentido, Zúñiga & Quiroz (2017) expusieron algunas opciones para incor
 
 [^2]: <http://www.subpesca.cl/portal/616/articles-98715_documento.pdf>
 
-```{=tex}
-\begin{table}[h!]
-\caption{Estimaciones de captura total, retenida y descartada para sardina común en la zona centro-sur, para la pesquería industrial y artesanal año 2017, 2018 y 2019 (toneladas).  Datos de observador científico. A partir de la estimación de la proporción de especies en la captura. Fuente: Vega \textit{et al}. (2018, 2019 y 2020).}
- \label{Tab3}
- \small
-    \centering
-    \resizebox{15cm}{!} {
-    \begin{tabular}{|c|l|l|c|c|c|c|}
-    \hline
-Año  &Flota       &Zona       &Captura Total &Captura Retenida &Captura Descartada &\% Descarte     \\ \hline
-2017 &industrial  &centro-sur &14.068        &16.889           &178                &1\%             \\
-2017 &artesanal   &Valparaíso &2.363         &2.334            &29                 &1\%             \\
-2017 &artesanal   &Biobío     &172.048       &168.474          &3.574              &2\%             \\
-2017 &artesanal   &Los Ríos   &41.119        &40.078           &1.041              &3\%             \\ \hline
-2017 &Flota Total &Zona Total &\textbf{229.598} &\textbf{227.775} &\textbf{4.823}  &\textbf{2\%}    \\ \hline
-2018 &industrial  &centro-sur &15.566        &12.689           &2.880              &19\%            \\
-2018 &artesanal   &Valparaíso &5.962         &5.962            &0                  &0\%             \\
-2018 &artesanal   &Biobío     &254.575       &235.546          &19.030             &7,5\%           \\
-2018 &artesanal   &Los Lagos  &30.653        &29.792           &861                &2,8\%           \\ \hline
-2018 &Flota Total &Zona Total &\textbf{306.756} &\textbf{283.986} &\textbf{22.771} &\textbf{7\%}    \\ \hline
-2019 &industrial  &centro-sur &              &                 &                   &                \\
-2019 &artesanal   &Valparaíso &              &                 &                   &                \\
-2019 &artesanal   &Biobío     &120.381       &116.388          &3.993              &0,33\%          \\
-2019 &artesanal   &Los Lagos  &50.188        &43.803           &6.385              &12,7\%          \\ \hline
-2019 &Flota Total &Zona Total &\textbf{170.569} &\textbf{160.191}  &\textbf{10.378}&\textbf{6\%}    \\ \hline
-  \end{tabular}}
-        \end{table}
-```
+## Descarte de la Pesquería de anchoveta y sardina común de la zona centro-sur.
+
+El programa del estudio del descarte para la pesquería de cerco de anchoveta y sardina común comenzó el año 2014, no obstante, para este estudio se cuenta con información semestral desde el año 2017 al 2019 sólo para la flota artesanal de la Región del Biobío y Los Ríos. La Región de Valparaíso sólo cuenta con información del primer semestre 2017 y La flota industrial no está operando sobre anchoveta y sardina, por lo tanto, no hay registros de descarte para esta flota (**Tabla 8 y 11, Figura 3 y 4**). Desde que terminó el programa de estudio del descarte (año 2017) se  generó un conflicto en el sector artesanal negándose a seguir colaborando con el programa de monitoreo del descarte al prohibir  del descarte y de la imputación conjunta entre sardina común y anchoveta de 1 es a 1. Desde el 2017, los pescadores no entregan las bitácoras de autoreporte y muchos no permiten que observadores científicos suban a sus embarcaciones.  Esto generó una disminución significativa en la cobertura de muestreo de la flota artesanal, la cual ya es compleja de monitorear por su gran magnitud (más de tres mil viajes realizados durante el primer semestre sólo en la Región del Biobío, Figura 3e y 4e). 
+
+Adicionalmente, por temas de seguridad los observadores científicos no suben a embarcaciones menores a 15 metros de eslora. Estas embarcaciones pequeñas en general tienen una alta capacidad de acarreo, son poco fiscalizadas y monitoreadas, lo cual podría estar generando un sesgo en las estimaciones de captura total y descartada.  Las bitácoras de autoreporte podrían ayudar a aumentar el porcentaje de cobertura de muestreo y si mejorara la colaboración del sector pesquero con el programa de monitoreo.
+
+Las principales causas que incentivarían el descarte en la pesquería pelágica centro-sur tendrían relación con la aplicación de medidas administrativas. Al respecto, se identificaron las siguientes:
+
+  1. Exceder la capacidad de bodega: cuando esto sucede no se puede traspasar legalmente ni descartar (doble restricción). Una eventual solución para evitar dicho descarte podría ser traspasar el exceso de captura a otras embarcaciones.  Subpesca señala que actualmente se está trabajando en una normativa que permita el traspaso de los excedentes del lance  a otras embarcaciones. Esta normativa está pronto a salir y permitiría  la reducción del descarte.
+  
+  2. Captura de especies no autorizadas (sin permiso de pesca): para especies como lenguado de ojo chico, pejerrey de mar, merluza común y sierra. Subpesca señala que últimamente como parte de los planes de reducción del descarte en pesquerías de cerco, se han emitido resoluciones que abordan el permiso de desembarque de algunas especies que estaban prohibidas con una cuota o porcentaje de desembarque por viaje o mensual. Esta normativa también incentivaría la reducción del descarte.
+  
+  3. Cierre de plantas: La instrucción de la planta cuando no recibirán el pescado es bien concreto, los pescadores tienen que botar la captura. Hay que buscar la forma de abordar que el cierre o saturación de plantas no genere descarte.
+  
+  4. Exceder la cuota establecida: 
+  a) Zonas sin RAE generan carrera olímpica, lo que provoca exceder la cuota establecida y por lo tanto, causa descarte.
+  b) En pesquerías mixta, el descarte podría ser generado cuando uno de los recursos tiene una cuota baja (ejemplo, anchoveta). Sin embargo, en la zona centro-sur generaría la existencia de algún nivel de sobre-reporte de sardina u otra especie de fauna acompañante que es difícil de cuantificar.
+
+Respecto a la estimación de capturas totales y descartada de anchoveta y sardina común, se observa un comportamiento estacional en la flota artesanal de la Región del Biobío y Los Ríos. Con mayores niveles de capturas registrados durante el primer semestre de cada año. Los mayores niveles de captura total y descartadas son realizados por la flota artesanal de la Región del Biobío, durante el primer semestre (**Tabla 8 y 11, Figuras 3b y 4b**). En la Región de Los Ríos el año 2019 ocurrieron dos eventos atípicos que generaron un aumento en la observación de captura descartada. El primero ocurrió cuando la planta de proceso de Corral dejó de recibir las capturas que llegaron a puerto por un par de días debido a problemas mecánicos. Las embarcaciones con pesca que no pudieron desembarcar debieron descartar la captura por la perdida de calidad del producto. El segundo evento especial fue una alta disponibilidad de recurso cerca del puerto de desembarque, lo que permitió incrementar el número de viajes muestreados, lo que sumado a lo anterior redundó en la observación de varios eventos de descarte (**Tabla 8 y 11, Figuras 3 y 4**).
+
+Respecto al número de viajes totales, estos disminuyen durante el segundo semestre. El número de viajes totales realizados por la flota artesanal de la Región del Biobío es de 3799 durante el primer semestre y 1162 en el segundo semestre en promedio. La flota artesanal de la Región de Los Ríos realiza 583 viajes totales durante el primer semestre y 269 viajes totales durante el segundo semestre. No obstante el número de viajes muestreados por observadores científicos de la flota artesanal de la Región del Bíobio y Los Ríos está entre 15 a 30 por zona (**Tabla 8 y 11, Figura 3 y 4**). Por lo tanto, el porcentaje de cobertura de los viajes muestreados es bajo, es decir, menos del 5% en la región del Biobío donde se registran los mayores niveles de capturas (**Tabla 8 y 11, Figura 3 y 4**).
+
+Los modelos de evaluación de stock de anchoveta y sardina común de la zona centro-sur utilizan información en año biológico (Zúñiga *et. al*., 2021 a y b), por lo tanto, se requieren datos de descarte semestrales para la flota total para ser utilizados en la corrección del desembarque en año biológico (**Tabla 9 y 12**). Para los años en que no se cuente con información se utilizará un supuesto que fue acordado en  la primera sesión del CCT-PP (Acta Nº1 2021, https://www.subpesca.cl/portal/616/articles-110238_documento.pdf) en 2% para anchoveta y 4% para sardina común. Estos porcentajes serán utilizados para corregir el desembarque cuando no se tenga información del descarte y para asumir un porcentaje de descarte proyectado para incorporar en la proyección de la CBA (**Tabla 10 y 13**). Los supuestos utilizados para anchoveta y sardina común se describen a continuación: 
+
+
+### Supuestos para asesoría de septiembre 2021 (1er Hito CBA 2022):
+- El supuesto 1 de descarte propuesto para la corrección del desembarque 2020/21 para flota total y zona total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (**Tabla 10**).
+-El supuesto 2 de descarte propuesto para la proyección de la CBA  2021/2022   y 2022/2023 para la flota total y zona total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (**Tabla 10**).
+
+b) Sardina común Centro-sur
+
+El criterio experto utilizado en el caso de sardina común para definir el 4% se basa en el supuesto que el descarte disminuirá en los próximos años debido a cambios en algunas medidas de administración que se señalan a continuación:
+1.	Autorización para traspasar el exceso de captura a otras embarcaciones
+2.	Autorización para desembarcar especies no autorizadas
+3.	En las regiones que no tienen Reglamento de Observadores Científicos (ROC)  (generar un mecanismo que permita evitar  la carrera olimpica, que genera descarte producto de  pasarse en la cuota).
+4.	Disminución en la incertidumbre de estimación del descarte
+i.	Mayor experiencia de observadores científicos de descarte
+ii.	Mayor colaboración de usuarios con el proyecto de descarte
+iii.	Implementación del Reglamento de Observadores Científicos
+
+### Supuestos para asesoría de marzo y julio  2021 (2do y 3er Hito CBA 2021):
+- El supuesto 1 de descarte propuesto para la corrección del desembarque 2020/21 para flota total y zona total se considera criterio experto del 4% (**Tabla 13**).
+-El supuesto 2 de descarte propuesto para la proyección de la CBA  2021/2022  para la flota total y zona total se considera criterio experto del 4% (**Tabla 13**).
+
+### Supuestos para asesoría de septiembre 2021 (1er Hito CBA 2022):
+- El supuesto 1 de descarte propuesto para la corrección del desembarque 2020/21 para flota total y zona total se considera criterio experto del 4% (**Tabla 13**).
+-El supuesto 2 de descarte propuesto para la proyección de la CBA  2021/2022   y 2022/2023 para la flota total y zona total se considera criterio experto del 4% (**Tabla 13**).
+
+
+
+
 \normalsize
 
 #### Seguimiento de la pesquería:
@@ -1841,7 +1864,7 @@ Por su parte, las selectividades de la flota y cruceros de otoño indican que el
 | 2020/21 | NA          | 430.060    |            | NA          | 1.782.600  |            |
 +---------+-------------+------------+------------+-------------+------------+------------+
 
-: \label{Tab20a} Comparación de las variables poblacionales estimadas en la evaluación de septiembre 2020 y marzo 2021 de sardina común de las Regiones de Valparaíso a Los Lagos.
+: \label{Tab20a} Comparación de las variables poblacionales estimadas en la evaluación de septiembre 2020, marzo y julio 2021 de sardina común de las Regiones de Valparaíso a Los Lagos.
 
 \pagebreak
 
@@ -1911,7 +1934,7 @@ Por su parte, las selectividades de la flota y cruceros de otoño indican que el
 | 2020/21 | NA         | 257.750   |           | NA         | 0,183     |           |
 +---------+------------+-----------+-----------+------------+-----------+-----------+
 
-: \label{Tab20b} Comparación de las variables poblacionales estimadas en la evaluación de septiembre 2020 y marzo 2021 de sardina común de las Regiones de Valparaíso a Los Lagos.
+: \label{Tab20b} Comparación de las variables poblacionales estimadas en la evaluación de septiembre 2020, marzo y julio 2021 de sardina común de las Regiones de Valparaíso a Los Lagos.
 
 \normalsize
 
@@ -1929,7 +1952,7 @@ En la \textbf{Tabla \ref{Tab21}} se muestran los valores calculados en la asesor
 
 ```{=tex}
 \begin{table}[h]
-\caption{Puntos Biológicos de Referencia de biomasa (miles t) estimada en la asesoría de septiembre 2020 y marzo 2021 para sardina común, calculados siguiendo los pasos descritos en la metodología de este informe.}
+\caption{Puntos Biológicos de Referencia de biomasa (miles t) estimada en la asesoría de septiembre 2020, marzo y julio 2021 para sardina común, calculados siguiendo los pasos descritos en la metodología de este informe.}
  \label{Tab21}
  \small
     \centering
@@ -2062,7 +2085,7 @@ La condición estimada con información preliminar para el año 2020/2021 indica
 | 2020/21 | NA                 | 0,613             |                   | NA                   | 0,537               |                     |
 +---------+--------------------+-------------------+-------------------+----------------------+---------------------+---------------------+
 
-: \label{Tab22} Comparación de los índices de reducción de F respecto de $F_{RMS}$ ($F/F_{RMS}$), BD respecto de $BD_{RMS}$ ($BD/BD_{RMS}$) estimados en la asesoría de septiembre 2020 y marzo 2021 de sardina común de las Regiones de Valparaíso a Los Lagos.
+: \label{Tab22} Comparación de los índices de reducción de F respecto de $F_{RMS}$ ($F/F_{RMS}$), BD respecto de $BD_{RMS}$ ($BD/BD_{RMS}$) estimados en la asesoría de septiembre 2020, marzo y julio 2021 de sardina común de las Regiones de Valparaíso a Los Lagos.
 
 \normalsize
 
@@ -2134,7 +2157,7 @@ La condición estimada con información preliminar para el año 2020/2021 indica
 | 2020/21 | NA            | 0,123        |              | NA               | 0,08            |                 |
 +---------+---------------+--------------+--------------+------------------+-----------------+-----------------+
 
-: \label{Tab23} Comparación de las tasas de explotación anual referidos a la biomasa ($Y/BT$) y a la abundancia estimada ($C\#/N\#$), estimadas en la evaluación de septiembre 2020 y marzo 2021 de sardina común de las Regiones de Valparaíso a Los Lagos.
+: \label{Tab23} Comparación de las tasas de explotación anual referidos a la biomasa ($Y/BT$) y a la abundancia estimada ($C\#/N\#$), estimadas en la evaluación de septiembre 2020, marzo y julio 2021 de sardina común de las Regiones de Valparaíso a Los Lagos.
 
 \normalsize
 
