@@ -1,0 +1,102 @@
+---
+title: "ANEXO III"
+subtitle: "Procedimiento transitorio de incorporación del descarte"
+lang: es
+toc: TRUE
+output: 
+    pdf_document:
+header-includes:
+- \usepackage{draftwatermark}
+- \SetWatermarkText{}
+- \usepackage{fancyhdr}
+- \usepackage{graphicx}
+- \usepackage{parskip}
+- \usepackage{caption}
+- \captionsetup[table]{name=\textbf{Tabla},labelsep=period}
+- \captionsetup[figure]{name=\textbf{Figura},labelsep=period}
+- \captionsetup{justification=justified,format=plain,font=small,labelfont=bf,margin=40pt}
+- \pagestyle{fancy}
+- \usepackage{geometry}
+- \geometry{top=1.5cm, bottom=1cm, left=2.5cm, right=2.5cm}
+- \usepackage{helvet}
+- \renewcommand{\familydefault}{\sfdefault}
+- \renewcommand{\baselinestretch}{1.2}
+- \newcommand{\sietepuntos}{\fontsize{7pt}{\baselineskip}\selectfont}
+- \newcommand{\cincopuntos}{\fontsize{6pt}{\baselineskip}\selectfont}
+
+- \addtolength{\headheight}{4.5\baselineskip}
+- \setlength{\headheight}{70pt}
+- \setlength{\footskip}{5pt}
+- \setlength{\textheight}{658pt}
+- \fancyhead[CO,CE]{\includegraphics[height=1.5cm]{logoifop.png}\\ \sietepuntos INSTITUTO DE FOMENTO PESQUERO / DIVISION INVESTIGACION PESQUERA}
+- \fancyhead[LO,LE]{ }
+- \fancyhead[RO,RE]{ }
+- \renewcommand{\headrulewidth}{0.5pt}
+- \fancyfoot[C]{\cincopuntos \thepage \\ \vspace{-0.2cm} ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ \\ \vspace{-0.2cm} \cincopuntos CONVENIO DE DESEMPEÑO 2020 IFOP/SUBSECRETARÍA DE ECONOMíA Y EMT \\ \vspace{-0.1cm} TERCER INFORME. SARDINA COMÚN DE LA  REGIÓN DE VALPARAÍSO A LA REGIÓN DE LOS LAGOS, 2021. \textbf{ANEXO III}.}
+---
+
+\pagebreak
+
+# Procedimiento transitorio de incorporación del descarte en la evaluación de stock y descuento en la proyección de la Captura Biológicamente Aceptable de peces pelágicos pequeños de Chile.
+
+
+## 1.	RESUMEN
+
+
+
+
+
+## 2.	ANTECEDENTES
+
+
+
+
+
+## 3.	METODOLOGÍA
+
+
+### 3.1.	Captura total, retenida y descartada estimada por el Programa de Seguimiento del descarte.
+
+
+### 3.2.	Corrección de la serie de desembarque utilizado en la evaluación de stock
+
+### 3.3.	Descuento  del porcentaje de descarte a la Captura Biológicamente Aceptable (CBA)
+
+
+## 4.	RESULTADOS
+
+
+### 4.1.	Descarte de la pesquería de anchoveta de la zona norte.
+
+### 4.2.	Descarte de la pesquería de anchoveta centro-norte.
+
+### 4.3.	Descarte de la Pesquería de anchoveta y sardina común de la zona centro-sur.
+
+### 4.4.	Descarte de la pesquería de sardina austral de la Región de Los Lagos.
+
+### 4.5.	Identificación de brechas en el estudio de descarte de la pesquería de cerco de peces pelágicos pequeños.
+
+### 4.6.  Plan de trabajo a futuro
+
+\pagebreak
+
+## 5.	REFERENCIAS BIBLIOGRÁFICAS
+
+Bucarey D, MJ Zúñiga, JC Quiroz. 2021. SEGUNDO INFORME. Estatus y posibilidades de explotación biológicamente sustentables de los principales recursos pesqueros nacionales, año 2021. Anchoveta y Sardina Española Región de Atacama a Región de Coquimbo. Subsecretaría de Economía y EMT. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 92 p + Anexos.
+
+Fernando E. 2021. SEGUNDO INFORME. Estatus y posibilidades de explotación biológicamente sustentable de anchoveta y sardina española entre la Región de Arica y Parinacota a la Región de Antofagasta, año 2021. Subsecretaría de Economía y EMT. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 108p + Anexos.
+
+Leal E, MJ Zúñiga. 2020. PRIMER INFORME. Estatus y posibilidades de explotación biológicamente sustentables de sardina austral, Región de Los Lagos, año 2021. Subsecretaría de Economía y EMT. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 80 p + Anexos.
+
+Vega R, L Ossa, B Suárez, A González, S Henríquez, R Ojeda, A Ramírez, A Simeone, M Sepúlveda, MJ Pérez & R Escobar. 2017. INFORME FINAL. Programa de Observadores Científicos, 2016. Subsecretaria de Economía y EM. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 232 p + Anexos.
+
+Vega R, L Ossa, B Suárez, A González, S Henríquez, R Ojeda, MF Jiménez, A Ramírez, J Le-Bert, A Simeone, C Anguita, M Sepúlveda, MJ Pérez, M Santos & H Araya. 2018. INFORME FINAL. Programa de observadores científicos 2017-2018. Programa de investigación del descarte y captura de pesca incidental en pesquerías pelágicas. Programa de monitoreo y evaluación de los planes de reducción del descarte y de la pesca incidental 2017-2018. Subsecretaria de Economía y EM. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 241 p + Anexos.
+
+Vega R, L Ossa, B Suárez, MF Jiménez,S Henríquez, A González, R Ojeda, A Simeone,C Anguita,M Sepúlveda,MJ Pérez, M Santos & H Araya. 2019. INFORME FINAL. Programa de observadores científicos 2018-2019. Programa de investigación del descarte y captura de pesca incidental en pesquerías pelágicas. Programa de monitoreo y evaluación de los planes de reducción del descarte y de la pesca incidental 2018-2019. Subsecretaria de Economía y EM. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 305 p + Anexos.
+
+Vega R, L Ossa, B Suárez, MF Jiménez,S Henríquez, A González, R Ojeda, A Simeone,C Anguita,M Sepúlveda,MJ Pérez, M Santos, J Cavieres, P Paredes, I Cari, P Zárate & D Devia. 2020. INFORME FINAL. Programa de observadores científicos: Programa de investigación y monitoreo del descarte y de la captura de pesca incidental en pesquerías pelágicas, 2019-2020. Subsecretaria de Economía y EM. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 341 p + Anexos. 
+
+
+
+
+
