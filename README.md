@@ -112,6 +112,18 @@ Esta carpeta contiene los archivos .dat y .rep necesarios para generar las figur
 - "ANEXO_I_AnalisisUpdate.Rmd" y 
 - "FigyTab_ANEXO_I_AnalisisUpdate.Rmd"
 
+
+##### 3.1.1. Datos actualizados a junio 2021
+
+- Descarte en año biológico 2017/18, 2018/19 y 2019/20
+- Desembarques 2020/21
+- Composición de edad de la flota 2020/21
+- Pesos medios e iniciales a la edad 2020/21
+
+- Biomasa crucero acústico de otoño 2021
+- Composición de edad del crucero acústico de otoño 2021
+- Tamaño de muestra
+
 #### 3.2. Sensibilidad_mph (ANEXO II)
 
 Esta carpeta contiene los archivos .dat y .rep necesarios para generar las figuras y tablas que van contenidas en:
