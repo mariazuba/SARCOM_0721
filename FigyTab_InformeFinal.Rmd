@@ -370,7 +370,7 @@ kable(NM_Ian)
 
 ```
 
-
+\footnotesize
 # 1. ANTECEDENTES
 
 ```{r Fig2, echo=T,warning=F, include=T, message=F,fig.height=3.5,fig.width=6.5,fig.align="center",fig.path=dir.Fig,dev=fig}
@@ -534,23 +534,29 @@ lines(age,colMeans(WmedF[nyears3-5:nyears3,]),col=2,type="o",pch=19)
 legend(0,37,c("peso medio histórico","peso medio últimos 5 años"),pch=19,lwd=1,col=c(1,2),bty="n")
 ```
 
+\pagebreak
 
 ```{r desembarques y descarte, echo=FALSE,eval=T}
 bioyear<-c("1990-91","1991-92","1992-93","1993-94","1994-95","1995-96","1996-97","1997-98","1998-99","1999-00","2000-01",
            "2001-02","2002-03","2003-04","2004-05","2005-06","2006-07","2007-08","2008-09","2009-10","2010-11","2011-12",
            "2012,13","2013-14","2014-15","2015-16","2016-17","2017-18","2018-19","2019-20","2020-21")
-desemYdesc<-c(494567,514787,250237,358949,361735,120608,552515,73892,212993,205616,52469,317467,293654,387597,252695,
-              516296,358380,742168,942051,627588,828172,859565,418607,520667,417249,300574,407403,355545,319650,289779,219260)
-desc<-c(rep(1,10),rep(1.04,16),rep(1.02,2),rep(1.06,2),1.04)
-desembarque<-desemYdesc/desc
+desemYdesc_previo<-c(494567,514787,250237,358949,120608,361735,552515,73892,212993,205616,52469,317467,293654,387597,252695,
+              516296,358380,742168,942051,627588,828172,859565,418607,520667,417249,300574,407403,355545,319650,289779,391294.5)
+desc_previo<-c(rep(1,10),rep(1.04,16),rep(1.02,2),rep(1.06,2),1.04)
+desembarque<-desemYdesc_previo/desc_previo
 
-porcDesc<-c(rep("0%",10),rep("4%",16),rep("2%",2),rep("6%",2),"4%")
+desc_actualizado<-c(rep(1,10),rep(1.04,17),1.07,1.05,1.04,1.04)
+CapturaDescartada<--(1-desc_actualizado)*desembarque
+CapturaTotal<-desembarque+CapturaDescartada
+
+porcDesc_actualizado<-c(rep("0%",10),rep("4%",17),"7%","5%","4%","4%")
 
 data<-data.frame("Año biológico"=bioyear,
                  "Desembarques t."=round(desembarque,0),
-                 "Porcentaje descarte" =porcDesc,
-                 "Captura descartada t."=round(desemYdesc-desembarque,0),
-                 "Captura total t."=round(desemYdesc,0))
+                 "Porcentaje descarte" =porcDesc_actualizado,
+                 "Captura descartada t."=round(CapturaDescartada,0),
+                 "Captura total t."=round(CapturaTotal,0))
+
 kable(data, align = 'c')
 
 ```
@@ -1799,6 +1805,7 @@ Rt/BT | (BD/Ft)
 ```
 
 \pagebreak
+\footnotesize
 
 ```{r Tabla_20, echo=T,warning=FALSE,include=T}
 yearsb<-c("1990/91","1991/92","1992/93","1993/94","1994/95","1995/96","1996/97","1997/98","1998/99","1999/00","2000/01","2001/02","2002/03","2003/04","2004/05","2005/06","2006/07","2007/08","2008/09","2009/10","2010/11","2011/12","2012/13","2013/14","2014/15","2015/16","2016/17","2017/18","2018/19","2019/20",'2020/21')
@@ -1823,15 +1830,14 @@ Ft2      <- subset(std2,name=="log_Ft")$value
 Ft2std   <- subset(std2,name=="log_Ft")$std
 
 
-Rt3      <- subset(std3,name=="Reclutas")$value 
+Rt3      <- rep3$Reclutas
 Rt3std   <- subset(std3,name=="Reclutas")$std
-BT3      <- subset(std3,name=="BT")$value   
+BT3      <- rep3$BT 
 BT3std   <- subset(std3,name=="BT")$std
-BD3      <- subset(std3,name=="SSB")$value   
+BD3      <- rep3$SSB  
 BD3std   <- subset(std3,name=="SSB")$std
-Ft3      <- subset(std3,name=="log_Ft")$value   
+Ft3      <- log(rep3$Ftot) 
 Ft3std   <- subset(std3,name=="log_Ft")$std
-
 
 
 VarPobl1<- cbind('Año'=yearsb,

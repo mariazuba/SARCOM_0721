@@ -19,7 +19,7 @@ header-includes:
 - \geometry{top=1.5cm, bottom=1cm, left=2.5cm, right=2.5cm}
 - \usepackage{helvet}
 - \renewcommand{\familydefault}{\sfdefault}
-- \renewcommand{\baselinestretch}{1.25}
+- \renewcommand{\baselinestretch}{1.2}
 - \newcommand{\sietepuntos}{\fontsize{7pt}{\baselineskip}\selectfont}
 - \newcommand{\cincopuntos}{\fontsize{6pt}{\baselineskip}\selectfont}
 
