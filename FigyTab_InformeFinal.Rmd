@@ -546,7 +546,7 @@ desc_previo<-c(rep(1,10),rep(1.04,16),rep(1.02,2),rep(1.06,2),1.04)
 desembarque<-desemYdesc_previo/desc_previo
 
 desc_actualizado<-c(rep(1,10),rep(1.04,17),1.07,1.05,1.04,1.04)
-CapturaDescartada<--(1-desc_actualizado)*desembarque
+CapturaDescartada<- -(1-desc_actualizado)*desembarque
 CapturaTotal<-desembarque+CapturaDescartada
 
 porcDesc_actualizado<-c(rep("0%",10),rep("4%",17),"7%","5%","4%","4%")
