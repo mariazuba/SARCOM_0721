@@ -1,6 +1,6 @@
 ---
-title: "ANEXO I"
-subtitle: "Proceso de actualización de datos de entrada al modelo de evaluación de stock"
+title: \Huge \textbf{ANEXO I}
+subtitle:  \Large Proceso de actualización de datos de entrada al modelo de evaluación de stock
 lang: es
 toc: TRUE
 output: 
@@ -41,7 +41,7 @@ header-includes:
 
 \quad
 
-Cada proceso de revisión de CBA involucra la actualización y/o supuestos de datos para evaluar el impacto en las variables de estado asociado a la incorporación incremental de piezas de información. Al respecto, la actualización de datos de la asesoría actual corresponde principalmente a la información de la flota del año biológico 2020/21 (desembarques, descarte, composición de edad, pesos medios). Para el año 2021 se incorpora la biomasa total y composición de edad estimadas por el crucero de evaluación directa de otoño 2021. \vspace{0.4cm}
+Cada proceso de revisión de CBA involucra la actualización y/o supuestos de datos para evaluar el impacto en las variables de estado asociado a la incorporación incremental de piezas de información. Al respecto, la actualización de datos de la asesoría actual corresponde principalmente a la información de la flota del año biológico 2020/21 (desembarques, descarte, composición de edad, pesos medios). Para el año 2021 se incorpora la biomasa total y composición de edad estimadas por el crucero de evaluación directa de otoño 2021. 
 
 ## 2. Actualización de datos
 
@@ -95,6 +95,41 @@ La información actualizada en la presente evaluación es presentada en la \text
 
 \vspace{0.4cm}
 
+
+
+```{=tex}
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{Figuras/Fig1_anexoI-1.pdf}
+\caption{ índices actualizados }
+\label{Fig1}
+\end{figure}
+```
+
+\pagebreak
+
+```{=tex}
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{Figuras/Fig2c_anexoI-1.pdf}
+\caption{ composición de edad  actualizados }
+\label{Fig2}
+\end{figure}
+```
+
+\pagebreak
+
+```{=tex}
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{Figuras/Fig3_anexoI-1.pdf}
+\caption{ pesos medios a la edad  actualizados }
+\label{Fig3}
+\end{figure}
+```
+
+\pagebreak
+
 ## 3. Descripción del modelo base y procesos involucrados en la revisión de julio 2021.
 
 \quad
@@ -125,12 +160,10 @@ Para mantener la consistencia en el proceso de evaluación del stock y estimaci�
 
 : \label{Tab2} Escenarios de que permiten evaluar el impacto de la incorporación de datos actualizados en el proceso de actualización
 
-```{=tex}
-\vspace{0.4cm}
 \normalsize
-```
 
 \pagebreak
+
 ## 4. Actualización de las principales variables de estado
 
 \quad
