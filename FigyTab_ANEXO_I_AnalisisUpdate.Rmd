@@ -540,33 +540,33 @@ retros      <- seq(1,7)
 nretros     <- length(retros)
 
                       
-retroR      <- matrix(0,nrow=nyears,ncol=nretros)
-retroBD     <- matrix(0,nrow=nyears,ncol=nretros)
-retroBT     <- matrix(0,nrow=nyears,ncol=nretros)
-retroF      <- matrix(0,nrow=nyears,ncol=nretros)
-retroBD_BDrms     <- matrix(0,nrow=nyears,ncol=nretros)
+retroR        <- matrix(0,nrow=nyears,ncol=nretros)
+retroBD       <- matrix(0,nrow=nyears,ncol=nretros)
+retroBT       <- matrix(0,nrow=nyears,ncol=nretros)
+retroF        <- matrix(0,nrow=nyears,ncol=nretros)
+retroBD_BDrms <- matrix(0,nrow=nyears,ncol=nretros)
 
 for(i in 1:(nretros)){
   rep <- reptoRlist(paste(admb,"s",i,".rep",sep=""))
-  retroR[,i]  <- c(rep$Reclutas)
-  retroBD[,i] <- c(rep$SSB)
-  retroBT[,i] <- c(rep$BT)
-  retroF[,i]  <- c(rep$Ftot) 
-  retroBD_BDrms[,i]     <-c(rep$BD_Brms) 
+  retroR[,i]         <- c(rep$Reclutas)
+  retroBD[,i]        <- c(rep$SSB)
+  retroBT[,i]        <- c(rep$BT)
+  retroF[,i]         <- c(rep$Ftot) 
+  retroBD_BDrms[,i]  <- c(rep$BD_Brms) 
  }
 
 # Diferencia relativa con caso base actual 
-    rel.diff.r   <- matrix(NA, nrow=nyears, ncol=(nretros))
-    rel.diff.ssb <- matrix(NA, nrow=nyears, ncol=(nretros))
-    rel.diff.bt  <- matrix(NA, nrow=nyears, ncol=(nretros))
-    rel.diff.f   <- matrix(NA, nrow=nyears, ncol=(nretros))
-    rel.diff.bd_bdrms   <- matrix(NA, nrow=nyears, ncol=(nretros))
+    rel.diff.r        <- matrix(NA, nrow=nyears, ncol=(nretros))
+    rel.diff.ssb      <- matrix(NA, nrow=nyears, ncol=(nretros))
+    rel.diff.bt       <- matrix(NA, nrow=nyears, ncol=(nretros))
+    rel.diff.f        <- matrix(NA, nrow=nyears, ncol=(nretros))
+    rel.diff.bd_bdrms <- matrix(NA, nrow=nyears, ncol=(nretros))
     
     for(j in 1:nretros){
-      rel.diff.r[,j]   <- (retroR[,(j)]-retroR[,1])/retroR[,1]
-      rel.diff.ssb[,j] <- (retroBD[,(j)]-retroBD[,1])/retroBD[,1]
-      rel.diff.bt[,j] <- (retroBT[,(j)]-retroBT[,1])/retroBT[,1]
-      rel.diff.f[,j]   <- (retroF[,(j)]-retroF[,1])/retroF[,1]
+      rel.diff.r[,j]          <- (retroR[,(j)]-retroR[,1])/retroR[,1]
+      rel.diff.ssb[,j]        <- (retroBD[,(j)]-retroBD[,1])/retroBD[,1]
+      rel.diff.bt[,j]         <- (retroBT[,(j)]-retroBT[,1])/retroBT[,1]
+      rel.diff.f[,j]          <- (retroF[,(j)]-retroF[,1])/retroF[,1]
       rel.diff.bd_bdrms[,j]   <- (retroBD_BDrms[,(j)]-retroBD_BDrms[,1])/retroBD_BDrms[,1]
     }
     
@@ -633,30 +633,30 @@ data <- data.frame(rbind(datR,datBT,datBD,datF))
 # GRAFICAS
 #######################################################################################
 f1<- ggplot(data %>% filter(Series=="Reclutamientos"),
-            aes(years,value)) +   ylim(-0.30, 0.30) + 
+            aes(years,value)) +   ylim(-0.50, 0.50) + 
      geom_line(aes(colour=variable), size=0.3)+
      labs(x = '', y = 'Diferencia relativa',colour='Asesorías')  +
-     scale_x_continuous(breaks = seq(from = 1990, to = 2021, by = 5)) +
+     scale_x_continuous(breaks = seq(from = 1990, to = 2022, by = 5)) +
      scale_colour_manual(values=seq(1,7,1))+
      theme_bw(base_size=9) + 
      ggtitle('Reclutamientos')+
      theme(plot.title = element_text(hjust = 0.5),legend.position="none")
 
 f2<- ggplot(data %>% filter(Series=="Biomasa_total"),
-            aes(years,value)) +   ylim(-0.30, 0.30) + 
+            aes(years,value)) +   ylim(-0.50, 0.50) + 
      geom_line(aes(colour=variable), size=0.3)+
      labs(x = '', y = 'Diferencia relativa',colour='Asesorías')  +
-     scale_x_continuous(breaks = seq(from = 1990, to = 2021, by = 5)) +
+     scale_x_continuous(breaks = seq(from = 1990, to = 2022, by = 5)) +
      scale_colour_manual(values=seq(1,7,1))+
      theme_bw(base_size=9) + 
      ggtitle('Biomasa total')+
      theme(plot.title = element_text(hjust = 0.5),legend.position="none")
 
 f3<- ggplot(data %>% filter(Series=="Biomasa_desovante"),
-            aes(years,value)) +   ylim(-0.30, 0.30) + 
+            aes(years,value)) +   ylim(-0.50, 0.50) + 
      geom_line(aes(colour=variable), size=0.3)+
      labs(x = '', y = 'Diferencia relativa',colour='Asesorías')  +
-     scale_x_continuous(breaks = seq(from = 1990, to = 2021, by = 5)) +
+     scale_x_continuous(breaks = seq(from = 1990, to = 2022, by = 5)) +
      scale_colour_manual(values=seq(1,7,1))+
      theme_bw(base_size=9) + 
      ggtitle('Biomasa desovante')+
@@ -664,10 +664,10 @@ f3<- ggplot(data %>% filter(Series=="Biomasa_desovante"),
 
 f4<- ggplot(data %>% filter(Series=="Mortalidad_por_pesca"),
             aes(years,value)) +
-      ylim(-0.30, 0.30) + 
+      ylim(-0.50, 0.50) + 
      geom_line(aes(colour=variable), size=0.3)+
      labs(x = '', y = 'Diferencia relativa',colour='Asesorías')  +
-     scale_x_continuous(breaks = seq(from = 1990, to = 2021, by = 5)) +
+     scale_x_continuous(breaks = seq(from = 1990, to = 2022, by = 5)) +
      scale_colour_manual(values=seq(1,7,1))+
      theme_bw(base_size=9) + 
      ggtitle('Mortalidad por pesca')+

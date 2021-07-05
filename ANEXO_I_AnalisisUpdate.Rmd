@@ -41,7 +41,7 @@ header-includes:
 
 \quad
 
-Cada proceso de revisión de CBA involucra la actualización y/o supuestos de datos para evaluar el impacto en las variables de estado asociado a la incorporación incremental de piezas de información. Al respecto, la actualización de datos de la asesoría actual corresponde principalmente a la información de la flota del año biológico 2020/21 (desembarques, descarte, composición de edad, pesos medios). Para el año 2021 se incorpora la biomasa total y composición de edad estimadas por el crucero de evaluación directa de otoño 2021. 
+Cada proceso de revisión de CBA involucra la actualización y/o supuestos de datos para evaluar el impacto en las variables de estado asociado a la incorporación incremental de piezas de información. Al respecto, la actualización de datos de la asesoría actual corresponde principalmente a la información de la flota del año biológico 2020/21 (desembarques, descarte, composición de edad, pesos medios). Para el año 2021 se incorpora la biomasa total y composición de edad estimadas por el crucero de evaluación directa de otoño 2021.
 
 ## 2. Actualización de datos
 
@@ -93,41 +93,32 @@ En la \textbf{Tabla \ref{Tab1}} se comparan las fuentes de información utilizad
 
 La información actualizada en la presente evaluación es presentada en la \textbf{Figura \ref{Fig1}}. El desembarque total del año 2020 fue un 6% menor que el supuesto en septiembre del 2020. La CPUE estandarizada muestra el mayor rendimiento registrado de la flota artesanal durante el año 2020, siendo 5 veces mayor al registrado el año anterior. La composición de tallas observadas por la flota comercial durante el 2020, es actualizada con la incorporación de los ejemplares capturados durante el segundo semestre. En este caso se observa un incremento de la proporción de individuos adultos, sobre los 15,5 cm LT, disminuyendo la proporción de individuos en torno a los 14 cm LT \textbf{Figura \ref{Fig2}}. Para el año 2021, se cuenta con los resultados del crucero de evaluación acústica desde el cual se obtiene un estimado de la abundancia y biomasa a la talla presentes durante el mes de abril-mayo. La composición de tallas muestra un rango de distribución de ejemplares entre 5,5 y 18 cm de LT, con estructura multimodal y dos modas principales en los 8,5 cm de LT y 16,5 cm LT. Modas secundarias se observan en los 11 y 13,5 cm de LT. En términos de biomasa, el crucero estimó 70 mil t de sardina austral de la Región de Los Lagos, cifra 56 % inferior respecto al año anterior, año con la segunda cifra más alta observada por los cruceros en la historia de la pesquería (\textbf{Figura \ref{Fig3}}).
 
-\vspace{0.4cm}
-
-
-
 ```{=tex}
 \begin{figure}
 \centering
-\includegraphics[width=0.8\textwidth]{Figuras/Fig1_anexoI-1.pdf}
-\caption{ índices actualizados }
+\includegraphics[width=0.6\textwidth]{Figuras/Fig1_anexoI-1.pdf}
+\caption{ Comparación entre los datos utilizados en la asesoría de marzo y julio 2021 para el stock de sardina común de las Regiones de Valparaíso a Los Lagos. Se actualiza información para el año 2021.}
 \label{Fig1}
 \end{figure}
 ```
-
-\pagebreak
-
 ```{=tex}
 \begin{figure}
 \centering
 \includegraphics[width=0.8\textwidth]{Figuras/Fig2c_anexoI-1.pdf}
-\caption{ composición de edad  actualizados }
+\caption{ Comparación entre la proporción de edad de la flota y cruceros acústicos de verano y otoño de sardina común de las Regiones de Valparaíso a Los Lagos. Se compara la información utilizada en la asesoría de marzo y julio 2021.}
 \label{Fig2}
 \end{figure}
 ```
-
 \pagebreak
 
 ```{=tex}
 \begin{figure}
 \centering
-\includegraphics[width=0.8\textwidth]{Figuras/Fig3_anexoI-1.pdf}
-\caption{ pesos medios a la edad  actualizados }
+\includegraphics[width=0.6\textwidth]{Figuras/Fig3_anexoI-1.pdf}
+\caption{ Comparación entre los pesos medios a la edad de sardina común de las Regiones de Valparaíso a Los Lagos. Se compara la información utilizada en la asesoría de marzo y julio 2021.}
 \label{Fig3}
 \end{figure}
 ```
-
 \pagebreak
 
 ## 3. Descripción del modelo base y procesos involucrados en la revisión de julio 2021.
@@ -140,29 +131,27 @@ Para mantener la consistencia en el proceso de evaluación del stock y estimaci�
 
 \small
 
-+---------+--------------------------------------------------------------+
-| Casos   | Descripción                                                  |
-+=========+==============================================================+
-| 1       | Caso base asesoría marzo 2021 (MAE0321)                      |
-+---------+--------------------------------------------------------------+
-| 2       | Actualiza serie de descarte                                  |
-+---------+--------------------------------------------------------------+
-| 3       | Actualiza desembarque 2020/21                                |
-+---------+--------------------------------------------------------------+
-| 4       | Actualiza composición de edad de la flota 2020/21            |
-+---------+--------------------------------------------------------------+
-| 5       | Actualiza pesos medios e iniciales a la edad 2020/21         |
-+---------+--------------------------------------------------------------+
-| 6       | Actualiza biomasa crucero acústico de otoño 2021             |
-+---------+--------------------------------------------------------------+
-| 7       | Actualiza composición de edad crucero acústico de otoño 2021 |
-+---------+--------------------------------------------------------------+
++---------------+------------------------------------------------------------------------+
+| Casos         | Descripción                                                            |
++===============+========================================================================+
+| 1 **MAE0321** | Caso base asesoría marzo 2021                                          |
++---------------+------------------------------------------------------------------------+
+| 2             | Actualiza serie de descarte 2017/18, 2018/19 Y 2019/20                 |
++---------------+------------------------------------------------------------------------+
+| 3             | Actualiza desembarque 2020/21 + supuesto de descarte 2020/21           |
++---------------+------------------------------------------------------------------------+
+| 4             | Actualiza composición de edad de la flota del año biológico 2020/21    |
++---------------+------------------------------------------------------------------------+
+| 5             | Actualiza pesos medios e iniciales a la edad del año biológico 2020/21 |
++---------------+------------------------------------------------------------------------+
+| 6             | Actualiza biomasa crucero acústico de otoño, año 2021                  |
++---------------+------------------------------------------------------------------------+
+| 7 **MAE0721** | Actualiza composición de edad crucero acústico de otoño, año 2021      |
++---------------+------------------------------------------------------------------------+
 
 : \label{Tab2} Escenarios de que permiten evaluar el impacto de la incorporación de datos actualizados en el proceso de actualización
 
 \normalsize
-
-\pagebreak
 
 ## 4. Actualización de las principales variables de estado
 
@@ -172,24 +161,35 @@ En la \textbf{Tabla \ref{Tab3}} y \textbf{Figura \ref{Fig4}} muestran el impacto
 
 La incorporación de información 2020 junto al crucero en su conjunto (caso 7) muestran un impacto significativo en el nivel de biomasa (18%) y $BD/BD_{RMS}$ (16 %), con una disminución del 18% en F para el año 2020, no obstante, con la incorporación del crucero, el reclutamiento 2020 no muestra diferencias significativas, siendo un 1% menor en la evaluación actual (junio 2021).
 
+```{=tex}
+\pagebreak
 \small
-
-+-------+----+-----+---------------+----+--------+---------+--------------------+--------+
-| Casos | R  | BD  | $BD/BD_{RMS}$ | F  | R.diff | BD.diff | $BD/BD_{RMS}$.diff | F.diff |
-+:=====:+:==:+:===:+:=============:+:==:+:======:+:=======:+:==================:+:======:+
-| 1     |    |     |               |    |        |         |                    |        |
-+-------+----+-----+---------------+----+--------+---------+--------------------+--------+
-| 2     |    |     |               |    |        |         |                    |        |
-+-------+----+-----+---------------+----+--------+---------+--------------------+--------+
-| 3     |    |     |               |    |        |         |                    |        |
-+-------+----+-----+---------------+----+--------+---------+--------------------+--------+
-| 4     |    |     |               |    |        |         |                    |        |
-+-------+----+-----+---------------+----+--------+---------+--------------------+--------+
-| 5     |    |     |               |    |        |         |                    |        |
-+-------+----+-----+---------------+----+--------+---------+--------------------+--------+
-| 6     |    |     |               |    |        |         |                    |        |
-+-------+----+-----+---------------+----+--------+---------+--------------------+--------+
-| 7     |    |     |               |    |        |         |                    |        |
-+-------+----+-----+---------------+----+--------+---------+--------------------+--------+
+```
++-------+-------+-------+---------------+------+--------+---------+--------------------+--------+
+| Casos | R     | BD    | $BD/BD_{RMS}$ | F    | R.diff | BD.diff | $BD/BD_{RMS}$.diff | F.diff |
++:=====:+:=====:+:=====:+:=============:+:====:+:======:+:=======:+:==================:+:======:+
+| 1     | 257,7 | 430,0 | 0,54          | 0,18 |        |         |                    |        |
++-------+-------+-------+---------------+------+--------+---------+--------------------+--------+
+| 2     | 262,7 | 448,0 | 0,55          | 0,18 | 0,02   | 0,04    | 0,03               | -0,03  |
++-------+-------+-------+---------------+------+--------+---------+--------------------+--------+
+| 3     | 280,0 | 447,4 | 0,54          | 0,31 | 0,09   | 0,04    | 0,01               | 0,71   |
++-------+-------+-------+---------------+------+--------+---------+--------------------+--------+
+| 4     | 265,9 | 464,6 | 0,56          | 0,32 | 0,03   | 0,08    | 0,04               | 0,77   |
++-------+-------+-------+---------------+------+--------+---------+--------------------+--------+
+| 5     | 232,6 | 510,3 | 0,62          | 0,31 | -0,10  | 0,19    | 0,16               | 0,72   |
++-------+-------+-------+---------------+------+--------+---------+--------------------+--------+
+| 6     | 225,8 | 525,0 | 0,63          | 0,31 | -0,12  | 0,22    | 0,17               | 0,72   |
++-------+-------+-------+---------------+------+--------+---------+--------------------+--------+
+| 7     | 220,8 | 511,1 | 0,62          | 0,32 | -0,14  | 0,19    | 0,16               | 0,78   |
++-------+-------+-------+---------------+------+--------+---------+--------------------+--------+
 
 : \label{Tab3} Estimaciones de las principales variables de estado para el caso base (evaluación marzo 2021) comparado con los resultados según la incorporación de cada pieza de información y en su conjunto (caso 7). Se presenta el valor de estimación central y la diferencia en términos porcentuales. R= Reclutamiento, BD= Biomasa desovante, $BD/BD_{RMS}$= Reducción de la población y F= Mortalidad por pesca.
+
+```{=tex}
+\begin{figure}
+\centering
+\includegraphics[width=0.98\textwidth]{Figuras/Fig4_anexoI-1.pdf}
+\caption{ diferencias relativas }
+\label{Fig4}
+\end{figure}
+```
