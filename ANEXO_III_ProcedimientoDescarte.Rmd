@@ -78,6 +78,7 @@ Para abordar esta solicitud, la SSPA solicitó a IFOP una propuesta que viabiliz
 La **Tabla 1** muestra las especies objetivos analizadas de las pesquerías de peces pelágicos pequeños por macrozona y flotas muestredas para los años de estudio del descarte. De acuerdo a la metodología reportada por Vega *et. al.*, (2020), para la estimación de la captura total, retenida y descartada se utiliza información tomada a bordo de embarcaciones que realizan operaciones de pesca comercial. Las capturas por lance (total, retenida y descartada) se estiman visualmente, considerando además información proveniente de los equipos de detección del barco. Cuando se observa un descarte completo desde la red en el agua, la proporción de especies se estima de manera visual debido a la dificultad de acceder a la muestra. Cuando el descarte es parcial, se asume que la proporción de especies y las características biológicas de los ejemplares descartados son los mismos que los ejemplares muestreados en el lance de la captura retenida.
 
 \footnotesize
+
 +--------------------------+-----------------------------------------------------------+------------------------+------------------------------+
 | Especies objetivo        | Macrozonas analizadas                                     | Flotas                 | Años de estudio del descarte |
 |                          |                                                           |                        |                              |
@@ -102,63 +103,121 @@ Para estimar la captura total, retenida y descartada, se utiliza estimadores dis
 
 \pagebreak
 
-\footnotesize
-+--------------------------------------------------------------------------------+---------------+--------------+---------------+
-| Estimador                                                                      | símbolo       | Ecuación     | Descripción   |
-+================================================================================+===============+==============+===============+
-| Captura estimada                                                               |               |              |               |
-+--------------------------------------------------------------------------------+---------------+--------------+---------------+
-| a)  Captura promedio de los lances muestreados en el viaje $i$ del estrato $h$ |               |              |               |
-+--------------------------------------------------------------------------------+---------------+--------------+---------------+
-| b)  Captura promedio de los viajes muestreados en el estrato $h$               |               |              |               |
-+--------------------------------------------------------------------------------+---------------+--------------+---------------+
-| c)  Captura estimada en el estrato $h$                                         |               |              |               |
-+--------------------------------------------------------------------------------+---------------+--------------+---------------+
-| **Varianza de la captura**                                                     |               |              |               |
-+--------------------------------------------------------------------------------+---------------+--------------+---------------+
-| **Coeficiente de variación**                                                   |               |              |               |
-+--------------------------------------------------------------------------------+---------------+--------------+---------------+
 
-: \label{Tab2} Estimadores de la captura, varianza y coeficiente de variación diseño basado, asociados a un diseño de muestreo estratificado de conglomerados bietápico, en donde la unidad de primera etapa es el viaje y la unidad de segunda etapa es el lance de pesca para cada estrato considerado.
+
+```{=tex}
+\vspace{-0.2cm} 
+\begin{table}[h]
+\caption{Estimadores de la captura, varianza y coeficiente de variación diseño basado, asociados a un diseño de muestreo estratificado de conglomerados bietápico, en donde la unidad de primera etapa es el viaje y la unidad de segunda etapa es el lance de pesca para cada estrato considerado.}
+ \label{Tab2}
+    \centering
+    \resizebox{16cm}{!} {
+    \begin{tabular}{|l|c|c|l|}
+    \hline
+     Estimador             & símbolo                        & Ecuación                                                                                & Descripción                                   \\ \hline
+ \textbf{Captura estimada} &                                &                                                                                         &                                               \\ \hline
+ a) Captura promedio       &                                &                                                                                         & $m_{hi}$= número total de lances              \\
+ de los lances             &  $\widehat{\overline{Y}}_{hi}$ &  $\frac{1}{m_{hi}} \sum\limits_{j=1}^{m_{hi}} Y_{hij}$                                  & en la muestra del viaje $i$ del estrato $h$.  \\
+ muestreados en el         &                                &                                                                                         & $Y_{hij}$ = Captura observada del             \\
+ viaje $i$ del estrato $h$ &                                &                                                                                         & lance $j$ en el viaje $i$ del estrato $h$     \\ 
+                           &                                &                                                                                         &                                               \\ 
+                           &                                &                                                                                         &                                               \\ \hline
+ b) Captura promedio       &                                &                                                                                         & $n_h$=número de viajes                        \\
+ de los viajes             &                                &                                                                                         & muestreados en el estrato $h$.                \\
+ muestreados en el         &  $\widehat{\overline{Y}}_{h}$  & $\frac{1}{n_{h}} \sum\limits_{i=1}^{n_{h}} M_{hi}\widehat{\overline{Y}}_{hi}$           & $M_{hi}$=número total de lances               \\
+ estrato $h$               &                                &                                                                                         & en el viaje $i$ del estrato $h$.              \\
+                           &                                &                                                                                         & $\widehat{\overline{Y}}_{hi}$= Captura        \\ 
+                           &                                &                                                                                         & lances muestreados en el viaje $i$            \\ 
+                           &                                &                                                                                         & del estrato $h$.                             \\ \hline
+                           &                                &                                                                                         &                                               \\ 
+ c) Captura estimada       & $\widehat{Y}_{h}$              & $N_{h}\widehat{\overline{Y}}_{h}$                                                       & $N_h$=número total de viajes                  \\
+ en el estrato $h$         &                                &                                                                                         & realizados en el estrato $h$.                 \\
+                           &                                &                                                                                         &                                               \\ \hline
+                           &                                &                                                                                         & $n_h$=número de viajes                        \\ 
+                           &                                &                                                                                         & muestreados en el estrato $h$.                \\ 
+                           &                                &                                                                                         & $N_h$=número total de viajes                  \\ 
+ \textbf{Varianza de la}   & $\widehat{V}(\widehat{Y}_{h})$ & $N^2_h \left(1-\frac{n_h}{N_h}\right)\frac{1}{n_h}\left[\frac{\sum\limits_{i=1}^{n_h}\left(M_{hi}\widehat{\overline{Y}}_{hi}\widehat{\overline{Y}}_{h}\right)^2}{n_h - 1}\right]+\frac{N_h}{n_h}\sum\limits_{i=1}^{n_h} M^2_{hi}\left(1-\frac{m_{hi}}{M_{hi}}\right)\frac{\sum\limits_{j=1}^{m_{hi}}\left( Y_{hij}-\widehat{\overline{Y}}_{hi}\right)^2}{m_{hi}\left(m_{hi}-1\right)}$   & realizados en el estrato $h$      \\
+ \textbf{captura}          &                                &                                                                                         & $M_{hi}$=número total de viajes               \\ 
+                           &                                &                                                                                         & en el viaje $i$ del estrato $h$               \\ 
+                           &                                &                                                                                         & $\widehat{\overline{Y}}_{hi}$ = Captura        \\ 
+                           &                                &                                                                                         & promedio de los lances                        \\ 
+                           &                                &                                                                                         & muestreados en el viaje $i$                    \\ 
+                           &                                &                                                                                         & del estrato $h$.                              \\ 
+                           &                                &                                                                                         & $\widehat{\overline{Y}}_h$ = Captura           \\ 
+                           &                                &                                                                                         & promedio de los viajes muestreados            \\
+                           &                                &                                                                                         & del estrato $h$                               \\
+                           &                                &                                                                                         &                                               \\ \hline
+                           &                                &                                                                                         &                                               \\ 
+ \textbf{Coeficiente de}   & $CV(\widehat{Y}_{h})$          &  $100*\frac{\sqrt{\hat{V}\left(\hat{Y}_h \right)}}{\hat{Y}_h}\%$                        & $\hat{Y}_h$=Captura estimada                  \\ 
+  \textbf{variación}       &                                &                                                                                         & en el estrato $h$                             \\
+                           &                                &                                                                                         &                                               \\ \hline
+  \end{tabular}}
+        \end{table}
+```
 
 \normalsize
 
-\footnotesize
-+-----------------------------------------------------------------------------------------------------+---------+----------+-------------+
-| Estimador                                                                                           | Símbolo | Ecuación | Descripción |
-+=====================================================================================================+=========+==========+=============+
-| Proporción de la especie $e$ en la captura total, retenida y descartada del viaje $i$ y estrato $h$ |         |          |             |
-+-----------------------------------------------------------------------------------------------------+---------+----------+-------------+
-| Proporción de la especie $e$ en la captura total, retenida y descartada del estrato $h$             |         |          |             |
-+-----------------------------------------------------------------------------------------------------+---------+----------+-------------+
-| Varianza de la proporción de especies                                                               |         |          |             |
-+-----------------------------------------------------------------------------------------------------+---------+----------+-------------+
-| Captura Total, Retenida y Descartada estimada de la especie $e$ el estrato $h$                      |         |          |             |
-+-----------------------------------------------------------------------------------------------------+---------+----------+-------------+
-| Varianza de la captura total, retenida y descartada por especie                                     |         |          |             |
-+-----------------------------------------------------------------------------------------------------+---------+----------+-------------+
 
-: \label{Tab3} Proporción de especies de recursos pelágicos de interés comercial estimados en la captura total, retenida y descartada del viaje y estrato correspondiente y su respectiva varianza.
+```{=tex}
+\vspace{-0.2cm} 
+\begin{table}[h!]
+\caption{Proporción de especies de recursos pelágicos de interés comercial estimados en la captura total, retenida y descartada del viaje y estrato correspondiente y su respectiva varianza.}
+ \label{Tab3}
+    \centering
+    \resizebox{15cm}{!} {
+    \begin{tabular}{|l|c|c|l|}
+    \hline
+ Estimador                 & Símbolo                    & Ecuación & Descripción \\ \hline
+                           &                            &          &             \\
+ Proporción de la especie  &                            &          &             \\
+ $e$ en la captura total,  & $\hat{p}_{ieh}$            & $\frac{Y_{ieh}}{Y_{ih}}=\frac{\sum\limits_{j=1}^{m_{ih}}y_{ijeh}}{\sum\limits_{j=1}^{m_{ih}}y_{ijh}}$         & \\
+ retenida y descartada del &                            &          & \\
+ viaje $i$ y estrato $h$   &                            &          & \\ \hline
+                           &                            &          & \\
+ Proporción de la especie  &                            &          &             \\
+ $e$ en la captura total,  & $\hat{p}_{eh}$             & $\frac{Y_{eh}}{Y_h}=\frac{1}{Y_h}\sum\limits_{i=1}^{n_h}Y_{ih}\hat{p}_{ieh}$        &             \\
+ retenida y descartada     &                            &          &             \\
+ del estrato $h$           &                            &          &             \\ \hline
+                           &                            &          & \\
+ Varianza de la proporción & $\hat{V}_{\hat{p}_{eh}}$   & $\left( 1-\frac{n_h}{N_h}\right)\sum\limits_{i=1}^{n_h}\frac{Y^2_{ih}}{\widehat{\overline{Y}}^2_h}\frac{\left( \hat{p}_{ieh}-\hat{p}_{eh}\right)^2}{n_h\left( n_h-1\right)}+\frac{1}{n_h N_h}\sum\limits_{i=1}^{n_h}\left( 1-\frac{m_{ih}}{M_{ih}}\right)\frac{Y^2_{ih}}{\widehat{\overline{Y}}^2_h}\frac{\hat{p}_{ieh}\left( 1-\hat{p}_{ieh}\right)}{\left( m_{ih}-1 \right)}$ &             \\
+ de especies               &                            &          &             \\  \hline
+                           &                            &          & \\
+ Captura Total, Retenida   &                            &          &            \\
+ y Descartada estimada     & $\hat{Y}_{eh}$             & $\hat{p}_{eh}*\hat{Y}_h$ &            \\
+ de la especie $e$ el      &                            &          &            \\
+ estrato $h$               &                            &          &            \\ \hline
+                           &                            &          & \\
+ Varianza de la captura    &                            &          &             \\ 
+ total, retenida y         & $\hat{V}_{\hat{Y}_{eh}}$   & $\hat{Y}^2_h\hat{V}\left( \hat{p}_{eh}\right)+\hat{p}^2_{eh}\hat{V}\left(\hat{Y}_h\right)-\hat{V}\left( \hat{Y}_h\right)\hat{V}\left( \hat{p}_{eh}\right)$          &             \\ 
+ descartada por especie    &                            &          &             \\ \hline
+   \end{tabular}}
+        \end{table}
+ 
+```
+
+
 
 \normalsize
 
-Finalmente, para este estudio se utilizó la estimación del porcentaje de descarte obtenido desde la captura total ($\hat{Y}_{Teht}$) y descartada ($\hat{Y}_{Deht}$) estimada para cada especie objetivo ($e$), estrato $h$
-(macrozona/flota) y año/semestre ($t$) proporcionada por el programa de descarte de pesquerías de peces pelágicos.
+Finalmente, para este estudio se utilizó la estimación del porcentaje de descarte obtenido desde la captura total ($\hat{Y}_{Teht}$) y descartada ($\hat{Y}_{Deht}$) estimada para cada especie objetivo ($e$), estrato $h$ (macrozona/flota) y año/semestre ($t$) proporcionada por el programa de descarte de pesquerías de peces pelágicos.
 
+```{=tex}
 \begin{equation}
-\%Descarte_{eht}=\frac{\hat{Y}_{Deht}}{\hat{Y}_{Teht}}
+\%Descarte_{eht}=\frac{\hat{Y}_{D_{eht}}}{\hat{Y}_{T_{eht}}}
 \end{equation}
+```
 
 ### 3.2. Corrección de la serie de desembarque utilizado en la evaluación de stock
 
 La evaluación de stock de pesquerías pelágicas asume que la captura total es igual al desembarque registrado por el Servicio Nacional de Pesca (SERNAPESCA) y por lo tanto, el descarte sería una fuente adicional de mortalidad por pesca. Para incorporar el descarte en los modelos de evaluación se utiliza la captura total y descartada estimada por el programa de seguimiento del descarte para calcular el porcentaje de descarte que será utilizado como un factor de corrección de la serie de desembarques anuales/semestrales utilizado en la evaluación de stock.
 
+```{=tex}
 \begin{equation}
 Captura total_t = (\%Descarte_t*Desembarque_t)+Desembarque_t
 \end{equation}
+```
 
 Para los semestres/años que no se cuente con información de descarte se propone utilizar el promedio de la captura total y descartada estimada por el programa de descarte para obtener el supuesto del porcentaje de descarte utilizado para corregir el desembarque utilizado en la evaluación de stock y para el supuesto de porcentaje de descarte proyectado que será utilizado en la proyección de la CBA.
-
 
 ### 3.3. Descuento del porcentaje de descarte a la Captura Biológicamente Aceptable (CBA)
 
@@ -166,9 +225,11 @@ La actual Ley General de Pesca y Acuicultura (LGPA, Nº18.892) persigue la conse
 
 Para dar cumplimiento a esta normativa se estima una $CBA_{total}$ que da cuenta de toda la mortalidad por pesca incluido el descarte. El CCT-PP debe establecer el rango de CBA que se construye a partir de una CBA máxima ($CBA_{max}$) es decir, el rango por ley es ( $0,8*CBA_{max};CBA_{max}$). Esta $CBA_{max}$, deberá estimarse a partir de la $CBA_{total}$ descontando el porcentaje de descarte supuesto para el año 2021. La proporción del descarte ($pd$) supuesto para el año 2021 y que deberá ser descontado de la $CBA_{total}$ para establecer $CBA_{max}$.
 
+```{=tex}
 \begin{equation}
 CBA_{max}=CAB_{total}-pd*CBA_{total}
 \end{equation}
+```
 
 \pagebreak
 
@@ -176,33 +237,29 @@ CBA_{max}=CAB_{total}-pd*CBA_{total}
 
 ### 4.1. Descarte de la pesquería de anchoveta de la zona norte.
 
-En esta pesquería una de las principales causas del descarte se debe al enmalle de individuos bajo talla comercial (menores a 12 cm), exceder el límite permitido de fauna acompañante (langostino colorado enano), y en menor grado la captura de especies prohibidas. Respecto a la estimación de capturas totales, se observa un comportamiento estacional en las estimaciones de capturas totales tanto en la flota artesanal como industrial. 
+En esta pesquería una de las principales causas del descarte se debe al enmalle de individuos bajo talla comercial (menores a 12 cm), exceder el límite permitido de fauna acompañante (langostino colorado enano), y en menor grado la captura de especies prohibidas. Respecto a la estimación de capturas totales, se observa un comportamiento estacional en las estimaciones de capturas totales tanto en la flota artesanal como industrial.
 
-Con mayores niveles de capturas registrados durante el primer semestre de cada año. Los mayores niveles de captura total y descartadas son realizados por la flota industrial, durante el primer semestre (**Tabla 4, Figuras 1a y 1b**). Respecto al número de viajes totales en ambas flotas disminuyen durante el segundo semestre. 
+Con mayores niveles de capturas registrados durante el primer semestre de cada año. Los mayores niveles de captura total y descartadas son realizados por la flota industrial, durante el primer semestre (**Tabla 4, Figuras 1a y 1b**). Respecto al número de viajes totales en ambas flotas disminuyen durante el segundo semestre.
 
-El número de viajes totales realizados por la flota industrial es de 1965 durante el primer semestre y 1061 en el segundo semestre en promedio. La flota artesanal realiza 2255 viajes durante el primer semestre y 1965 viajes durante el segundo semestre. No obstante el número de viajes muestreados de la flota industrial y artesanal está entre 30 a 40 viajes muestreado por flota (**Tabla 4, Figura 1c y 1d**). 
+El número de viajes totales realizados por la flota industrial es de 1965 durante el primer semestre y 1061 en el segundo semestre en promedio. La flota artesanal realiza 2255 viajes durante el primer semestre y 1965 viajes durante el segundo semestre. No obstante el número de viajes muestreados de la flota industrial y artesanal está entre 30 a 40 viajes muestreado por flota (**Tabla 4, Figura 1c y 1d**).
 
-Por lo tanto, el porcentaje de cobertura de los viajes muestreados es bajo, es decir, menos del 5% de los viajes realizados por la flota artesanal e industrial son muestreados por observadores científicos (**Tabla 4**, **Figura 1e y 1f**). Durante el primer semestre 2020 se registró el nivel más bajo de captura total y descartada (**Figura 1b**) producto de la reducción significativa de los viajes totales (**Figura 1d**). Esta disminución ocurre debido a la prohibición de perforación de la flota industrial, que obligó a redirigió su esfuerzo a la captura de jurel. De este modo, la captura de anchoveta fue realizada solamente por la flota artesanal. 
+Por lo tanto, el porcentaje de cobertura de los viajes muestreados es bajo, es decir, menos del 5% de los viajes realizados por la flota artesanal e industrial son muestreados por observadores científicos (**Tabla 4**, **Figura 1e y 1f**). Durante el primer semestre 2020 se registró el nivel más bajo de captura total y descartada (**Figura 1b**) producto de la reducción significativa de los viajes totales (**Figura 1d**). Esta disminución ocurre debido a la prohibición de perforación de la flota industrial, que obligó a redirigió su esfuerzo a la captura de jurel. De este modo, la captura de anchoveta fue realizada solamente por la flota artesanal.
 
 Adicionalmente, en la flota artesanal disminuyeron significativamente los viajes muestreados de observadores científicos durante el primer semestre del 2020 por la complejidad de implementar protocolos de seguridad frente a la pandemia, generando una baja cobertura de la flota , siendo el valor más bajo de cobertura del período de estudio (**Figura 1e**). Por lo tanto, la estimación de descarte para el 2020 se considera atípica y poco confiable para ser utilizada en la evaluación de stock de este recurso.
 
 La evaluación de stock de anchoveta norte reportado por Espíndola, (2021) incorpora los porcentajes de descarte estimados entre el 2017 al 2019 (**Tabla 5**) para corregir la serie de desembarques semestrales de la flota chilena artesanal e industrial de anchoveta norte. Los supuestos de descarte utilizados en la evaluación de stock entregada en la asesoría de marzo 2021 (2do Hito CBA 2021) fueron los siguientes:
 
-i. El supuesto 1 de descarte propuesto para la corrección de la serie de desembarques semestrales (2020.0, 2020.5) para flota artesanal e industrial se obtiene del promedio de serie 2017-2019.
+i.  El supuesto 1 de descarte propuesto para la corrección de la serie de desembarques semestrales (2020.0, 2020.5) para flota artesanal e industrial se obtiene del promedio de serie 2017-2019.
 
 ii. El supuesto 2 de descarte propuesto para la proyección de la CBA semestral 2021 para la flota total se obtiene del promedio de la serie de datos 2017-2019.
 
 El supuesto 1 se justifica debido a la alta incertidumbre de la estimación de captura descartada del primer semestre 2020 por las siguientes razones:
 
-• Se prohiben perforaciones de la flota industrial
-• Sólo captura anchoveta flota artesanal
-• Flota industrial redirige su esfuerzo a captura de jurel (baja captura de anchoveta)
-• Disminuyen el número de viajes muestreados por protocoles de seguridad (pandemia)
-• Baja cobertura de muestreo
+• Se prohiben perforaciones de la flota industrial • Sólo captura anchoveta flota artesanal • Flota industrial redirige su esfuerzo a captura de jurel (baja captura de anchoveta) • Disminuyen el número de viajes muestreados por protocoles de seguridad (pandemia) • Baja cobertura de muestreo
 
 Los supuestos sugeridos para la asesoría de septiembre 2021 (1er Hito CBA 2022) son los siguientes:
 
-i. El supuesto 1 de descarte propuesto para la corrección de la serie de desembarques semestrales (2020.0) para flota artesanal e industrial se obtiene del promedio de serie 2017- 2019. Se sugiere revisar el supuesto de descarte del Segundo semestre del 2020 (2020.5) con información actualizada del descarte.
+i.  El supuesto 1 de descarte propuesto para la corrección de la serie de desembarques semestrales (2020.0) para flota artesanal e industrial se obtiene del promedio de serie 2017- 2019. Se sugiere revisar el supuesto de descarte del Segundo semestre del 2020 (2020.5) con información actualizada del descarte.
 ii. El supuesto 2 de descarte propuesto para la proyección de la CBA semestral 2021 y 2022 para la flota total se obtiene del promedio de la serie de datos 2017-2019.
 
 \pagebreak
@@ -225,62 +282,64 @@ El programa del estudio del descarte para la pesquería de cerco de anchoveta y 
 
 Las principales causas que incentivarían el descarte en la pesquería pelágica centro-sur tendrían relación con la aplicación de medidas administrativas. Al respecto, se identificaron las siguientes:
 
-1. Exceder la capacidad de bodega: cuando esto sucede no se puede traspasar legalmente ni descartar (doble restricción). Una eventual solución para evitar dicho descarte podría ser traspasar el exceso de captura a otras embarcaciones. Subpesca señala que actualmente se está trabajando en una normativa que permita el traspaso de los excedentes del lance a otras embarcaciones. Esta normativa está pronto a salir y permitiría la reducción del descarte.
-2. Captura de especies no autorizadas (sin permiso de pesca): para especies como lenguado de ojo chico, pejerrey de mar, merluza común y sierra. Subpesca señala que últimamente como parte de los planes de reducción del descarte en pesquerías de cerco, se han emitido resoluciones que abordan el permiso de desembarque de algunas especies que estaban prohibidas con una cuota o porcentaje de desembarque por viaje o mensual. Esta normativa también incentivaría la reducción del descarte.
-3. Cierre de plantas: La instrucción de la planta cuando no recibirán el pescado es bien concreto, los pescadores tienen que botar la captura. Hay que buscar la forma de abordar que el cierre o saturación de plantas no genere descarte.
-4. Exceder la cuota establecida:
+1.  Exceder la capacidad de bodega: cuando esto sucede no se puede traspasar legalmente ni descartar (doble restricción). Una eventual solución para evitar dicho descarte podría ser traspasar el exceso de captura a otras embarcaciones. Subpesca señala que actualmente se está trabajando en una normativa que permita el traspaso de los excedentes del lance a otras embarcaciones. Esta normativa está pronto a salir y permitiría la reducción del descarte.
+2.  Captura de especies no autorizadas (sin permiso de pesca): para especies como lenguado de ojo chico, pejerrey de mar, merluza común y sierra. Subpesca señala que últimamente como parte de los planes de reducción del descarte en pesquerías de cerco, se han emitido resoluciones que abordan el permiso de desembarque de algunas especies que estaban prohibidas con una cuota o porcentaje de desembarque por viaje o mensual. Esta normativa también incentivaría la reducción del descarte.
+3.  Cierre de plantas: La instrucción de la planta cuando no recibirán el pescado es bien concreto, los pescadores tienen que botar la captura. Hay que buscar la forma de abordar que el cierre o saturación de plantas no genere descarte.
+4.  Exceder la cuota establecida:
 
-a) Zonas sin RAE generan carrera olímpica, lo que provoca exceder la cuota establecida y por lo tanto, causa descarte.
+<!-- -->
 
-b) En pesquerías mixta, el descarte podría ser generado cuando uno de los recursos tiene una cuota baja (ejemplo, anchoveta). Sin embargo, en la zona centro-sur generaría la existencia de algún nivel de sobre-reporte de sardina u otra especie de fauna acompañante que es difícil de cuantificar.
+a)  Zonas sin RAE generan carrera olímpica, lo que provoca exceder la cuota establecida y por lo tanto, causa descarte.
+
+b)  En pesquerías mixta, el descarte podría ser generado cuando uno de los recursos tiene una cuota baja (ejemplo, anchoveta). Sin embargo, en la zona centro-sur generaría la existencia de algún nivel de sobre-reporte de sardina u otra especie de fauna acompañante que es difícil de cuantificar.
 
 Respecto a la estimación de capturas totales y descartada de anchoveta y sardina común, se observa un comportamiento estacional en la flota artesanal de la Región del Biobío y Los Ríos. Con mayores niveles de capturas registrados durante el primer semestre de cada año. Los mayores niveles de captura total y descartadas son realizados por la flota artesanal de la Región del Biobío, durante el primer semestre (**Tabla 8 y 11, Figuras 3b y 4b**). En la Región de Los Ríos el año 2019 ocurrieron dos eventos atípicos que generaron un aumento en la observación de captura descartada. El primero ocurrió cuando la planta de proceso de Corral dejó de recibir las capturas que llegaron a puerto por un par de días debido a problemas mecánicos. Las embarcaciones con pesca que no pudieron desembarcar debieron descartar la captura por la perdida de calidad del producto. El segundo evento especial fue una alta disponibilidad de recurso cerca del puerto de desembarque, lo que permitió incrementar el número de viajes muestreados, lo que sumado a lo anterior redundó en la observación de varios eventos de descarte (**Tabla 8 y 11, Figuras 3 y 4**).
 
 Respecto al número de viajes totales, estos disminuyen durante el segundo semestre. El número de viajes totales realizados por la flota artesanal de la Región del Biobío es de 3799 durante el primer semestre y 1162 en el segundo semestre en promedio. La flota artesanal de la Región de Los Ríos realiza 583 viajes totales durante el primer semestre y 269 viajes totales durante el segundo semestre. No obstante el número de viajes muestreados por observadores científicos de la flota artesanal de la Región del Bíobio y Los Ríos está entre 15 a 30 por zona (**Tabla 8 y 11, Figura 3 y 4**). Por lo tanto, el porcentaje de cobertura de los viajes muestreados es bajo, es decir, menos del 5% en la región del Biobío donde se registran los mayores niveles de capturas (**Tabla 8 y 11, Figura 3 y 4**).
 
-Los modelos de evaluación de stock de anchoveta y sardina común de la zona centro-sur utilizan información en año biológico (Zúñiga *et. al*., 2021 a y b), por lo tanto, se requieren datos de descarte semestrales para la flota total para ser utilizados en la corrección del desembarque en año biológico (**Tabla 9 y 12**). Para los años en que no se cuente con información se utilizará un supuesto que fue acordado en el en la primera sesión del CCT-PP (Acta No1 2021, https://www.subpesca.cl/portal/616/articles-110238_documento.pdf) en 2% para anchoveta y 4% para sardina común. Estos porcentajes serán utilizados para corregir el desembarque cuando no se tenga información del descarte y para asumir un porcentaje de descarte proyectado para incorporar en la proyección de la CBA (**Tabla 10 y 13**). Los supuestos utilizados para anchoveta y sardina común se describen a continuación:
+Los modelos de evaluación de stock de anchoveta y sardina común de la zona centro-sur utilizan información en año biológico (Zúñiga *et. al*., 2021 a y b), por lo tanto, se requieren datos de descarte semestrales para la flota total para ser utilizados en la corrección del desembarque en año biológico (**Tabla 9 y 12**). Para los años en que no se cuente con información se utilizará un supuesto que fue acordado en el en la primera sesión del CCT-PP (Acta No1 2021, <https://www.subpesca.cl/portal/616/articles-110238_documento.pdf>) en 2% para anchoveta y 4% para sardina común. Estos porcentajes serán utilizados para corregir el desembarque cuando no se tenga información del descarte y para asumir un porcentaje de descarte proyectado para incorporar en la proyección de la CBA (**Tabla 10 y 13**). Los supuestos utilizados para anchoveta y sardina común se describen a continuación:
 
 #### a) Anchoveta centro-sur:
+
 \quad
+
 Supuestos para asesoría de marzo y julio 2021 (2do y 3er Hito CBA 2021):
 
-  - El supuesto 1 de descarte propuesto para la corrección del desembarque 2020/21 para flota total y
-zona total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (Tabla 10).
-  -El supuesto 2 de descarte propuesto para la proyección de la CBA 2021/2022 para la flota total y
-zona total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (Tabla 10).
+-   El supuesto 1 de descarte propuesto para la corrección del desembarque 2020/21 para flota total y zona total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (Tabla 10). -El supuesto 2 de descarte propuesto para la proyección de la CBA 2021/2022 para la flota total y zona total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (Tabla 10).
 
 Supuestos para asesoría de septiembre 2021 (1er Hito CBA 2022):
 
-  - El supuesto 1 de descarte propuesto para la corrección del desembarque 2020/21 para flota total y zona total se obtiene del promedio de los años biológicos     2017/18 - 2019/20 (**Tabla 10**).
-  -El supuesto 2 de descarte propuesto para la proyección de la CBA 2021/2022 y 2022/2023 para la flota total y zona total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (**Tabla 10**).
-
+-   El supuesto 1 de descarte propuesto para la corrección del desembarque 2020/21 para flota total y zona total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (**Tabla 10**). -El supuesto 2 de descarte propuesto para la proyección de la CBA 2021/2022 y 2022/2023 para la flota total y zona total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (**Tabla 10**).
 
 #### b) Sardina común Centro-sur
+
 \quad
+
 El criterio experto utilizado en el caso de sardina común para definir el 4% se basa en el supuesto que el descarte disminuirá en los próximos años debido a cambios en algunas medidas de administración que se señalan a continuación:
 
-  1. Autorización para traspasar el exceso de captura a otras embarcaciones
-  2. Autorización para desembarcar especies no autorizadas
-  3. En las regiones que no tienen Reglamento de Observadores Científicos (ROC) (generar
-un mecanismo que permita evitar la carrera olimpica, que genera descarte producto de
-pasarse en la cuota).
-  4. Disminución en la incertidumbre de estimación del descarte
-  
-      i. Mayor experiencia de observadores científicos de descarte
-      ii. Mayor colaboración de usuarios con el proyecto de descarte
-      iii. Implementación del Reglamento de Observadores Científicos
+1.  Autorización para traspasar el exceso de captura a otras embarcaciones
+
+2.  Autorización para desembarcar especies no autorizadas
+
+3.  En las regiones que no tienen Reglamento de Observadores Científicos (ROC) (generar un mecanismo que permita evitar la carrera olimpica, que genera descarte producto de pasarse en la cuota).
+
+4.  Disminución en la incertidumbre de estimación del descarte
+
+    i.  Mayor experiencia de observadores científicos de descarte
+    ii. Mayor colaboración de usuarios con el proyecto de descarte
+    iii. Implementación del Reglamento de Observadores Científicos
 
 Supuestos para asesoría de marzo y julio 2021 (2do y 3er Hito CBA 2021):
 
-  - El supuesto 1 de descarte propuesto para la corrección del desembarque 2020/21 para flota total y zona total se considera criterio experto del 4% (**Tabla 13**).
-  
-  - El supuesto 2 de descarte propuesto para la proyección de la CBA 2021/2022 para la flota total y zona total se considera criterio experto del 4% (**Tabla 13**).
+-   El supuesto 1 de descarte propuesto para la corrección del desembarque 2020/21 para flota total y zona total se considera criterio experto del 4% (**Tabla 13**).
+
+-   El supuesto 2 de descarte propuesto para la proyección de la CBA 2021/2022 para la flota total y zona total se considera criterio experto del 4% (**Tabla 13**).
 
 Supuestos para asesoría de septiembre 2021 (1er Hito CBA 2022):
 
-  - El supuesto 1 de descarte propuesto para la corrección del desembarque 2020/21 para flota total y zona total se considera criterio experto del 4% (**Tabla 13**).
-  
-  - El supuesto 2 de descarte propuesto para la proyección de la CBA 2021/2022 y 2022/2023 para la flota total y zona total se considera criterio experto del 4% (**Tabla 13**).
+-   El supuesto 1 de descarte propuesto para la corrección del desembarque 2020/21 para flota total y zona total se considera criterio experto del 4% (**Tabla 13**).
+
+-   El supuesto 2 de descarte propuesto para la proyección de la CBA 2021/2022 y 2022/2023 para la flota total y zona total se considera criterio experto del 4% (**Tabla 13**).
 
 \pagebreak
 
@@ -288,13 +347,12 @@ Supuestos para asesoría de septiembre 2021 (1er Hito CBA 2022):
 
 El programa de descarte de la pesquería de sardina austral comenzó el año 2017, la información que disponible a la fecha es semestral desde el 2017 al primer semestre del año 2020 para la flota artesanal. El año 2018 sólo se registra información para el segundo semestre (**Tabla 14, Figura 5**). Es una pesquería multiespecífica (sardina austral, sardina común y anchoveta), pero sólo se regula la sardina austral. Los primeros años del programa de descarte ingresó mucha anchoveta (año 2017) a esta zona, provocando un exceso del límite permitido de fauna acompañante. Debido al retraso de la medida administrativa de imputación conjunta (se aplicó solo a fines de ese año 2017), generó que los valores de descarte se elevaran significativamente ese año (**Tabla 14, Figuras 5a**). Estos valores se estabilizaron cuando bajó la proporción de sardina común y anchoveta. Otras causas probables de descarte en esta zona son las siguientes:
 
-  - Exceder la capacidad de bodega de las embarcaciones
-  - Exceder límite permitido de fauna acompañante (como anchoveta y mote)
-  - La captura de especies no comerciales (langostino de los canales)
-  - Lances con poca pesca
-  - Criterios de calidad. Por ejemplo, el desplazamiento de las embarcaciones dentro del área de
-la pesquería, podría afectar la calidad de la captura que puede pasar varios días en la bodega.
-  - Exceder la cuota establecida.
+-   Exceder la capacidad de bodega de las embarcaciones
+-   Exceder límite permitido de fauna acompañante (como anchoveta y mote)
+-   La captura de especies no comerciales (langostino de los canales)
+-   Lances con poca pesca
+-   Criterios de calidad. Por ejemplo, el desplazamiento de las embarcaciones dentro del área de la pesquería, podría afectar la calidad de la captura que puede pasar varios días en la bodega.
+-   Exceder la cuota establecida.
 
 Respecto al número de viajes totales realizados por la flota artesanal están en torno a los 228 viajes por semestre. El número de viajes muestreados estuvieron entre los 10 a 20 viajes por semestre (**Tabla 14, Figura 5b**). El porcentaje de cobertura de los viajes muestreados es bajo, es decir, menos del 8% de los viajes realizados por la flota artesanal son muestreados por observadores científicos. Existe muy poca información de descarte para esta zona, registrándose información principalmente para el primer semestre del 2017, 2019 y 2020 y con alta variabilidad entre estos años (**Tabla 14, Figura 5c**), lo cual complejiza su utilización en la evaluación de stock de sardina austral de la Región de Los Lagos.
 
@@ -306,31 +364,30 @@ Por lo tanto, dado que no se puede utilizar un criterio basado en promedios porq
 
 ### 4.5. Identificación de brechas en el estudio de descarte de la pesquería de cerco de peces pelágicos pequeños.
 
-  - El descarte se prohíbe después de tres años de ejecución del proyecto de descarte. No obstante, no todos los pescadores están en conocimiento de esto, por lo tanto, es necesario que Subpesca y Sernapesca realice una adecuada inducción a los pescadores sobre este tema.
-  - De la misma forma, los pescadores necesitan informarse de la nueva normativa que permite el desembarque de especies anteriormente prohibidas que ahora poseen cierto porcentaje o cuota de desembarque por viaje o mes.
-  - El porcentaje de cobertura de muestreo es directamente proporcional al tamaño de la flota. Contar con información adicional como las bitácoras de autoreporte podría incrementar el porcentaje de cobertura de los viajes muestreados.
-  - A diferencia de las flotas industriales, en la flota artesanal de la pesquería se la zona centro-sur no está implementado el Reglamento de Observadores Científicos (ROC), por tanto, el embarque de observadores científicos (OC) está condicionado a la voluntad de armadores y patrones de pesca.
-  - Entre 2017 y 2019 han existido diversos conflictos en el sector que han minimizado el acceso de OC en la flota artesanal.
-  - Cuando el sector no permiten embarcar OC, se obtienen bajos tamaños de muestra que finalmente generan estimaciones con mayor incertidumbre. Esta circularidad produce desconfianza en los usuarios por los resultados obtenidos. Dado lo anterior, se recomienda fuertemente la implementación del ROC en la flota pesquera artesanal.
-  - En vista de lo mencionado anteriormente, IFOP unificó las metodologías de trabajo de los OC de pesquerías de cerco pelágicas de los dos proyectos de Seguimiento y del proyecto de descarte lo que busca aumentar el esfuerzo de muestreo al doble. En el informe de avance del proyecto (2020), ya se utiliza toda la información disponible para abordar las estimaciones de captura y descarte, causas del descarte y captura incidental, entre otros.
-  - Problemáticas identificadas en capacitación de observadores científicos son: existe una alta rotación de observadores (dificultad en retenerlos y que incrementen su experiencia ), bajo número de personal que desee embarcarse y baja capacidad del Departamento de Gestión de Muestreo (DGM) de capacitar a los observadores.
-  - Respecto a las bitácoras de autoreporte, no es obligación después de los 3 años de inicio del proyecto de descarte, por lo tanto, es información escasa. Además es necesario capacitar a los pescadores para que puedan registrar esos datos.
-  - Respecto al ROC, funciona bien sólo en la flota industrial, en la flota artesanal centro-sur son muchas lanchas, sólo en las zonas norte y centro-norte se puede lograr cierto nivel de confianza. Aún no se ha implementado formalmente el ROC, sólo se implementó en terminos administrativos y legales, sin embargo aún no hay una disposición de los pescadores a colaborar. El autoreporte es una opción aunque en este momento no una abligación, no obstante, la bitácora es muy compleja para los usuarios y desincentiva entregar esta información. El programa se compromete en simplificar esta bitácora para aprovechar esta información.
-  - Respecto a la metodología estadística para el calculo de captura total, retenida y descartada, quedan dudas sobre la incertidumbre asociada a la cobertura de muestreo producto del error de observación (ya que es diseño basada) y el error de medición de la captura descartada del lance (el observador estima visualmente, o le consulta al capitán ).
-  - Otro tema a clarificar es el factor de expansión utilizado para estimar la captura total, retenida y descartada para cada macrozona, ya que se utiliza para ello los desembarques de Sernapesca (pero se filtran algunas embarcaciones según la eslora).
-  - La incertidumbre asociada al estimador de descarte es muy alta, sobre el 50% de coeficiente de variación, producto que los eventos de descarte son escasos (muchos datos cero).
-  - Se asume que el estimador de la captura descartada no tiene error de medición. Sin embargo, la medición de la captura descartada del lance, la medición se realiza visualmente, por lo tanto, depende de la experiencia del observador científico y del capitán y conduce al error de medición al no contar con un instrumento que permita realizar la medición cúbica de los peces descartados en el copo.
-  - Hay que buscar una manera de reducir el error de medición, para ello es necesario primero cuantificar el error. Para cuantificar el error se requiere de tecnología avanzadas más metodologías (diseño de experimento), una vez cuantificado se puede generar un factor de corrección del descarte. Para lograr este objetivo se requiere del apoyo de la industria y de instrumentos tecnológicos.
-  - Otra de las problemáticas asociadas con la estimación de descarte es la naturaleza de la pesquería, es decir, el tamaño de la flota, los cambios de abundancia de las especies (cambios de régimen), cambios en la proporción de especies (alternancia entre especies objetivos) y temas administrativos (normativas, decretos y leyes). Factores relacionados con la variabilidad espacial y temporal del descarte.
-  - Los aportes de las composiciones de tamaños o edad de la captura descartada no son posibles de obtener en el caso de las pesquerías de cerco, debido a la dificultad de tomar muestras del copo cuando se realiza el descarte. Por lo tanto, se asume que la composición de tallas/edad de la captura descartada es igual a la de la captura retenida.
-
+-   El descarte se prohíbe después de tres años de ejecución del proyecto de descarte. No obstante, no todos los pescadores están en conocimiento de esto, por lo tanto, es necesario que Subpesca y Sernapesca realice una adecuada inducción a los pescadores sobre este tema.
+-   De la misma forma, los pescadores necesitan informarse de la nueva normativa que permite el desembarque de especies anteriormente prohibidas que ahora poseen cierto porcentaje o cuota de desembarque por viaje o mes.
+-   El porcentaje de cobertura de muestreo es directamente proporcional al tamaño de la flota. Contar con información adicional como las bitácoras de autoreporte podría incrementar el porcentaje de cobertura de los viajes muestreados.
+-   A diferencia de las flotas industriales, en la flota artesanal de la pesquería se la zona centro-sur no está implementado el Reglamento de Observadores Científicos (ROC), por tanto, el embarque de observadores científicos (OC) está condicionado a la voluntad de armadores y patrones de pesca.
+-   Entre 2017 y 2019 han existido diversos conflictos en el sector que han minimizado el acceso de OC en la flota artesanal.
+-   Cuando el sector no permiten embarcar OC, se obtienen bajos tamaños de muestra que finalmente generan estimaciones con mayor incertidumbre. Esta circularidad produce desconfianza en los usuarios por los resultados obtenidos. Dado lo anterior, se recomienda fuertemente la implementación del ROC en la flota pesquera artesanal.
+-   En vista de lo mencionado anteriormente, IFOP unificó las metodologías de trabajo de los OC de pesquerías de cerco pelágicas de los dos proyectos de Seguimiento y del proyecto de descarte lo que busca aumentar el esfuerzo de muestreo al doble. En el informe de avance del proyecto (2020), ya se utiliza toda la información disponible para abordar las estimaciones de captura y descarte, causas del descarte y captura incidental, entre otros.
+-   Problemáticas identificadas en capacitación de observadores científicos son: existe una alta rotación de observadores (dificultad en retenerlos y que incrementen su experiencia ), bajo número de personal que desee embarcarse y baja capacidad del Departamento de Gestión de Muestreo (DGM) de capacitar a los observadores.
+-   Respecto a las bitácoras de autoreporte, no es obligación después de los 3 años de inicio del proyecto de descarte, por lo tanto, es información escasa. Además es necesario capacitar a los pescadores para que puedan registrar esos datos.
+-   Respecto al ROC, funciona bien sólo en la flota industrial, en la flota artesanal centro-sur son muchas lanchas, sólo en las zonas norte y centro-norte se puede lograr cierto nivel de confianza. Aún no se ha implementado formalmente el ROC, sólo se implementó en terminos administrativos y legales, sin embargo aún no hay una disposición de los pescadores a colaborar. El autoreporte es una opción aunque en este momento no una abligación, no obstante, la bitácora es muy compleja para los usuarios y desincentiva entregar esta información. El programa se compromete en simplificar esta bitácora para aprovechar esta información.
+-   Respecto a la metodología estadística para el calculo de captura total, retenida y descartada, quedan dudas sobre la incertidumbre asociada a la cobertura de muestreo producto del error de observación (ya que es diseño basada) y el error de medición de la captura descartada del lance (el observador estima visualmente, o le consulta al capitán ).
+-   Otro tema a clarificar es el factor de expansión utilizado para estimar la captura total, retenida y descartada para cada macrozona, ya que se utiliza para ello los desembarques de Sernapesca (pero se filtran algunas embarcaciones según la eslora).
+-   La incertidumbre asociada al estimador de descarte es muy alta, sobre el 50% de coeficiente de variación, producto que los eventos de descarte son escasos (muchos datos cero).
+-   Se asume que el estimador de la captura descartada no tiene error de medición. Sin embargo, la medición de la captura descartada del lance, la medición se realiza visualmente, por lo tanto, depende de la experiencia del observador científico y del capitán y conduce al error de medición al no contar con un instrumento que permita realizar la medición cúbica de los peces descartados en el copo.
+-   Hay que buscar una manera de reducir el error de medición, para ello es necesario primero cuantificar el error. Para cuantificar el error se requiere de tecnología avanzadas más metodologías (diseño de experimento), una vez cuantificado se puede generar un factor de corrección del descarte. Para lograr este objetivo se requiere del apoyo de la industria y de instrumentos tecnológicos.
+-   Otra de las problemáticas asociadas con la estimación de descarte es la naturaleza de la pesquería, es decir, el tamaño de la flota, los cambios de abundancia de las especies (cambios de régimen), cambios en la proporción de especies (alternancia entre especies objetivos) y temas administrativos (normativas, decretos y leyes). Factores relacionados con la variabilidad espacial y temporal del descarte.
+-   Los aportes de las composiciones de tamaños o edad de la captura descartada no son posibles de obtener en el caso de las pesquerías de cerco, debido a la dificultad de tomar muestras del copo cuando se realiza el descarte. Por lo tanto, se asume que la composición de tallas/edad de la captura descartada es igual a la de la captura retenida.
 
 ### 4.6. Plan de trabajo a futuro
 
-- En el mediano plazo IFOP propone la realización de talleres con los equipos de Descarte, Evaluación de stock y SSPA orientados a discutir sobre como avanzar en la implementación del descarte en el proceso decisional.
-- Mejorar las coberturas de observación y cooperación de los usuarios por el impacto que genera la información de descarte.
-- Se recomienda incentivar la entrega de bitácoras de autoreporte que permitan aumentar la cobertura de muestreo, incorporar las embarcaciones menores a 15 metros de eslora, en las regiones que no tienen RAE (generar un mecanismo que permita evitar la carrera olimpica, que genera descarte producto de sobrepasar la cuota establecida).
-- Identificar una metodología para la jerarquización de las fuentes de error, con objeto de lograr valores centrales ponderados. Esta metodología puede integrar conocimiento experto, aportes del sector, opiniones de gobernanza (SSPA, CCT-PP, IFOP).
+-   En el mediano plazo IFOP propone la realización de talleres con los equipos de Descarte, Evaluación de stock y SSPA orientados a discutir sobre como avanzar en la implementación del descarte en el proceso decisional.
+-   Mejorar las coberturas de observación y cooperación de los usuarios por el impacto que genera la información de descarte.
+-   Se recomienda incentivar la entrega de bitácoras de autoreporte que permitan aumentar la cobertura de muestreo, incorporar las embarcaciones menores a 15 metros de eslora, en las regiones que no tienen RAE (generar un mecanismo que permita evitar la carrera olimpica, que genera descarte producto de sobrepasar la cuota establecida).
+-   Identificar una metodología para la jerarquización de las fuentes de error, con objeto de lograr valores centrales ponderados. Esta metodología puede integrar conocimiento experto, aportes del sector, opiniones de gobernanza (SSPA, CCT-PP, IFOP).
 
 \pagebreak
 
@@ -355,5 +412,3 @@ Zúñiga MJ & JC Quiroz. 2017c. INFORME 1 DE ESTATUS. Estatus y posibilidades de
 Zúñiga MJ, D Bucarey, JC Quiroz. 2021a. SEGUNDO INFORME. Estatus y posibilidades de explotación biológicamente sustentables de los principales recursos pesqueros nacionales, año 2021. Anchoveta Región de Valparaíso a la Región de Los Lagos, 2021. Subsecretaría de Economía y EMT. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 95 p + Anexos.
 
 Zúñiga MJ, JC Quiroz, D Bucarey. 2021b. SEGUNDO INFORME. Estatus y posibilidades de explotación biológicamente sustentables de los principales recursos pesqueros nacionales, año 2021. Sardina común Región de Valparaíso a la Región de Los Lagos, 2021. Subsecretaría de Economía y EMT. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 111 p + Anexos.
-
-
