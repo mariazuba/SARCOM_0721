@@ -229,7 +229,7 @@ f1/f2/f3 + plot_layout(guides="collect")
 
 ```{r Fig2a_anexoI,warning=F, include=T, message=F, echo=T,fig.height=4,fig.width=5,fig.align="center",fig.path="Figuras/",dev=fig}
 
-Edades<-data3$Edades
+Edades<-seq(0,4,1)
 Edadesflota_julio<-rep3$pf_obs[nyears,]
 Edadesflota_marzo<-rep2$pf_obs[nyears,]
 
@@ -260,7 +260,7 @@ f1<-ggplot(Ebase1) +
 
 ```{r Fig2b_anexoI,warning=F, include=T, message=F, echo=T,fig.height=4,fig.width=5,fig.align="center",fig.path="Figuras/",dev=fig}
 
-Edades<-data3$Edades
+Edades<-seq(0,4,1)
 EdadesCV_julio<-rep3$pobs_RECLAS[nyears,]
 EdadesCV_marzo<-rep2$pobs_RECLAS[nyears,]
 
@@ -291,7 +291,7 @@ f2 <-   ggplot(EVbase1) +
 
 ```{r Fig2c_anexoI,warning=F, include=T, message=F, echo=T,fig.height=8,fig.width=5,fig.align="center",fig.path="Figuras/",dev=fig}
 
-Edades<-data3$Edades
+Edades<-seq(0,4,1)
 EdadesCO_julio<-rep3$pobs_PELACES[nyears,]
 EdadesCO_marzo<-rep2$pobs_PELACES[nyears,]
 
@@ -322,7 +322,7 @@ f1/f2/f3
 
 ```{r Fig3_anexoI,warning=F, include=T, message=F, echo=T,fig.height=4,fig.width=5,fig.align="center",fig.path="Figuras/",dev=fig}
 
-Edades<-data3$Edades
+Edades<-seq(0,4,1)
 Pesosflota_julio<- data3$Wmed[nyears,]
 Pesosflota_marzo<- data2$Wmed[nyears,]
 
