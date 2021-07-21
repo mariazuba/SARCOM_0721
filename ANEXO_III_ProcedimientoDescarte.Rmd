@@ -1,6 +1,7 @@
 ---
 title: \Huge \textbf{ANEXO III}
 subtitle: \Large Procedimiento transitorio de incorporación del descarte en la evaluación de stock y descuento en la proyección de la Captura Biológicamente Aceptable de peces pelágicos pequeños de Chile.
+author: \small María José Zúñiga Basualto, Rodrigo Vega Muñoz, Benjamín Suárez Ahumada, Juan Carlos Quiroz Espinosa
 lang: es
 toc: TRUE
 output: 
@@ -20,10 +21,17 @@ header-includes:
 - \geometry{top=1.5cm, bottom=1cm, left=2.5cm, right=2.5cm}
 - \usepackage{helvet}
 - \renewcommand{\familydefault}{\sfdefault}
+- \usepackage{multirow}
+- \usepackage{natbib}
 - \renewcommand{\baselinestretch}{1.2}
 - \newcommand{\sietepuntos}{\fontsize{7pt}{\baselineskip}\selectfont}
 - \newcommand{\cincopuntos}{\fontsize{6pt}{\baselineskip}\selectfont}
-
+- \usepackage{color,colortbl}
+- \definecolor{Gray}{rgb}{0.801,0.801,0.801}
+- \definecolor{Gray1}{rgb}{0.790,0.790,0.790}
+- \definecolor{Gray2}{rgb}{0.830,0.830,0.830}
+- \definecolor{Gray3}{rgb}{0.870,0.870,0.870}
+- \definecolor{Gray4}{rgb}{0.940,0.940,0.940}
 - \addtolength{\headheight}{4.5\baselineskip}
 - \setlength{\headheight}{70pt}
 - \setlength{\footskip}{5pt}
@@ -75,7 +83,7 @@ Para abordar esta solicitud, la SSPA solicitó a IFOP una propuesta que viabiliz
 
 ### 3.1. Captura total, retenida y descartada estimada por el Programa de Seguimiento del descarte.
 
-La **Tabla 1** muestra las especies objetivos analizadas de las pesquerías de peces pelágicos pequeños por macrozona y flotas muestredas para los años de estudio del descarte. De acuerdo a la metodología reportada por Vega *et. al.*, (2020), para la estimación de la captura total, retenida y descartada se utiliza información tomada a bordo de embarcaciones que realizan operaciones de pesca comercial. Las capturas por lance (total, retenida y descartada) se estiman visualmente, considerando además información proveniente de los equipos de detección del barco. Cuando se observa un descarte completo desde la red en el agua, la proporción de especies se estima de manera visual debido a la dificultad de acceder a la muestra. Cuando el descarte es parcial, se asume que la proporción de especies y las características biológicas de los ejemplares descartados son los mismos que los ejemplares muestreados en el lance de la captura retenida.
+La \textbf{Tabla \ref{Tab1}} muestra las especies objetivos analizadas de las pesquerías de peces pelágicos pequeños por macrozona y flotas muestredas para los años de estudio del descarte. De acuerdo a la metodología reportada por Vega *et. al.*, (2020), para la estimación de la captura total, retenida y descartada se utiliza información tomada a bordo de embarcaciones que realizan operaciones de pesca comercial. Las capturas por lance (total, retenida y descartada) se estiman visualmente, considerando además información proveniente de los equipos de detección del barco. Cuando se observa un descarte completo desde la red en el agua, la proporción de especies se estima de manera visual debido a la dificultad de acceder a la muestra. Cuando el descarte es parcial, se asume que la proporción de especies y las características biológicas de los ejemplares descartados son los mismos que los ejemplares muestreados en el lance de la captura retenida.
 
 \footnotesize
 
@@ -99,7 +107,7 @@ La **Tabla 1** muestra las especies objetivos analizadas de las pesquerías de p
 
 \normalsize
 
-Para estimar la captura total, retenida y descartada, se utiliza estimadores diseño-basados, asociados a un diseño de muestreo estratificado de conglomerados bietápico, en donde la unidad de primera etapa fue el viaje y la unidad de segunda etapa fue el lance de pesca. Las estratificaciones son de tipo espacial (por región o macrozona), temporal (año o semestre según corresponda) y operacional (por flota) (**Tabla 2**). Como factor de expansión se utiliza el número total de viajes realizados por la pesquería ($N_{h}$). Para determinar el número total de viajes se utiliza la base de datos de desembarque registrado por el Servicio Nacional de Pesca y Acuicultura (Sernapesca), asumiendo que cada desembarque es equivalente a un viaje de pesca. Finalmente, para estimar la captura total, retenida y descartada de las pesquerías de peces pelágicos pequeños de cada macrozona se utilizó la proporción de especies de cada lance muestreado. Se asume una relación directamente proporcional entre la captura de la especie en particular y la captura total, retenida y descartada estimada para el estrato correspondiente (especie objetivo/macrozona/flota) (**Tabla 3**).
+Para estimar la captura total, retenida y descartada, se utiliza estimadores diseño-basados, asociados a un diseño de muestreo estratificado de conglomerados bietápico, en donde la unidad de primera etapa fue el viaje y la unidad de segunda etapa fue el lance de pesca. Las estratificaciones son de tipo espacial (por región o macrozona), temporal (año o semestre según corresponda) y operacional (por flota) (\textbf{Tabla \ref{Tab2}}). Como factor de expansión se utiliza el número total de viajes realizados por la pesquería ($N_{h}$). Para determinar el número total de viajes se utiliza la base de datos de desembarque registrado por el Servicio Nacional de Pesca y Acuicultura (Sernapesca), asumiendo que cada desembarque es equivalente a un viaje de pesca. Finalmente, para estimar la captura total, retenida y descartada de las pesquerías de peces pelágicos pequeños de cada macrozona se utilizó la proporción de especies de cada lance muestreado. Se asume una relación directamente proporcional entre la captura de la especie en particular y la captura total, retenida y descartada estimada para el estrato correspondiente (especie objetivo/macrozona/flota) (\textbf{Tabla \ref{Tab3}}).
 
 \pagebreak
 
@@ -126,7 +134,7 @@ Para estimar la captura total, retenida y descartada, se utiliza estimadores dis
  de los viajes             &                                &                                                                                         & muestreados en el estrato $h$.                \\
  muestreados en el         &  $\widehat{\overline{Y}}_{h}$  & $\frac{1}{n_{h}} \sum\limits_{i=1}^{n_{h}} M_{hi}\widehat{\overline{Y}}_{hi}$           & $M_{hi}$=número total de lances               \\
  estrato $h$               &                                &                                                                                         & en el viaje $i$ del estrato $h$.              \\
-                           &                                &                                                                                         & $\widehat{\overline{Y}}_{hi}$= Captura        \\ 
+                           &                                &                                                                                         & $\widehat{\overline{Y}}_{hi}$= Captura promedio de los \\ 
                            &                                &                                                                                         & lances muestreados en el viaje $i$            \\ 
                            &                                &                                                                                         & del estrato $h$.                             \\ \hline
                            &                                &                                                                                         &                                               \\ 
@@ -157,6 +165,7 @@ Para estimar la captura total, retenida y descartada, se utiliza estimadores dis
 
 \normalsize
 
+\pagebreak
 
 ```{=tex}
 \vspace{-0.2cm} 
@@ -168,35 +177,69 @@ Para estimar la captura total, retenida y descartada, se utiliza estimadores dis
     \begin{tabular}{|l|c|c|l|}
     \hline
  Estimador                 & Símbolo                    & Ecuación & Descripción \\ \hline
-                           &                            &          &             \\
- Proporción de la especie  &                            &          &             \\
- $e$ en la captura total,  & $\hat{p}_{ieh}$            & $\frac{Y_{ieh}}{Y_{ih}}=\frac{\sum\limits_{j=1}^{m_{ih}}y_{ijeh}}{\sum\limits_{j=1}^{m_{ih}}y_{ijh}}$         & \\
- retenida y descartada del &                            &          & \\
- viaje $i$ y estrato $h$   &                            &          & \\ \hline
-                           &                            &          & \\
- Proporción de la especie  &                            &          &             \\
+                           &                            &          & $y_{ijeh}$ = Captura total, retenida y descartada   \\
+                           &                            &          & observada en el lance $j$, viaje $i$, de la             \\
+ Proporción de la especie  &                            &          & especie $e$ y estrato $h$.\\
+ $e$ en la captura total,  & $\hat{p}_{ieh}$            & $\frac{Y_{ieh}}{Y_{ih}}=\frac{\sum\limits_{j=1}^{m_{ih}}y_{ijeh}}{\sum\limits_{j=1}^{m_{ih}}y_{ijh}}$ &  \\
+ retenida y descartada del &                            &          & $y_{ijh}$ = Captura total, retenida y descartada \\
+ viaje $i$ y estrato $h$   &                            &          & observada en el lance $j$, viaje $i$ y estrato $h$.\\ 
+                           &                            &          & $Y_{ieh}$ = Captura total, retenida y descartada \\
+                           &                            &          & observada en el viaje $i$, de la \\
+                           &                            &          & especie $e$ y estrato $h$ \\
+                           &                            &          & $Y_{ih}$ = Captura total, retenida y descartada \\
+                           &                            &          & observada en el viaje $i$ y estrato $h$\\
+                           &                            &          & $m_{ih}$ = Número total de lances en la  \\
+                           &                            &          & muestra del viaje $i$ del estrato $h$ \\\hline
+                           &                            &          & $Y_{ih}$ = Captura total, retenida y descartada \\
+ Proporción de la especie  &                            &          & observada en el viaje $i$ y estrato $h$  \\
  $e$ en la captura total,  & $\hat{p}_{eh}$             & $\frac{Y_{eh}}{Y_h}=\frac{1}{Y_h}\sum\limits_{i=1}^{n_h}Y_{ih}\hat{p}_{ieh}$        &             \\
- retenida y descartada     &                            &          &             \\
- del estrato $h$           &                            &          &             \\ \hline
-                           &                            &          & \\
- Varianza de la proporción & $\hat{V}_{\hat{p}_{eh}}$   & $\left( 1-\frac{n_h}{N_h}\right)\sum\limits_{i=1}^{n_h}\frac{Y^2_{ih}}{\widehat{\overline{Y}}^2_h}\frac{\left( \hat{p}_{ieh}-\hat{p}_{eh}\right)^2}{n_h\left( n_h-1\right)}+\frac{1}{n_h N_h}\sum\limits_{i=1}^{n_h}\left( 1-\frac{m_{ih}}{M_{ih}}\right)\frac{Y^2_{ih}}{\widehat{\overline{Y}}^2_h}\frac{\hat{p}_{ieh}\left( 1-\hat{p}_{ieh}\right)}{\left( m_{ih}-1 \right)}$ &             \\
- de especies               &                            &          &             \\  \hline
-                           &                            &          & \\
- Captura Total, Retenida   &                            &          &            \\
- y Descartada estimada     & $\hat{Y}_{eh}$             & $\hat{p}_{eh}*\hat{Y}_h$ &            \\
- de la especie $e$ el      &                            &          &            \\
+ retenida y descartada     &                            &          & $\hat{p}_{ieh}$ = Proporción de la especie $e$ en la            \\
+ del estrato $h$           &                            &          & captura total, retenida y descartada del viaje             \\ 
+                           &                            &          & $i$ y estrato $h$\\
+                           &                            &          & $Y_{eh}$ = Captura total, retenida y descartada \\
+                           &                            &          & observada de la especie $e$ en el estrato $h$.\\
+                           &                            &          & $Y_h$ = Captura total, retenida y descartada \\
+                           &                            &          & observada en el estrato $h$ \\
+                           &                            &          & $n_h$ = Número de viajes muestreados \\
+                           &                            &          & en el estrato $h$. \\\hline
+                           &                            &          & $\hat{p}_{ieh}$=Proporción de la especie $e$ en la\\
+                           &                            &          & captura total, retenida y descartada del viaje $i$ \\
+                           &                            &          & y estrato $h$ \\
+                           &                            &          & $\hat{p}_{eh}$=Proporción de la especie $e$ en la \\
+                           &                            &          & captura total, retenida y descartada en el \\
+                           &                            &          & estrato $h$ \\
+                           &                            &          & $n_h$ = Número de viajes muestreados en el \\
+                           &                            &          & estrato $h$\\
+ Varianza de la proporción & $\hat{V}_{\hat{p}_{eh}}$   & $\left( 1-\frac{n_h}{N_h}\right)\sum\limits_{i=1}^{n_h}\frac{Y^2_{ih}}{\widehat{\overline{Y}}^2_h}\frac{\left( \hat{p}_{ieh}-\hat{p}_{eh}\right)^2}{n_h\left( n_h-1\right)}+\frac{1}{n_h N_h}\sum\limits_{i=1}^{n_h}\left( 1-\frac{m_{ih}}{M_{ih}}\right)\frac{Y^2_{ih}}{\widehat{\overline{Y}}^2_h}\frac{\hat{p}_{ieh}\left( 1-\hat{p}_{ieh}\right)}{\left( m_{ih}-1 \right)}$ & \\
+ de especies               &                            &          & $N_h$= Número total de viajes realizados en            \\
+                           &                            &          & el estrato $h$\\
+                           &                            &          & $M_{ih}$ = Número total de lances en el \\
+                           &                            &          & viaje $i$ del estrato $h$ \\
+                           &                            &          & $m_{ih}$ = Número total de lances en la \\
+                           &                            &          & muestra del viaje $i$ del estrato $h$ \\
+                           &                            &          & $Y_{ih}$ = Captura total, retendia y descartada\\
+                           &                            &          & observada en el viaje $i$ y estrato $h$\\
+                           &                            &          & $\widehat{\overline{Y}}_h$ = Captura promedio de los viajes\\
+                           &                            &          & muestreados del estrato $h$\\
+                           &                            &          & \\\hline
+                           &                            &          & $\hat{p}_{eh}$ = Proporción de la especie $e$ en la\\
+ Captura Total, Retenida   &                            &          & captura total, retenida y descartada del           \\
+ y Descartada estimada     & $\hat{Y}_{eh}$             & $\hat{p}_{eh}*\hat{Y}_h$ & estrato $h$            \\
+ de la especie $e$ el      &                            &          & $\hat{Y}_h$ = Captura estimada en el estrato $h$   \\
  estrato $h$               &                            &          &            \\ \hline
-                           &                            &          & \\
+                           &                            &          & $\hat{Y}_h$ = Captura estimada en el estrato $h$     \\
  Varianza de la captura    &                            &          &             \\ 
- total, retenida y         & $\hat{V}_{\hat{Y}_{eh}}$   & $\hat{Y}^2_h\hat{V}\left( \hat{p}_{eh}\right)+\hat{p}^2_{eh}\hat{V}\left(\hat{Y}_h\right)-\hat{V}\left( \hat{Y}_h\right)\hat{V}\left( \hat{p}_{eh}\right)$          &             \\ 
- descartada por especie    &                            &          &             \\ \hline
-   \end{tabular}}
+ total, retenida y         & $\hat{V}_{\hat{Y}_{eh}}$   & $\hat{Y}^2_h\hat{V}\left( \hat{p}_{eh}\right)+\hat{p}^2_{eh}\hat{V}\left(\hat{Y}_h\right)-\hat{V}\left( \hat{Y}_h\right)\hat{V}\left( \hat{p}_{eh}\right)$ & \\ 
+ descartada por especie    &                            &          & $\hat{p}_{eh}$ = Proporción de la especie $e$ en la \\ 
+                           &                            &          & captura total, retenida y descartada del \\
+                           &                            &          & estrato $h$ \\ \hline
+ \end{tabular}}
         \end{table}
  
 ```
 
 
-
+\pagebreak
 \normalsize
 
 Finalmente, para este estudio se utilizó la estimación del porcentaje de descarte obtenido desde la captura total ($\hat{Y}_{Teht}$) y descartada ($\hat{Y}_{Deht}$) estimada para cada especie objetivo ($e$), estrato $h$ (macrozona/flota) y año/semestre ($t$) proporcionada por el programa de descarte de pesquerías de peces pelágicos.
@@ -237,79 +280,210 @@ CBA_{max}=CAB_{total}-pd*CBA_{total}
 
 ### 4.1. Descarte de la pesquería de anchoveta de la zona norte.
 
-En esta pesquería una de las principales causas del descarte se debe al enmalle de individuos bajo talla comercial (menores a 12 cm), exceder el límite permitido de fauna acompañante (langostino colorado enano), y en menor grado la captura de especies prohibidas. Respecto a la estimación de capturas totales, se observa un comportamiento estacional en las estimaciones de capturas totales tanto en la flota artesanal como industrial.
+En esta pesquería una de las principales causas del descarte se debe al enmalle de individuos bajo talla comercial (menores a 12 cm), exceder el límite permitido de fauna acompañante (langostino colorado enano), y en menor grado la captura de especies prohibidas. Respecto a la estimación de capturas totales, se observa un comportamiento estacional en las estimaciones de capturas totales tanto en la flota artesanal como industrial. Con mayores niveles de capturas registrados durante el primer semestre de cada año. Los mayores niveles de captura total y descartadas son realizados por la flota industrial, durante el primer semestre. Respecto al número de viajes totales en ambas flotas disminuyen durante el segundo semestre. El número de viajes totales realizados por la flota industrial es de 1965 durante el primer semestre y 1.061 en el segundo semestre en promedio. La flota artesanal realiza 2.255 viajes durante el primer semestre y 1965 viajes durante el segundo semestre. No obstante el número de viajes muestreados de la flota industrial y artesanal está entre 30 a 40 viajes muestreado por flota. Por lo tanto, el porcentaje de cobertura de los viajes muestreados es bajo, es decir, menos del 5% de los viajes realizados por la flota artesanal e industrial son muestreados por observadores científicos. Durante el primer semestre 2020 se registró el nivel más bajo de captura total y descartada producto de la reducción significativa de los viajes totales. Esta disminución ocurre debido a la prohibición de perforación de la flota industrial, que obligó a redirigió su esfuerzo a la captura de jurel. De este modo, la captura de anchoveta fue realizada solamente por la flota artesanal. Adicionalmente, en la flota artesanal disminuyeron significativamente los viajes muestreados de observadores científicos durante el primer semestre del 2020 por la complejidad de implementar protocolos de seguridad frente a la pandemia, generando una baja cobertura de la flota , siendo el valor más bajo de cobertura del período de estudio (\textbf{Figura \ref{Fig1}}, \textbf{Tabla \ref{Tab3}}). Por lo tanto, la estimación de descarte para el 2020 se considera atípica y poco confiable para ser utilizada en la evaluación de stock de este recurso.
 
-Con mayores niveles de capturas registrados durante el primer semestre de cada año. Los mayores niveles de captura total y descartadas son realizados por la flota industrial, durante el primer semestre (**Tabla 4, Figuras 1a y 1b**). Respecto al número de viajes totales en ambas flotas disminuyen durante el segundo semestre.
+La evaluación de stock de anchoveta norte reportado por Espíndola, (2021) incorpora los porcentajes de descarte estimados entre el 2017 al 2019 (\textbf{Tabla \ref{Tab4}}) para corregir la serie de desembarques semestrales de la flota chilena artesanal e industrial de anchoveta norte. Los supuestos de descarte utilizados en la evaluación de stock entregada en la asesoría de marzo 2021 (2do Hito CBA 2021) fueron los siguientes:
 
-El número de viajes totales realizados por la flota industrial es de 1965 durante el primer semestre y 1061 en el segundo semestre en promedio. La flota artesanal realiza 2255 viajes durante el primer semestre y 1965 viajes durante el segundo semestre. No obstante el número de viajes muestreados de la flota industrial y artesanal está entre 30 a 40 viajes muestreado por flota (**Tabla 4, Figura 1c y 1d**).
+i.  El \textbf{supuesto 1} de descarte propuesto para la corrección de la serie de desembarques semestrales (2020,0; 2020,5) para flota artesanal e industrial se obtiene del promedio de serie 2017-2019.
 
-Por lo tanto, el porcentaje de cobertura de los viajes muestreados es bajo, es decir, menos del 5% de los viajes realizados por la flota artesanal e industrial son muestreados por observadores científicos (**Tabla 4**, **Figura 1e y 1f**). Durante el primer semestre 2020 se registró el nivel más bajo de captura total y descartada (**Figura 1b**) producto de la reducción significativa de los viajes totales (**Figura 1d**). Esta disminución ocurre debido a la prohibición de perforación de la flota industrial, que obligó a redirigió su esfuerzo a la captura de jurel. De este modo, la captura de anchoveta fue realizada solamente por la flota artesanal.
-
-Adicionalmente, en la flota artesanal disminuyeron significativamente los viajes muestreados de observadores científicos durante el primer semestre del 2020 por la complejidad de implementar protocolos de seguridad frente a la pandemia, generando una baja cobertura de la flota , siendo el valor más bajo de cobertura del período de estudio (**Figura 1e**). Por lo tanto, la estimación de descarte para el 2020 se considera atípica y poco confiable para ser utilizada en la evaluación de stock de este recurso.
-
-La evaluación de stock de anchoveta norte reportado por Espíndola, (2021) incorpora los porcentajes de descarte estimados entre el 2017 al 2019 (**Tabla 5**) para corregir la serie de desembarques semestrales de la flota chilena artesanal e industrial de anchoveta norte. Los supuestos de descarte utilizados en la evaluación de stock entregada en la asesoría de marzo 2021 (2do Hito CBA 2021) fueron los siguientes:
-
-i.  El supuesto 1 de descarte propuesto para la corrección de la serie de desembarques semestrales (2020.0, 2020.5) para flota artesanal e industrial se obtiene del promedio de serie 2017-2019.
-
-ii. El supuesto 2 de descarte propuesto para la proyección de la CBA semestral 2021 para la flota total se obtiene del promedio de la serie de datos 2017-2019.
+ii. El \textbf{supuesto 2} de descarte propuesto para la proyección de la CBA semestral 2021 para la flota total se obtiene del promedio de la serie de datos 2017-2019.
 
 El supuesto 1 se justifica debido a la alta incertidumbre de la estimación de captura descartada del primer semestre 2020 por las siguientes razones:
 
-• Se prohiben perforaciones de la flota industrial • Sólo captura anchoveta flota artesanal • Flota industrial redirige su esfuerzo a captura de jurel (baja captura de anchoveta) • Disminuyen el número de viajes muestreados por protocoles de seguridad (pandemia) • Baja cobertura de muestreo
+  + Se prohiben perforaciones de la flota industrial 
+  + Sólo captura anchoveta flota artesanal 
+  + Flota industrial redirige su esfuerzo a captura de jurel (baja captura de anchoveta) 
+  + Disminuyen el número de viajes muestreados por protocoles de seguridad (pandemia) 
+  + Baja cobertura de muestreo
 
 Los supuestos sugeridos para la asesoría de septiembre 2021 (1er Hito CBA 2022) son los siguientes:
 
-i.  El supuesto 1 de descarte propuesto para la corrección de la serie de desembarques semestrales (2020.0) para flota artesanal e industrial se obtiene del promedio de serie 2017- 2019. Se sugiere revisar el supuesto de descarte del Segundo semestre del 2020 (2020.5) con información actualizada del descarte.
-ii. El supuesto 2 de descarte propuesto para la proyección de la CBA semestral 2021 y 2022 para la flota total se obtiene del promedio de la serie de datos 2017-2019.
+i.  El \textbf{supuesto 1} de descarte propuesto para la corrección de la serie de desembarques semestrales (2020,0) para flota artesanal e industrial se obtiene del promedio de serie 2017 - 2019. Se sugiere revisar el supuesto de descarte del Segundo semestre del 2020 (2020,5) con información actualizada del descarte.
+ii. El \textbf{supuesto 2} de descarte propuesto para la proyección de la CBA semestral 2021 y 2022 para la flota total se obtiene del promedio de la serie de datos 2017 - 2019.
+
+\vspace{0.5cm}
+
+```{=tex}
+\vspace{-0.2cm} 
+\begin{table}[h!]
+\caption{Estimaciones de captura total ($CT$), retenida ($CR$) y descartada ($CD$) con sus respectivos coeficientes de variación ($CV_{CT}$, $CV_{CR}$, $CV_{CD}$), porcentaje de descarte , tamaños de muestra de los viajes muestreados y totales y porcentaje de cobertura para el período 2017 al 2020 por semestre y flota de la pesquería de cerco de \textbf{Anchoveta de la zona norte}.}
+ \label{Tab3}
+    \centering
+    \resizebox{15cm}{!} {
+    \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+    \hline \rowcolor{Gray3}
+     &          &        & Captura  &             & Captura  &             & Captura     &             & \%        & $n_h$        & $N_h$   & \%        \\ \rowcolor{Gray3}
+ Año & Semestre & Flota  & total    & $CV_{CT}\%$ & retenida & $CV_{CR}\%$ & descartada  & $CV_{CD}\%$ & descarte  & viajes       & viajes  & cobertura \\ \rowcolor{Gray3}
+     &          &        &  (t)     &             & (t)      &             & (t)         &             &           & muestreados  & totales & \\ \hline
+\multirow{4}{1cm}{2017} & \multirow{2}{1cm}{1} & Artesanal  & 91.182  & 14,1 & 88.290  & 14,7 & 2.892  & 35,4 & 3,2 & 30 & 2.845 & 1,1  \\ 
+                        &                       & Industrial & 363.031 & 12,7 & 362.620 & 12,8 & 411    & 62,8 & 0,1 & 43 & 2.210 & 1,9 \\ 
+                        &\multirow{2}{1cm}{2}  & Artesanal  & 48.199  & 12,6 & 46.003  & 14,2 & 2.196  & 52,1 & 4,6 & 32 & 1.331 & 2,4 \\  
+                        &                       & Industrial & 246.902 & 13,5 & 245.702 & 13,7 & 1.200  & 79,5 & 0,5 & 39 & 1.835 & 2,1  \\  \hline   
+\multirow{4}{1cm}{2018} & \multirow{2}{1cm}{1} & Artesanal  & 79.450  & 17,2 & 78.238  & 17,7 & 1.213  & 56,5 & 1,5 & 27 & 2.620 & 1,0   \\ 
+                        &                       & Industrial & 530.289 & 9,8  & 515.183 & 9,5  & 15.106 & 95,4 & 2,8 & 59 & 2.864 & 2,1 \\ 
+                        &\multirow{2}{1cm}{2}  & Artesanal  & 31.106  & 17,6 & 28.325  & 16,6 & 2.781  & 65,5 & 8,9 & 30 & 947   & 3,2 \\ 
+                        &                       & Industrial & 221.449 & 13,5 & 216.934 & 13,8 & 4.515  & 65,8 & 2,0 & 46 & 2.004 & 2,3 \\  \hline   
+\multirow{4}{1cm}{2019} & \multirow{2}{1cm}{1} & Artesanal  & 85.711  & 8,1  & 83.941  & 8,6  & 1.770  & 79,3 & 2,1 & 37 & 1.756 & 2,1 \\ 
+                        &                       & Industrial & 355.916 & 13,8 & 347.147 & 13,9 & 8.769  & 82,7 & 2,5 & 32 & 2.551 & 1,3 \\ 
+                        & \multirow{2}{1cm}{2} & Artesanal  & 43.221  & 9,0  & 42.565  & 9,0  & 656    & 68,2 & 1,5 & 41 & 905   & 4,5 \\ 
+                        &                       & Industrial & 98.755  & 16,7 & 97.652  & 16,2 & 1.103  & 84,2 & 1,1 & 24 & 1.764 & 1,4  \\  \hline   
+\multirow{4}{1cm}{2020} & \multirow{2}{1cm}{1} & Artesanal  & 93.957  & 17,0 & 93.462  & 17,0 & 496    & 82,6 & 0,5 & 13 & 1.800 & 0,7   \\      
+                        &                       & Industrial & 18.240  & 15,4 & 18.166  & 15,4 & 74     & 47,5 & 0,4 & 38 & 234   & 16,2 \\ 
+                        & \multirow{2}{1cm}{2} & Artesanal  &         &      &         &      &        &      &     &    &       & \\ 
+                        &                       & Industrial &         &      &         &      &        &      &     &    &       & \\ \hline     
+   \end{tabular}}
+        \end{table}
+```
+
+
+
+```{=tex}
+\vspace{-0.2cm} 
+\begin{table}[h!]
+\caption{Captura total (CT) y descartada (CD) promedio 2017-2019 por semestre y flota utilizados para obtener el \% de descarte a utilizar en el supuesto 1 (corrección de la serie de desembarques) y para el supuesto 2 (proyección de CBA) se utiliza la captura total y descartada promedio para la flota total chilena. \textbf{Supuestos utilizados en la asesoría de marzo 2021 de anchoveta norte}.}
+ \label{Tab4}
+    \centering
+    \resizebox{13cm}{!} {
+    \begin{tabular}{|c|c|c|c|c|c|c|}
+    \hline \rowcolor{Gray3}
+           &          &        &          & Captura  &  Captura     &   \%         \\ \rowcolor{Gray3}
+ Supuestos & Año      & Flota  & Semestre & total    &  descartada  &  descarte     \\ \rowcolor{Gray3}
+           &          &        &          & (t)      &    (t)       &   \\ \hline
+\multirow{4}{4cm}{Corrección de la serie de desembarques semestrales} & \multirow{4}{1cm}{2020} &\multirow{2}{2cm}{Artesanal}     & 1 &  85.448  & 1.959  & 2,3\%  \\ 
+                                                                       &                         &                                & 2 &  40.842  & 1.878  & 4,6\%  \\ 
+                                                                       &                         &\multirow{2}{2cm}{Industrial}   & 1 &  416.412 & 8.095  & 1,9\%  \\ 
+                                                                       &                         &                                & 2 &  189.035 & 2.272  & 1,2\%  \\ \hline
+\multirow{2}{4cm}{Proyección de la CBA semestral}                      & \multirow{2}{1cm}{2021} &\multirow{2}{2cm}{TOTAL}        & 1 &  501.860 & 10.054 & 2,0\%  \\ 
+                                                                       &                         &                                & 2 &  229.877 & 4.150  & 1,8\%  \\  \hline
+   \end{tabular}}
+        \end{table}
+```
+
+
+\pagebreak
+
+```{=tex}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\textwidth]{Figuras/AnchNorte_descarte_ANEXO_III.pdf}
+\caption{Captura total y descartada semestral (panel superior) estimada para la flota artesanal e industrial. (panel intermedio) Número de viajes totales y muestreados en la flota artesanal e industrial. (panel inferior) Porcentaje de descarte y de cobertura de la flota artesanal e industrial. \textbf{Anchoveta Norte}.}
+\label{Fig1}
+\end{figure}
+```
 
 \pagebreak
 
 ### 4.2. Descarte de la pesquería de anchoveta centro-norte.
 
-El programa de descarte de la pesquería de anchoveta centro-norte comenzó el año 2018, pero con tamaños de muestra muy reducidos, por lo cual no fue posible estimar capturas retenidas y descartadas para la flota. La información que se encuentra disponible a la fecha es semestral desde el 2019 al 2020 para la flota artesanal. No obstante, ha existido dificultad en la cobertura de muestreo por un bajo apoyo al estudio del descarte principalmente en la Región de Atacama, donde tampoco se aplica el RAE, por lo tanto, los datos de descarte provienen principalmente de la Región de Coquimbo. No obstante, es necesario un análisis por separado por Región para ratificar esta información. Otra de las limitaciones de muestreo tiene relación con la baja habitabilidad de las embarcaciones menores a 15 metros de eslora. IFOP tiene una política de seguridad permitiendo que los observadores científicos solo se embarquen en embarcaciones sobre los 15 metros de eslora. Una posibilidad de incrementar el porcentaje de cobertura de estas embarcaciones menores podría ser la entrega de bitácoras de autoreporte por parte de los pescadores.
+El programa de descarte de la pesquería de anchoveta centro-norte comenzó el año 2018, pero con tamaños de muestra muy reducidos, por lo cual no fue posible estimar capturas retenidas y descartadas para la flota. La información que se encuentra disponible a la fecha es semestral desde el 2019 al 2020 para la flota artesanal. No obstante, ha existido dificultad en la cobertura de muestreo por un bajo apoyo al estudio del descarte principalmente en la Región de Atacama, donde tampoco se aplica el RAE, por lo tanto, los datos de descarte provienen principalmente de la Región de Coquimbo. No obstante, es necesario un análisis por separado por Región para ratificar esta información. Otra de las limitaciones de muestreo tiene relación con la baja habitabilidad de las embarcaciones menores a 15 metros de eslora. IFOP tiene una política de seguridad permitiendo que los observadores científicos solo se embarquen en embarcaciones sobre los 15 metros de eslora. Una posibilidad de incrementar el porcentaje de cobertura de estas embarcaciones menores podría ser la entrega de bitácoras de autoreporte por parte de los pescadores.  Respecto de las estimaciones de capturas totales y descartadas, en general, durante el segundo semestre de cada año no hay registros de captura producto del cierre de las plantas de proceso, por lo tanto, en esta zona la operación de las plantas de proceso determina la operación de la flota (\textbf{Tabla \ref{Tab5}}, \textbf{Figura \ref{Fig2}}).
 
-Respecto de las estimaciones de capturas totales y descartadas, en general, durante el segundo semestre de cada año no hay registros de captura producto del cierre de las plantas de proceso, por lo tanto, en esta zona la operación de las plantas de proceso determina la operación de la flota (**Tabla 6, Figura 1a**).
+Respecto al número de viajes totales realizados por la flota artesanal, estos disminuyen durante el segundo semestre. El número de viajes totales realizados por la flota artesanal de 1017 durante el primer semestre y 165 en el segundo semestre en promedio. No obstante el número de viajes muestreados de la flota artesanal está entre 39 primer semestre y 7 segundo semestre (\textbf{Tabla \ref{Tab5}}, \textbf{Figura \ref{Fig2}}). Por lo tanto, el porcentaje de cobertura de los viajes muestreados es bajo, es decir, menos del 5% de los viajes realizados por la flota artesanal son muestreados por observadores científicos (\textbf{Tabla \ref{Tab5}}, \textbf{Figura \ref{Fig2}}), excepto el segundo semestre del 2020 donde el porcentaje de cobertura fue de un 45% producto de la significativa disminución de los viajes totales (31 viajes totales).
 
-Respecto al número de viajes totales realizados por la flota artesanal, estos disminuyen durante el segundo semestre. El número de viajes totales realizados por la flota artesanal de 1017 durante el primer semestre y 165 en el segundo semestre en promedio. No obstante el número de viajes muestreados de la flota artesanal está entre 39 primer semestre y 7 segundo semestre (**Tabla 6, Figura 1b**). Por lo tanto, el porcentaje de cobertura de los viajes muestreados es bajo, es decir, menos del 5% de los viajes realizados por la flota artesanal son muestreados por observadores científicos (Tabla 6, Figura 1c), excepto el segundo semestre del 2020 donde el porcentaje de cobertura fue de un 45% producto de la significativa disminución de los viajes totales (31 viajes totales).
+El programa de estudio del descarte para esta zona terminó el 2020, por lo tanto, para la asesoría de septiembre 2021 se espera comenzar a incorporar esta información a la evaluación de stock (\textbf{Tabla \ref{Tab6}}). El modelo de evaluación de stock de anchoveta centro-norte utiliza información anual (Bucarey *et al*., 2021) , por lo tanto, se requieren datos de descarte anuales para la flota artesanal los cuales deben ser incorporados a la serie de desembarques. Para los años en que no se cuente con información se debe utilizar un supuesto. Adicionalmente, el CCT-PP debe descontar un % de descarte a la CBA, por lo tanto también se debe contar con un supuesto de descarte proyectado. Para el descarte proyectado para el año 2022 se considerará el promedio de descarte que considera los años 2019 al 2020 (dos años). Estos supuestos deben ser consensuados previamente con el CCT-PP en el taller de datos y modelo.
 
-El programa de estudio del descarte para esta zona terminó el 2020, por lo tanto, para la asesoría de septiembre 2021 se espera comenzar a incorporar esta información a la evaluación de stock (**Tabla 7**). El modelo de evaluación de stock de anchoveta centro-norte utiliza información anual (Bucarey et al., 2021) , por lo tanto, se requieren datos de descarte anuales para la flota artesanal los cuales deben ser incorporados a la serie de desembarques. Para los años en que no se cuente con información se debe utilizar un supuesto. Adicionalmente, el CCT-PP debe descontar un % de descarte a la CBA, por lo tanto también se debe contar con un supuesto de descarte proyectado. Para el descarte proyectado para el año 2022 se considerará el promedio de descarte que considera los años 2019 al 2020 (dos años). Estos supuestos deben ser consensuados previamente con el CCT-PP en el taller de datos y modelo.
 
 \pagebreak
 
+```{=tex}
+\vspace{0.5cm} 
+\begin{table}[h!]
+\caption{Estimaciones de captura total (CT), retenida (CR) y descartada (CD) con sus respectivos coeficientes de variación ($CV_{CT}$, $CV_{CR}$, $CV_{CD}$), porcentaje de descarte , tamaños de muestra de los viajes muestreados y totales y porcentaje de cobertura para los años 2018 al 2020 por semestre y flota para la pesquería de \textbf{Anchoveta de la zona centro-norte}.}
+ \label{Tab5}
+    \centering
+    \resizebox{17cm}{!} {
+    \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+    \hline \rowcolor{Gray3}
+     &          &        & Captura  &             & Captura  &             & Captura     &             & \%        & $n_h$        & $N_h$   & \%        \\ \rowcolor{Gray3}
+ Año & Semestre & Flota  & total    & $CV_{CT}\%$ & retenida & $CV_{CR}\%$ & descartada  & $CV_{CD}\%$ & descarte  & viajes       & viajes  & cobertura \\ \rowcolor{Gray3}
+     &          &        &  (t)     &             & (t)      &             & (t)         &             &           & muestreados  & totales & \\ \hline
+\multirow{4}{1cm}{2018} & \multirow{2}{1cm}{1} & Artesanal  &  &      &         &      &        &      &     & 5    & 843  & 0,6\\  
+                        &                       & Industrial & &      &         &      &        &      &     &    &       & \\  
+                        &\multirow{2}{1cm}{2}  & Artesanal  &  &      &         &      &        &      &     & 2    & 167  & 1,2 \\  
+                        &                       & Industrial & &      &         &      &        &      &     &    &       &  \\  \hline   
+\multirow{4}{1cm}{2019} & \multirow{2}{1cm}{1} & Artesanal  & 29.462 & 19,4 & 29.205 & 18,1 & 257 & 76,8 & 0,9 & 48 & 1.028 & 4,7 \\ 
+                        &                       & Industrial & &      &         &      &        &      &     &    &       & \\  
+                        & \multirow{2}{1cm}{2} & Artesanal  & 1.506  & 61,1 & 1.238  & 66,0 & 268 & 67,2 & 17,8 & 11 & 164  & 6,7 \\ 
+                        &                       & Industrial &  &      &         &      &        &      &     &    &       & \\   \hline   
+\multirow{4}{1cm}{2020} & \multirow{2}{1cm}{1} & Artesanal  &  32.651 & 14,0 & 31.985 & 13,9 & 666 & 59,3 & 2,0 & 63 & 1.181 & 5,3  \\      
+                        &                       & Industrial & &      &         &      &        &      &     &    &       & \\ 
+                        & \multirow{2}{1cm}{2} & Artesanal  &  1.443  & 20,1 & 1.326   & 17,5 & 116 & 70,3 & 8,1 & 14 & 31 & 45,2 \\ 
+                        &                       & Industrial &         &      &         &      &        &      &     &    &       & \\ \hline     
+   \end{tabular}}
+        \end{table}
+```
+
+
+```{=tex}
+\vspace{0.5cm} 
+\begin{table}[h!]
+\caption{Captura total (CT) y descartada (CD) para corrección de desembarques años 2019 y 2020. Para obtener el \% de descarte a utilizar en el supuesto 1 (desembarque 2021). Para el supuesto 2 (proyección de CBA año 2022) se utiliza la captura total y descartada promedio del año 2019 y 2020. \textbf{Supuestos para asesoría de septiembre 2021 de anchoveta centro-norte}.}
+ \label{Tab6}
+    \centering
+    \resizebox{13cm}{!} {
+    \begin{tabular}{|l|c|c|c|c|c|}
+    \hline \rowcolor{Gray3}
+           &          &          & Captura  &  Captura     &   \%         \\ \rowcolor{Gray3}
+ Supuestos & Año      & Semestre & total    &  descartada  &  descarte     \\ \rowcolor{Gray3}
+           &          &          & (t)      &    (t)       &   \\ \hline
+\multirow{2}{4cm}{Corrección de desembarques}               & 2019  & 1 &  30.968  & 525  & 1,70\%  \\ 
+                                                            & 2020  & 2 &  34.094  & 782  & 2,29\%  \\ \hline \rowcolor{Gray4}
+Supuestos                                                   &       &   &          &        &   \\ \hline
+1. Corrección de desembarque                                & 2021  & 2 &  32.531 & 654  & 2,01\%  \\ 
+2. Proyección de CBA                                        & 2022  & 1 &  32.531 & 654 & 2,01\%  \\ \hline
+   \end{tabular}}
+        \end{table}
+```
+
+
+\pagebreak
+
+```{=tex}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\textwidth]{Figuras/AnchCentroNorte_descarte_ANEXO_III.pdf}
+\caption{Captura total y descartada semestral (panel superior) estimada para la flota artesanal. (panel intermedio) Número de viajes totales y muestreados en la flota artesanal. (panel inferior) Porcentaje de descarte y de cobertura de la flota artesanal. \textbf{Anchoveta centro-norte}}
+\label{Fig2}
+\end{figure}
+```
+
+\pagebreak
+
+
+
+
 ### 4.3. Descarte de la Pesquería de anchoveta y sardina común de la zona centro-sur.
 
-El programa del estudio del descarte para la pesquería de cerco de anchoveta y sardina común comenzó el año 2014, no obstante, para este estudio se cuenta con información semestral desde el año 2017 al 2019 sólo para la flota artesanal de la Región del Biobío y Los Ríos. La Región de Valparaíso sólo cuenta con información del primer semestre 2017 y La flota industrial no está operando sobre anchoveta y sardina, por lo tanto, no hay registros de descarte para esta flota (**Tabla 8 y 11, Figura 3 y 4**). Desde que terminó el programa de estudio del descarte (año 2017) se generó un conflicto en el sector artesanal negándose a seguir colaborando con el programa de monitoreo del descarte al prohibir del descarte y de la imputación conjunta entre sardina común y anchoveta de 1 es a 1. Desde el 2017, los pescadores no entregan las bitácoras de autoreporte y muchos no permiten que observadores científicos suban a sus embarcaciones. Esto generó una disminución significativa en la cobertura de muestreo de la flota artesanal, la cual ya es compleja de monitorear por su gran magnitud (más de tres mil viajes realizados durante el primer semestre sólo en la Región del Biobío, **Figura 3e y 4e**). Adicionalmente, por temas de seguridad los observadores científicos no suben a embarcaciones menores a 15 metros de eslora. Estas embarcaciones pequeñas en general tienen una alta capacidad de acarreo, son poco fiscalizadas y monitoreadas, lo cual podría estar generando un sesgo en las estimaciones de captura total y descartada. Las bitácoras de autoreporte podrían ayudar a aumentar el porcentaje de cobertura de muestreo y si mejorara la colaboración del sector pesquero con el programa de monitoreo.
+El programa del estudio del descarte para la pesquería de cerco de anchoveta y sardina común comenzó el año 2014, no obstante, para este estudio se cuenta con información semestral desde el año 2017 al 2019 sólo para la flota artesanal de la Región del Biobío y Los Ríos. La Región de Valparaíso sólo cuenta con información del primer semestre 2017 y La flota industrial no está operando sobre anchoveta y sardina, por lo tanto, no hay registros de descarte para esta flota (\textbf{Tabla \ref{Tab7}} y \textbf{\ref{Tab10}}, \textbf{Figura \ref{Fig3}} y \textbf{\ref{Fig4}}). Desde que terminó el programa de estudio del descarte (año 2017) se generó un conflicto en el sector artesanal negándose a seguir colaborando con el programa de monitoreo del descarte al prohibir del descarte y de la imputación conjunta entre sardina común y anchoveta de 1 es a 1. Desde el 2017, los pescadores no entregan las bitácoras de autoreporte y muchos no permiten que observadores científicos suban a sus embarcaciones. Esto generó una disminución significativa en la cobertura de muestreo de la flota artesanal, la cual ya es compleja de monitorear por su gran magnitud (más de tres mil viajes realizados durante el primer semestre sólo en la Región del Biobío). Adicionalmente, por temas de seguridad los observadores científicos no suben a embarcaciones menores a 15 metros de eslora. Estas embarcaciones pequeñas en general tienen una alta capacidad de acarreo, son poco fiscalizadas y monitoreadas, lo cual podría estar generando un sesgo en las estimaciones de captura total y descartada. Las bitácoras de autoreporte podrían ayudar a aumentar el porcentaje de cobertura de muestreo y si mejorara la colaboración del sector pesquero con el programa de monitoreo.
 
 Las principales causas que incentivarían el descarte en la pesquería pelágica centro-sur tendrían relación con la aplicación de medidas administrativas. Al respecto, se identificaron las siguientes:
 
-1.  Exceder la capacidad de bodega: cuando esto sucede no se puede traspasar legalmente ni descartar (doble restricción). Una eventual solución para evitar dicho descarte podría ser traspasar el exceso de captura a otras embarcaciones. Subpesca señala que actualmente se está trabajando en una normativa que permita el traspaso de los excedentes del lance a otras embarcaciones. Esta normativa está pronto a salir y permitiría la reducción del descarte.
-2.  Captura de especies no autorizadas (sin permiso de pesca): para especies como lenguado de ojo chico, pejerrey de mar, merluza común y sierra. Subpesca señala que últimamente como parte de los planes de reducción del descarte en pesquerías de cerco, se han emitido resoluciones que abordan el permiso de desembarque de algunas especies que estaban prohibidas con una cuota o porcentaje de desembarque por viaje o mensual. Esta normativa también incentivaría la reducción del descarte.
-3.  Cierre de plantas: La instrucción de la planta cuando no recibirán el pescado es bien concreto, los pescadores tienen que botar la captura. Hay que buscar la forma de abordar que el cierre o saturación de plantas no genere descarte.
-4.  Exceder la cuota establecida:
+  1.  *Exceder la capacidad de bodega*: cuando esto sucede no se puede traspasar legalmente ni descartar (doble restricción). Una eventual solución para evitar dicho descarte podría ser traspasar el exceso de captura a otras embarcaciones. Subpesca señala que actualmente se está trabajando en una normativa que permita el traspaso de los excedentes del lance a otras embarcaciones. Esta normativa está pronto a salir y permitiría la reducción del descarte.
+  2.  *Captura de especies no autorizadas (sin permiso de pesca)*: para especies como lenguado de ojo chico, pejerrey de mar, merluza común y sierra. Subpesca señala que últimamente como parte de los planes de reducción del descarte en pesquerías de cerco, se han emitido resoluciones que abordan el permiso de desembarque de algunas especies que estaban prohibidas con una cuota o porcentaje de desembarque por viaje o mensual. Esta normativa también incentivaría la reducción del descarte.
+  3.  *Cierre de plantas*: La instrucción de la planta cuando no recibirán el pescado es bien concreto, los pescadores tienen que botar la captura. Hay que buscar la forma de abordar que el cierre o saturación de plantas no genere descarte.
+4.  *Exceder la cuota establecida*:
 
-<!-- -->
+    a)  Zonas sin RAE generan carrera olímpica, lo que provoca exceder la cuota establecida y por lo tanto, causa descarte.
+    b)  En pesquerías mixta, el descarte podría ser generado cuando uno de los recursos tiene una cuota baja (ejemplo, anchoveta). Sin embargo, en la zona centro-sur generaría la existencia de algún nivel de sobre-reporte de sardina u otra especie de fauna acompañante que es difícil de cuantificar.
 
-a)  Zonas sin RAE generan carrera olímpica, lo que provoca exceder la cuota establecida y por lo tanto, causa descarte.
+Respecto a la estimación de capturas totales y descartada de anchoveta y sardina común, se observa un comportamiento estacional en la flota artesanal de la Región del Biobío y Los Ríos. Con mayores niveles de capturas registrados durante el primer semestre de cada año. Los mayores niveles de captura total y descartadas son realizados por la flota artesanal de la Región del Biobío, durante el primer semestre (\textbf{Tabla \ref{Tab7}} y \textbf{\ref{Tab10}}, \textbf{Figura \ref{Fig3}} y \textbf{\ref{Fig4}}). En la Región de Los Ríos el año 2019 ocurrieron dos eventos atípicos que generaron un aumento en la observación de captura descartada. El primero ocurrió cuando la planta de proceso de Corral dejó de recibir las capturas que llegaron a puerto por un par de días debido a problemas mecánicos. Las embarcaciones con pesca que no pudieron desembarcar debieron descartar la captura por la perdida de calidad del producto. El segundo evento especial fue una alta disponibilidad de recurso cerca del puerto de desembarque, lo que permitió incrementar el número de viajes muestreados, lo que sumado a lo anterior redundó en la observación de varios eventos de descarte (\textbf{Tabla \ref{Tab7}} y \textbf{\ref{Tab10}}, \textbf{Figura \ref{Fig3}} y \textbf{\ref{Fig4}}).
 
-b)  En pesquerías mixta, el descarte podría ser generado cuando uno de los recursos tiene una cuota baja (ejemplo, anchoveta). Sin embargo, en la zona centro-sur generaría la existencia de algún nivel de sobre-reporte de sardina u otra especie de fauna acompañante que es difícil de cuantificar.
+Respecto al número de viajes totales, estos disminuyen durante el segundo semestre. El número de viajes totales realizados por la flota artesanal de la Región del Biobío es de 3799 durante el primer semestre y 1162 en el segundo semestre en promedio. La flota artesanal de la Región de Los Ríos realiza 583 viajes totales durante el primer semestre y 269 viajes totales durante el segundo semestre. No obstante el número de viajes muestreados por observadores científicos de la flota artesanal de la Región del Bíobio y Los Ríos está entre 15 a 30 por zona (\textbf{Tabla \ref{Tab7}} y \textbf{\ref{Tab10}}, \textbf{Figura \ref{Fig3}} y \textbf{\ref{Fig4}}). Por lo tanto, el porcentaje de cobertura de los viajes muestreados es bajo, es decir, menos del 5% en la región del Biobío donde se registran los mayores niveles de capturas (\textbf{Tabla \ref{Tab7}} y \textbf{\ref{Tab10}}, \textbf{Figura \ref{Fig3}} y \textbf{\ref{Fig4}}).
 
-Respecto a la estimación de capturas totales y descartada de anchoveta y sardina común, se observa un comportamiento estacional en la flota artesanal de la Región del Biobío y Los Ríos. Con mayores niveles de capturas registrados durante el primer semestre de cada año. Los mayores niveles de captura total y descartadas son realizados por la flota artesanal de la Región del Biobío, durante el primer semestre (**Tabla 8 y 11, Figuras 3b y 4b**). En la Región de Los Ríos el año 2019 ocurrieron dos eventos atípicos que generaron un aumento en la observación de captura descartada. El primero ocurrió cuando la planta de proceso de Corral dejó de recibir las capturas que llegaron a puerto por un par de días debido a problemas mecánicos. Las embarcaciones con pesca que no pudieron desembarcar debieron descartar la captura por la perdida de calidad del producto. El segundo evento especial fue una alta disponibilidad de recurso cerca del puerto de desembarque, lo que permitió incrementar el número de viajes muestreados, lo que sumado a lo anterior redundó en la observación de varios eventos de descarte (**Tabla 8 y 11, Figuras 3 y 4**).
-
-Respecto al número de viajes totales, estos disminuyen durante el segundo semestre. El número de viajes totales realizados por la flota artesanal de la Región del Biobío es de 3799 durante el primer semestre y 1162 en el segundo semestre en promedio. La flota artesanal de la Región de Los Ríos realiza 583 viajes totales durante el primer semestre y 269 viajes totales durante el segundo semestre. No obstante el número de viajes muestreados por observadores científicos de la flota artesanal de la Región del Bíobio y Los Ríos está entre 15 a 30 por zona (**Tabla 8 y 11, Figura 3 y 4**). Por lo tanto, el porcentaje de cobertura de los viajes muestreados es bajo, es decir, menos del 5% en la región del Biobío donde se registran los mayores niveles de capturas (**Tabla 8 y 11, Figura 3 y 4**).
-
-Los modelos de evaluación de stock de anchoveta y sardina común de la zona centro-sur utilizan información en año biológico (Zúñiga *et. al*., 2021 a y b), por lo tanto, se requieren datos de descarte semestrales para la flota total para ser utilizados en la corrección del desembarque en año biológico (**Tabla 9 y 12**). Para los años en que no se cuente con información se utilizará un supuesto que fue acordado en el en la primera sesión del CCT-PP (Acta No1 2021, <https://www.subpesca.cl/portal/616/articles-110238_documento.pdf>) en 2% para anchoveta y 4% para sardina común. Estos porcentajes serán utilizados para corregir el desembarque cuando no se tenga información del descarte y para asumir un porcentaje de descarte proyectado para incorporar en la proyección de la CBA (**Tabla 10 y 13**). Los supuestos utilizados para anchoveta y sardina común se describen a continuación:
+Los modelos de evaluación de stock de anchoveta y sardina común de la zona centro-sur utilizan información en año biológico (Zúñiga *et. al*., 2021 a y b), por lo tanto, se requieren datos de descarte semestrales para la flota total para ser utilizados en la corrección del desembarque en año biológico (\textbf{Tabla \ref{Tab8}} y \textbf{\ref{Tab11}}). Para los años en que no se cuente con información se utilizará un supuesto que fue acordado en el en la primera sesión del CCT-PP (Acta No1 2021, <https://www.subpesca.cl/portal/616/articles-110238_documento.pdf>) en 2% para anchoveta y 4% para sardina común. Estos porcentajes serán utilizados para corregir el desembarque cuando no se tenga información del descarte y para asumir un porcentaje de descarte proyectado para incorporar en la proyección de la CBA (\textbf{Tabla \ref{Tab9}} y \textbf{\ref{Tab12}}). Los supuestos utilizados para anchoveta y sardina común se describen a continuación:
 
 #### a) Anchoveta centro-sur:
 
 \quad
 
-Supuestos para asesoría de marzo y julio 2021 (2do y 3er Hito CBA 2021):
+\underline{Supuestos para asesoría de marzo y julio 2021 (2do y 3er Hito CBA 2021):}
 
--   El supuesto 1 de descarte propuesto para la corrección del desembarque 2020/21 para flota total y zona total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (Tabla 10). -El supuesto 2 de descarte propuesto para la proyección de la CBA 2021/2022 para la flota total y zona total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (Tabla 10).
+-   El \textbf{supuesto 1} de descarte propuesto para la corrección del desembarque 2020/21 para flota total y zona total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (\textbf{Tabla \ref{Tab9}}). 
+-   El \textbf{supuesto 2} de descarte propuesto para la proyección de la CBA 2021/2022 para la flota total y zona total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (\textbf{Tabla \ref{Tab9}}).
 
-Supuestos para asesoría de septiembre 2021 (1er Hito CBA 2022):
+\underline{Supuestos para asesoría de septiembre 2021 (1er Hito CBA 2022):}
 
--   El supuesto 1 de descarte propuesto para la corrección del desembarque 2020/21 para flota total y zona total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (**Tabla 10**). -El supuesto 2 de descarte propuesto para la proyección de la CBA 2021/2022 y 2022/2023 para la flota total y zona total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (**Tabla 10**).
+-   El \textbf{supuesto 1} de descarte propuesto para la corrección del desembarque 2020/21 para flota total y zona total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (\textbf{Tabla \ref{Tab9}}). 
+-   El \textbf{supuesto 2} de descarte propuesto para la proyección de la CBA 2021/2022 y 2022/2023 para la flota total y zona total se obtiene del promedio de los años biológicos 2017/18 - 2019/20 (\textbf{Tabla \ref{Tab9}}).
 
 #### b) Sardina común Centro-sur
 
@@ -329,23 +503,258 @@ El criterio experto utilizado en el caso de sardina común para definir el 4% se
     ii. Mayor colaboración de usuarios con el proyecto de descarte
     iii. Implementación del Reglamento de Observadores Científicos
 
-Supuestos para asesoría de marzo y julio 2021 (2do y 3er Hito CBA 2021):
+\underline{Supuestos para asesoría de marzo y julio 2021 (2do y 3er Hito CBA 2021):}
 
--   El supuesto 1 de descarte propuesto para la corrección del desembarque 2020/21 para flota total y zona total se considera criterio experto del 4% (**Tabla 13**).
+-   El \textbf{supuesto 1} de descarte propuesto para la corrección del desembarque 2020/21 para flota total y zona total se considera criterio experto del 4% (\textbf{Tabla \ref{Tab12}}).
+-   El \textbf{supuesto 2} de descarte propuesto para la proyección de la CBA 2021/2022 para la flota total y zona total se considera criterio experto del 4% (\textbf{Tabla \ref{Tab12}}).
 
--   El supuesto 2 de descarte propuesto para la proyección de la CBA 2021/2022 para la flota total y zona total se considera criterio experto del 4% (**Tabla 13**).
+\underline{Supuestos para asesoría de septiembre 2021 (1er Hito CBA 2022):}
 
-Supuestos para asesoría de septiembre 2021 (1er Hito CBA 2022):
-
--   El supuesto 1 de descarte propuesto para la corrección del desembarque 2020/21 para flota total y zona total se considera criterio experto del 4% (**Tabla 13**).
-
--   El supuesto 2 de descarte propuesto para la proyección de la CBA 2021/2022 y 2022/2023 para la flota total y zona total se considera criterio experto del 4% (**Tabla 13**).
+-   El \textbf{supuesto 1} de descarte propuesto para la corrección del desembarque 2020/21 para flota total y zona total se considera criterio experto del 4% (\textbf{Tabla \ref{Tab12}}).
+-   El \textbf{supuesto 2} de descarte propuesto para la proyección de la CBA 2021/2022 y 2022/2023 para la flota total y zona total se considera criterio experto del 4% (\textbf{Tabla \ref{Tab12}}).
 
 \pagebreak
 
+```{=tex}
+\vspace{0.2cm} 
+\begin{table}[h!]
+\caption{ Estimaciones de captura total (CT), retenida (CR) y descartada (CD) con sus respectivos coeficientes de variación ($CV_{CT}$, $CV_{CR}$, $CV_{CD}$), porcentaje de descarte , tamaños de muestra de los viajes muestreados y totales y porcentaje de cobertura para los años 2017 al 2019 por semestre y flota para la pesquería de \textbf{Anchoveta de la zona centro-sur}.}
+ \label{Tab7}
+    \centering
+    \resizebox{17cm}{!} {
+    \begin{tabular}{|l|l|l|l|c|c|c|c|c|c|c|c|c|c|}
+    \hline \rowcolor{Gray3}
+     &          &        &          & Captura  &             & Captura  &             & Captura     &             & \%        & $n_h$        & $N_h$   & \%        \\ \rowcolor{Gray3}
+ Año & Semestre & Flota  & Zona     & total    & $CV_{CT}\%$ & retenida & $CV_{CR}\%$ & descartada  & $CV_{CD}\%$ & descarte  & viajes       & viajes  & cobertura \\ \rowcolor{Gray3}
+     &          &        &          &  (t)     &             & (t)      &             & (t)         &             &           & muestreados  & totales & \\ \hline
+\multirow{8}{1cm}{2017} & \multirow{4}{1cm}{1} & \multirow{3}{2cm}{Artesanal}  & Valparaíso & 6.036  & 22,0 & 5.730  & 23,1 & 306 & 87,6 & 5,1 & 13 & 203   & 6,4 \\ 
+                        &                      &            & Biobío     & 41.330 & 29,3 & 41.263 & 29,3 & 68  & 79,2 & 0,2 & 47 & 3.970 & 1,2 \\
+                        &                      &            & Los Ríos   &        &      &        &      &     &      &     & 7  & 746   & 0,9  \\
+                        &                      & Industrial & Valparaíso - Los Ríos & &  &        &      &     &      &     & 5  & 35    & 14,3  \\ 
+                        &\multirow{4}{1cm}{2}  & \multirow{3}{2cm}{Artesanal}  & Valparaíso & &             &        &      &     &      &     & 3  & 20    & 15,0 \\
+                        &                      &            & Biobío     & 28.381 & 28,4 & 22.686 & 32,6 & 5.695 & 92,7 & 20,1 & 11 & 1.305 & 0,8\\
+                        &                      &            & Los Ríos   & 3.962  & 33,7 & 3.862  & 33,6 & 100 & 63,5 & 2,5 & 16 & 437 & 3,7 \\
+                        &                      & Industrial & Valparaíso - Los Ríos & &  &        &      &     &      &     & 6  & 30    & 20,0 \\   \hline   
+\multirow{8}{1cm}{2018} & \multirow{4}{1cm}{1} & \multirow{3}{2cm}{Artesanal}  & Valparaíso & &             &        &      &     &      &     & 4  & 129   & 3,1   \\
+                        &                      &            & Biobío     & 52.565 & 30,4 & 51.705 & 30,1 & 860 & 91,3 & 1,6 & 40 & 3.396 & 1,2 \\
+                        &                      &            & Los Ríos   & 19.422 & 17,0 & 19.122 & 16,7 & 300 & 50,9 & 1,5 & 11 & 468   & 2,4  \\
+                        &                      & Industrial & Valparaíso - Los Ríos & &  &        &      &     &      &     & 2  & 20    & 10,0   \\  
+                        &\multirow{4}{1cm}{2}  & \multirow{3}{2cm}{Artesanal}  & Valparaíso & &             &        &      &     &      &     & 0  & 87    & 0,0   \\  
+                        &                      &            & Biobío     & 10.943 & 32,6 & 10.931 & 30,2 & 12 & 106,5 & 0,1 & 26 & 639   & 4,1 \\
+                        &                      &            & Los Ríos   & 829    & 39,8 & 829    & 39,3 & 0  &       &     & 14 & 187   & 7,5  \\
+                        &                      & Industrial & Valparaíso - Los Ríos & &  &        &      &     &      &     & 0  & 4     & 0   \\    \hline   
+\multirow{8}{1cm}{2019} & \multirow{4}{1cm}{1} & \multirow{3}{2cm}{Artesanal}  & Valparaíso & &             &        &      &     &      &     & 0  & 277   & 0,0   \\  
+                        &                      &            & Biobío     & 105.362       & 17,7   & 102.919 & 18,4 & 2.443 & 95,2 & 2,3 & 34 & 3.864 & 0,9  \\
+                        &                      &            & Los Ríos   & 2.954 & 45,4 & 2.486 & 51,1 & 468 & 57,0 & 15,8 & 24 & 558 & 4,3 \\
+                        &                      & Industrial & Valparaíso - Los Ríos & &  &        &      &     &      &     &    &       &   \\       
+                        & \multirow{4}{1cm}{2} & \multirow{3}{2cm}{Artesanal}  & Valparaíso & &             &        &      &     &      &     & 0  & 47    & 0,0   \\  
+                        &                      &            & Biobío     & 28.524 & 21,9 & 28.182 & 22,2 & 342 & 62,6 & 1,2 & 24 & 1.542 & 1,6 \\
+                        &                      &            & Los Ríos   & 881 & 33,4 & 880 & 33,6 & 1 & 101,6 & 0,1 & 16 & 183 & 8,7 \\
+                        &                      & Industrial & Valparaíso - Los Ríos &  &  &        &      &     &      &     &    & 10  &   \\   \hline    
+\multirow{8}{1cm}{2020} & \multirow{4}{1cm}{1} & \multirow{3}{2cm}{Artesanal}  & Valparaíso &  &             &        &      &     &      &     & 4  & 30  & 13,3  \\        
+                        &                      &            & Biobío     &  &             &        &      &     &      &     & 0  & 3.968  &   \\       
+                        &                      &            & Los Ríos   &  &             &        &      &     &      &     & 8  & 562 & 1,4   \\      
+                        &                      & Industrial & Valparaíso - Los Ríos &  &  &        &      &     &      &     & 0  &  2  & 0    \\  
+                        & \multirow{4}{1cm}{2} & \multirow{3}{2cm}{Artesanal}  & Valparaíso &  &             &        &      &     &      &     &    &     &    \\    
+                        &                      &            & Biobío     &  &             &        &      &     &      &     &    &     &    \\    
+                        &                      &            & Los Ríos   &  &             &        &      &     &      &     &    &     &    \\    
+                        &                      & Industrial & Valparaíso - Los Ríos & &   &        &      &     &      &     &    &     &    \\     \hline     
+   \end{tabular}}
+        \end{table}
+```
+
+
+```{=tex}
+\vspace{0.3cm} 
+\begin{table}[h!]
+\caption{Captura total (CT) y descartada (CD) semestral para la zona centro-sur utilizados para obtener el descarte en año biológico (2017/18, 2018/19 y 2019/20).  Se considera la sumatoria de las capturas total y descartada de las tres zonas analizadas.  Para los año/semestres con asteriscos (*) se realizaron consideraciones particulares que se explican bajo la tabla. \textbf{Anchoveta Centro-sur}.}
+ \label{Tab8}
+    \centering
+    \resizebox{9cm}{!} {
+    \begin{tabular}{|l|c|c|c|c|}
+    \hline \rowcolor{Gray3}
+               &              & Captura  & Captura     & \%         \\ \rowcolor{Gray3}
+ Año biológico & Año/Semestre & total    & descartada  & descarte   \\ \rowcolor{Gray3}
+               &              & (t)      & (t)         &            \\ \hline
+               & 2017,0       & 47.366   & 373         & 0,8\% \\ \hline
+\multirow{2}{1cm}{2017/2018}  & \textbf{2017,5}* & 20.589 & 178 & 0,9\%  \\ 
+               & 2018,0       & 71.988   & 1.160       & 1,6\% \\ \hline
+\multirow{2}{1cm}{2018/2019}  & 2018,5   & 11.772 & 12 & 0,1\%  \\ 
+               & \textbf{2019,0}** & 105.362 & 2.443 & 2,3\% \\  \hline
+\multirow{2}{1cm}{2019/2020}  & 2019,5   & 29.405 & 344 & 1,2\%  \\ 
+               & \textbf{2020,0}*** & 74.905 & 1.326 & 1,8\% \\ \hline
+               & 2020,5       &          &        &   \\ \hline
+   \end{tabular}}
+        \end{table}
+```
+\vspace{-0.2cm} 
+\footnotesize
++ \textbf{2017,5}* = Se utiliza el promedio de la captura total y descartada del segundo semestre 2018 y 2019. El % descarte del segundo semestre 2017 para Región del Biobío no fue considerado por el bajo porcentaje de cobertura (1%), lo cual genera una sobreestimación del descarte.
++ \textbf{2019,0}** = Se utiliza sólo captura total y descartada de la Región del Biobío. Alta incertidumbre en la estimación del descarte de la Región de Los Ríos producto del cierre de plantas. Se considera una condición atípica que puede generar sobreestimación del descarte.
++ \textbf{2020,0}*** = No hay información de descarte por bajos tamaños de muestra por efecto de la pandemia. Se utiliza el promedio de la captura total y descartada del primer semestre 2018 y 2019.  El bajo porcentaje de cobertura de muestreo no permite estimar el descarte.
+\normalsize
+
+```{=tex}
+\vspace{0.3cm} 
+\begin{table}[h!]
+\caption{Porcentajes de descarte estimados para corregir la serie de desembarques de los  años biológicos 2017/18, 2018/19 y 2019/20. Supuestos transitorios del porcentaje de descarte utilizado en la corrección del desembarque del último año y proyección de la CBA de \textbf{Anchoveta Centro-sur}.}
+ \label{Tab9}
+    \centering
+    \resizebox{12cm}{!} {
+    \begin{tabular}{|l|c|c|c|c|}
+    \hline \rowcolor{Gray3}
+               &               & Captura  & Captura     & \%         \\ \rowcolor{Gray3}
+ Criterio      & Año biológico & total    & descartada  & descarte   \\ \rowcolor{Gray3}
+               &               & (t)      & (t)         &            \\ \hline
+\multirow{3}{5cm}{Corrección de los desembarques en año biológico}  & 2017/2018 & 92.576 & 1.338 & 1,4\%  \\  
+               & 2018/2019     & 117.134  & 2.455       & 2,1\% \\
+               & 2019/2020     & 104.310  & 1.669       & 1,6\% \\ \hline \rowcolor{Gray4}
+ Supuestos     &               &          &             &   \\ \hline
+ 1. Corrección del desembarque & 2020/2021 & 104.673 & 1.821 & 2\% \\
+ 2. Proyección de la CBA       & 2021/2022 & 104.673 & 1.821 & 2\% \\ \hline
+   \end{tabular}}
+        \end{table}
+```
+
+
+
+\pagebreak
+
+
+```{=tex}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\textwidth]{Figuras/AnchCentroSur_descarte_ANEXO_III.pdf}
+\caption{Captura total y descartada semestral (panel superior) estimada para la flota artesanal de la Región de Valparaíso, Biobío y Los Ríos. (panel intermedio) Número de viajes totales y muestreados en la flota artesanal de la Región de Valparaíso, Biobío y Los Ríos. (panel inferior) Porcentaje de descarte y de cobertura de la flota artesanal de la Región de Valparaíso, Biobío y Los Ríos. \textbf{Anchoveta centro-sur.}}
+\label{Fig3}
+\end{figure}
+```
+
+\pagebreak
+
+
+```{=tex}
+\vspace{-0.2cm} 
+\begin{table}[h!]
+\caption{Estimaciones de captura total (CT), retenida (CR) y descartada (CD) con sus respectivos coeficientes de variación ($CV_{CT}$, $CV_{CR}$, $CV_{CD}$), porcentaje de descarte , tamaños de muestra de los viajes muestreados y totales y porcentaje de cobertura para los años 2017 al 2019 por semestre y flota para la pesquería de \textbf{sardina común de la zona centro-sur}.}
+ \label{Tab10}
+    \centering
+    \resizebox{17cm}{!} {
+    \begin{tabular}{|l|l|l|l|c|c|c|c|c|c|c|c|c|c|}
+    \hline \rowcolor{Gray3}
+     &          &        &          & Captura  &             & Captura  &             & Captura     &             & \%        & $n_h$        & $N_h$   & \%        \\ \rowcolor{Gray3}
+ Año & Semestre & Flota  & Zona     & total    & $CV_{CT}\%$ & retenida & $CV_{CR}\%$ & descartada  & $CV_{CD}\%$ & descarte  & viajes       & viajes  & cobertura \\ \rowcolor{Gray3}
+     &          &        &          &  (t)     &             & (t)      &             & (t)         &             &           & muestreados  & totales & \\ \hline
+\multirow{8}{1cm}{2017} & \multirow{4}{1cm}{1} & \multirow{3}{2cm}{Artesanal}  & Valparaíso & 2.809  & 37,7 & 2.771  & 38,0 & 38 & 94,0 & 1,3 & 13 & 203   & 6,4 \\ 
+                        &                      &            & Biobío     & 213.019 & 7,6 & 211.034 & 7,6 & 1.985 & 77,2 & 0,9 & 47 & 3.970 & 1,2 \\
+                        &                      &            & Los Ríos   &        &      &        &      &     &      &     & 7  & 746   & 0,9  \\
+                        &                      & Industrial & Valparaíso - Los Ríos & &  &        &      &     &      &     & 5  & 35    & 14,3  \\ 
+                        &\multirow{4}{1cm}{2}  & \multirow{3}{2cm}{Artesanal}  & Valparaíso & &             &        &      &     &      &     & 3  & 20    & 15,0 \\
+                        &                      &            & Biobío     & 49.207 & 22,2 & 44.759 & 25,5 & 4.449 & 92,7 & 9   & 11 & 1.305 & 0,8\\
+                        &                      &            & Los Ríos   & 23.968 & 13,6 & 23.219 & 13,1 & 749   & 39,8 & 3,1 & 16 & 437 & 3,7 \\
+                        &                      & Industrial & Valparaíso - Los Ríos & &  &        &      &     &      &     & 6  & 30    & 20,0 \\   \hline   
+\multirow{8}{1cm}{2018} & \multirow{4}{1cm}{1} & \multirow{3}{2cm}{Artesanal}  & Valparaíso & &             &        &      &     &      &     & 4  & 129   & 3,1   \\
+                        &                      &            & Biobío     & 230.138 & 11,1 & 212.585 & 11,3 & 17.554 & 56,0 & 7,6 & 40 & 3.396 & 1,2 \\
+                        &                      &            & Los Ríos   & 15.992 & 19,8 & 15.443 & 19,7 & 550 & 38,7 & 3,4 & 11 & 468   & 2,4  \\
+                        &                      & Industrial & Valparaíso - Los Ríos & &  &        &      &     &      &     & 2  & 20    & 10,0   \\  
+                        &\multirow{4}{1cm}{2}  & \multirow{3}{2cm}{Artesanal}  & Valparaíso & &             &        &      &     &      &     & 0  & 87    & 0,0   \\  
+                        &                      &            & Biobío     & 35.719 & 17,3 & 33.151 & 15,8 & 2.569 & 88,7 & 7,2 & 26 & 639   & 4,1 \\
+                        &                      &            & Los Ríos   & 10.607 & 11,9 & 10.340 & 11,9 & 267   & 96,2 & 2,5 & 14 & 187   & 7,5  \\
+                        &                      & Industrial & Valparaíso - Los Ríos & &  &        &      &     &      &     & 0  & 4     & 0   \\    \hline   
+\multirow{8}{1cm}{2019} & \multirow{4}{1cm}{1} & \multirow{3}{2cm}{Artesanal}  & Valparaíso & &             &        &      &     &      &     & 0  & 277   & 0,0   \\  
+                        &                      &            & Biobío     & 101.285    & 18,0   & 96.739 & 19,0 & 4.546 & 79,1 & 4,5 & 34 & 3.864 & 0,9  \\
+                        &                      &            & Los Ríos   & 42.344 & 9,1 & 35.422 & 6,6 & 6.922 & 34,1 & 16,3 & 24 & 558 & 4,3 \\
+                        &                      & Industrial & Valparaíso - Los Ríos & &  &        &      &     &      &     &    &       &   \\       
+                        & \multirow{4}{1cm}{2} & \multirow{3}{2cm}{Artesanal}  & Valparaíso & &             &        &      &     &      &     & 0  & 47    & 0,0   \\  
+                        &                      &            & Biobío     & 25.721 & 23,6 & 25.539 & 23,9 & 183 & 67,9 & 0,7 & 24 & 1.542 & 1,6 \\
+                        &                      &            & Los Ríos   & 10.156 & 13,7 & 9.619 & 12,7 & 537 & 68,0 & 5,3 & 16 & 183 & 8,7 \\
+                        &                      & Industrial & Valparaíso - Los Ríos &  &  &        &      &     &      &     &    & 10  &   \\   \hline    
+\multirow{8}{1cm}{2020} & \multirow{4}{1cm}{1} & \multirow{3}{2cm}{Artesanal}  & Valparaíso &  &             &        &      &     &      &     & 4  & 30  & 13,3  \\        
+                        &                      &            & Biobío     &  &             &        &      &     &      &     & 0  & 3.968  &   \\       
+                        &                      &            & Los Ríos   &  &             &        &      &     &      &     & 8  & 562 & 1,4   \\      
+                        &                      & Industrial & Valparaíso - Los Ríos &  &  &        &      &     &      &     & 0  &  2  & 0    \\  
+                        & \multirow{4}{1cm}{2} & \multirow{3}{2cm}{Artesanal}  & Valparaíso &  &             &        &      &     &      &     &    &     &    \\    
+                        &                      &            & Biobío     &  &             &        &      &     &      &     &    &     &    \\    
+                        &                      &            & Los Ríos   &  &             &        &      &     &      &     &    &     &    \\    
+                        &                      & Industrial & Valparaíso - Los Ríos & &   &        &      &     &      &     &    &     &    \\     \hline     
+   \end{tabular}}
+        \end{table}
+```
+
+
+
+```{=tex}
+\vspace{0.3cm} 
+\begin{table}[h!]
+\caption{Captura total (CT) y descartada (CD) semestral para la zona centro-sur utilizados para obtener el descarte en año biológico (2017/18, 2018/19 y 2019/20).  Se considera la sumatoria de las capturas total y descartada de las tres zonas analizadas.  Para los año/semestres con asteriscos (*) se realizaron consideraciones particulares que se explican bajo la tabla. \textbf{Sardina común}.}
+ \label{Tab11}
+    \centering
+    \resizebox{9cm}{!} {
+    \begin{tabular}{|l|c|c|c|c|}
+    \hline \rowcolor{Gray3}
+               &              & Captura  & Captura     & \%         \\ \rowcolor{Gray3}
+ Año biológico & Año/Semestre & total    & descartada  & descarte   \\ \rowcolor{Gray3}
+               &              & (t)      & (t)         &            \\ \hline
+               & 2017,0       & 215.828  & 2.023       & 1\% \\ \hline
+\multirow{2}{1cm}{2017/2018}  & \textbf{2017,5}* & 73.176 & 5.198 & 7\%  \\ 
+               & 2018,0       & 246.131  & 18.103      & 7\% \\ \hline
+\multirow{2}{1cm}{2018/2019}  & 2018,5   & 46.326 & 2.835 & 6\%  \\ 
+               & \textbf{2019,0}** & 101.285 & 4.546 & 4\% \\  \hline
+\multirow{2}{1cm}{2019/2020}  & 2019,5   & 35.877 & 719 & 2\%  \\ 
+               & \textbf{2020,0}*** & 187.748 & 8.224 & 4\% \\ \hline
+               & 2020,5       &          &        &   \\ \hline
+   \end{tabular}}
+        \end{table}
+```
+\vspace{-0.2cm} 
+\footnotesize
++ \textbf{2017,5}* = Se utiliza el promedio de la captura total y descartada del segundo semestre 2018 y 2019. El % descarte del segundo semestre 2017 para Región del Biobío no fue considerado por el bajo porcentaje de cobertura (1%), lo cual genera una sobreestimación del descarte.
++ \textbf{2019,0}** = Se utiliza sólo captura total y descartada de la Región del Biobío. Alta incertidumbre en la estimación del descarte de la Región de Los Ríos producto del cierre de plantas. Se considera una condición atípica que puede generar sobreestimación del descarte.
++ \textbf{2020,0}*** = No hay información de descarte por bajos tamaños de muestra por efecto de la pandemia. Se utiliza el promedio de la captura total y descartada del primer semestre 2018 y 2019.  El bajo porcentaje de cobertura de muestreo no permite estimar el descarte.
+\normalsize
+
+```{=tex}
+\vspace{0.3cm} 
+\begin{table}[h!]
+\caption{Porcentajes de descarte estimados para corregir la serie de desembarques de los  años biológicos 2017/18, 2018/19 y 2019/20. Supuestos transitorios del porcentaje de descarte utilizado en la corrección del desembarque del último año y proyección de la CBA de \textbf{Sardina común}.}
+ \label{Tab12}
+    \centering
+    \resizebox{12cm}{!} {
+    \begin{tabular}{|l|c|c|c|c|}
+    \hline \rowcolor{Gray3}
+               &               & Captura  & Captura     & \%         \\ \rowcolor{Gray3}
+ Criterio      & Año biológico & total    & descartada  & descarte   \\ \rowcolor{Gray3}
+               &               & (t)      & (t)         &            \\ \hline
+\multirow{3}{5cm}{Corrección de los desembarques en año biológico}  & 2017/2018 & 319.306 & 23.301 & 7\%  \\  
+               & 2018/2019     & 147.610  & 7.381       & 5\% \\
+               & 2019/2020     & 223.625  & 8.943       & 4\% \\ \hline \rowcolor{Gray4}
+ Supuestos     &               &          &             &   \\ \hline
+ 1. Corrección del desembarque & 2020/2021 & Jucio experto & Jucio experto & 4\% \\
+ 2. Proyección de la CBA       & 2021/2022 & Jucio experto & Jucio experto & 4\% \\ \hline
+   \end{tabular}}
+        \end{table}
+```
+
+
+
+\pagebreak
+
+```{=tex}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\textwidth]{Figuras/SardComun_descarte_ANEXO_III.pdf}
+\caption{Captura total y descartada semestral (panel superior) estimada para la flota artesanal de la Región de Valparaíso, Biobío y Los Ríos. (panel intermedio) Número de viajes totales y muestreados en la flota artesanal de la Región de Valparaíso, Biobío y Los Ríos. (panel inferior) Porcentaje de descarte y de cobertura de la flota artesanal de la Región de Valparaíso, Biobío y Los Ríos. \textbf{Sardina común Centro-sur.}}
+\label{Fig4}
+\end{figure}
+```
+
+\pagebreak
+
+\normalsize
+
 ### 4.4. Descarte de la pesquería de sardina austral de la Región de Los Lagos.
 
-El programa de descarte de la pesquería de sardina austral comenzó el año 2017, la información que disponible a la fecha es semestral desde el 2017 al primer semestre del año 2020 para la flota artesanal. El año 2018 sólo se registra información para el segundo semestre (**Tabla 14, Figura 5**). Es una pesquería multiespecífica (sardina austral, sardina común y anchoveta), pero sólo se regula la sardina austral. Los primeros años del programa de descarte ingresó mucha anchoveta (año 2017) a esta zona, provocando un exceso del límite permitido de fauna acompañante. Debido al retraso de la medida administrativa de imputación conjunta (se aplicó solo a fines de ese año 2017), generó que los valores de descarte se elevaran significativamente ese año (**Tabla 14, Figuras 5a**). Estos valores se estabilizaron cuando bajó la proporción de sardina común y anchoveta. Otras causas probables de descarte en esta zona son las siguientes:
+El programa de descarte de la pesquería de sardina austral comenzó el año 2017, la información que disponible a la fecha es semestral desde el 2017 al primer semestre del año 2020 para la flota artesanal. El año 2018 sólo se registra información para el segundo semestre (\textbf{Tabla \ref{Tab14}}, \textbf{Figura \ref{Fig5}}). Es una pesquería multiespecífica (sardina austral, sardina común y anchoveta), pero sólo se regula la sardina austral. Los primeros años del programa de descarte ingresó mucha anchoveta (año 2017) a esta zona, provocando un exceso del límite permitido de fauna acompañante. Debido al retraso de la medida administrativa de imputación conjunta (se aplicó solo a fines de ese año 2017), generó que los valores de descarte se elevaran significativamente ese año (\textbf{Tabla \ref{Tab14}}, \textbf{Figura \ref{Fig5}}). Estos valores se estabilizaron cuando bajó la proporción de sardina común y anchoveta. Otras causas probables de descarte en esta zona son las siguientes:
 
 -   Exceder la capacidad de bodega de las embarcaciones
 -   Exceder límite permitido de fauna acompañante (como anchoveta y mote)
@@ -354,11 +763,75 @@ El programa de descarte de la pesquería de sardina austral comenzó el año 201
 -   Criterios de calidad. Por ejemplo, el desplazamiento de las embarcaciones dentro del área de la pesquería, podría afectar la calidad de la captura que puede pasar varios días en la bodega.
 -   Exceder la cuota establecida.
 
-Respecto al número de viajes totales realizados por la flota artesanal están en torno a los 228 viajes por semestre. El número de viajes muestreados estuvieron entre los 10 a 20 viajes por semestre (**Tabla 14, Figura 5b**). El porcentaje de cobertura de los viajes muestreados es bajo, es decir, menos del 8% de los viajes realizados por la flota artesanal son muestreados por observadores científicos. Existe muy poca información de descarte para esta zona, registrándose información principalmente para el primer semestre del 2017, 2019 y 2020 y con alta variabilidad entre estos años (**Tabla 14, Figura 5c**), lo cual complejiza su utilización en la evaluación de stock de sardina austral de la Región de Los Lagos.
+Respecto al número de viajes totales realizados por la flota artesanal están en torno a los 228 viajes por semestre. El número de viajes muestreados estuvieron entre los 10 a 20 viajes por semestre (\textbf{Tabla \ref{Tab14}}, \textbf{Figura \ref{Fig5}}). El porcentaje de cobertura de los viajes muestreados es bajo, es decir, menos del 8% de los viajes realizados por la flota artesanal son muestreados por observadores científicos. Existe muy poca información de descarte para esta zona, registrándose información principalmente para el primer semestre del 2017, 2019 y 2020 y con alta variabilidad entre estos años (\textbf{Tabla \ref{Tab14}}, \textbf{Figura \ref{Fig5}}), lo cual complejiza su utilización en la evaluación de stock de sardina austral de la Región de Los Lagos.
 
 El modelo de evaluación de stock utiliza información en año calendario, por lo tanto, se requieren datos de descarte anuales para la flota artesanal para corregir la serie de desembarques (Leal & Zúñiga, 2020). Dada la alta variabilidad en las estimaciones de captura descartada, se requiere utilizar un supuesto de descarte para corregir la serie de desembarques utilizado por la evaluación de stock y un supuesto para el descarte proyectado que será utilizado en la proyección de CBA.
 
-Por lo tanto, dado que no se puede utilizar un criterio basado en promedios porque no hay información completa para esta zona. Se debe asumir un criterio experto, el cual debe ser discutido en el seno del CCT-PP. En una primera instancia, se recomienda utilizar un 4%, al igual que el caso de sardina común).
+Para la propuesta de valores de descarte utilizados para la corrección de la serie histórica de captura, no se consideraron datos del primer semestre de 2017, ya que fue el año de implementación del proyecto con alta desconfianza de los pescadores, lo que finalmente resultó en una baja cobertura (\textbf{Tabla \ref{Tab15}}). Además, fue un año con condiciones diferentes en cuanto a las especies presentes en las zonas de pesca (alta presencia de anchoveta).  No se consideró información de 2020, ya que son datos preliminares y no están disponibles para el año completo, de acuerdo al mismo criterio que el punto anterior. El análisis con datos 2018-2019 entregó un valor de descarte de sardina austral de 2,32%. 
+
+Finalmente, en base a la información previa, en la tercera sesión del CCT-PP (Acta Sesión Nº3) se acordó que para la sardina austral de la Región de Los Lagos, se aplicará de forma transitoria un descarte de de 2,3% anual para corregir la serie histórica de capturas. Este porcentaje considera la información registrada en los años 2018 y 2019, eliminando los valores del 2017 por su baja representatividad. Además, se aplicará un descarte de 2,3% anual a la CBA máxima, de forma transitoria en el período 2021 y 2022.
+
+\pagebreak
+
+```{=tex}
+\vspace{0.4cm} 
+\begin{table}[h!]
+\caption{Estimaciones de captura total ($CT$), retenida ($CR$) y descartada ($CD$) con sus respectivos coeficientes de variación ($CV_{CT}$, $CV_{CR}$, $CV_{CD}$),  porcentaje de descarte , tamaños de muestra de los viajes muestreados y totales y porcentaje de cobertura para los años 2017 al 2020 por semestre y flota para la pesquería de \textbf{sardina austral Región de Los Lagos}.}
+ \label{Tab14}
+    \centering
+    \resizebox{17cm}{!} {
+    \begin{tabular}{|l|l|l|l|c|c|c|c|c|c|c|c|c|}
+    \hline \rowcolor{Gray3}
+     &          &        & Captura  &             & Captura  &             & Captura     &             & \%        & $n_h$        & $N_h$   & \%        \\ \rowcolor{Gray3}
+ Año & Semestre & Flota  & total    & $CV_{CT}\%$ & retenida & $CV_{CR}\%$ & descartada  & $CV_{CD}\%$ & descarte  & viajes       & viajes  & cobertura \\ \rowcolor{Gray3}
+     &          &        & (t)      &             & (t)      &             & (t)         &             &           & muestreados  & totales & \\ \hline
+ \rowcolor{Gray4} \multirow{2}{1cm}{2017} & 1 & \multirow{2}{2cm}{Artesanal}   & 13.685 & 29,9  & 9.637  & 35,6 & 4.048  & 56,1 & 29,6  & 11 & 433   & 2,5 \\  
+                      & 2 &                                &        &       &        &      &        &      &       & 0  & 306   & 0    \\
+\rowcolor{Gray4}  \multirow{2}{1cm}{2018} & 1 & \multirow{2}{2cm}{Artesanal}   &        &       &        &      &        &      &       & 2  & 157   & 1,3   \\ 
+                      & 2 &                                & 6.464  & 22,4  & 5.988  & 24,3 & 476    & 63,6 & 7,4   & 14 & 312   & 4,5  \\   
+\rowcolor{Gray4} \multirow{2}{1cm}{2019} & 1 & \multirow{2}{2cm}{Artesanal}   & 14.501 & 14,6  & 14.322 & 15,3 & 178    & 49,1 & 1,2   & 21 & 344   & 6,1   \\  
+                        & 2 &                                &        &       &        &      &        &      &       & 8  & 238   & 3,4   \\   
+\rowcolor{Gray4} \multirow{2}{1cm}{2020} & 1 & \multirow{2}{2cm}{Artesanal}   & 11.156 & 20,8  & 9.681  & 16,1 & 1.475  & 87,1 & 13,2  & 17 & 228   & 7,5  \\   
+                      & 2 &                                &        &       &        &      &        &      &       &    &       &    \\  \hline  
+   \end{tabular}}
+        \end{table}
+```
+
+
+
+```{=tex}
+\vspace{0.3cm} 
+\begin{table}[h!]
+\caption{Porcentajes de descarte estimados para corregir la serie de desembarques 2018 y 2019. Supuestos transitorios del porcentaje de descarte utilizado en la corrección del desembarque 2020 y 2021 y proyección de la CBA de \textbf{Sardina austral Región de Los Lagos}.}
+ \label{Tab15}
+    \centering
+    \resizebox{12cm}{!} {
+    \begin{tabular}{|l|c|c|c|c|}
+    \hline \rowcolor{Gray3}
+               &               & Captura  & Captura     & \%         \\ \rowcolor{Gray3}
+ Criterio      & Año calendario & total    & descartada  & descarte   \\ \rowcolor{Gray3}
+               &               & (t)      & (t)         &            \\ \hline
+\multirow{2}{5cm}{Corrección de los desembarques}  &2018  & 12.877 & 626  & 4,86\%  \\  
+               & 2019     & 23.503  & 23.285       & 0,93\% \\ \hline \rowcolor{Gray4}
+ Supuestos     &               &          &             &   \\ \hline
+ 1. Corrección del desembarque & 2020 y 2021 & 36.380 & 844,6 & 2,32\% \\
+ 2. Proyección de la CBA       & 2022 & 36.380 & 844,6 & 2,32\% \\ \hline
+   \end{tabular}}
+        \end{table}
+```
+
+
+\pagebreak
+
+```{=tex}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1\textwidth]{Figuras/SardAustral_descarte_ANEXO_III.pdf}
+\caption{Captura total y descartada semestral (panel superior) estimada para la flota artesanal. (panel intermedio) Número de viajes totales y muestreados en la flota artesanal. (panel inferior) Porcentaje de descarte y de cobertura de la flota artesanal. \textbf{Sardina austral Región de Los Lagos}.}
+\label{Fig5}
+\end{figure}
+```
+
 
 \pagebreak
 
@@ -395,20 +868,45 @@ Por lo tanto, dado que no se puede utilizar un criterio basado en promedios porq
 
 Bucarey D, MJ Zúñiga, JC Quiroz. 2021. SEGUNDO INFORME. Estatus y posibilidades de explotación biológicamente sustentables de los principales recursos pesqueros nacionales, año 2021. Anchoveta y Sardina Española Región de Atacama a Región de Coquimbo. Subsecretaría de Economía y EMT. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 92 p + Anexos.
 
+\vspace{0.3cm} 
+
 Fernando E. 2021. SEGUNDO INFORME. Estatus y posibilidades de explotación biológicamente sustentable de anchoveta y sardina española entre la Región de Arica y Parinacota a la Región de Antofagasta, año 2021. Subsecretaría de Economía y EMT. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 108p + Anexos.
+
+\vspace{0.3cm} 
 
 Leal E, MJ Zúñiga. 2020. PRIMER INFORME. Estatus y posibilidades de explotación biológicamente sustentables de sardina austral, Región de Los Lagos, año 2021. Subsecretaría de Economía y EMT. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 80 p + Anexos.
 
+\vspace{0.3cm} 
+
 Vega R, L Ossa, B Suárez, A González, S Henríquez, R Ojeda, A Ramírez, A Simeone, M Sepúlveda, MJ Pérez & R Escobar. 2017. INFORME FINAL. Programa de Observadores Científicos, 2016. Subsecretaria de Economía y EM. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 232 p + Anexos.
+
+\vspace{0.3cm} 
 
 Vega R, L Ossa, B Suárez, A González, S Henríquez, R Ojeda, MF Jiménez, A Ramírez, J Le-Bert, A Simeone, C Anguita, M Sepúlveda, MJ Pérez, M Santos & H Araya. 2018. INFORME FINAL. Programa de observadores científicos 2017-2018. Programa de investigación del descarte y captura de pesca incidental en pesquerías pelágicas. Programa de monitoreo y evaluación de los planes de reducción del descarte y de la pesca incidental 2017-2018. Subsecretaria de Economía y EM. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 241 p + Anexos.
 
+\vspace{0.3cm} 
+
 Vega R, L Ossa, B Suárez, MF Jiménez,S Henríquez, A González, R Ojeda, A Simeone,C Anguita,M Sepúlveda,MJ Pérez, M Santos & H Araya. 2019. INFORME FINAL. Programa de observadores científicos 2018-2019. Programa de investigación del descarte y captura de pesca incidental en pesquerías pelágicas. Programa de monitoreo y evaluación de los planes de reducción del descarte y de la pesca incidental 2018-2019. Subsecretaria de Economía y EM. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 305 p + Anexos.
+
+\vspace{0.3cm} 
 
 Vega R, L Ossa, B Suárez, MF Jiménez,S Henríquez, A González, R Ojeda, A Simeone,C Anguita,M Sepúlveda,MJ Pérez, M Santos, J Cavieres, P Paredes, I Cari, P Zárate & D Devia. 2020. INFORME FINAL. Programa de observadores científicos: Programa de investigación y monitoreo del descarte y de la captura de pesca incidental en pesquerías pelágicas, 2019-2020. Subsecretaria de Economía y EM. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 341 p + Anexos.
 
+\vspace{0.3cm} 
+
 Zúñiga MJ & JC Quiroz. 2017c. INFORME 1 DE ESTATUS. Estatus y posibilidades de explotación biológicamente sustentables de los principales recursos pesqueros nacionales, año 2018 en sardina común V-X regiones. Sardina común V-X regiones, septiembre 2017. Subsecretaría de Economía y EMT. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 161 p + Anexos.
+
+\vspace{0.3cm} 
 
 Zúñiga MJ, D Bucarey, JC Quiroz. 2021a. SEGUNDO INFORME. Estatus y posibilidades de explotación biológicamente sustentables de los principales recursos pesqueros nacionales, año 2021. Anchoveta Región de Valparaíso a la Región de Los Lagos, 2021. Subsecretaría de Economía y EMT. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 95 p + Anexos.
 
+\vspace{0.3cm} 
+
 Zúñiga MJ, JC Quiroz, D Bucarey. 2021b. SEGUNDO INFORME. Estatus y posibilidades de explotación biológicamente sustentables de los principales recursos pesqueros nacionales, año 2021. Sardina común Región de Valparaíso a la Región de Los Lagos, 2021. Subsecretaría de Economía y EMT. Instituto de Fomento Pesquero (IFOP), Valparaíso, Chile. 111 p + Anexos.
+
+\pagebreak
+
+
+
+      
+
