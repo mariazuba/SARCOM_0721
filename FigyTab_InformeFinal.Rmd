@@ -918,7 +918,7 @@ BcP2 <- ggplot(base1 %>% filter(Asesoria!='observado', variable=='Crucero_otoño
        aes(ymin = value*exp(-1.96*cvBcV)*10^-6, ymax = value*exp(1.96*cvBcV)*10^-6), color = 'gray30') +
        scale_x_continuous(breaks = seq(from = 1985, to = 2021, by = 5)) +
        labs(x = '', y = 'Toneladas (millones)') +
-       theme_bw(base_size=9) + 
+       theme_bw(base_size=10) + 
        ggtitle('Crucero de otoño')+
        theme(plot.title = element_text(hjust = 0.5))
 
@@ -934,7 +934,7 @@ d   <- ggplot(base1 %>% filter(Asesoria!='observado', variable=='Desembarques'),
        aes(ymin = value*exp(-1.96*cvdes)*10^-3, ymax = value*exp(1.96*cvdes)*10^-3), color = 'gray30') +
        scale_x_continuous(breaks = seq(from = 1985, to = 2021, by = 5)) +
        labs(x = '', y = 'Toneladas (miles)') +
-       theme_bw(base_size=9) + 
+       theme_bw(base_size=10) + 
        ggtitle('Desembarques') +
        theme(plot.title = element_text(hjust = 0.5),legend.position="none")
 
@@ -950,7 +950,7 @@ d2   <- ggplot(base1 %>% filter(Asesoria!='observado', variable=='Desembarques')
        aes(ymin = value*exp(-1.96*cvdes)*10^-3, ymax = value*exp(1.96*cvdes)*10^-3), color = 'gray30') +
        scale_x_continuous(breaks = seq(from = 1985, to = 2021, by = 5)) +
        labs(x = '', y = 'Toneladas (miles)') +
-       theme_bw(base_size=9) + 
+       theme_bw(base_size=10) + 
        ggtitle('Desembarques') +
        theme(plot.title = element_text(hjust = 0.5),legend.position="none")
 
@@ -1418,7 +1418,7 @@ Rt <- ggplot(Rtcomp) +
     scale_x_continuous(breaks = seq(from = 1990, to = 2021, by = 5)) +
     scale_colour_manual("",values=c("gray","orange","green","blue","red","black"))+
     scale_fill_manual("",values=c("grey30"))+
-    theme_bw(base_size=8) +
+    theme_bw(base_size=11) +
      ggtitle('')+
      theme(plot.title = element_text(hjust = 0.5),legend.position="none")
 
@@ -1434,7 +1434,7 @@ BD <- ggplot(SSBtcomp) +
     scale_x_continuous(breaks = seq(from = 1990, to = 2021, by = 5)) +
     scale_colour_manual("",values=c("gray","orange","green","blue","red","black"))+
     scale_fill_manual("",values=c("grey30"))+
-    theme_bw(base_size=8) +
+    theme_bw(base_size=11) +
      ggtitle('')+
      theme(plot.title = element_text(hjust = 0.5))
 
@@ -1446,11 +1446,11 @@ Ft <- ggplot(Ftcomp) +
     geom_line(aes(y=Ft_sept20, x=x, colour = year_retros[nretros-3]), size=0.5)+
     geom_line(aes(y=Ft_mar21, x=x, colour = year_retros[nretros-4]), size=0.5)+
     geom_line(aes(y=Ft_jul21, x=x, colour = year_retros[nretros-5]), size=0.5)+
-    labs(x = '', y = 'Mortalidad por pesca (F)',colour='Asesorías')  +
+    labs(x = '', y = 'Mortalidad por pesca (1/año)',colour='Asesorías')  +
     scale_x_continuous(breaks = seq(from = 1990, to = 2021, by = 5)) +
     scale_colour_manual("",values=c("gray","orange","green","blue","red","black"))+
     scale_fill_manual("",values=c("grey30"))+
-    theme_bw(base_size=8) +
+    theme_bw(base_size=11) +
     ggtitle('')+
     theme(plot.title = element_text(hjust = 0.5),legend.position="none")
 
@@ -1571,7 +1571,7 @@ Rt <- ggplot(Rt_retro) +
     scale_x_continuous(breaks = seq(from = 1995, to = 2020, by = 10)) +
     scale_colour_manual("",values=c("orange","green","blue","red","black"))+
     scale_fill_manual("",values=c("grey30"))+
-    theme_bw(base_size=9) +
+    theme_bw(base_size=12) +
      ggtitle('')+
      theme(plot.title = element_text(hjust = 0.5),legend.position="top")
 
@@ -1586,7 +1586,7 @@ BD <- ggplot(BD_retro) +
     scale_x_continuous(breaks = seq(from = 1995, to = 2020, by = 10)) +
     scale_colour_manual("",values=c("orange","green","blue","red","black"))+
     scale_fill_manual("",values=c("grey30"))+
-    theme_bw(base_size=9) +
+    theme_bw(base_size=12) +
      ggtitle('')+
      theme(plot.title = element_text(hjust = 0.5),legend.position="none")
 
@@ -1597,11 +1597,11 @@ Ft <- ggplot(Ft_retro) +
     geom_line(aes(y=y3, x=x, colour = year_retros[nretros-2]), size=0.5)+
     geom_line(aes(y=y4, x=x, colour = year_retros[nretros-3]), size=0.5)+
     geom_line(aes(y=y5, x=x, colour = year_retros[nretros-4]), size=0.5)+
-    labs(x = '', y = 'Mortalidad por pesca (F)',colour='Asesorías')  +
+    labs(x = '', y = 'Mortalidad por pesca (1/año)',colour='Asesorías')  +
     scale_x_continuous(breaks = seq(from = 1995, to = 2020, by = 10)) +
     scale_colour_manual("",values=c("orange","green","blue","red","black"))+
     scale_fill_manual("",values=c("grey30"))+
-    theme_bw(base_size=9) +
+    theme_bw(base_size=12) +
     ggtitle('')+
     theme(plot.title = element_text(hjust = 0.5),legend.position="none")
 
@@ -1617,7 +1617,7 @@ Rtrel <- ggplot(Rt_retroRel) + lims(y=c(-1,1)) +
     scale_x_continuous(breaks = seq(from = 1995, to = 2020, by = 10)) +
     scale_colour_manual("",values=c("orange","green","blue","red","black"))+
     scale_fill_manual("",values=c("grey30"))+
-    theme_bw(base_size=9) +
+    theme_bw(base_size=12) +
      ggtitle('')+
      theme(plot.title = element_text(hjust = 0.5),legend.position="none")
 
@@ -1632,7 +1632,7 @@ BDrel <- ggplot(BD_retroRel) + lims(y=c(-1,1)) +
     scale_x_continuous(breaks = seq(from = 1995, to = 2020, by = 10)) +
     scale_colour_manual("",values=c("orange","green","blue","red","black"))+
     scale_fill_manual("",values=c("grey30"))+
-    theme_bw(base_size=9) +
+    theme_bw(base_size=12) +
      ggtitle('')+
      theme(plot.title = element_text(hjust = 0.5),legend.position="none")
 
@@ -1647,7 +1647,7 @@ Ftrel <- ggplot(Ft_retroRel) + lims(y=c(-1,1)) +
     scale_x_continuous(breaks = seq(from = 1995, to = 2020, by = 10)) +
     scale_colour_manual("",values=c("orange","green","blue","red","black"))+
     scale_fill_manual("",values=c("grey30"))+
-    theme_bw(base_size=9) +
+    theme_bw(base_size=12) +
     ggtitle('')+
     theme(plot.title = element_text(hjust = 0.5),legend.position="none")
 
@@ -1797,14 +1797,14 @@ Rt <- ggplot() +
     geom_ribbon(data=VarPobMar,aes(ymin=lowerRt2, ymax=upperRt2, x=x, fill = "IC"), alpha = 0.2)+
     geom_ribbon(data=VarPobSep,aes(ymin=lowerRt1, ymax=upperRt1, x=x, fill = ""), alpha = 0.2)+
     geom_hline(yintercept = mean(VarPobJul$Rt3),colour='black',lty=2) +
-     annotate("text", x=2000, y=mean(VarPobJul$Rt3),label=expression("R"[promedio])) +
+     annotate("text", x=2000, y=mean(VarPobJul$Rt3)*1.3,label=expression("R"[promedio])) +
     labs(x = '', y = 'Reclutamientos',colour='Asesorías')  +
-     scale_x_continuous(breaks = seq(from = 1960, to = 2021, by = 2)) +
+     scale_x_continuous(breaks = seq(from = 1990, to = 2022, by = 4)) +
     scale_colour_manual("",values=c('blue','red',"black"))+
     scale_fill_manual("",values=c("grey90","grey30",'gray75'))+
-    theme_bw(base_size=8) +
+    theme_bw(base_size=9) +
      ggtitle('')+
-     theme(plot.title = element_text(hjust = 0.5),legend.position="top")
+     theme(plot.title = element_text(hjust = 0.5),legend.position="top",legend.text = element_text(size=5))
 
 BT <- ggplot() + 
      geom_line(data=VarPobJul,aes(y=BT3, x=x, colour = "julio 2021"), size=0.5)+
@@ -1814,12 +1814,12 @@ BT <- ggplot() +
      geom_ribbon(data=VarPobMar,aes(ymin=lowerBT2, ymax=upperBT2, x=x, fill = "IC"), alpha = 0.2)+
      geom_ribbon(data=VarPobSep,aes(ymin=lowerBT1, ymax=upperBT1, x=x, fill = ""), alpha = 0.2)+
    geom_hline(data=VarPobJul,yintercept = mean(BT3),colour='black',lty=2) +
-     annotate("text", x=2000, y=mean(BT3),label=expression("BT"[promedio])) +
+     annotate("text", x=2000, y=mean(BT3)*1.2,label=expression("BT"[promedio])) +
     labs(x = '', y = 'Biomasa total (t)',colour='Asesorías')  +
-     scale_x_continuous(breaks = seq(from = 1960, to = 2021, by = 2)) +
+     scale_x_continuous(breaks = seq(from = 1990, to = 2022, by = 4)) +
     scale_colour_manual("",values=c('blue','red',"black"))+
     scale_fill_manual("",values=c("grey90","grey30",'gray75'))+
-    theme_bw(base_size=8) +
+    theme_bw(base_size=9) +
      ggtitle('')+
      theme(plot.title = element_text(hjust = 0.5),legend.position="none")
 
@@ -1831,14 +1831,14 @@ BD <- ggplot() +
      geom_ribbon(data=VarPobMar,aes(ymin=lowerBD2, ymax=upperBD2, x=x, fill = "IC"), alpha = 0.2)+
      geom_ribbon(data=VarPobSep,aes(ymin=lowerBD1, ymax=upperBD1, x=x, fill = ""), alpha = 0.2)+
      geom_hline(data=VarPobJul,yintercept = mean(BD3),colour='black',lty=2) +
-     annotate("text", x=2000, y=mean(BD3),label=expression("BD"[promedio])) +
+     annotate("text", x=2000, y=mean(BD3)*1.3,label=expression("BD"[promedio])) +
      labs(x = '', y = 'Biomasa desovante (t)',colour='Asesorías')  +
-     scale_x_continuous(breaks = seq(from = 1960, to = 2021, by = 2)) +
+     scale_x_continuous(breaks = seq(from = 1990, to = 2022, by = 4)) +
      scale_colour_manual("",values=c('blue','red',"black"))+
      scale_fill_manual("",values=c("grey90","grey30",'gray75'))+
-     theme_bw(base_size=8) +
+     theme_bw(base_size=9) +
      ggtitle('')+
-     theme(plot.title = element_text(hjust = 0.5),legend.position="top")
+     theme(plot.title = element_text(hjust = 0.5),legend.position="top",legend.text = element_text(size=5))
 
 Ft <- ggplot() + 
     geom_line(data=VarPobJul,aes(y=Ft3, x=x, colour = "julio 2021"), size=0.5)+
@@ -1848,12 +1848,12 @@ Ft <- ggplot() +
     geom_ribbon(data=VarPobMar,aes(ymin=lowerFt2, ymax=upperFt2, x=x, fill = "IC"), alpha = 0.2)+
     geom_ribbon(data=VarPobSep,aes(ymin=lowerFt1, ymax=upperFt1, x=x, fill = ""), alpha = 0.2)+
      geom_hline(yintercept = median(VarPobJul$Ft3),colour='black',lty=2) +
-     annotate("text", x=2018, y=median(VarPobJul$Ft3),label=expression("F"[mediana])) +
-    labs(x = '', y = 'Mortalidad por pesca (F)',colour='Asesorías')  +
-    scale_x_continuous(breaks = seq(from = 1960, to = 2021, by = 2)) +
+     annotate("text", x=2018, y=median(VarPobJul$Ft3)*1.3,label=expression("F"[mediana])) +
+    labs(x = '', y = 'Mortalidad por pesca (1/año)',colour='Asesorías')  +
+    scale_x_continuous(breaks = seq(from = 1990, to = 2022, by = 4)) +
     scale_colour_manual("",values=c('blue','red',"black"))+
     scale_fill_manual("",values=c("grey90","grey30",'gray75'))+
-    theme_bw(base_size=8) +
+    theme_bw(base_size=9) +
      ggtitle('')+
      theme(plot.title = element_text(hjust = 0.5),legend.position="none")
 
@@ -2231,15 +2231,15 @@ BD <- ggplot() +
      geom_ribbon(data=VarPobMar,aes(ymin=lowerBD2, ymax=upperBD2, x=x, fill = "IC"), alpha = 0.2)+
      geom_ribbon(data=VarPobSep,aes(ymin=lowerBD1, ymax=upperBD1, x=x, fill = ""), alpha = 0.2)+
      geom_hline(yintercept = c(BRMS3,BLIM3,Bo3,Bmed3),colour=c('green3','red','blue','black'))+
-     annotate("text", x=c(rep(2012,3),2000), y=c(BRMS3,BLIM3,Bo3,Bmed3),
+     annotate("text", x=c(rep(2000,3),2012), y=c(BRMS3*1.1,BLIM3*1.1,Bo3*1.1,Bmed3*1.1),
               label=c(expression("BD"[RMS]),expression("BD"[LIM]),expression("BD"[0]),expression("BD"[promedio]))) +
      labs(x = '', y = 'Biomasa desovante (t)',colour='Asesorías')  +
      scale_x_continuous(breaks = seq(from = 1960, to = 2022, by = 4)) +
      scale_colour_manual("",values=c('blue','red',"black"))+
      scale_fill_manual("",values=c("grey90","grey30",'gray75'))+
-     theme_bw(base_size=10) +
+     theme_bw(base_size=12) +
      ggtitle('')+
-     theme(plot.title = element_text(hjust = 0.5),legend.position="top")
+     theme(plot.title = element_text(hjust = 0.5),legend.position="top",legend.text = element_text(size=6))
 
 Ft <- ggplot() + 
     geom_line(data=VarPobJul,aes(y=Ft3, x=x, colour = "julio 2021"), size=0.5)+
@@ -2249,12 +2249,12 @@ Ft <- ggplot() +
     geom_ribbon(data=VarPobMar,aes(ymin=lowerFt2, ymax=upperFt2, x=x, fill = "IC"), alpha = 0.2)+
     geom_ribbon(data=VarPobSep,aes(ymin=lowerFt1, ymax=upperFt1, x=x, fill = ""), alpha = 0.2)+
      geom_hline(yintercept = c(FRMS3,median(VarPobJul$Ft3)),colour=c('green3','black')) +
-     annotate("text", x=c(2011,2001), y=c(FRMS3,median(exp(ln_Fyr3)))+0.05,label=c(expression("F"[RMS]),expression("F"[mh]))) +
-    labs(x = '', y = 'Mortalidad por pesca (F)',colour='Asesorías')  +
+     annotate("text", x=c(2016,2003), y=c(FRMS3*1.02, median(exp(ln_Fyr3)))*1.2, label=c(expression("F"[RMS]), expression("F"[mh]))) +
+    labs(x = '', y = 'Mortalidad por pesca (1/año)',colour='Asesorías')  +
     scale_x_continuous(breaks = seq(from = 1960, to = 2022, by = 4)) +
     scale_colour_manual("",values=c('blue','red',"black"))+
     scale_fill_manual("",values=c("grey90","grey30",'gray75'))+
-    theme_bw(base_size=10) +
+    theme_bw(base_size=12) +
      ggtitle('')+
      theme(plot.title = element_text(hjust = 0.5),legend.position="none")
 
