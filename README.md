@@ -11,10 +11,6 @@
 
 * DatosEntrada.dat = contiene los datos utilizados en las figuras de sección de antecedentes y metodología del "InformeFinal_SardComun_julio2021".
 
-* PORTADA.tex y pdf = genera la portada del informe "InformeFinal_SardComun_julio2021".
-
-* AnálisisSensibilidad.Rmd = contiene los análisis presentados en 4ta sesión del CCT-PP de julio 2021. 
-
 * CCTPP_EstatusyCBA2021_sard_julio2021 = Presentación realizada el 2 de julio 2021 correspondiente a la 4ta sesión del CCT-PP
 
 * CCTPP_EstatusyCBA2021_sard_agosto2021 = Preparación de presentación para la 5ta sesión del CCTPP a realizarse la primera semana de agosto.
@@ -109,6 +105,7 @@
 
 Esta carpeta contiene los archivos .dat y .rep necesarios para generar las figuras y tablas que van contenidas en:
 
+-  PORTADA_ANEXO_I.tex y pdf
 - "ANEXO_I_AnalisisUpdate.Rmd" y 
 - "FigyTab_ANEXO_I_AnalisisUpdate.Rmd"
 
@@ -128,16 +125,28 @@ Esta carpeta contiene los archivos .dat y .rep necesarios para generar las figur
 
 Esta carpeta contiene los archivos .dat y .rep necesarios para generar las figuras y tablas que van contenidas en:
 
-- "ANEXO_II_AnalisisSensibilidad.Rmd" y 
-- "FigyTab_ANEXO_II_AnalisisSensibilidad.Rmd"
+-  PORTADA_ANEXO_II.tex y pdf
+- "ANEXO_II_AnalisisSensibilidad_CVsyMPDHyCapt.Rmd" y 
+-  AnálisisSensibilidad.Rmd = contiene los análisis presentados en 4ta sesión del CCT-PP de julio 2021. 
 
 #### 3.3. Procedimiento Transitorio de incorporación del descarte (ANEXO III)
 
 Análisis realizado para Documento técnico de abril 2021.
 
+-  PORTADA_ANEXO_III.tex y pdf
 - "ANEXO_III_ProcedimientoDescarte.Rmd" 
 
+### 4. PORTADAS
 
-### 4. SUBDECON_483-258
- Contiene PORTADA_INICIAL, "InformeFinal_SardComun_julio2021" , ANEXOS, PORTADA_FINAL, base de datos en zip, Formulario FAI_TERCERINFORME_SARDINA
+- PORTADA_INICIAL.tex y pdf
+- PORTADA_ANEXO_I.tex y pdf
+- PORTADA_ANEXO_II.tex y pdf
+- PORTADA_ANEXO_III.tex y pdf
+- PORTADA_FINAL.tex y pdf
+
+### 5. SUBDECON_483-258
+
+- BASEDATOS_SARDINA_JULIO2021.zip
+- FORMULARIO FAI_TERCERINFORME_SARDINA.docx
+- TERCERINFORMEFINAL_SARDINA_JULIO2021.pdf
 
