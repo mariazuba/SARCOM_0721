@@ -1,7 +1,7 @@
 ---
-title: Primera Revisión del Estatus y  Captura Biológicamente Aceptable 2021 para la sardina común de las Regiones de Valparaíso a Los Lagos.
-author: "María José Zúñiga"
-date: 'Sesión N°2: 18-03-2021'
+title: Segunda Revisión del Estatus y  Captura Biológicamente Aceptable 2021 para la sardina común de las Regiones de Valparaíso a Los Lagos.
+author: "Grupo Pelágicos DER - María José Zúñiga"
+date: 'Sesión N°2: 5-6 de agosto 2021'
 output:
    beamer_presentation:
     colortheme: rose
@@ -14,7 +14,7 @@ institute: INSTITUTO DE FOMENTO PESQUERO
 
 ```{=tex}
 \begin{center}
-\includegraphics[width=0.9\textwidth]{FigurasInforme_Marzo/Figura14.png}
+\includegraphics[width=0.9\textwidth]{Figuras/Fig14.png}
 \end{center}
 ```
 # Datos de entrada de sardina común
@@ -23,10 +23,6 @@ Datos actualizados
 
 -   Biomasa del crucero de verano 2021
 -   Composición de edad del crucero de verano 2021
-
-
-Datos supuestos
-
 -   Captura 2020/21 = desembarque julio-diciembre 2020 + 70%CBAinicial2021
 -   Porcentaje de descarte 2020/21 = 4%
 -   Composición de edad de la Flota 2020/2021 = NA
@@ -50,15 +46,16 @@ Datos supuestos
 
 ```{=tex}
 \begin{center}
-\includegraphics[width=0.7\textwidth]{FigurasInforme_Marzo/Fig26_Ajustes_indices-1.pdf}
+\includegraphics[width=0.7\textwidth]{Figuras/Fig26-1.pdf}
 \end{center}
 ```
+
 # Ajuste Flota de sardina común
 
 ```{=tex}
 \begin{center}
 
-\includegraphics[width=0.8\textwidth]{FigurasInforme_Marzo/Fig28_ajustesCompF-1.pdf}
+\includegraphics[width=0.8\textwidth]{Figuras/Fig28-1.pdf}
 
 \end{center}
 ```
@@ -67,7 +64,7 @@ Datos supuestos
 ```{=tex}
 \begin{center}
 
-\includegraphics[width=0.8\textwidth]{FigurasInforme_Marzo/Fig29_ajustesCompR-1.pdf}
+\includegraphics[width=0.8\textwidth]{Figuras/Fig29-1.pdf}
 
 \end{center}
 ```
@@ -76,7 +73,7 @@ Datos supuestos
 ```{=tex}
 \begin{center}
 
-\includegraphics[width=0.8\textwidth]{FigurasInforme_Marzo/Fig30_AjustesCompP-1.pdf}
+\includegraphics[width=0.8\textwidth]{Figuras/Fig30-1.pdf}
 
 \end{center}
 ```
@@ -84,41 +81,30 @@ Datos supuestos
 
 ```{=tex}
 \begin{center}
-\includegraphics[width=0.9\textwidth]{FigurasInforme_Marzo/F35_Varpobl-1.pdf}
+\includegraphics[width=0.9\textwidth]{Figuras/Fig35-1.pdf}
 \end{center}
 ```
-# Puntos Biológicos de Referencia de sardina común
 
-## BD\~0\~, BD\~RMS\~, BD\~LIM\~ y F\~RMS\~
-
-```{=tex}
-\begin{center}
-\includegraphics[width=0.99\textwidth]{FigurasInforme_Marzo/F37_PBRs_Bmed_Fmed-1.pdf}
-\end{center}
-```
 # Indicadores del estado de sardina común
 
 ```{=tex}
 \begin{center}
-\includegraphics[width=0.9\textwidth]{FigurasInforme_Marzo/F39_indicadoresStock-1.pdf}
+\includegraphics[width=0.9\textwidth]{Figuras/Fig39-1.pdf}
 \end{center}
 ```
 
 # Estatus 2019/20 de sardina común
 
-```{=tex}
-\begin{center}
-\includegraphics[width=0.65\textwidth]{FigurasInforme_Marzo/Fig40_DFsept-1.pdf}
-\end{center}
-```
-
-# Estatus 2020/21 de sardina común
 
 ```{=tex}
-\begin{center}
-\includegraphics[width=0.65\textwidth]{FigurasInforme_Marzo/Fig41_DFmarzo-1.pdf}
-\end{center}
+\begin{figure}
+\centering
+\includegraphics[width=0.4\textwidth]{Figuras/Fig40-1.pdf}
+\includegraphics[width=0.4\textwidth]{Figuras/Fig41-1.pdf}
+\includegraphics[width=0.8\textwidth]{Figuras/Fig41b-1.pdf}
+\end{figure}
 ```
+
 
 # Estatus proyectado año biológico 2020/21 y 2021/22 de sardina común
 
@@ -126,9 +112,9 @@ Datos supuestos
 
 \begin{columns}
 \column{0.5\textwidth}
-\begin{center} \includegraphics[width=0.9\textwidth]{FigurasInforme_Marzo/Fig44a_sept-1.pdf}\end{center}
+\begin{center} \includegraphics[width=0.9\textwidth]{Figuras/Fig45a_sept-1.pdf}\end{center}
 \column{0.5\textwidth}
-\begin{center} \includegraphics[width=0.9\textwidth]{FigurasInforme_Marzo/Fig45a_marzo-1.pdf}\end{center}
+\begin{center} \includegraphics[width=0.9\textwidth]{Figuras/Fig46a_marzo-1.pdf}\end{center}
 \end{columns}
 
 \footnotesize
@@ -185,7 +171,7 @@ $CBA_{2021} = 70\%CBA_{2020/21} + 30\%CBA_{2021/22}$
 
 \begin{center}
 
-\includegraphics[width=0.7\textwidth]{FigurasInforme_Marzo/Fig17_metod_cbaprop.png}
+\includegraphics[width=0.7\textwidth]{Figuras/Fig17.png}
 
 \end{center}
 ```
@@ -193,7 +179,7 @@ $CBA_{2021} = 70\%CBA_{2020/21} + 30\%CBA_{2021/22}$
 
 ```{=tex}
 \begin{center}
-\includegraphics[width=0.9\textwidth]{FigurasInforme_Marzo/Fig43_Reclproy_marzo-1.pdf}
+\includegraphics[width=0.9\textwidth]{Figuras/Fig15-1.pdf}
 \end{center}
 ```
 
@@ -460,7 +446,7 @@ f1
 
 ```{=tex}
 \begin{center}
-\includegraphics[width=0.7\textwidth]{FigurasInforme_Marzo/F33_retrospectivo_marzo-1.pdf}
+\includegraphics[width=0.7\textwidth]{Figuras/Fig33-1.pdf}
 \end{center}
 ```
 
@@ -469,7 +455,7 @@ f1
 
 ```{=tex}
 \begin{center}
-\includegraphics[width=0.7\textwidth]{FigurasInforme_Marzo/F32_comparación_marzo-1.pdf}
+\includegraphics[width=0.7\textwidth]{Figuras/Fig32-1.pdf}
 \end{center}
 ```
 
