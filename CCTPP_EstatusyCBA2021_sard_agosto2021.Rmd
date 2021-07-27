@@ -23,34 +23,102 @@ Datos actualizados
 
 -   Biomasa del crucero de verano 2021
 -   Composición de edad del crucero de verano 2021
--   Captura 2020/21 = desembarque julio-diciembre 2020 + 70%CBAinicial2021
+-   Captura 2020/21 
 -   Porcentaje de descarte 2020/21 = 4%
--   Composición de edad de la Flota 2020/2021 = NA
--   Pesos medios a la edad Flota 2020/2021 = promedio últimos 5  años
--   Biomasa del crucero de otoño 2021 = NA
--   Composición de edad del crucero de otoño 2021 = NA
+-   Composición de edad de la Flota 2020/2021 
+-   Pesos medios a la edad Flota 2020/2021 
+-   Biomasa del crucero de otoño 2021
+-   Composición de edad del crucero de otoño 2021 
 
-# Cálculo de Captura 2020/2021 de sardina común
--   Desembarque 2do semestre 2020 = 69.841 toneladas
+# \small Índices actualizados 2020/21
 
--   Captura 2021 = 0,7xCBAinicial = 140.986 toneladas
+```{=tex}
+\begin{figure}
+\centering
+\includegraphics[width=0.45\textwidth]{Figuras/Fig1_anexoI-1.pdf}
+\end{figure}
+```
 
--   Captura 2020/21 sin incorporar el descarte = 210.827 toneladas
+# \small  Composición de edad actualizados 2020/21
 
--   \% de descarte 2020/21 = 4% =  8.433  toneladas
+```{=tex}
+\begin{figure}
+\centering
+\includegraphics[width=0.4\textwidth]{Figuras/Fig2c_anexoI-1.pdf}
+\end{figure}
+```
 
--   Captura 2020/21 + 4%descarte 2020/21 = 219.260 toneladas
+# \small  Pesos medios actualizados 2020/21
+
+```{=tex}
+\begin{figure}
+\centering
+\includegraphics[width=0.6\textwidth]{Figuras/Fig3_anexoI-1.pdf}
+\end{figure}
+```
+
+# 
+
+\tiny
+
++---------------+------------------------------------------------------------------------+
+| Casos         | Descripción                                                            |
++===============+========================================================================+
+| 1 **MAE0321** | Caso base asesoría marzo 2021                                          |
++---------------+------------------------------------------------------------------------+
+| 2             | Actualiza serie de descarte 2017/18, 2018/19 Y 2019/20                 |
++---------------+------------------------------------------------------------------------+
+| 3             | Actualiza desembarque 2020/21 + supuesto de descarte 2020/21           |
++---------------+------------------------------------------------------------------------+
+| 4             | Actualiza composición de edad de la flota del año biológico 2020/21    |
++---------------+------------------------------------------------------------------------+
+| 5             | Actualiza pesos medios e iniciales a la edad del año biológico 2020/21 |
++---------------+------------------------------------------------------------------------+
+| 6             | Actualiza biomasa crucero acústico de otoño, año 2021                  |
++---------------+------------------------------------------------------------------------+
+| 7 **MAE0721** | Actualiza composición de edad crucero acústico de otoño, año 2021      |
++---------------+------------------------------------------------------------------------+
+
+: \label{Tab2} Escenarios de que permiten evaluar el impacto de la incorporación de datos actualizados en el proceso de actualización
+
+#
+\tiny
+R= Reclutamiento, BD= Biomasa desovante, $BD/BD_{RMS}$= Reducción de la población y F= Mortalidad por pesca.
+
++-------+-------+-------+---------------+------+--------+---------+--------------------+--------+
+| Casos | R     | BD    | $BD/BD_{RMS}$ | F    | R.diff | BD.diff | $BD/BD_{RMS}$.diff | F.diff |
++:=====:+:=====:+:=====:+:=============:+:====:+:======:+:=======:+:==================:+:======:+
+| 1     | 257,7 | 430,0 | 0,54          | 0,18 |        |         |                    |        |
++-------+-------+-------+---------------+------+--------+---------+--------------------+--------+
+| 2     | 262,7 | 448,0 | 0,55          | 0,18 | 0,02   | 0,04    | 0,03               | -0,03  |
++-------+-------+-------+---------------+------+--------+---------+--------------------+--------+
+| 3     | 280,0 | 447,4 | 0,54          | 0,31 | 0,09   | 0,04    | 0,01               | 0,71   |
++-------+-------+-------+---------------+------+--------+---------+--------------------+--------+
+| 4     | 265,9 | 464,6 | 0,56          | 0,32 | 0,03   | 0,08    | 0,04               | 0,77   |
++-------+-------+-------+---------------+------+--------+---------+--------------------+--------+
+| 5     | 232,6 | 510,3 | 0,62          | 0,31 | -0,10  | 0,19    | 0,16               | 0,72   |
++-------+-------+-------+---------------+------+--------+---------+--------------------+--------+
+| 6     | 225,8 | 525,0 | 0,63          | 0,31 | -0,12  | 0,22    | 0,17               | 0,72   |
++-------+-------+-------+---------------+------+--------+---------+--------------------+--------+
+| 7     | 220,8 | 511,1 | 0,62          | 0,32 | -0,14  | 0,19    | 0,16               | 0,78   |
++-------+-------+-------+---------------+------+--------+---------+--------------------+--------+
+
+Estimaciones de las principales variables de estado para el caso 1 (asesoría de marzo 2021, MAE0321) comparado con los resultados según la incorporación de cada pieza de información y en su conjunto (caso 7, asesoría de julio 2021, MAE0721). 
+
+Se presenta el valor de estimación central y la diferencia en términos porcentuales. 
 
 
-# Ajustes del modelo a los datos - sardina común
+
+
+# \small Ajustes del modelo a los datos - sardina común
 
 ```{=tex}
 \begin{center}
-\includegraphics[width=0.7\textwidth]{Figuras/Fig26-1.pdf}
+\includegraphics[width=0.65\textwidth]{Figuras/Fig26-1.pdf}
 \end{center}
 ```
 
-# Ajuste Flota de sardina común
+# \small Ajuste Flota de sardina común
 
 ```{=tex}
 \begin{center}
@@ -59,7 +127,7 @@ Datos actualizados
 
 \end{center}
 ```
-# Ajuste Crucero de verano de sardina común
+# \small Ajuste Crucero de verano de sardina común
 
 ```{=tex}
 \begin{center}
@@ -68,7 +136,7 @@ Datos actualizados
 
 \end{center}
 ```
-# Ajuste Crucero de otoño de sardina común
+# \small Ajuste Crucero de otoño de sardina común
 
 ```{=tex}
 \begin{center}
@@ -106,24 +174,6 @@ Datos actualizados
 ```
 
 
-# \small Estatus proyectado año biológico 2020/21 y 2021/22 de sardina común
-
-
-
-\begin{columns}
-\column{0.325\textwidth}
-\begin{center} \includegraphics[width=0.9\textwidth]{Figuras/Fig45a_sept-1.pdf}\end{center}
-\column{0.325\textwidth}
-\begin{center} \includegraphics[width=0.9\textwidth]{Figuras/Fig46a_marzo-1.pdf}\end{center}
-\column{0.35\textwidth}
-\begin{center} \includegraphics[width=0.9\textwidth]{Figuras/Fig47a_julio-1.pdf}\end{center}
-\end{columns}
-
-\footnotesize
-- 100% de probabilidad de sobre-explotación y 42% de probabilidad de colapso para el año **2020/2021**
-
-- 27% de probabilidad de sobre-explotación y 4% de probabilidad de colapso para el año **2021/2022**
-
 # Incertidumbre del Estatus 2019/20 y 2020/21 de sardina común
 
 ```{=tex}
@@ -132,50 +182,37 @@ Datos actualizados
     \resizebox{10cm}{!} {
     \begin{tabular}{|l|c|c|c|c|c|}
     \hline
-                            & Sept 2020 & Marzo 2021 \\
-                            & $Estatus_{2019/20}$ & $Estatus_{2020/21}$ \\ \hline
-   $BD_{last}<BD_{RMS}$     &   0,45    & 1,00 \\
-   $F_{last}>F_{RMS}$       &   0,60    & 0,02 \\ \hline
-   Sobre-explotación        &   0,26    & 1,00 \\
-   Agotamiento/colapso      &   0,00    & 0,38 \\
-   Sobrepesca               &   0,45    & 0,00 \\ \hline
+                            & Sept 2020 & Marzo 2021 & Julio 2021\\
+                            & $Estatus_{2019/20}$ & $Estatus_{2020/21}$  & $Estatus_{2020/21}$ \\ \hline
+   $BD_{last}<BD_{RMS}$     &   0,45    & 1,00 & 1,00\\
+   $F_{last}>F_{RMS}$       &   0,60    & 0,02 & 0,62 \\ \hline
+   Sobre-explotación        &   0,26    & 1,00 & 0,98\\
+   Agotamiento/colapso      &   0,00    & 0,38 & 0,18\\
+   Sobrepesca               &   0,45    & 0,00 & 0,48\\ \hline
     \end{tabular}}
     \end{table}
 ```
 
-# Supuestos de proyección de sardina común
+# \small Estatus proyectado año biológico 2020/21 y 2021/22 de sardina común
 
-```{=tex}
-\small
-Se proyecta dos años biológicos hacia el futuro bajo los siguientes supuestos:
+\begin{columns}
+\column{0.35\textwidth}
+\begin{center} \includegraphics[width=0.9\textwidth]{Figuras/Fig45a_sept-1.pdf}\end{center}
+\column{0.35\textwidth}
+\begin{center} \includegraphics[width=0.9\textwidth]{Figuras/Fig46a_marzo-1.pdf}\end{center}
+\column{0.35\textwidth}
+\begin{center} \includegraphics[width=0.9\textwidth]{Figuras/Fig47a_julio-1.pdf}\end{center}
+\end{columns}
 
--   Escenarios de Reclutamiento promedio:
+\footnotesize
+## Probabilidad de Estatus proyectado
+- Asesoría septiembre 2020 = 100% de probabilidad de sobre-explotación y 42% de probabilidad de colapso para el año **2020/2021**
 
-    * Promedio período favorable: años 2008-2012
-    
-    * Promedio período reciente: años 2013-2021
-    
-    * Promedio período desfavorable: años 1991-2007
+- Asesoría marzo 2021 = 27% de probabilidad de sobre-explotación y 4% de probabilidad de colapso para el año **2021/2022**
 
--   Pesos medios igual al promedio de los últimos 5 años
+- Asesoría julio 2021 = 49% de probabilidad de sobre-explotación y 4% de probabilidad de colapso para el año **2021/2022**
 
--   Mortalidad por pesca igual a $F_{RMS}$
 
--   Proporción semestral de captura 70\% primer semestre y 30\% segundo semestre
-
--   supuesto de descarte 4%
-```
-# Proporción semestral de las capturas de sardina común
-
-```{=tex}
-$CBA_{2021} = 70\%CBA_{2020/21} + 30\%CBA_{2021/22}$
-
-\begin{center}
-
-\includegraphics[width=0.7\textwidth]{Figuras/Fig17.png}
-
-\end{center}
-```
 # Reclutamientos promedios proyectados - sardina común
 
 ```{=tex}
@@ -243,6 +280,38 @@ $CBA_{2021} = 70\%CBA_{2020/21} + 30\%CBA_{2021/22}$
 
 
 
+#
+
+```{r}
+
+
+percentiles <-seq(10,50,10)
+CBA1_sard_R1 <- c(183722,201409,214162,225059,235244)
+CBA1_sard_R2 <- c(332226,362690,384656,403426,420970)
+CBA1_sard_R3 <- c(210004,234980,252990,268378,282761)
+
+CBA2_sard_R1 <- c(224700,237110,246059,253705,260851)
+CBA2_sard_R2 <- c(258321,272803,283246,292169,300509)
+CBA2_sard_R3 <- c(226667,240989,251316,260140,268387)
+
+CBA3_sard_R1 <- c(336138,345539,352317,358110,363523)
+CBA3_sard_R2 <- c(368475,380379,388962,396297,403152)
+CBA3_sard_R3 <- c(338239,349156,357028,363755,370042)
+
+
+par(mfrow=c(2,2),mar=c(4,4,1,1))
+plot(percentiles, CBA1_sard_R1, type="o",col=1,ylim=c(0,500000))
+lines(percentiles,CBA2_sard_R1, type="o",col=2)
+lines(percentiles,CBA3_sard_R1, type="o",col=3)
+
+plot(percentiles, CBA1_sard_R2, type="o",col=1,ylim=c(0,500000))
+lines(percentiles,CBA2_sard_R2, type="o",col=2)
+lines(percentiles,CBA3_sard_R2, type="o",col=3)
+
+plot(percentiles, CBA1_sard_R3, type="o",col=1,ylim=c(0,500000))
+lines(percentiles,CBA2_sard_R3, type="o",col=2)
+lines(percentiles,CBA3_sard_R3, type="o",col=3)
+```
 
 
 ```{r CCTPP_relacionRt_BDt, echo=F,include=T, message=F,warning=F,eval=F, echo=FALSE,fig.height=4,fig.width=6,fig.align="center",fig.path="FigurasInforme_Marzo/", dev=c('pdf', 'bmp')}
@@ -269,7 +338,7 @@ legend(1991,600,c("Reclutamientos","Biomasa desovante"),lty=1,col=c(2,1),bty="n"
 ```{=tex}
 \begin{table}[h]
     \centering
-    \resizebox{10cm}{!} {
+    \resizebox{8cm}{!} {
     \begin{tabular}{|c|c|c|c|c|}
     \hline
 AÑO  & CBA inicial  & 1era revisión CBA  & 2da revisión CBA     & Desembarques  \\ 
@@ -285,8 +354,8 @@ AÑO  & CBA inicial  & 1era revisión CBA  & 2da revisión CBA     & Desembarque
   \end{tabular}}
         \end{table}
 ```
-
-```{r CCTPP_CBAporHito,include=T, message=F,warning=F,eval=F, echo=FALSE,fig.height=3,fig.width=5.5,fig.align="center",fig.path="FigurasCCTPP_Octubre/", dev=c('pdf', 'bmp')}
+\vspace{-0.2cm}
+```{r CCTPP_CBAporHito,include=T, message=F,warning=F,eval=T, echo=FALSE,fig.height=1.8,fig.width=4.5,fig.align="center",fig.path="Figuras/", dev=c('pdf', 'bmp')}
 library(stringr)
 library(lattice)
 library(ggplot2)
@@ -296,11 +365,11 @@ library(ggthemes)
 library(stringr)
 library(knitr)
 
-year<-    c(2014,2015,2016,2017,2018,2019,2020)
-CBAhito1<-c(373,323,286,273,296,274,321)
-CBAhito2<-c(572,356,326,310,321,335,321)
-CBAhito3<-c(572,478,326,336,321,337,321)
-Desembarques <- c(543,430,275,335,341,318,NA)
+year<-    c(2014,2015,2016,2017,2018,2019,2020,2021)
+CBAhito1<-c(373,323,286,273,296,274,321,201)
+CBAhito2<-c(572,356,326,310,321,335,321,251)
+CBAhito3<-c(572,478,326,336,321,337,321,NA)
+Desembarques <- c(543,430,275,335,341,318,258,NA)
 
 
 ind           <- cbind(CBAhito1,CBAhito2,CBAhito3,Desembarques) 
@@ -317,7 +386,7 @@ f1
 ```
 
 
-# Alternancia en la CBAs de anchoveta y sardina común
+# CBAs inicial de anchoveta y sardina común
 
 ```{r CCTPP_alternaciaCBA,  include=T, message=F, echo=FALSE,fig.height=3,fig.width=4,fig.align="center"}
 year<-seq(2014,2021,1)
@@ -326,16 +395,33 @@ CBAsard<-c(373,323,286,273,296,274,321,201.4)
 CBAmixta<-rowSums(cbind(CBAanch,CBAsard))
 
 par(mfrow=c(1,1),mar=c(4,4,1,1))
-plot(year,CBAanch,type="o",ylim=c(40,530),xlim=c(2014,2022),pch=19,ylab="CBA inicial",xlab="Años",cex.lab=0.7,cex.axis=0.7)
+plot(year,CBAanch,type="o",ylim=c(40,530),xlim=c(2014,2022),pch=19,ylab="CBA inicial (miles de t)",xlab="Años",cex.lab=0.7,cex.axis=0.7)
 lines(year,CBAsard,col=2,type="o",pch=19)
 lines(year,CBAmixta,col=3,type="o",pch=19)
-text(c(rep(2020,3),rep(2021,3)),c(170,321,483.9,215,190,411.6)+5,c("162.9 ","321.3","484.1","210.4","201.4","411.6"),cex=0.7)
+text(c(rep(2020,3),rep(2021,3)),c(170,321,483.9,215,190,411.6)+5,c("162.9 ","321.3","484.1","210.4","201.4","411.6"),cex=0.6)
 legend(2016,530,c("CBAanch","CBAsard","CBAanch+sard"),col=c(1,2,3),lwd=1,pch=19,cex=0.7,bty="n")
 ```
 
+# Primera Revisión de CBAs de anchoveta y sardina común
+
+```{r CCTPP_alternaciaCBA1eraRevision,  include=T, message=F, echo=FALSE,fig.height=3,fig.width=4,fig.align="center"}
+year<-seq(2014,2021,1)
+CBAanch<-c(42.2,34.4,39.9,58.4,49.4,120.5,162.9,210.2)
+CBAsard<-c(572,356,326,310,321,335,321,251)
+CBAmixta2<-rowSums(cbind(CBAanch,CBAsard))
+
+par(mfrow=c(1,1),mar=c(4,4,1,1))
+plot(year,CBAanch,type="o",ylim=c(40,630),xlim=c(2014,2022),pch=19,ylab="Primera Revisión de CBA (miles de t)",xlab="Años",cex.lab=0.7,cex.axis=0.7)
+lines(year,CBAsard,col=2,type="o",pch=19)
+lines(year,CBAmixta2,col=3,type="o",pch=19)
+text(c(rep(2020,3),rep(2021,3)),c(CBAsard[7],CBAanch[7],CBAmixta2[7],CBAsard[8],CBAanch[8],CBAmixta2[8])+8,c(CBAsard[7],CBAanch[7],CBAmixta2[7],CBAsard[8],CBAanch[8],CBAmixta2[8]),cex=0.6)
+legend(2016,630,c("CBAanch","CBAsard","CBAanch+sard"),col=c(1,2,3),lwd=1,pch=19,cex=0.7,bty="n")
+```
+
+
 #
 
-FIN
+GRACIAS
 
 
 # Alternancia en el estatus de anchoveta y sardina común
