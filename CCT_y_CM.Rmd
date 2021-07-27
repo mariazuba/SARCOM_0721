@@ -1,0 +1,51 @@
+---
+title: Respuesta al Comité de manejo
+author: "Grupo Pelágicos DER - María José Zúñiga"
+date: 'Sesión N°5: 28 de julio 2021'
+output:
+   beamer_presentation:
+    colortheme: rose
+    theme: Antibes
+subtitle: Comité Científico de Pesquerías de Pequeños Pelágicos
+institute: INSTITUTO DE FOMENTO PESQUERO
+---
+
+# 3. Disociación entre la percepción de los usuarios desde la operación pesquera y los resultados de la evaluación de stock en un año determinado
+
+* Educar en relación al proceso estadístico que existe detrás de los análisis. 
+
+* Explicar porqué se produce el efecto desarrollado en el ejemplo en éste punto de la carta (tendencia de BD vs indicadores desde la operación pesquera). 
+
+* Posibilidades de cambio del PBR lo propuesto.
+
+* A partir de la información actualizada de la pesquería, establecer indicadores empíricos a considerar en la adopción de medidas de manejo de la misma. Complementar la definición del diagnóstico de las especies bajo puntos biológicos de referencia basados en el reclutamiento. 
+
+* Además, desarrollar con mayor profundidad la relación entre reclutamiento y biomasa desovante, dado que aparentemente, es el reclutamiento quien conduce a la variable objetivo de manejo.
+
+
+
+
+# 4. Adaptar la estructura temporal biológica de las especies en el manejo de sardina común y anchoveta centro sur
+
+* Implicancias de prescindir de la reconversión de captura en año calendario, y del 3er hito en el ciclo de manejo. * Posibles consecuencias en los resultados del modelo de ev. de stock al determinarla CBA inicial, con la información disponible a agosto del año en curso.
+
++ Dada el alto nivel de incertidumbre en la estimación de CBA por efecto de la proyección futura, se sugiere implementar cuotas de captura en año biológico y prescindir de la reconversión hacia capturas en año calendario. 
+
++ Complementariamente, se puede optar a que el hito de agosto sea de comprobación y que desde ese mismo punto se estime la cuota año biológico, la cual posteriormente será revisada en enero (crucero RECLAS).
+
+
+# 6. En relación a las evaluaciones por pares efectuadas al modelo de evaluación de stock
+
+* Comunicar los avances en la implementación de la rpp previa.
+
+* Proponer una periodicidad de ejecución de rpp internacionales, conforme a la disponibilidad de recursos.
+
+
+Los usuarios señalan que las revisiones por pares internacionales realizadas al modelo de evaluación de stock, deben ser aplicadas con determinada periodicidad. A la fecha, existen aquellas realizadas en los años 2013 y 2015, para sardina común y anchoveta centro-sur, respectivamente. Idealmente, generar programas de revisión en escalas de 3 a 5 años y con control de cumplimiento de recomendaciones emanadas en dicho taller.
+
+Propuesta: Proponer una calendarización de evaluaciones por pares de los modelos de evaluación de stock, y destinar financiamiento para tal fin.
+
+
+# 7. Unificación de cuotas 
+
+Propuestas metodológicas para avanzar hacia una metodología de pesquería mixta, dado a que la imputación conjunta no se hace cargo del componente sustentabilidad, ni tampoco del problema central de interacción operacional en su completitud.
