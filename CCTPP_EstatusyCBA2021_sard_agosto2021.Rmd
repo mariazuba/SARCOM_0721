@@ -1,7 +1,7 @@
 ---
 title: Segunda Revisión del Estatus y  Captura Biológicamente Aceptable 2021 para la sardina común de las Regiones de Valparaíso a Los Lagos.
 author: "Grupo Pelágicos DER - María José Zúñiga"
-date: 'Sesión N°2: 5-6 de agosto 2021'
+date: 'Sesión N°6: 5-6 de agosto 2021'
 output:
    beamer_presentation:
     colortheme: rose
@@ -85,36 +85,38 @@ Datos actualizados
 \end{center}
 ```
 
-# Indicadores del estado de sardina común
+# \small Indicadores del estado de sardina común
 
 ```{=tex}
 \begin{center}
-\includegraphics[width=0.9\textwidth]{Figuras/Fig39-1.pdf}
+\includegraphics[width=0.85\textwidth]{Figuras/Fig39-1.pdf}
 \end{center}
 ```
 
-# Estatus 2019/20 de sardina común
+# \small Estatus 2019/20 y 2020/21 de sardina común
 
 
 ```{=tex}
 \begin{figure}
 \centering
-\includegraphics[width=0.4\textwidth]{Figuras/Fig40-1.pdf}
-\includegraphics[width=0.4\textwidth]{Figuras/Fig41-1.pdf}
-\includegraphics[width=0.8\textwidth]{Figuras/Fig41b-1.pdf}
+\includegraphics[width=0.345\textwidth]{Figuras/Fig40-1.pdf}
+\includegraphics[width=0.345\textwidth]{Figuras/Fig41-1.pdf}
+\includegraphics[width=0.345\textwidth]{Figuras/Fig41b-1.pdf}
 \end{figure}
 ```
 
 
-# Estatus proyectado año biológico 2020/21 y 2021/22 de sardina común
+# \small Estatus proyectado año biológico 2020/21 y 2021/22 de sardina común
 
 
 
 \begin{columns}
-\column{0.5\textwidth}
+\column{0.325\textwidth}
 \begin{center} \includegraphics[width=0.9\textwidth]{Figuras/Fig45a_sept-1.pdf}\end{center}
-\column{0.5\textwidth}
+\column{0.325\textwidth}
 \begin{center} \includegraphics[width=0.9\textwidth]{Figuras/Fig46a_marzo-1.pdf}\end{center}
+\column{0.35\textwidth}
+\begin{center} \includegraphics[width=0.9\textwidth]{Figuras/Fig47a_julio-1.pdf}\end{center}
 \end{columns}
 
 \footnotesize
@@ -123,8 +125,6 @@ Datos actualizados
 - 27% de probabilidad de sobre-explotación y 4% de probabilidad de colapso para el año **2021/2022**
 
 # Incertidumbre del Estatus 2019/20 y 2020/21 de sardina común
-
-
 
 ```{=tex}
 \begin{table}
@@ -142,6 +142,7 @@ Datos actualizados
     \end{tabular}}
     \end{table}
 ```
+
 # Supuestos de proyección de sardina común
 
 ```{=tex}
@@ -183,80 +184,64 @@ $CBA_{2021} = 70\%CBA_{2020/21} + 30\%CBA_{2021/22}$
 \end{center}
 ```
 
-# Rango de la Primera revisión de la CBA  2021 de sardina común
+# Rango de la Segunda revisión de la CBA  2021 de sardina común
 
 ## CBA 
 
-```{=tex}
-\begin{table}
-    \centering
-    \resizebox{7cm}{!} {
-    \begin{tabular}{|c|c|c|c|}
-    \hline
-    &\multicolumn{3}{|c|}{Escenarios de Reclutamiento} \\ 
-      Percentil de Crms & 1991-2007 & 2008-2012 & 2013-2020\\ \hline
-      10\%              & 234.063   & 269.084    & 236.111\\ 
-      20\%              & 246.990   & 284.170    & 251.030\\ 
-      30\%              & 256.311   & 295.048    & 261.787\\ 
-      40\%              & 264.276   & 304.342    & 270.979\\ 
-      50\%              & 271.720   & 313.030    & 279.570\\ \hline
-    \end{tabular}}
-    \end{table}
-```
+|     | $R_{1991-2007}$ | $R_{2008-2012}$ | $R_{2013-2021}$ |
+|-----|-----------------|-----------------|-----------------|
+| mean|  378.670        | 419.950         | 385.460         |
+| sd  |   22.259        |  28.186         |  25.850         |
+| 10% |  350.144        | 383.828         | 352.332         |
+| 20% |  359.936        | 396.228         | 363.704         |
+| 30% |  366.997        | 405.169         | 371.904         |
+| 40% |  373.031        | 412.809         | 378.911         |
+| 50% |  378.670        | 419.950         | 385.460         |
+
+#
 ## Resguardo de la Captura al RMS 
 
-```{=tex}
-\begin{table}
-    \centering
-    \resizebox{7cm}{!} {
-    \begin{tabular}{|c|c|c|c|}
-    \hline
-    &\multicolumn{3}{|c|}{Escenarios de Reclutamiento} \\ 
-      Percentil de Crms & 1991-2007 & 2008-2012 &  2013-2020\\ \hline
-     10\%               & 0.14     & 0.14      & 0.16 \\ 
-     20\%               & 0.09      & 0.09      & 0.10  \\ 
-     30\%               & 0.06      & 0.06      & 0.06 \\ 
-     40\%               & 0.03      & 0.03      & 0.03 \\ 
-     50\%               & 0         & 0         &  0 \\ \hline
-    \end{tabular}}
-        \end{table}
-```
 
-# Descuento del 4% descarte - sardina común
+|     | $R_{1991-2007}$ | $R_{2008-2012}$ | $R_{2013-2021}$ |
+|-----|-----------------|-----------------|-----------------|
+| 10% | 0,08            | 0,09            | 0,09            |
+| 20% | 0,05            | 0,06            | 0,06            |
+| 30% | 0,03            | 0,04            | 0,04            |
+| 40% | 0,01            | 0,02            | 0,02            |
+| 50% | 0,00            | 0,00            | 0,00            |
 
-+---------------------+-------------------------+-------------------------+-------------------------+
-| Percentil de C~RMS~ | Reclutamiento 1991-2007 | Reclutamiento 2008-2012 | Reclutamiento 2013-2020 |
-+:===================:+:=======================:+:=======================:+:=======================:+
-| 10%                 | 224.700                 | 258.321                 | 226.667                 |
-+---------------------+-------------------------+-------------------------+-------------------------+
-| 20%                 | 237.110                 | 272.803                 | 240.989                 |
-+---------------------+-------------------------+-------------------------+-------------------------+
-| 30%                 | 246.059                 | 283.246                 | 251.316                 |
-+---------------------+-------------------------+-------------------------+-------------------------+
-| 40%                 | 253.705                 | 292.169                 | 260.140                 |
-+---------------------+-------------------------+-------------------------+-------------------------+
-| 50%                 | 260.851                 | 300.509                 | 268.387                 |
-+---------------------+-------------------------+-------------------------+-------------------------+
+#
 
-CBA inicial 2021 = 201.409 toneladas (percentil del 20%, escenario de reclutamiento bajo período 1991-2007 y 6% de descarte)
+## Descuento del 4% descarte - sardina común
 
-# Diferencia porcentual entre CBA inicial - 6%descarte y Primera revisión de CBA - 4% descarte
 
-diferencia = 1-(1erarevisiónCBA/CBAinicial)*100
+|     | $R_{1991-2007}$ | $R_{2008-2012}$ | $R_{2013-2021}$ |
+|-----|-----------------|-----------------|-----------------|
+| 10% | 336.138         | 368.475         |  338.239        |
+| 20% | 345.539         | 380.379         |  349.156        |
+| 30% | 352.317         | 388.962         |  357.028        |
+| 40% | 358.110         | 396.297         |  363.755        |
+| 50% | 363.523         | 403.152         |  370.042        |
 
-+---------------------+-------------------------+-------------------------+-------------------------+
-| Percentil de C~RMS~ | Reclutamiento 1991-2007 | Reclutamiento 2008-2012 | Reclutamiento 2013-2020 |
-+:===================:+:=======================:+:=======================:+:=======================:+
-| 10%                 | 22                      |-22                      | 8                       |
-+---------------------+-------------------------+-------------------------+-------------------------+
-| 20%                 | 18                      |-25                      | 3                       |
-+---------------------+-------------------------+-------------------------+-------------------------+
-| 30%                 | 15                      |-26                      | -1                      |
-+---------------------+-------------------------+-------------------------+-------------------------+
-| 40%                 | 13                      |-28                      | -3                      |
-+---------------------+-------------------------+-------------------------+-------------------------+
-| 50%                 | 11                      |-29                      | -5                      |
-+---------------------+-------------------------+-------------------------+-------------------------+
+\small
++ **CBA inicial 2021** = 201.409 toneladas (percentil del 20%, escenario de reclutamiento bajo período 1991-2007 y 6% de descarte)
+
++ **Primera revisión de CBA 2021** = 251.316 toneladas (percentil del 30%, escenario de reclutamiento recientes período 2013-2021 y 4% de descarte)
+
+# Diferencia porcentual entre CBA inicial - 6%descarte y Segunda revisión de CBA - 4% descarte
+
+## diferencia = 1-(2darevisiónCBA/CBAinicial)*100
+
+
+|     | $R_{1991-2007}$ | $R_{2008-2012}$ | $R_{2013-2021}$ |
+|-----|-----------------|-----------------|-----------------|
+| 10% |   83            | 11              |   61            |
+| 20% |   72            |  5              |   49            |
+| 30% |   65            |  1              |   41            |
+| 40% |   59            | -2              |   36            |
+| 50% |   55            | -4              |   31            |
+
+
 
 
 
@@ -284,7 +269,7 @@ legend(1991,600,c("Reclutamientos","Biomasa desovante"),lty=1,col=c(2,1),bty="n"
 ```{=tex}
 \begin{table}[h]
     \centering
-    \resizebox{8cm}{!} {
+    \resizebox{10cm}{!} {
     \begin{tabular}{|c|c|c|c|c|}
     \hline
 AÑO  & CBA inicial  & 1era revisión CBA  & 2da revisión CBA     & Desembarques  \\ 
@@ -296,7 +281,7 @@ AÑO  & CBA inicial  & 1era revisión CBA  & 2da revisión CBA     & Desembarque
 2018 & 296          & 321                & \textit{statu quo}   & 341 \\
 2019 & 274          & 335                & 337                  & 318 \\
 2020 & 321          & \textit{statu quo} & \textit{statu quo}   & 258   \\ 
-2021 & 201          & -                  & -                    &- \\\hline
+2021 & 201          & 251                & -                    &- \\\hline
   \end{tabular}}
         \end{table}
 ```
@@ -330,7 +315,6 @@ f1 <- ggplot(data, aes(yrs,value,colour=variable))+ geom_line()+ geom_point( siz
 f1
 
 ```
-
 
 
 # Alternancia en la CBAs de anchoveta y sardina común
