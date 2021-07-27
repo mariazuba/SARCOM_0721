@@ -282,7 +282,7 @@ Se presenta el valor de estimación central y la diferencia en términos porcent
 
 #
 
-```{r}
+```{r, echo=F,eval=F}
 
 
 percentiles <-seq(10,50,10)
