@@ -2859,31 +2859,31 @@ EscRecl<-seq(1,3,1) #escenarios de reclutamiento basado en anÃ¡lisis de quiebr
 nes<-length(EscRecl)
 q       <- seq(0.1,0.5,0.1)  # niveles de riesgo (cuantiles)                            
 nq      <- length(q)                                                                    
-CBA     <- matrix(ncol=nq,nrow=nes)
-CBAp    <- matrix(ncol=1,nrow=1)
-CBApstd <- matrix(ncol=1,nrow=1)
+CBA_marzo     <- matrix(ncol=nq,nrow=nes)
+CBAp_marzo    <- matrix(ncol=1,nrow=1)
+CBApstd_marzo <- matrix(ncol=1,nrow=1)
 
 buffer   <- matrix(ncol=nq,nrow=nes)
 descarte <- matrix(ncol=nq,nrow=nes)
 
 for(i in 1:nes){
 	std     <- read.table(paste(dir.4,"MAE03211",i,".std",sep=""),header=T,sep="",na="NA",fill=T)  
-	CBAp[i]    <-subset(std,name=="CBA_c0")$value[1]
-	CBApstd[i] <-subset(std,name=="CBA_c0")$std[1]
-	for(j in 1:nq){	CBA[i,j]<-qnorm(q[j],CBAp[i],CBApstd[i])}}
+	CBAp_marzo[i]    <-subset(std,name=="CBA_c0")$value[1]
+	CBApstd_marzo[i] <-subset(std,name=="CBA_c0")$std[1]
+	for(j in 1:nq){	CBA_marzo[i,j]<-qnorm(q[j],CBAp_marzo[i],CBApstd_marzo[i])}}
 
 ```
 
 ```{r Tabla29a_CBAinicial_marzo,eval=T, echo=FALSE, warning=F, include=T, message=F}
-tCBA<-cbind(CBAp,CBApstd,CBA)
-colnames(tCBA)<-c("mean","std",c("10%","20%","30%","40%","50%"))
-row.names(tCBA)<-c("1991-2007","2008-2012","2013-2021")
-kable(t(round(tCBA,0)))
+tCBA_marzo<-cbind(CBAp_marzo,CBApstd_marzo,CBA_marzo)
+colnames(tCBA_marzo)<-c("mean","std",c("10%","20%","30%","40%","50%"))
+row.names(tCBA_marzo)<-c("1991-2007","2008-2012","2013-2021")
+kable(t(round(tCBA_marzo,0)))
 ```
 
 ```{r Tabla30_resguardo_marzo, eval=T,echo=FALSE, warning=F, include=T, message=F}
 for(i in 1:nes){for(j in 1:nq){	
-buffer[i,j]<-round(1-CBA[i,j]/CBA[i,5],2)}}
+buffer[i,j]<-round(1-CBA_marzo[i,j]/CBA_marzo[i,5],2)}}
 colnames(buffer)<-c("10%","20%","30%","40%","50%")
 row.names(buffer)<-c("1991-2007","2008-2012","2013-2021")
 kable(t(buffer))
@@ -2891,7 +2891,7 @@ kable(t(buffer))
 
 ```{r Tabla31_descarte_marzo, eval=T, echo=FALSE, warning=F, include=T, message=F}
 for(i in 1:nes){for(j in 1:nq){	
-descarte[i,j]<-round(CBA[i,j]*0.96,0)}} # descarte 4% (1-0.04 = 0.94)
+descarte[i,j]<-round(CBA_marzo[i,j]*0.96,0)}} # descarte 4% (1-0.04 = 0.94)
 colnames(descarte)<-c("10%","20%","30%","40%","50%")
 row.names(descarte)<-c("1991-2007","2008-2012","2013-2021")
 kable(t(descarte))
@@ -2903,7 +2903,7 @@ descarte_marzo <- matrix(ncol=nq,nrow=nes)
 descarte_sept <- matrix(ncol=nq,nrow=nes)
 
 for(i in 1:nes){for(j in 1:nq){	
-descarte_marzo[i,j]<-round(CBA[i,j]*0.96,0)}} # descarte 4% (1-0.04 = 0.94)
+descarte_marzo[i,j]<-round(CBA_marzo[i,j]*0.96,0)}} # descarte 4% (1-0.04 = 0.94)
 for(i in 1:nes){for(j in 1:nq){	
 descarte_sept[i,j]<-round(CBA_sept[i,j]*0.94,0)}} # descarte 2% (1-0.06 = 0.94)
 
@@ -2958,31 +2958,31 @@ EscRecl<-seq(1,3,1) #escenarios de reclutamiento basado en anÃ¡lisis de quiebr
 nes<-length(EscRecl)
 q       <- seq(0.1,0.5,0.1)  # niveles de riesgo (cuantiles)                            
 nq      <- length(q)                                                                    
-CBA     <- matrix(ncol=nq,nrow=nes)
-CBAp    <- matrix(ncol=1,nrow=1)
-CBApstd <- matrix(ncol=1,nrow=1)
+CBA_julio     <- matrix(ncol=nq,nrow=nes)
+CBAp_julio    <- matrix(ncol=1,nrow=1)
+CBApstd_julio <- matrix(ncol=1,nrow=1)
 
 buffer   <- matrix(ncol=nq,nrow=nes)
 descarte <- matrix(ncol=nq,nrow=nes)
 
 for(i in 1:nes){
 	std     <- read.table(paste(dir.4,"MAE07211",i,".std",sep=""),header=T,sep="",na="NA",fill=T)  
-	CBAp[i]    <-subset(std,name=="CBA_c0")$value[1]
-	CBApstd[i] <-subset(std,name=="CBA_c0")$std[1]
-	for(j in 1:nq){	CBA[i,j]<-qnorm(q[j],CBAp[i],CBApstd[i])}}
+	CBAp_julio[i]    <-subset(std,name=="CBA_c0")$value[1]
+	CBApstd_julio[i] <-subset(std,name=="CBA_c0")$std[1]
+	for(j in 1:nq){	CBA_julio[i,j]<-qnorm(q[j],CBAp_julio[i],CBApstd_julio[i])}}
 
 ```
 
 ```{r Tabla29a_CBAinicial_julio,eval=T, echo=FALSE, warning=F, include=T, message=F}
-tCBA<-cbind(CBAp,CBApstd,CBA)
-colnames(tCBA)<-c("mean","std",c("10%","20%","30%","40%","50%"))
-row.names(tCBA)<-c("1991-2007","2008-2012","2013-2021")
-kable(t(round(tCBA,0)))
+tCBA_julio<-cbind(CBAp_julio,CBApstd_julio,CBA_julio)
+colnames(tCBA_julio)<-c("mean","std",c("10%","20%","30%","40%","50%"))
+row.names(tCBA_julio)<-c("1991-2007","2008-2012","2013-2021")
+kable(t(round(tCBA_julio,0)))
 ```
 
 ```{r Tabla30_resguardo_julio, eval=T,echo=FALSE, warning=F, include=T, message=F}
 for(i in 1:nes){for(j in 1:nq){	
-buffer[i,j]<-round(1-CBA[i,j]/CBA[i,5],2)}}
+buffer[i,j]<-round(1-CBA_julio[i,j]/CBA_julio[i,5],2)}}
 colnames(buffer)<-c("10%","20%","30%","40%","50%")
 row.names(buffer)<-c("1991-2007","2008-2012","2013-2021")
 kable(t(buffer))
@@ -2990,7 +2990,7 @@ kable(t(buffer))
 
 ```{r Tabla31_descarte_julio, eval=T, echo=FALSE, warning=F, include=T, message=F}
 for(i in 1:nes){for(j in 1:nq){	
-descarte[i,j]<-round(CBA[i,j]*0.96,0)}} # descarte 4% (1-0.04 = 0.94)
+descarte[i,j]<-round(CBA_julio[i,j]*0.96,0)}} # descarte 4% (1-0.04 = 0.94)
 colnames(descarte)<-c("10%","20%","30%","40%","50%")
 row.names(descarte)<-c("1991-2007","2008-2012","2013-2021")
 kable(t(descarte))
@@ -2998,20 +2998,73 @@ kable(t(descarte))
 
 ```{r Tabla31b_diferenciasdescarte_julio, eval=T, echo=FALSE, warning=F, include=T, message=F}
 
-descarte_marzo <- matrix(ncol=nq,nrow=nes)
+descarte_julio <- matrix(ncol=nq,nrow=nes)
 descarte_sept <- matrix(ncol=nq,nrow=nes)
 
 for(i in 1:nes){for(j in 1:nq){	
-descarte_marzo[i,j]<-round(CBA[i,j]*0.96,0)}} # descarte 4% (1-0.04 = 0.94)
+descarte_julio[i,j]<-round(CBA_julio[i,j]*0.96,0)}} # descarte 4% (1-0.04 = 0.94)
 for(i in 1:nes){for(j in 1:nq){	
 descarte_sept[i,j]<-round(CBA_sept[i,j]*0.94,0)}} # descarte 2% (1-0.06 = 0.94)
 
-tablaincrementos<--round(1-(descarte_marzo/descarte_sept),2)*100
+tablaincrementos<--round(1-(descarte_julio/descarte_sept),2)*100
 colnames(tablaincrementos)<-c("10%","20%","30%","40%","50%")
 row.names(tablaincrementos)<-c("1991-2007","2008-2012","2013-2021")
 kable(t(tablaincrementos))
 
 ```
+
+\pagebreak
+
+
+
+```{r Densidad_CBA2021,warning=F, include=T, message=F,eval=T, echo=T,fig.height=4,fig.width=8,fig.align="center",fig.path="Figuras/",dev=c('pdf')}
+
+
+####################################################
+# Asesoría septiembre R1
+####################################################
+#  densidad de probabilidad
+xbs1a <-rnorm(1000, mean = CBAp_sept[1], sd = CBApstd_sept[1])
+xbsa  <-seq(min(xbs1a),max(xbs1a),0.5)
+ybsa  <-dnorm(xbsa, mean = CBAp_sept[1], sd =CBApstd_sept[1])
+icbsa <-qnorm(c(0.10,0.50,0.5),CBAp_sept[1],CBApstd_sept[1])
+
+#distribución probabilidad
+xxbsa      <- c(xbsa[xbsa>=icbsa[1]&xbsa<=icbsa[2]],
+               rev(xbsa[xbsa>=icbsa[1]&xbsa<=icbsa[2]]))
+yybsa      <- c(ybsa[xbsa>=icbsa[1]&xbsa<=icbsa[2]],
+               rep(0,length(ybsa[xbsa>=icbsa[1]&xbsa<=icbsa[2]])))
+
+densb_bsa  <- data.frame(x=xxbsa, y=yybsa , t=rep('a', length(xxbsa)), r=seq(1,length(xxbsa),1))
+
+####################################################
+# Asesoría septiembre R2
+####################################################
+#  densidad de probabilidad
+xbs1b <-rnorm(1000, mean = CBAp_sept[3], sd = CBApstd_sept[3])
+xbsb  <-seq(min(xbs1b),max(xbs1b),0.5)
+ybsb  <-dnorm(xbsb, mean = CBAp_sept[3], sd = CBApstd_sept[3])
+icbsb <-qnorm(c(0.10,0.50,0.5),CBAp_sept[3],CBApstd_sept[3])
+
+#distribución probabilidad
+xxbsb      <- c(xbsb[xbsb>=icbsb[1]&xbsb<=icbsb[2]],
+               rev(xbsb[xbsb>=icbsb[1]&xbsb<=icbsb[2]]))
+yybsb      <- c(ybsb[xbsb>=icbsb[1]&xbsb<=icbsb[2]],
+               rep(0,length(ybsb[xbsb>=icbsb[1]&xbsb<=icbsb[2]])))
+
+densb_bsb  <- data.frame(x=xxbsb, y=yybsb , t=rep('a', length(xxbsb)), r=seq(1,length(xxbsb),1))
+
+plot(xbsa,ybsa ,type="n",ylab="Densidad de probabilidad",xaxs="i",yaxs= "i",xlab="CBA 2021 (toneladas)", main="",xlim=c(10000,500000))
+polygon(xxbsb,yybsb,col=gray(0.9,0.3),border="gray95")
+polygon(xxbsa,yybsa,col=gray(0.9,0.3),border="gray95")
+lines(xbsb,ybsb,lwd=1,lty=2,col=1)
+lines(xbsa,ybsa,lwd=1,lty=1,col=1)
+legend(1000,0.00017,c("CBA2021_Hito1_Rbajo","CBA2021_Hito1_Rreciente"),lwd=c(2,1),col=c(1,2),lty=c(1,1),bty="n",cex=0.8)
+text(904.3,0.0022,"Crms")
+
+```
+
+
 
 \pagebreak
 
