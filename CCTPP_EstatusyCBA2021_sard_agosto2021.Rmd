@@ -428,19 +428,19 @@ GRACIAS
 
 ```{r CCTPP_alternanciaEstatus, echo=FALSE,fig.height=3,fig.width=4,fig.align="center"}
 
-years1<-seq(1997,2021,1)
+years1<-seq(1997,2022,1)
 
 
-rpr_sard<-c(0.78,0.42,0.38,0.24,0.15,0.31,0.33,0.27,0.16,0.20,0.75,0.66,1.52,1.08,1.17,1.43,1.34,1.06,1.55,1.26,1.03,1.13,1.60,1.02,0.53)
+rpr_sard<-c(0.80,0.43,0.38,0.24,0.15,0.31,0.33,0.27,0.16,0.21,0.77,0.68,1.57,1.10,1.15,1.42,1.36,1.07,1.57,1.28,1.04,1.13,1.62,1.06,0.62,0.91)
 
-rpr_anch<-c(0.94,0.52,0.58,0.57,0.67,1.12,1.59,1.94,1.68,1.79,1.87,1.33,0.84,0.44,0.18,0.15,0.16,0.22,0.27,0.31,0.47,0.58,0.73,1.02,1.4)
+rpr_anch<-c(0.92,0.50,0.56,0.54,0.63,1.08,1.54,1.90,1.64,1.76,1.85,1.30,0.82,0.43,0.18,0.15,0.16,0.21,0.27,0.30,0.46,0.57,0.7,0.99,1.30,1.13)
 
 par(mfrow=c(1,1),mar=c(4,4,1,1))
-plot(years1,rpr_sard,type="l",ylab="BD/BDrms",xlab="",ylim=c(0,2.5),xaxp=c(1990,2021,31),las=1,lwd=2,cex.lab=0.7,cex.axis=0.7,col=2)
+plot(years1,rpr_sard,type="l",ylab="BD/BDrms",xlab="",ylim=c(0,2.5),xaxp=c(1990,2022,32),las=1,lwd=2,cex.lab=0.7,cex.axis=0.7,col=2)
 
 lines(years1,rpr_anch,col=1,lwd=2)
-points(2020,1.02,pch=19,cex=1,col=1)
-text(2020,0.9,"2020",cex=0.8)
+#points(2020,1.02,pch=19,cex=1,col=1)
+#text(2020,0.9,"2020",cex=0.8)
 abline(h=c(1,0.5),col=c(3,2))
 legend(1998,2.5,c("anchoveta centro-sur","sardina común"),col=c(1,2),lwd=c(2,2),bty="n",cex=0.7)
 
