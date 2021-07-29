@@ -268,6 +268,7 @@ PARAMETER_SECTION
   vector Zrms_r0(1,nedades);
   vector Nvult_r0(1,nedades);
   vector CTP_r0(1,nedades);
+  vector YTP_r0W(1,nedades);
   number YTP_r0
   vector NMD_r0(1,nedades);
   number BD_r0
@@ -298,7 +299,8 @@ PARAMETER_SECTION
   vector Frms_p0(1,nedades);
   vector Zrms_p0(1,nedades);
   vector Nvult_p0(1,nedades);
-  vector CTP_p0(1,nedades);
+  matrix CTP_p0(1,nproy,1,nedades);
+  matrix YTP_p0W(1,nproy,1,nedades);
   vector YTP_p0(1,nproy);
   sdreport_vector BD_p0(1,nproy);
   sdreport_vector RPR_p0(1,nproy);
@@ -749,7 +751,9 @@ FUNCTION  Eval_CTP
 	  Frms_r0 = Sel_flota(nanos)*Fref_r0;
     Zrms_r0 = Frms_r0+M;
     Nvult_r0= elem_prod(1.-exp(-1.*Zrms_r0),N(nanos));
+    
     CTP_r0  = elem_prod(elem_div(Frms_r0,Zrms_r0),elem_prod(1.-exp(-1.*Zrms_r0),N(nanos)));
+    YTP_r0W  = elem_prod(CTP_r0,Wmed(nanos));   
     YTP_r0  = sum(elem_prod(CTP_r0,Wmed(nanos)));      
 	  NMD_r0  = elem_prod(elem_prod(N(nanos),mfexp(-dt(3)*Zrms_r0)),msex);
     BD_r0   = sum(elem_prod(NMD_r0,Win(nanos)));	
@@ -836,8 +840,10 @@ FUNCTION  Eval_CTP
    Frms_p0 = Sel_flota(nanos)*Fref_p0;
    Zrms_p0 = Frms_p0+M;
    Nvult_p0 = elem_prod(1.-exp(-1.*Zrms_p0),Npp);
-   CTP_p0    = elem_prod(elem_div(Frms_p0,Zrms_p0),elem_prod(1.-exp(-1.*Zrms_p0),Npp)); 
-   YTP_p0(j) = sum(elem_prod(CTP_p0,Wmedp)); 
+   
+   CTP_p0(j)    = elem_prod(elem_div(Frms_p0,Zrms_p0),elem_prod(1.-exp(-1.*Zrms_p0),Npp)); 
+   YTP_p0W(j) = elem_prod(CTP_p0(j),Wmedp); 
+   YTP_p0(j) = sum(elem_prod(CTP_p0(j),Wmedp)); 
    BD_p0(j)  = sum(elem_prod(elem_prod(elem_prod(Npp,mfexp(-dt(3)*Zrms_p0)),msex),Winp)); 
    RPR_p0(j) = BD_p0(j)/Brms(1);
 		   
@@ -1048,7 +1054,18 @@ REPORT_SECTION
   report << pred_Ctot << endl;
   report << "F" << endl;
   report << Ftot << endl;
-
+  report << "YTP_r0W_actual" << endl;
+  report << YTP_r0W << endl;
+  report << "YTP_p0W_proyectada" << endl;
+  report << YTP_p0W << endl;
+  report << "CTP_r0_actual" << endl;
+  report << CTP_r0 << endl;
+  report << "CTP_p0_proyectada" << endl;
+  report << CTP_p0 << endl;
+  report << "Wmedp" << endl;
+  report << Wmedp << endl;
+  report << "Frms_r0" << endl;
+  report <<  Frms_r0 << endl;  
   
 //##############################################################################  
 //------------------------------------------------------------------------------
