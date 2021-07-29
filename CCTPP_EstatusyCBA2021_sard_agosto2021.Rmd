@@ -338,7 +338,7 @@ legend(1991,600,c("Reclutamientos","Biomasa desovante"),lty=1,col=c(2,1),bty="n"
 ```{=tex}
 \begin{table}[h]
     \centering
-    \resizebox{8cm}{!} {
+    \resizebox{7cm}{!} {
     \begin{tabular}{|c|c|c|c|c|}
     \hline
 AÑO  & CBA inicial  & 1era revisión CBA  & 2da revisión CBA     & Desembarques  \\ 
@@ -350,11 +350,16 @@ AÑO  & CBA inicial  & 1era revisión CBA  & 2da revisión CBA     & Desembarque
 2018 & 296          & 321                & \textit{statu quo}   & 341 \\
 2019 & 274          & 335                & 337                  & 318 \\
 2020 & 321          & \textit{statu quo} & \textit{statu quo}   & 258   \\ 
-2021 & 201          & 251                & -                    &- \\\hline
+2021 & 201          & 251                & -                    & 306* \\\hline
   \end{tabular}}
         \end{table}
 ```
-\vspace{-0.2cm}
+
+\scriptsize
++ \*306 mil t corresponde al desembarque acumulado a junio 2021
+
+\vspace{-0.45cm}
+
 ```{r CCTPP_CBAporHito,include=T, message=F,warning=F,eval=T, echo=FALSE,fig.height=1.8,fig.width=4.5,fig.align="center",fig.path="Figuras/", dev=c('pdf', 'bmp')}
 library(stringr)
 library(lattice)
@@ -369,7 +374,7 @@ year<-    c(2014,2015,2016,2017,2018,2019,2020,2021)
 CBAhito1<-c(373,323,286,273,296,274,321,201)
 CBAhito2<-c(572,356,326,310,321,335,321,251)
 CBAhito3<-c(572,478,326,336,321,337,321,NA)
-Desembarques <- c(543,430,275,335,341,318,258,NA)
+Desembarques <- c(543,430,275,335,341,318,258,306)
 
 
 ind           <- cbind(CBAhito1,CBAhito2,CBAhito3,Desembarques) 
