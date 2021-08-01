@@ -269,7 +269,7 @@ PARAMETER_SECTION
   vector Nvult_r0(1,nedades);
   vector CTP_r0(1,nedades);
   vector YTP_r0W(1,nedades);
-  number YTP_r0
+  sdreport_number YTP_r0
   vector NMD_r0(1,nedades);
   number BD_r0
   number RPR_r0
@@ -301,7 +301,7 @@ PARAMETER_SECTION
   vector Nvult_p0(1,nedades);
   matrix CTP_p0(1,nproy,1,nedades);
   matrix YTP_p0W(1,nproy,1,nedades);
-  vector YTP_p0(1,nproy);
+  sdreport_vector YTP_p0(1,nproy);
   sdreport_vector BD_p0(1,nproy);
   sdreport_vector RPR_p0(1,nproy);
  
