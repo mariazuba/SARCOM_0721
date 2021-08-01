@@ -373,7 +373,7 @@ kable(NM_Ian)
 \footnotesize
 # 1. ANTECEDENTES
 
-```{r Fig2, echo=T,warning=F, include=T, message=F,fig.height=3.5,fig.width=6.5,fig.align="center",fig.path=dir.Fig,dev=fig}
+```{r Fig2, echo=T,warning=F, include=T,eval=F, message=F,fig.height=3.5,fig.width=6.5,fig.align="center",fig.path=dir.Fig,dev=fig}
 years<-seq(1990,2020,1)
 dataDesem  <- ant$des_oficialesvscorregidos
 Tdesem  <- data.frame(years,dataDesem[,1:2],rep(median(dataDesem[,2]),length(dataDesem[,2])))
@@ -435,7 +435,7 @@ ggplot(des_art_ind)+
 
 ```{r Fig4,warning=F, include=T, message=F, echo=T,fig.height=3.3,fig.width=5.8,fig.align="center",fig.path=dir.Fig,dev=fig}
 ano<-ant$desembarques_sernapesca[,1]
-des_mes<-data.frame(mes=rep(seq(1,12,1),22),ano=gl(22,12,labels=ano),desem=c(t(ant$desembarques_sernapesca[,2:13])))
+des_mes<-data.frame(mes=rep(seq(1,12,1),27),ano=gl(27,12,labels=ano),desem=c(t(ant$desembarques_sernapesca[,2:13])))
 
 par(mfcol=c(1,1),mar=c(4,4,1,1))
 boxplot(des_mes$desem[145:264]/10^3~des_mes$mes[145:264],las=1,xlab="Mes",
