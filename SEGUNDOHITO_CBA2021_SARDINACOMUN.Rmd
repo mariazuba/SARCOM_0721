@@ -1,0 +1,208 @@
+---
+title: "Segundo hito de revisión de CBA de sardina para CCT-PP"
+output: pdf_document
+---
+
+
+```{r llama codigos, warning=F, include=T, message=F, echo=FALSE}
+library(knitr) # para generar reporte Rmarkdown
+library(stringr)
+library(reshape) 
+library(dplyr) 
+library(ggplot2)
+library(ggthemes) # para ggplot
+library(patchwork) # para unir gráficos de ggplot
+library(strucchange) # libreria utilizada para análisis de quiebres
+
+dir.Fig     <-"Figuras/" # carpeta de las figuras utilizadas y generadas en este estudio
+fig         <-c("pdf") # formato de figuras generadas por este código
+dir.0       <-getwd() # directorio de trabajo 
+dir.1       <-paste(dir.0,"/codigos_admb",sep="") # carpeta de códigos ADMB 
+dir.fun     <-paste(dir.0,"/funciones/",sep="") # carpeta de funciones utilizadas en este informe
+source(paste(dir.fun,"functions.R",sep="")) # funciones para leer .dat y .rep
+source(paste(dir.fun,"Fn_PBRs.R",sep="")) # funciones para leer .dat y .rep
+ant <-reptoRlist(paste(dir.0,"/DatosEntrada.dat",sep=""))  # datos utilizados para antecedentes
+
+```
+
+```{r CORRE MODELO BASE SEPTIEMBRE, eval=FALSE, echo=FALSE, warning=FALSE, include=F}
+setwd(dir.1)
+#Asesoría de septiembre
+system("~/admb-12.2/admb MAE0920")
+system("./MAE0920")
+```
+
+```{r CORRE MODELO BASE MARZO, eval=FALSE, echo=FALSE, warning=FALSE,include=F}
+setwd(dir.1)
+#Asesoría de septiembre
+system("~/admb-12.2/admb MAE0321")
+system("./MAE0321")
+```
+
+```{r CORRE MODELO BASE JULIO, eval=FALSE, echo=FALSE, warning=FALSE,include=F}
+setwd(dir.1)
+#Asesoría de septiembre
+system("~/admb-12.2/admb MAE0721")
+system("./MAE0721")
+```
+
+
+```{r  leer datos, echo=FALSE, warning=FALSE, include=T}
+setwd(dir.1)
+
+# ASESORÍA DE SEPTIEMBRE
+data1        <- lisread("MAE0920.dat") 
+names(data1) <- str_trim(names(data1), side="right")
+dat1         <- data1
+rep1         <- reptoRlist("MAE0920.rep")
+std1         <- read.table("MAE0920.std",header=T,sep="",na="NA",fill=T) 
+
+# ASESORÍA DE MARZO
+data2        <- lisread("MAE0321.dat") 
+names(data2) <- str_trim(names(data2), side="right")
+dat2         <- data2
+rep2         <- reptoRlist("MAE0321.rep")
+std2         <- read.table("MAE0321.std",header=T,sep="",na="NA",fill=T) 
+
+# ASESORÍA DE JULIO
+data3        <- lisread("MAE0721.dat") 
+names(data3) <- str_trim(names(data3), side="right")
+dat3         <- data3
+rep3         <- reptoRlist("MAE0721.rep")
+std3         <- read.table("MAE0721.std",header=T,sep="",na="NA",fill=T) 
+
+```
+
+```{r HITO 1 CBA ASESORIA SEPTIEMBRE, eval=FALSE, echo=FALSE, warning=FALSE, include=F}
+source(paste(dir.fun,"Fn_CBA.R",sep=""))
+CBA(dir.0,
+    dir.1,
+    Carpeta="/CBA_sept", #genera carpeta con escenarios de reclutamiento para el cálculo de CBA
+    admb="MAE0920", #códigos .dat y .tpl de asesoría de septiembre
+    l_opt_proy=323, # línea  de opción de proyección que se debe cambiar
+    l_opRec=329,    # línea  de opción de escenario de reclutamiento promedio que se debe cambiar 
+    l_opt_wmed=335, # línea de opción de escenario de peso medio que se debe cambiar para la projección
+    l_opt_Str=326,  # linea de opción de estrategia de captura 
+    l_mf=338,       # línea de opción de multiplicador de F que se puede cambiar
+    opt_proy=2,     # Proyecta de un año para otro (CBA inicial, asesoría de septiembre)
+    opt_wmed=3,     # peso promedio últimos 5 años de la serie
+    opt_Str=1,      # estrategia F constante
+    system="mac")   # denpende si estoy en computador de windows o mac
+```
+
+```{r HITO 2 CBA ASESORIA MARZO, eval=FALSE, echo=FALSE, warning=FALSE, include=F}
+source(paste(dir.fun,"Fn_CBA.R",sep=""))
+CBA(dir.0,
+    dir.1,
+    Carpeta="/CBA_marzo", #genera carpeta con escenarios de reclutamiento para el cálculo de CBA
+    admb="MAE0321", #códigos .dat y .tpl de asesoría de marzo
+    l_opt_proy=330, # línea  de opción de proyección que se debe cambiar
+    l_opRec=336,    # línea  de opción de escenario de reclutamiento promedio que se debe cambiar 
+    l_opt_wmed=342, # línea de opción de escenario de peso medio que se debe cambiar para la projección
+    l_opt_Str=333,  # linea de opción de estrategia de captura 
+    l_mf=345,       # línea de opción de multiplicador de F que se puede cambiar
+    opt_proy=1,     # IMPORTANTE!! Proyecta para el mismo año (1era y 2da revisión de CBA, asesorías de marzo y julio)
+    opt_wmed=3,     # peso promedio últimos 5 años de la serie
+    opt_Str=1,      # estrategia F constante
+    system="mac")   # denpende si estoy en computador de windows o mac
+```
+
+```{r HITO 3 CBA ASESORIA JULIO, eval=FALSE, echo=FALSE, warning=FALSE, include=F}
+source(paste(dir.fun,"Fn_CBA.R",sep=""))
+CBA(dir.0,
+    dir.1,
+    Carpeta="/CBA_julio", #genera carpeta con escenarios de reclutamiento para el cálculo de CBA
+    admb="MAE0721", #códigos .dat y .tpl de asesoría de julio
+    l_opt_proy=330, # línea  de opción de proyección que se debe cambiar
+    l_opRec=336,    # línea  de opción de escenario de reclutamiento promedio que se debe cambiar 
+    l_opt_wmed=342, # línea de opción de escenario de peso medio que se debe cambiar para la projección
+    l_opt_Str=333,  # linea de opción de estrategia de captura 
+    l_mf=345,       # línea de opción de multiplicador de F que se puede cambiar
+    opt_proy=1,     # IMPORTANTE!! Proyecta para el mismo año (1era y 2da revisión de CBA, asesorías de marzo y julio)
+    opt_wmed=3,     # peso promedio últimos 5 años de la serie
+    opt_Str=1,      # estrategia F constante
+    system="mac")   # denpende si estoy en computador de windows o mac
+```
+
+
+- ¿Cuánto se captura entre los meses de octubre a diciembre en promedio?
+- ¿Cual fue el remanente de captura 2020?
+- ¿Cuánto se sobrepasa el RMS en la captura 2020/21?
+
+
+## **¿Cuál es la captura semestral del año biológico 2020/21 y la captura descartada?**
+
+
+- captura 2do semestre 2020 = 69.839 t
+- captura 1er semestre 2021 = 306.406 t
+- captura año biológico 2020/2021 = 376.245 t
+- captura descartada del año biológico = 15.050 t 
+- remoción total 2020/2021 = 391.294 t
+
+- Mortalidad por pesca $F_{2020/2021}$ = 0,326
+- Mortalidad por pesca objetivo $F_{2020/2021}$ = 0,3
+
+- $F_{2020/2021}$ 9% sobre $F_{RMS}$ en estatus 2020/21
+
+```{=tex}
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{Figuras/Fig41b-1.pdf}
+\end{figure}
+```
+
+- CBA recomendada 2021 = 251.316 t
+- Desembarque 1er semestre 2021 = 22% sobre CBA recomendada (306.406 t)
+
+\pagebreak
+
+## ¿Cuál debería haber sido la captura para un $F_{RMS}$?
+
+La captura 2020/21 al RMS debería ser 359.250 ($C_{RMS}$) - 14.370 (4%descarte) = 344.880 t
+
+Por lo tanto, de las 344.880 t que se podían capturar entre el 2020/21, si consideramos que durante el 2do semestre 2020 se capturaron 69.839 t, entonces, durante el 1er semetre 2021 la captura no debería haber superado las 275.041 t. Se sobrepasó en torno a las 31 mil toneladas la captura biológicamente aceptable 2020/21.
+
+De acuerdo a los datos de control Cuota remanente de anchoveta y sardina común de la flota artesanal de la V-XIV reviones, la cuota remanente de sardina común 2020 es de 30.600 t. Por lo tanto, podríamos concluir que la causa de exceder el objetivo de manejo Frms para el año 2020/21 se debe al remanente de cuota autorizado.
+
+
+```{=tex}
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{Figuras/Fig41b_Frms202021-1.pdf}
+\end{figure}
+```
+
+
+ \pagebreak
+ 
+## Sobre las estacionalidad de las capturas
+
+
+```{=tex}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.65\textwidth]{Figuras/Fig4-1.pdf}
+\caption{Capturas mensuales de sardina común realizadas entre 2007-2021, registradas por SERNAPESCA en la zona centro-sur.}
+\label{Fig4}
+\end{figure}
+```
+
+- Revisar la estacionalidad de la captura en año biológico
+
+```{r}
+
+prop1ersemestre<-c(0.81,	0.70,	0.65,	0.77,	0.47,	0.81,	0.72,	0.81,	0.85,	0.90,	0.81,	0.90,	0.90,	0.86,	0.88,	0.89,	0.75,	0.89,	0.81,	0.63,	0.67,	0.66,	0.32,	0.80,	0.70,	0.49,	0.66,	0.78,	0.77,	0.69,	0.81)
+
+plot(seq(1991,2021),prop1ersemestre,type="o",ylab="Proporción de captura 1er semestre (año biológico",xlab="Años")
+
+```
+
+ Separar la Captura en año biológico para revisar el efecto de la Captura 2020/21 sobre el cálculo de CBA en año calendario
+
+
+**Qué pasaría si los usuarios deciden no capturar durante el 2do semestres y traspasar ese remanente de cuota para el 1er semestre del siguiente año???**
+
+
+ 
+**cuál es la captura biológicamente aceptable 2021/2022**
+
