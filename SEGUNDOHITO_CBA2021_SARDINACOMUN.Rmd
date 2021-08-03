@@ -1,6 +1,46 @@
 ---
-title: "Segundo hito de revisión de CBA de sardina para CCT-PP"
-output: pdf_document
+title: "Segundo hito de revisión del Estatus 2020/21 y CBA 2021 de sardina común para CCT-PP"
+output: 
+    pdf_document:
+header-includes:
+- \usepackage{draftwatermark}
+- \SetWatermarkText{Preliminar}
+- \usepackage{xcolor} % Required for specifying colors by name
+- \usepackage{graphicx} % Required for including pictures
+- \graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
+- \usepackage{tikz} % Required for drawing custom shapes
+- \usepackage{fancyhdr}
+- \usepackage{graphicx}
+- \usepackage{parskip}
+- \usepackage{caption}
+- \captionsetup[table]{name=\textbf{Tabla},labelsep=period}
+- \captionsetup[figure]{name=\textbf{Figura},labelsep=period}
+- \captionsetup{justification=justified,format=plain,font=small,labelfont=bf,margin=40pt}
+- \pagestyle{fancy}
+- \usepackage{geometry}
+- \geometry{top=1.5cm, bottom=1cm, left=2.5cm, right=2.5cm}
+- \usepackage{helvet}
+- \renewcommand{\familydefault}{\sfdefault}
+- \usepackage{multirow}
+- \usepackage{natbib}
+- \renewcommand{\baselinestretch}{1.2}
+- \newcommand{\sietepuntos}{\fontsize{7pt}{\baselineskip}\selectfont}
+- \newcommand{\cincopuntos}{\fontsize{6pt}{\baselineskip}\selectfont}
+- \usepackage{color,colortbl}
+- \definecolor{Gray}{rgb}{0.801,0.801,0.801}
+- \definecolor{Gray1}{rgb}{0.790,0.790,0.790}
+- \definecolor{Gray2}{rgb}{0.830,0.830,0.830}
+- \definecolor{Gray3}{rgb}{0.870,0.870,0.870}
+- \definecolor{Gray4}{rgb}{0.940,0.940,0.940}
+- \addtolength{\headheight}{4.5\baselineskip}
+- \setlength{\headheight}{70pt}
+- \setlength{\footskip}{5pt}
+- \setlength{\textheight}{658pt}
+- \fancyhead[CO,CE]{\includegraphics[height=1.5cm]{logoifop.png}\\ \sietepuntos INSTITUTO DE FOMENTO PESQUERO / DIVISION INVESTIGACION PESQUERA}
+- \fancyhead[LO,LE]{ }
+- \fancyhead[RO,RE]{ }
+- \renewcommand{\headrulewidth}{0.5pt}
+- \fancyfoot[C]{\cincopuntos \thepage \\ \vspace{-0.2cm} ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ \\ \vspace{-0.2cm}}
 ---
 
 
@@ -125,84 +165,240 @@ CBA(dir.0,
 ```
 
 
-- ¿Cuánto se captura entre los meses de octubre a diciembre en promedio?
-- ¿Cual fue el remanente de captura 2020?
-- ¿Cuánto se sobrepasa el RMS en la captura 2020/21?
 
+### ¿Cuánto se captura durante el primer semestre en promedio?
 
-## **¿Cuál es la captura semestral del año biológico 2020/21 y la captura descartada?**
+Respecto los desembarques mensuales registrados por SERNAPESCA durante el primer semestre entre los años 2015 al 2020 se reportan capturas en torno a las 231 mil toneladas. No obstante, para el año 2021, las capturas registradas durante el primer semestre se incrementaron un 32% respecto al promedio (231 mil t en promedio) (\textbf{Tabla \ref{Tab1}}). Al parecer, este incremento en los desembarques registrados durante el primer semestre del año 2021 tiene relación con la autorización de capturar los remanentes no consumidos de cuotas anuales durante el año 2020 (http://www.sernapesca.cl/sites/default/files/res.ex_.182-2021_0.pdf). Al respecto, la CBA 2020 recomendada por el CCT-PP fue de 321 mil t (\textbf{Tabla \ref{Tab2}}). La captura registrada durante el 2020 fueron 258 mil toneladas, generando un remanente de 63 mil toneladas aproximadamente. De acuerdo a los datos publicados por SERNAPESCA correspondiente al control Cuota remanente de anchoveta y sardina común de la flota artesanal de la V-XIV Regiones (http://www.sernapesca.cl/informacion-utilidad/consumo-de-cuotas), la cuota remanente capturada durante el primer semestre del año 2021 de sardina común es de 30.600 t. 
 
+### ¿Cuál es el efecto de la cuota remanente 2020 en el estatus 2020/21 de sardina común?.
 
-- captura 2do semestre 2020 = 69.839 t
-- captura 1er semestre 2021 = 306.406 t
-- captura año biológico 2020/2021 = 376.245 t
-- captura descartada del año biológico = 15.050 t 
-- remoción total 2020/2021 = 391.294 t
+La captura registrada para el año biológico 2020/21 fue de 376 mil toneladas. Considerando la captura descartada supuesta para el mismo año (15 mil t, equivante al 4% de descarte) como una causa de mortalidad por pesca adicional, la remoción total ocurrida durante el 2020/21 fue de 391 mil t, lo cual equivale a una mortalidad por pesca de 0,326 año^-1^. Dado que, la mortalidad por pesca objetivo ($F_{RMS}$) es igual a 0,3 año^-1^, la $F_{2020/21}$ fue un 9% mayor al $F_{RMS}$ (\textbf{Figura \ref{Fig1}}).
 
-- Mortalidad por pesca $F_{2020/2021}$ = 0,326
-- Mortalidad por pesca objetivo $F_{2020/2021}$ = 0,3
-
-- $F_{2020/2021}$ 9% sobre $F_{RMS}$ en estatus 2020/21
-
-```{=tex}
-\begin{figure}
-\centering
-\includegraphics[width=0.8\textwidth]{Figuras/Fig41b-1.pdf}
-\end{figure}
-```
-
-- CBA recomendada 2021 = 251.316 t
-- Desembarque 1er semestre 2021 = 22% sobre CBA recomendada (306.406 t)
+La captura 2020/21 al RMS debería estar en torno a las 359 mil t ($C_{RMS}$), si descontamos la captura descartada (14 mil t equivalente al 4%descarte), la captura biológicamente aceptable 2020/21 debería ser 344,8 mil t. Al respecto, si consideramos que  la captura registrada durante el segundo semestre 2020 fue de 69,8 mil t, la captura del primer semestre que hubiera permitido estar en $F_{RMS}$, sería 275 mil t. Es decir, la $C_{RMS}$ se sobrepasó en 31 mil t, valor muy cercana a la cuota remanente capturada.
 
 \pagebreak
 
-## ¿Cuál debería haber sido la captura para un $F_{RMS}$?
-
-La captura 2020/21 al RMS debería ser 359.250 ($C_{RMS}$) - 14.370 (4%descarte) = 344.880 t
-
-Por lo tanto, de las 344.880 t que se podían capturar entre el 2020/21, si consideramos que durante el 2do semestre 2020 se capturaron 69.839 t, entonces, durante el 1er semetre 2021 la captura no debería haber superado las 275.041 t. Se sobrepasó en torno a las 31 mil toneladas la captura biológicamente aceptable 2020/21.
-
-De acuerdo a los datos de control Cuota remanente de anchoveta y sardina común de la flota artesanal de la V-XIV reviones, la cuota remanente de sardina común 2020 es de 30.600 t. Por lo tanto, podríamos concluir que la causa de exceder el objetivo de manejo Frms para el año 2020/21 se debe al remanente de cuota autorizado.
-
-
 ```{=tex}
-\begin{figure}
-\centering
-\includegraphics[width=0.8\textwidth]{Figuras/Fig41b_Frms202021-1.pdf}
-\end{figure}
+\begin{table}[h!]
+    \caption{Desembarques mensuales de sardina común registrados por SERNAPESCA entre los años 2015 al 2021.}
+ \label{Tab1}
+ \small
+    \centering
+    \resizebox{14cm}{!}{
+    \begin{tabular}{lccccccc}
+    \hline
+ Meses            & 2015    & 2016    & 2017    & 2018    & 2019    & 2020    & 2021   \\ \hline
+ Enero            & 365     & 240     & 181     & 7       & 55      & 0       & 6      \\
+ Febrero          & 16.832  & 29.430  & 20.588  & 15.699  & 13.245  & 5.302   & 4.024  \\
+ Marzo            & 78.093  & 39.823  & 166.107 & 127.241 & 107.962 & 33.431  & 182.026 \\
+ Abril            & 102.505 & 16.125  & 34.003  & 75.346  & 64.807  & 103.728 & 95.004 \\
+ Mayo             & 71.075  & 26.582  & 30.823  & 31.767  & 32.028  & 37.170  & 20.422 \\
+ Junio            & 12.835  & 33.496  & 12.988  & 22.893  & 14.904  & 8.620   & 4.924 \\ \hline
+ Julio            & 12.885  & 20.550  & 12.875  & 1.280   & 6.807   & 4.272   &        \\
+ Agosto           & 4.570   & 75      & 89      & 48      & 6       & 12      &        \\
+ Septiembre       & 34      & 209     & 13      & 162     & 14      & 2       &        \\
+ Octubre          & 33.955  & 28.423  & 20.616  & 13.483  & 1.019   & 8.203   &        \\
+ Noviembre        & 79.477  & 59.980  & 28.541  & 46.060  & 47.575  & 30.345  &        \\
+ Diciembre        & 23.237  & 25.488  & 13.860  & 7.522   & 29.704  & 27.004  &          \\ \hline
+ \textbf{TOTAL}            & 435.863 & 280.421 & 340.684 & 341.508 & 318.126 & 258.089 & 306.406 \\
+ \textbf{Total Semestre 1} & 281.705 & 145.696 & 264.690 & 272.953 & 233.001 & 188.251 & 306.406 \\
+ \textbf{Total Semestre 2} & 154.158 & 134.725 & 75.994  & 68.555  & 85.125  & 69.838  &    ??     \\ 
+ \hline
+  \end{tabular}}
+        \end{table}
 ```
 
+\vspace{0.5cm}
 
- \pagebreak
- 
-## Sobre las estacionalidad de las capturas
+\small
++------+---------------+-------------------+------------------+---------------+
+| Año  | CBA inicial   | 1era revisión CBA | 2da revisión CBA | Desembarques  |
+|      |               |                   |                  |               |
+|      | (miles de t.) | (miles de t.)     | (miles de t.)    | (miles de t.) |
++:====:+:=============:+:=================:+:================:+:=============:+
+| 2014 | 373           | 572               | \-               | 543           |
++------+---------------+-------------------+------------------+---------------+
+| 2015 | 323           | 356               | 478              | 430           |
++------+---------------+-------------------+------------------+---------------+
+| 2016 | 286           | 326               | 326              | 275           |
++------+---------------+-------------------+------------------+---------------+
+| 2017 | 273           | 310               | 336              | 335           |
++------+---------------+-------------------+------------------+---------------+
+| 2018 | 296           | 321               | \-               | 341           |
++------+---------------+-------------------+------------------+---------------+
+| 2019 | 274           | 335               | 337              | 318           |
++------+---------------+-------------------+------------------+---------------+
+| 2020 | 321           | 321               | 321              | 258           |
++------+---------------+-------------------+------------------+---------------+
+| 2021 | 201           | 251               | \-               | 306*          |
++------+---------------+-------------------+------------------+---------------+
+
+: \label{Tab2} Capturas biológicamente aceptables recomendadas por el CCT-PP en las distintas etapas de establecimiento de CBA y estatus de sardina común y el Desembarque registrado.
+
+
+\scriptsize
++ \*306 mil t corresponde al desembarque acumulado a junio 2021
+
+\pagebreak
 
 
 ```{=tex}
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.65\textwidth]{Figuras/Fig4-1.pdf}
-\caption{Capturas mensuales de sardina común realizadas entre 2007-2021, registradas por SERNAPESCA en la zona centro-sur.}
-\label{Fig4}
+\includegraphics[width=0.5\textwidth]{Figuras/Fig41b-1.pdf}
+\includegraphics[width=0.5\textwidth]{Figuras/Fig41b_Frms202021-1.pdf}
+\caption{Diagrama de fases de explotación de la biomasa desovante respecto de la mortalidad por pesca de la asesoría de  julio 2021 (panel superior) y asesoría de julio 2021 considerando un $F_{2020/21}$ igual al $F_{RMS}$ (panel inferior). Los ejes están estandarizados a los valores que generan el RMS proxy. Cruz azul corresponde a los intervalos de confianza de la razón $BD/BD_{RMS}$ y $F/F_{RMS}$. El año con cruz continua corresponde a "\textit{Estatus completo}" y la cruz con línea discontinua a "\textit{Estatus preliminar}".}
+\label{Fig1}
 \end{figure}
 ```
 
-- Revisar la estacionalidad de la captura en año biológico
+\pagebreak
 
-```{r}
+\normalsize
 
-prop1ersemestre<-c(0.81,	0.70,	0.65,	0.77,	0.47,	0.81,	0.72,	0.81,	0.85,	0.90,	0.81,	0.90,	0.90,	0.86,	0.88,	0.89,	0.75,	0.89,	0.81,	0.63,	0.67,	0.66,	0.32,	0.80,	0.70,	0.49,	0.66,	0.78,	0.77,	0.69,	0.81)
+### Revisión de la proporción semestral de captura 
 
-plot(seq(1991,2021),prop1ersemestre,type="o",ylab="Proporción de captura 1er semestre (año biológico",xlab="Años")
+Considerando que el modelo de evaluación de stock de sardina común emplea información agregada en año biológico, la población es proyectada uno o dos años biológicos hacia el futuro (a inicios de julio de un año a junio del año siguiente). Por consiguiente, el cálculo de la captura en año calendario se obtiene como el promedio ponderado según la estacionalidad semestral de la pesquería. 
 
+El análisis de quiebres de la serie de proporción de desembarques del primer semestre muestra que a partir del 2010 la proporción disminuye en torno al 70% para el primer semestre (\textbf{Figura \ref{Fig17}}). De este modo, el cálculo de CBA se obtiene como el promedio ponderado según la estacionalidad semestral de la pesquería del período más reciente en 70% para el primer semestre y 30% para el segundo semestre del año calendario. Este supuesto fue acordado con el CCT-PP en la sesión 02/2019 [^5].
+
+[^5]: <http://www.subpesca.cl/portal/616/articles-105403_documento.pdf>
+
+```{=tex}
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{Figuras/Fig17.png}
+\caption{ Serie histórica de la proporción de los desembarques durante el primer semestre. }
+\label{Fig17}
+\end{figure}
 ```
 
- Separar la Captura en año biológico para revisar el efecto de la Captura 2020/21 sobre el cálculo de CBA en año calendario
+De este modo, el cálculo de la segunda revisión de la CBA para el año calendario 2021 se obtuvo como el promedio ponderado según la estacionalidad semestral de la pesquería que a la fecha se asume 70% para el primer semestre y 30% para el segundo semestre.
+
+```{=tex}
+\begin{table}[h!]
+    \caption{Cálculo de CBA 2021 considerando la proporción semestral 70\% y 30\% de los años biológicos 2020/21 y 2021/22. La CRMS 2021/22 corresponde a la proyección bajo un escenario de reclutamiento reciente (2013-2021)}
+ \label{Tab3}
+ \small
+    \centering
+    \resizebox{14cm}{!}{
+    \begin{tabular}{lcccc}
+    \hline
+Cálculo de CBA 2021       &	captura       &	proporción & semestre &	captura \\ 
+(2da Revisión de Informe) & año biológico & semestral  &          &  semestral \\ \hline
+Captura año biológico 2020/2021 &	391	  & 70\%	       & 1	      & 274 \\
+CRMS año biológico 2021/2022    &	372	  & 30\%	       & 2	      & 112 \\  \hline
+CRMS 2021                        &         &                &          & 385 \\ \hline
+  \end{tabular}}
+        \end{table}
+```
+
+\vspace{-0.2cm}
+
+```{=tex}
+\begin{table}[h!]
+    \centering
+    \resizebox{10cm}{!}{
+    \begin{tabular}{lc}
+    \hline
+                                                  &	captura        \\  
+                                                  & mil t \\ \hline
+Captura año calendario 2021                       & 385 \\
+Supuesto de captura descartada 2021 (4\%)          & 15 \\
+Captura año calendario 2021 - captura descartada  & 370 \\  \hline
+  \end{tabular}}
+        \end{table}
+```
+
+\pagebreak
+
+No obstante, si se considerara la proporción registrada en el año biológico 2020/21 igual a un 19% segundo semestre 2020 y 81% primer semestre 2021. La CBA 2021 podría calcularse como se indica en la \textbf{Tabla \ref{Tab5}}. La \textbf{Tabla \ref{Tab6}} muestra la CRMS 2021 si se considerara un porcentaje distindo para obtener la captura correspondiente al segundo semestre.
 
 
-**Qué pasaría si los usuarios deciden no capturar durante el 2do semestres y traspasar ese remanente de cuota para el 1er semestre del siguiente año???**
+
+```{=tex}
+\begin{table}[h!]
+    \caption{Re-Cálculo de CBA 2021 considerando la proporción semestral 81\% y 19\% de la captura en año biológico 2020/21 registrado por SERNAPESCA y captura proyectada en año biológico 2021/22. La CRMS 2021/22 corresponde a la proyección bajo un escenario de reclutamiento reciente (2013-2021)}
+ \label{Tab5}
+ \small
+    \centering
+    \resizebox{15cm}{!}{
+    \begin{tabular}{lcccc}
+    \hline
+Re-Cálculo de CBA 2021       &	captura       &	proporción & semestre &	captura \\ 
+(2da Revisión de Informe) & año biológico & semestral  &          &  semestral \\ \hline
+Captura año biológico 2020/2021 - captura descartada &	376	  & 81\%	       & 1	      & 306 \\
+CRMS año biológico 2021/2022 - captura descartada    &	357	  & 19\%	       & 2	      & 68 \\  \hline
+CRMS 2021                                             &        &                &          & 374 \\ \hline
+  \end{tabular}}
+        \end{table}
+```
 
 
- 
-**cuál es la captura biológicamente aceptable 2021/2022**
+
+```{=tex}
+\begin{table}[h!]
+\caption{Re-Cálculo de CBA 2021 considerando otras proporciones de captura para el segundo semestre 2021.}
+ \label{Tab6}
+    \centering
+    \resizebox{8cm}{!}{
+    \begin{tabular}{lcc}
+    \hline
+                                 &	captura segundo & CRMS        \\  
+                                 &  semestre 2021  & 2021 \\ \hline
+19\% segundo semestre 2021       & 68              & 374 \\
+20\% segundo semestre 2021       & 71              & 378 \\
+25\% segundo semestre 2021       & 89              & 396 \\  
+30\% segundo semestre 2021       & 107             & 414 \\ \hline
+  \end{tabular}}
+        \end{table}
+```
+
+
+### ¿Cuánto se captura durante el segundo semestre en promedio?
+
+Respecto los desembarques mensuales registrados por SERNAPESCA durante el segundo semestre entre los años 2015 al 2020, se observa que entre los años 2015 y 2016 se capturaron 144 mil toneladas en promedio durante el segundo semestre, no obstante, a partir del 2017 las capturas registradas durante el segundo semestre se reducen en 75 mil t en promedio (\textbf{Tabla \ref{Tab1}}). *¿Porqué se reducen las capturas durante el segundo semestre a partir del 2017?*
+
+\pagebreak
+
+### Respecto a la propuesta del Comité de manejo sobre implementación de cuotas en año biológico.
+
+Propuesta del CM: Dada el alto nivel de incertidumbre en la estimación de CBA por efecto de la proyección futura, se sugiere implementar cuotas de captura en año biológico y prescindir de la reconversión hacia capturas en año calendario.
+Complementariamente, se puede optar a que el hito de agosto sea de comprobación y que desde ese mismo punto se estime la cuota año biológico, la cual posteriormente será revisada en enero (crucero RECLAS).
+
+
+De este modo, si se considera la captura proyectada 2021/2022, se podría tener una referencia de la captura límite que debería existir para el primer semestre 2022, si se permite nuevamente captura el remanente de cuota 2021. 
+
+
+```{=tex}
+\begin{table}[h!]
+\caption{Cálculo de CBA 2021/2022 considerando distintas proporciones de captura para el segundo semestre 2021, bajo un escenario de reclutamiento reciente (2013-2021).}
+ \label{Tab6}
+    \centering
+    \resizebox{14cm}{!}{
+    \begin{tabular}{lccc}
+    \hline
+                                 &	captura segundo & captura primer & CRMS        \\  
+                                 &  semestre 2021   & semestre 2022   & 2021/2022 \\ \hline
+19\% segundo semestre 2021       & 68              & 289             & 357 \\
+20\% segundo semestre 2021       & 71              & 286             & 357 \\
+25\% segundo semestre 2021       & 89              & 268             & 357 \\  
+30\% segundo semestre 2021       & 107             & 250             & 357 \\ \hline
+  \end{tabular}}
+        \end{table}
+```
+
+\pagebreak
+
+
+```{=tex}
+\begin{figure}
+\centering
+\includegraphics[width=0.9\textwidth]{Figuras/Fig47a_julio_factual-1.pdf}
+\includegraphics[width=0.9\textwidth]{Figuras/Fig47b_julio_factual-1.pdf}
+\includegraphics[width=0.9\textwidth]{Figuras/Fig47c_julio_factual-1.pdf}
+\caption{ }
+\label{Fig20}
+\end{figure}
+```
 
