@@ -3816,3 +3816,63 @@ legend(1998,2.5,c("anchoveta centro-sur","sardina común"),col=c(2,1),lwd=c(2,2)
 
 ```
 
+
+
+\normalsize
+
+\normalsize
+
+- ¿Cuánto se sobrepasa el RMS en la captura 2020/21?
+
+Por lo tanto, podríamos concluir que la causa de exceder el objetivo de manejo Frms para el año 2020/21 se debe al remanente de cuota autorizado.
+
+## **¿Cuál es la captura semestral del año biológico 2020/21 y la captura descartada?**
+
+
+- CBA recomendada 2021 = 251.316 t
+- Desembarque 1er semestre 2021 = 22% sobre CBA recomendada (306.406 t)
+
+\pagebreak
+
+## ¿Cuál debería haber sido la captura para un $F_{RMS}$?
+
+La captura 2020/21 al RMS debería ser 359.250 ($C_{RMS}$) - 14.370 (4%descarte) = 344.880 t
+
+Por lo tanto, de las 344.880 t que se podían capturar entre el 2020/21, si consideramos que durante el 2do semestre 2020 se capturaron 69.839 t, entonces, durante el 1er semetre 2021 la captura no debería haber superado las 275.041 t. Se sobrepasó en torno a las 31 mil toneladas la captura biológicamente aceptable 2020/21.
+
+
+ \pagebreak
+ 
+## Sobre las estacionalidad de las capturas
+
+
+```{=tex}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.65\textwidth]{Figuras/Fig4-1.pdf}
+\caption{Capturas mensuales de sardina común realizadas entre 2007-2021, registradas por SERNAPESCA en la zona centro-sur.}
+\label{Fig4}
+\end{figure}
+```
+
+- Revisar la estacionalidad de la captura en año biológico
+
+```{r,eval=F}
+
+prop1ersemestre<-c(0.81,	0.70,	0.65,	0.77,	0.47,	0.81,	0.72,	0.81,	0.85,	0.90,	0.81,	0.90,	0.90,	0.86,	0.88,	0.89,	0.75,	0.89,	0.81,	0.63,	0.67,	0.66,	0.32,	0.80,	0.70,	0.49,	0.66,	0.78,	0.77,	0.69,	0.81)
+
+plot(seq(1991,2021),prop1ersemestre,type="o",ylab="Proporción de captura 1er semestre (año biológico",xlab="Años")
+
+```
+
+ Separar la Captura en año biológico para revisar el efecto de la Captura 2020/21 sobre el cálculo de CBA en año calendario
+
+
+**Qué pasaría si los usuarios deciden no capturar durante el 2do semestres y traspasar ese remanente de cuota para el 1er semestre del siguiente año???**
+
+
+ 
+**cuál es la captura biológicamente aceptable 2021/2022**
+
+
+
