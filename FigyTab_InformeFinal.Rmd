@@ -720,17 +720,17 @@ years    <- rep3$years
 nyears   <- dat3$nanos
 age      <- seq(0,4,1)                                            
 nage     <- length(age)
-pobsR    <- rep3$pobs_RECLAS                                               
-pobsP    <- rep3$pobs_PELACES 
+pobsR1    <- rep3$pobs_RECLAS                                               
+pobsP1    <- rep3$pobs_PELACES 
 
 
-pobsR <- as.data.frame(pobsR) %>% 
+pobsR <- as.data.frame(pobsR1) %>% 
                        mutate(years=years) %>% 
                        melt(id.vars='years') %>%            
                        mutate(edad = rep(age, each=nyears)) %>% 
                        mutate(type='pobsR')
 
-pobsP <- as.data.frame(pobsP) %>% 
+pobsP <- as.data.frame(pobsP1) %>% 
                        mutate(years=years) %>% 
                        melt(id.vars='years') %>%             
                        mutate(edad = rep(age, each=nyears)) %>% 
