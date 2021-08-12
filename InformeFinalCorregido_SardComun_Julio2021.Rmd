@@ -171,6 +171,9 @@ En este sentido, Castillo *et al*. (2013) encontraron una relación negativa ent
 
 Desde el año 2000, la magnitud del reclutamiento anual es estimado a través de la evaluación hidroacústica que se realiza en enero de cada año, cuando se maximiza la presencia de juveniles de sardina común y anchoveta en la zona centro-sur. A partir del 2003 se replicó la prospección en otoño (mayo) para incrementar la certeza de la estimación haciendo un seguimiento de la evolución del proceso o para capturar un eventual segundo pulso, especialmente en anchoveta. De este modo, ha sido posible establecer una estacionalidad en la composición específica de las biomasas de estas dos especies, en verano la sardina domina respecto a la anchoveta, mientras que en el otoño se presenta un incremento relativo de la anchoveta y una reducción en la sardina junto a cambios en su distribución geográfica (Castillo *et al*. 2013). La serie de biomasa se caracteriza por presentar una menor abundancia promedio durante el otoño respecto de las estimaciones de verano, producto de factores asociados a la pesca y a la menor disponibilidad que experimenta el recurso hacia mitad de año. Sin embargo, la distribución espacial de los últimos años se ha visto alterada producto de "El Niño" 2016, observándose una relación positiva, aunque no significativa, entre ambos cruceros (\textbf{Figura \ref{Fig7}}).
 
+Se ha observado una gran variabilidad interanual asociada a la fortaleza del pulso de reclutamiento de ambos recursos. A partir del 2005 la biomasa exhibe un importante aumento con un máximo histórico de 4,8 millones de t en el año 2008, el cual se mantiene hasta el verano del 2012 (3,8 millones de t). El período favorable de la sardina iniciado el 2005, coincide con el dominio en la zona de anomalías térmicas superficiales negativas, que se han presentado con intensidad variable (Castillo *et al*. 2012). Esta tendencia cambia el 2013 (1.133.477 t.) representando una reducción superior al 239% en comparación al verano del 2012; 185% en relación al 2011 y 131% respecto al 2010. En relación con la abundancia de ejemplares menores a 11,5 cm, sólo representaron el 42,5% del total, con un descenso significativo (63,9%), respecto de los meses de enero y mayo del 2012, períodos en los cuales la participación de reclutas superó el 88%. Esta condición se revierte el año 2014, con una importante recuperación de la biomasa total estimada en 3.079.434 t y de la presencia de reclutas con una abundancia de ejemplares menores a 11,5 cm que representó el 96,4% del total (740 mil millones). Sin embargo, a partir del 2015 las biomasas acústicas se mantienen en torno a los 2 millones de t y con disminución de la biomasa de reclutas en el año 2019. El crucero de verano 2020 estimó una dismunición de la biomasa total y de reclutas en torno al 50% y 80% respectivamente, respecto de las estimadas el año anterior, No obstante, se registra una recuperación de los niveles de biomasa total, retornando a niveles en torno a los 2 millones de t (\textbf{Figura \ref{Fig8}}).
+
+
 ```{=tex}
 \begin{figure}[h!]
 \centering
@@ -179,41 +182,53 @@ Desde el año 2000, la magnitud del reclutamiento anual es estimado a través de
 \label{Fig7}
 \end{figure}
 ```
-Se ha observado una gran variabilidad interanual asociada a la fortaleza del pulso de reclutamiento de ambos recursos. A partir del 2005 la biomasa exhibe un importante aumento con un máximo histórico de 4,8 millones de t en el año 2008, el cual se mantiene hasta el verano del 2012 (3,8 millones de t). El período favorable de la sardina iniciado el 2005, coincide con el dominio en la zona de anomalías térmicas superficiales negativas, que se han presentado con intensidad variable (Castillo *et al*. 2012). Esta tendencia cambia el 2013 (1.133.477 t.) representando una reducción superior al 239% en comparación al verano del 2012; 185% en relación al 2011 y 131% respecto al 2010. En relación con la abundancia de ejemplares menores a 11,5 cm, sólo representaron el 42,5% del total, con un descenso significativo (63,9%), respecto de los meses de enero y mayo del 2012, períodos en los cuales la participación de reclutas superó el 88%. Esta condición se revierte el año 2014, con una importante recuperación de la biomasa total estimada en 3.079.434 t y de la presencia de reclutas con una abundancia de ejemplares menores a 11,5 cm que representó el 96,4% del total (740 mil millones). Sin embargo, a partir del 2015 las biomasas acústicas se mantienen en torno a los 2 millones de t y con disminución de la biomasa de reclutas en el año 2019. El crucero de verano 2020 estimó una dismunición de la biomasa total y de reclutas en torno al 50% y 80% respectivamente, respecto de las estimadas el año anterior, No obstante, se registra una recuperación de los niveles de biomasa total, retornando a niveles en torno a los 2 millones de t (\textbf{Figura \ref{Fig8}}).
+
+
 
 ```{=tex}
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.8\textwidth]{Figuras/Fig8-1.pdf}
-\caption{Biomasa acústica total y de reclutas (<11,5 cm) de sardina común centro-sur.}
+\includegraphics[width=1\textwidth]{Figuras/Fig8-1.pdf}
+\caption{Biomasa (panel izquierdo) y abundancia (panel derecho) total y de reclutas (<11,5 cm) de sardina común centro-sur.}
 \label{Fig8}
 \end{figure}
 ```
+
+\pagebreak
+
 ## 2.4. Reproducción
 
 Los peces pelágicos pequeños adaptan su ciclo reproductivo desovando en zonas protegidas y/o períodos del año favorables para la sobrevivencia y desarrollo de estadíos tempranos (Parrish *et al*. 1983, Hutchings *et al*. 1998, Cubillos *et al*. 2001). El área de desove de sardina común y anchoveta de las regiones de Valparaíso a Los Lagos, se ubica principalmente en la zona de Lebu-Corral, la cual correspondería a una zona de pre-reclutamiento/desove con un alto nivel de retención (\textbf{Figura \ref{Fig9}}), producto de una alternancia entre convergencias costeras producidas por vientos norte que favorecerían la concentración y retención en la costa y vientos sur que promoverían el enriquecimiento de aguas costeras con eventos de surgencia de moderada intensidad (Cubillos *et al*. 2011, Parada *et al*. 2012, Soto-Mendosa *et al*. 2012).
 
-La sardina común presenta un desove parcial o fraccionado, es decir, el total de ovocitos maduros producidos por una hembra son expulsados en grupos o modas sucesivas durante la temporada de desove, registrando actividad reproductiva a lo largo de todo el año, con un período de máxima actividad centrada entre los meses de agosto a octubre, período en que las condiciones oceanográficas exhiben una transición entre un régimen de convergencias costeras (transporte hacia la costa) y un régimen de surgencias moderadas que permiten la concentración y retención de huevos en la costa y la provisión de alimento para la supervivencia de las larvas. El período de inactividad o reposo reproductivo se registra durante los primeros meses del año (enero - mayo) y hacia fines de año (noviembre y diciembre), reflejado en los bajos valores del IGS y PHA mostrados en la \textbf{Figura \ref{Fig10}}. A través del tiempo, este proceso ha tendido a focalizar su máxima actividad hacia primavera, centrando el desove entre agosto - noviembre. Por lo tanto, la estacionalidad del proceso reproductivo de esta especie no es estático temporalmente con una fecha de inicio, desarrollo y final predeterminado.
-
-El proceso reproductivo ha sido de mayor extensión, magnitud y anticipación entre julio y principios de agosto durante los años 2011 y 2012 respecto del patrón histórico, explicando una mayor intensión reproductiva. Sin embargo, el año 2013 a 2016 el adelantamiento se observa hacia fines del mes de junio. La fluctuación de IGS y PHA indica que la época de desove se extendió entre junio y noviembre de 2013 al 2015, concentrándose la máxima actividad reproductiva en julio y octubre. Los cambios en la duración de los períodos de desove podrían estar relacionados con la calidad y cantidad de los alimentos en el verano anterior, que a su vez determina la energía disponible para la reproducción, afectando la calidad de la descendencia (Claramunt *et al*. 2013, Castro *et al*. 2009, 2010). En estos recursos se debe considerar también que la estación reproductiva se encuentra fuertemente influenciada por la longitud de las hembras, así, cambios en la estructura de talla determinan potencialmente cambios intra e interanuales en la duración e intensidad del proceso de desove.
 
 ```{=tex}
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.8\textwidth]{Figuras/Fig9.png}
+\includegraphics[width=0.95\textwidth]{Figuras/Fig9.png}
 \caption{Distribución de huevos recolectados en Cruceros de huevos (MPDH, 2003 - 2014) de sardina común en la Zona Centro-Sur de Chile. La línea café representa isobata de 200 m. }
 \label{Fig9}
 \end{figure}
 ```
+
+
+La sardina común presenta un desove parcial o fraccionado, es decir, el total de ovocitos maduros producidos por una hembra son expulsados en grupos o modas sucesivas durante la temporada de desove, registrando actividad reproductiva a lo largo de todo el año, con un período de máxima actividad centrada entre los meses de agosto a octubre, período en que las condiciones oceanográficas exhiben una transición entre un régimen de convergencias costeras (transporte hacia la costa) y un régimen de surgencias moderadas que permiten la concentración y retención de huevos en la costa y la provisión de alimento para la supervivencia de las larvas. El período de inactividad o reposo reproductivo se registra durante los primeros meses del año (enero - mayo) y hacia fines de año (noviembre y diciembre), reflejado en los bajos valores del IGS y PHA mostrados en la \textbf{Figura \ref{Fig10}}. A través del tiempo, este proceso ha tendido a focalizar su máxima actividad hacia primavera, centrando el desove entre agosto - noviembre. Por lo tanto, la estacionalidad del proceso reproductivo de esta especie no es estático temporalmente con una fecha de inicio, desarrollo y final predeterminado.
+
+
+
 ```{=tex}
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.8\textwidth]{Figuras/Fig10a.png}
-\includegraphics[width=0.8\textwidth]{Figuras/Fig10b.png}
+\includegraphics[width=0.45\textwidth]{Figuras/Fig10a.png}
+\includegraphics[width=0.45\textwidth]{Figuras/Fig10b.png}
 \caption{Variación promedio mensual del índice gonadosomático (IGS) y proporción de hembras activas (PHA) de las hembras de sardina común de la zona de San Antonio-Valdivia entre los años 2001 a 2016. }
 \label{Fig10}
 \end{figure}
 ```
+
+El proceso reproductivo ha sido de mayor extensión, magnitud y anticipación entre julio y principios de agosto durante los años 2011 y 2012 respecto del patrón histórico, explicando una mayor intensión reproductiva. Sin embargo, el año 2013 a 2016 el adelantamiento se observa hacia fines del mes de junio. La fluctuación de IGS y PHA indica que la época de desove se extendió entre junio y noviembre de 2013 al 2015, concentrándose la máxima actividad reproductiva en julio y octubre. Los cambios en la duración de los períodos de desove podrían estar relacionados con la calidad y cantidad de los alimentos en el verano anterior, que a su vez determina la energía disponible para la reproducción, afectando la calidad de la descendencia (Claramunt *et al*. 2013, Castro *et al*. 2009, 2010). En estos recursos se debe considerar también que la estación reproductiva se encuentra fuertemente influenciada por la longitud de las hembras, así, cambios en la estructura de talla determinan potencialmente cambios intra e interanuales en la duración e intensidad del proceso de desove.
+
+\pagebreak
+
 ## 2.6. Evaluación de stock
 
 La evaluación de stock desarrollada por IFOP se encuentra en general acorde con los estándares internacionales vigentes. A su vez, las pesquerías han sido clasificados en grupos de calidad o *"Tiers"* conforme el nivel de conocimiento, cantidad y calidad de la información disponible que aporta la evaluación de stock. Se ha tomado en consideración las recomendaciones emanadas tanto desde los Comités Científico Técnicos como de los lineamientos entregados por el equipo de expertos nacionales e internacionales en el marco del proyecto "Revisión de los puntos biológicos de referencia (Rendimiento Máximo Sostenido) en las pesquerías nacionales" (Payá *et al*. 2014). En el desarrollo de (los) método(s) y modelo(s) empleados se consideran elementos de incertidumbre estructural basados en el nivel de conocimiento y de la información o datos disponible, así como la incertidumbre de estimación generada de su aplicación al conjunto de datos disponibles. Independientemente del nivel del estándar, en base al permanente proceso de mejora se recomendará la realización de estudios, cruceros, investigaciones, monitoreo y otras acciones conducentes a mejorar el estado de conocimiento del recurso en cuestión y la pesquería, con el fin de allanar las brechas de conocimiento e información conducentes a reducir los niveles de incertidumbre.
@@ -1382,13 +1397,13 @@ A continuación, se detalla el contenido presentado la **Sección 4.4** de este 
 
 ### 4.1.1. Datos de entrada al modelo de evaluación de stock
 
-El período de análisis de la evaluación de stock comienza en 1990/91 hasta el año 2020/21. A continuación, se detalla los datos actualizados en la asesoría de julio 2021. La informacion es agrupada en año biológico, es decir, el inicio de la serie (1991) contiene los datos registrados entre julio de 1990 a junio de 1991, mientras que el último año (2021), contiene la información regsitrada durante el año biológico julio 2020 a junio 2021 (\textbf{Figura \ref{Fig19}}). \vspace{-0.2cm}
+El período de análisis de la evaluación de stock comienza en 1990/91 hasta el año 2020/21. A continuación, se detalla los datos actualizados en la asesoría de julio 2021. La información es agrupada en año biológico, es decir, el inicio de la serie (1991) contiene los datos registrados entre julio de 1990 a junio de 1991, mientras que el último año (2021), contiene la información regsitrada durante el año biológico julio 2020 a junio 2021 (\textbf{Figura \ref{Fig19}}). \vspace{-0.2cm}
 
 ```{=tex}
 \begin{figure}[h!]
 \centering
-\includegraphics[width=1\textwidth]{Figuras/Fig19-1.pdf}
-\caption{Series de tiempo de los datos de entrada al modelo de evaluación de stock de sardina común de las Regiones de Valparaíso a Los Lagos.}
+\includegraphics[width=0.8\textwidth]{Figuras/Fig19-1.pdf}
+\caption{Series de tiempo de los datos de entrada al modelo de evaluación de stock de sardina común de las Regiones de Valparaíso a Los Lagos. Los datos de desembarques, composición de edad de la flota y pesos medios e inicial, son datos agrupados en año biológico. Los datos de cruceros representa al año calendario. }
 \label{Fig19}
 \end{figure}
 ```
@@ -1591,8 +1606,8 @@ La biomasa total estimada por el crucero de enero 2021 retorno a los niveles obs
 ```{=tex}
 \begin{figure}
 \centering
-\includegraphics[width=0.8\textwidth]{Figuras/Fig20-1.pdf}
-\caption{Serie de desembarques y biomasas estimadas por la evaluación hidroacústica de verano y otoño utilizadas como datos de entrada al modelo de evaluación de stock de sardina común de las Regiones de Valparaíso a Los Lagos.}
+\includegraphics[width=0.7\textwidth]{Figuras/Fig20-1.pdf}
+\caption{Serie de desembarques y biomasas estimadas por la evaluación hidroacústica de verano y otoño utilizadas como datos de entrada al modelo de evaluación de stock de sardina común de las Regiones de Valparaíso a Los Lagos. Los datos de desembarques se agrupan en año biológico. Los datos de cruceros representa al año calendario.}
 \label{Fig20}
 \end{figure}
 ```
@@ -2040,13 +2055,13 @@ Por su parte, las selectividades de la flota y cruceros de otoño indican que el
 \end{figure}
 ```
 
-\pagebreak
+ \vspace{0.5cm}
 
 ### 4.2.2. Puntos Biológicos de Referencia (PBRs)
 
 En la \textbf{Tabla \ref{Tab21}} se muestran los valores calculados en la asesoría de septiembre 2020, marzo y julio de 2021 de BD~0~, BD~RMS~, BD~LIM~ y F~RMS~, recomendados por el Comité Científico Técnicos de Pelágicos Pequeños (Informe Técnico CCT-PP N°01/2015) de acuerdo con la metodología discutida durante el segundo taller (Abril, 2014) y tercer taller (Agosto, 2014) de PBRs (Payá *et al*., 2014). El valor mediano de la mortalidad por pesca experimentado históricamente ($F_{mh}$) por el stock de sardina común centro-sur cercano a F53%BDPR un porcentaje bajo considerando los altos niveles de mortalidad por pesca que ha experimentado el stock (bajo el valor de mortalidad natural, M=1,0 año^-1^) (\textbf{Figura \ref{Fig37}}). Esto podría explicarse por la ubicación de la curva de selectividad respecto a la madurez, donde la selectividad se encuentra a la izquierda de la curva de madurez, producto de que la pesquería presenta una alta selección de juveniles, de manera que la selectividad de la flota comienza antes de la madurez (\textbf{Figura \ref{Fig38}}). Esta condición produciría valores de F60% más moderados, que aumentaría si la selectividad fuese igual a la madurez.
 
-
+\pagebreak
 
 ```{=tex}
 \begin{table}[h]
@@ -2074,11 +2089,12 @@ En la \textbf{Tabla \ref{Tab21}} se muestran los valores calculados en la asesor
 \normalsize
 ```
 
-
+ \vspace{0.8cm}
+ 
 ```{=tex}
 \begin{figure}
 \centering
-\includegraphics[width=0.9\textwidth]{Figuras/Fig37-1.pdf}
+\includegraphics[width=1\textwidth]{Figuras/Fig37-1.pdf}
 \caption{Series de Biomasa desovante y mortalidad por pesca junto a los PBRs calculados a partir de la BD promedio y mediana de F ($F_{mh}$). Los años en el eje x corresponden a año biológico.}
 \label{Fig37}
 \end{figure}
@@ -2101,9 +2117,10 @@ En la \textbf{Tabla \ref{Tab21}} se muestran los valores calculados en la asesor
 
 La \textbf{Figura \ref{Fig39}} muestra que en el inicio de la serie histórica la biomasa indicaría una caída BD\<BD~RMS~ entre los años 1994 y 1995 producto probablemente de fallas sucesivas en los reclutamientos. El estado de la pesquería de sardina común durante los años 1998 y 2006 estuvo marcado por condiciones ambientales "El Niño" 1997-1998, provocando la caída hacia niveles inferiores de la biomasa desovante límite (BD~LIM~) bajo el cual una pesquería califica de agotada o colapsada. A partir del 2007 comienza un período favorable para la condición de sardina común, ingresando a un proceso de expansión poblacional que permite el año 2009 desplazarse hacia un nivel de biomasa desovante superior al BD~RMS~. En la evaluación actual (julio 2021) la BD~2020/2021~ esperada está un 38% bajo BD~RMS~ (\textbf{Figura \ref{Fig39}}). Dado que la biomasa desovante se sustenta principalmente por la fracción adulta de individuos (edad 1+), cuya abundancia disminuyó producto de bajos reclutamientos ocurridos por dos años consecutivos (2019 - 2020), la biomasa desovante del año biológico 2020/21 se redujo significativamente respecto de años previos, posicionándola en una condición desfavorable por debajo del objetivo de manejo.
 
-En términos de la mortalidad por pesca (Ft año^-1^), ésta se había mantenido por sobre el nivel objetivo de referencia F~RMS~ en prácticamente toda la serie histórica analizada producto de la alta selección de juveniles capturados antes de que estos maduren (\textbf{Figura \ref{Fig39}}). La alta selectividad de juveniles conlleva a un valor de F~RMS~ (F60%BDPR) más moderado que una selectividad cercana o por sobre la ojiva de madurez. A partir del año 2013 los niveles de Ft se han mantenido bajo el nivel de referencia generado posiblemente por las caídas de los reclutamientos en algunos años y las bajas CBAs recomendadas luego de la implementación de los PBRs. Con respecto a la razón entre F~2020/21~ y F~RMS~ fue de 1.09, siendo un 9% mayor a F~RMS~, no obstante, este valor se debe considerar preliminar ya que está basado en un supuesto de captura 2020/21 (\textbf{Figura \ref{Fig39}}).
+En términos de la mortalidad por pesca (Ft año^-1^), ésta se había mantenido por sobre el nivel objetivo de referencia F~RMS~ en prácticamente toda la serie histórica analizada producto de la alta selección de juveniles capturados antes de que estos maduren (\textbf{Figura \ref{Fig39}}). La alta selectividad de juveniles conlleva a un valor de F~RMS~ (F60%BDPR) más moderado que una selectividad cercana o por sobre la ojiva de madurez. A partir del año 2013 los niveles de Ft se han mantenido bajo el nivel de referencia generado posiblemente por las caídas de los reclutamientos en algunos años y las bajas CBAs recomendadas luego de la implementación de los PBRs. Con respecto a la razón entre F~2020/21~ y F~RMS~ fue de 1,09, siendo un 9% mayor a F~RMS~, no obstante, este valor se debe considerar preliminar ya que está basado en un supuesto de captura 2020/21 (\textbf{Figura \ref{Fig39}}).
 
 La condición estimada con información preliminar para el año 2020/2021 indica que la sardina común se encuentra en sobreexplotación (38% bajo BD~RMS~ y 9% bajo F~RMS~), con un 18% de probabilidad de colapso y 48% de sobrepesca (\textbf{Tabla \ref{Tab22}}  y \textbf{Figura \ref{Fig40}}).
+\pagebreak
 
 ```{=tex}
 \begin{figure}
