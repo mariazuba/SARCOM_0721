@@ -489,6 +489,26 @@ legend(2000, 2000,c("Abundancia Total","Abundancia Reclutas"),pch=19,lwd=2,col=c
 
 ```
 
+
+```{r Fig6b, echo=FALSE,fig.height=5,fig.width=8,fig.align="center",fig.path=dir.Fig,dev=fig}
+years<-seq(1997,2021)
+sardina<-c(0.80,0.43,0.38,0.24,0.15,0.31,0.33,0.27,0.16,0.21,0.77,0.68,1.57,1.10,1.15,1.42,1.36,1.07,1.57,1.28,1.04,1.13,1.62,1.06,0.62)
+anchoveta<-c(0.92,0.50,0.56,0.54,0.63,1.08,1.54,1.90,1.64,1.76,1.85,1.30,0.82,0.43,0.18,0.15,0.16,0.21,0.27,0.30,0.46,0.57,0.7,0.99,1.30)
+
+dataEstatus <- data.frame(years,sardina,anchoveta) %>% mutate(type=c("Estatus")) %>% melt(id.var=c("years","type"))
+
+ggplot(dataEstatus )+
+  geom_line(aes(x = years, y = value, colour=variable)) +
+  scale_color_manual(values=c('black',"red")) +
+  labs(x = '', y = 'BD/BDrms',fill="",color="") +
+  scale_x_continuous(breaks = seq(from = 1997, to = 2022, by = 2)) +
+  theme_bw(base_size=11) + 
+  theme(plot.title = element_text(hjust = 0.5),legend.position="top")
+
+```
+
+
+
 \pagebreak
 
 # 2. METODOLOGÍA

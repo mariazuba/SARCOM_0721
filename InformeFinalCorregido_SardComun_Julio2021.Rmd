@@ -227,7 +227,7 @@ La sardina común presenta un desove parcial o fraccionado, es decir, el total d
 
 El proceso reproductivo ha sido de mayor extensión, magnitud y anticipación entre julio y principios de agosto durante los años 2011 y 2012 respecto del patrón histórico, explicando una mayor intensión reproductiva. Sin embargo, el año 2013 a 2016 el adelantamiento se observa hacia fines del mes de junio. La fluctuación de IGS y PHA indica que la época de desove se extendió entre junio y noviembre de 2013 al 2015, concentrándose la máxima actividad reproductiva en julio y octubre. Los cambios en la duración de los períodos de desove podrían estar relacionados con la calidad y cantidad de los alimentos en el verano anterior, que a su vez determina la energía disponible para la reproducción, afectando la calidad de la descendencia (Claramunt *et al*. 2013, Castro *et al*. 2009, 2010). En estos recursos se debe considerar también que la estación reproductiva se encuentra fuertemente influenciada por la longitud de las hembras, así, cambios en la estructura de talla determinan potencialmente cambios intra e interanuales en la duración e intensidad del proceso de desove.
 
-\pagebreak
+
 
 ## 2.6. Evaluación de stock
 
@@ -268,7 +268,22 @@ Años       & Modelo                               & Plataforma   & Índices   \
 
 En base al modelo conceptual de la dinámica del stock de sardina común se sustenta el enfoque y modelo de evaluación, que permite asesorar al Comité Científico Técnico de Pesquerías de Pequeños Pelágicos (CCT-PP) en los análisis de la productividad del stock y de sus posibilidades de explotación, considerando los parámetros e indicadores estimados por el modelo de evaluación de sardina común con su incertidumbre asociada.
 
-## 2.7. Captura Biológicamente Aceptable (CBA)
+## 2.7. Estatus
+
+Considerando que la anchoveta constituye una pesquería mixta con sardina común y que ambas se encuentran en niveles de productividad muy disímiles, resulta complejo alcanzar el máximo rendimiento sostenido simultáneamente para cada una de las especies (\textbf{Figura \ref{Fig10b}}). A partir del año 2018 se observa una recuperación de anchoveta centro-sur desplazandose desde una condición de agotada/colapsada a una condición de plenaexplotación. Esta recuperación se debe al incremento en los niveles de biomasa en la UPCS, registrado tanto por los cruceros hidroacústicos como en la composición de edad y pesos medios de la flota. Mientras que los bajos niveles de reclutamiento registrados en sardina común durante dos años consecutivos han generado una disminución de los niveles de biomasa desovante, registrándose una condición de sobreexplotación para el año 2021. No obstante, el reclutamiento estimado para el año 2021 de sardina común podría generar una recuperación de los niveles de biomasa desovante durante el 2021/22. \vspace{0.5cm}
+
+
+```{=tex}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.8\textwidth]{Figuras/Fig6b-1}
+\caption{ Razón $BD/BD_{RMS}$ de sardina común y anchoveta de las regiones de Valparaíso a Los Lagos.}
+\label{Fig10b}
+\end{figure}
+```
+
+
+## 2.8. Captura Biológicamente Aceptable (CBA)
 
 De acuerdo al ciclo de manejo histórico de esta pesquería, la recomendación de CBA comienza con el cálculo de la CBA inicial que permite al CCT-PP, establecer el estatus y recomendar el rango de CBA para el año siguiente. En enero de cada año, el crucero de evaluación hidroacústico permite estimar la abundancia y biomasa de reclutas (crucero de verano), esta información junto a datos provenientes de la pesquería (del año anterior) es utilizada para la primera revisión de la CBA. En marzo se inicia el período de extracción y en mayo se realiza el segundo crucero de evaluación acústica (crucero de otoño) para actualizar el estatus y revisar una vez más la CBA.
 
@@ -278,9 +293,23 @@ En consecuencia, considerando la caída del reclutamiento 2013, el CTT-PP recomi
 
 Para el año 2015 se recomendó una CBA inicial de 323 mil t, en marzo del 2015 se re-calculó con información del crucero de enero 2015 que arrojó una disminución en la presencia de reclutas por lo tanto la CBA se incrementa levemente a 356 mil t. En junio 2015 se re-calcula nuevamente con información del crucero de mayo 2015 que arrojó un aumento de la biomasa acústica permitiendo un incremento en la CBA 2015 a 478 mil t. Del desembarque total registrado el 2015 (430 mil t) un 64% fue capturado entre los meses de enero-junio.
 
-Debido a la alta incertidumbre en el nivel del reclutamiento 2016, la CBA inicial 2016 recomendada por el CCT-PP bajo un enfoque precautorio fue de 286 mil t, la que fue incrementada luego de la actualización con información del crucero de enero 2016 a 326 mil t. Sin embargo, los desembarques registrados para el año 2016 sólo alcanzaron las 275 mil toneladas, con un 51% capturado entre los meses de enero-junio (\textbf{Tabla \ref{Tab2}}). Esta disminución en las capturas se asocia a la presencia del evento "El Niño 2015-2016" que afectaría a la distribución relativa del stock. Aranís *et al*. (2016) señalaron que el recurso no estaría accesible a la flota artesanal de la Región del Biobío provocando una baja importante en las capturas y rendimientos de pesca. Continuando con el enfoque precautorio, la recomendación para la CBA inicial 2017 fue de 273 mil toneladas, la cual fue incrementada luego de la actualización con información del crucero de verano 2017 a 310 mil t y luego con información del crucero de otoño 2017 a 336 mil t. Para el año 2018, la CBA inicial recomendada incorpora un 4% de descarte y, por lo tanto, queda establecida en 296 mil t. Luego de la primera actualización de marzo se incrementa la cuota a 321 mil t. Para el año 2019 la CBA inicial recomendada incorpora un 2% de descarte, estableciéndose en 274 mil t, la primera actualización de marzo se incrementa la cuota a 335 mil t y en agosto se incrementa a 337 mil t. Durante el 2019 se capturó un 95% de la CBA recomendada en agosto 2019.
+Debido a la alta incertidumbre en el nivel del reclutamiento 2016, la CBA inicial 2016 recomendada por el CCT-PP bajo un enfoque precautorio fue de 286 mil t, la que fue incrementada luego de la actualización con información del crucero de enero 2016 a 326 mil t. Sin embargo, los desembarques registrados para el año 2016 sólo alcanzaron las 275 mil toneladas, con un 51% capturado entre los meses de enero-junio (\textbf{Tabla \ref{Tab2}}). 
 
-Para el año 2020 la CBA inicial recomendada incorpora un 2% de descarte, estableciéndose en 321 mil t, considerando por primera vez una probabilidad de sobrepasar el objetivo de manejo del 40% (lo general era utilizar un 30% de probabilidad). En la primera y segunda actualización de marzo y julio los resultados de la evaluación de stock arrojaron menores estimados de captura debido a la disminución de los reclutamientos de los últimos años y de las biomasas registradas por los cruceros acústicos. Desde un punto de vista práctico y administrativo es imposible disminuir la cuota asignada, aunque se cuente con información actualizada y estimados de estatus y CBA más confliables, esto debido a que por lo general a mitad de año gran parte de la cuota ha sido consumida. Ante esta situación el CCT-PP ha recomendado mantener una situación de "statu quo" cada vez que se ha presentado una disminución de la CBA en el segundo y/o tercer hito del ciclo de manejo. No obstante, a junio del 2020 se ha capturado tan sólo 59% de la CBA recomendada, lo general es que se captura sobre un 70% el primer semestre del año. Esta reducción en los niveles de captura tienen al parecer tiene relación con la disminución de los niveles de biomasa de sardina común como a la condición de pandemia que ha disminuido el esfuerzo pesquero en la zona centro-sur de Chile.
+Esta disminución en las capturas se asocia a la presencia del evento "El Niño 2015-2016" que afectaría a la distribución relativa del stock. Aranís *et al*. (2016) señalaron que el recurso no estaría accesible a la flota artesanal de la Región del Biobío provocando una baja importante en las capturas y rendimientos de pesca. Continuando con el enfoque precautorio, la recomendación para la CBA inicial 2017 fue de 273 mil toneladas, la cual fue incrementada luego de la actualización con información del crucero de verano 2017 a 310 mil t y luego con información del crucero de otoño 2017 a 336 mil t. 
+
+Para el año 2018, la CBA inicial recomendada incorpora un 4% de descarte y, por lo tanto, queda establecida en 296 mil t. Luego de la primera actualización de marzo se incrementa la cuota a 321 mil t. 
+
+Para el año 2019 la CBA inicial recomendada incorpora un 2% de descarte, estableciéndose en 274 mil t, la primera actualización de marzo se incrementa la cuota a 335 mil t y en agosto se incrementa a 337 mil t. Durante el 2019 se capturó un 95% de la CBA recomendada en agosto 2019.
+
+Para el año 2020 la CBA inicial recomendada incorpora un 2% de descarte, estableciéndose en 321 mil t, considerando por primera vez una probabilidad de sobrepasar el objetivo de manejo del 40% (lo general era utilizar un 30% de probabilidad). En la primera y segunda actualización de marzo y julio los resultados de la evaluación de stock arrojaron menores estimados de captura debido a la disminución de los reclutamientos de los últimos años y de las biomasas registradas por los cruceros acústicos. Desde un punto de vista práctico y administrativo es imposible disminuir la cuota asignada, aunque se cuente con información actualizada y estimados de estatus y CBA más confliables, esto debido a que por lo general a mitad de año gran parte de la cuota ha sido consumida. Ante esta situación el CCT-PP ha recomendado mantener una situación de "statu quo" cada vez que se ha presentado una disminución de la CBA en el segundo y/o tercer hito del ciclo de manejo. 
+
+No obstante, a junio del 2020 se ha capturado tan sólo 59% de la CBA recomendada, lo general es que se captura sobre un 70% el primer semestre del año. Esta reducción en los niveles de captura tienen al parecer tiene relación con la disminución de los niveles de biomasa de sardina común como a la condición de pandemia que ha disminuido el esfuerzo pesquero en la zona centro-sur de Chile.
+
+
+No obstante, para el año 2021, las capturas registradas durante el primer semestre se incrementaron un 32% respecto al promedio (231 mil t en promedio) (**Tabla 1**). Al parecer, este incremento en los desembarques registrados durante el primer semestre del año 2021 tiene relación con la autorización de capturar los remanentes no consumidos de cuotas anuales durante el año 2020 (http://www.sernapesca.cl/sites/default/files/res.ex_.182-2021_0.pdf). 
+
+Al respecto, la CBA 2020 recomendada por el CCT-PP fue de 321 mil t (**Tabla 2**). La captura registrada durante el 2020 fueron 258 mil toneladas, generando un remanente de 63 mil toneladas aproximadamente. De acuerdo a los datos publicados por SERNAPESCA correspondiente al control Cuota remanente de anchoveta y sardina común de la flota artesanal de la V-XIV Regiones (http://www.sernapesca.cl/informacion- utilidad/consumo-de-cuotas), la cuota remanente capturada durante el primer semestre del año 2021 de sardina común es de 30.600 t.
+
 
 \pagebreak
 
@@ -289,15 +318,15 @@ Para el año 2020 la CBA inicial recomendada incorpora un 2% de descarte, establ
 +------+---------------+-------------------+------------------+---------------+
 | Año  | CBA inicial   | 1era revisión CBA | 2da revisión CBA | Desembarques  |
 |      |               |                   |                  |               |
-|      | (miles de t.) | (miles de t.)     | (miles de t.)    | (miles de t.) |
+|      | (miles de t)  | (miles de t)      | (miles de t)     | (miles de t)  |
 +:====:+:=============:+:=================:+:================:+:=============:+
 | 2014 | 373           | 572               | \-               | 543           |
 +------+---------------+-------------------+------------------+---------------+
-| 2015 | 323           | 356               | 478              | 430           |
+| 2015 | 323           | 356               | 478              | 435           |
 +------+---------------+-------------------+------------------+---------------+
-| 2016 | 286           | 326               | 326              | 275           |
+| 2016 | 286           | 326               | 326              | 280           |
 +------+---------------+-------------------+------------------+---------------+
-| 2017 | 273           | 310               | 336              | 335           |
+| 2017 | 273           | 310               | 336              | 340           |
 +------+---------------+-------------------+------------------+---------------+
 | 2018 | 296           | 321               | \-               | 341           |
 +------+---------------+-------------------+------------------+---------------+
@@ -305,10 +334,48 @@ Para el año 2020 la CBA inicial recomendada incorpora un 2% de descarte, establ
 +------+---------------+-------------------+------------------+---------------+
 | 2020 | 321           | 321               | 321              | 258           |
 +------+---------------+-------------------+------------------+---------------+
-| 2021 | 201           | 251               | \-               | \-            |
+| 2021 | 201           | 251               | \-               | 306*          |
 +------+---------------+-------------------+------------------+---------------+
 
 : \label{Tab2} Capturas biológicamente aceptables recomendadas por el CCT-PP en las distintas etapas de establecimiento de CBA y estatus de sardina común y el Desembarque registrado.
+
+\footnotesize
++ \*306 mil toneladas corresponde al desembarque acumulado a junio 2021
+\normalsize
+
+
+```{=tex}
+\begin{table}[h!]
+    \caption{Desembarques mensuales de sardina común registrados por SERNAPESCA entre los años 2015 al 2021.}
+ \label{Tab2b}
+ \small
+    \centering
+    \resizebox{13cm}{!}{
+    \begin{tabular}{lccccccc}
+    \hline
+ Meses                     & 2015    & 2016    & 2017    & 2018    & 2019    & 2020    & 2021   \\ \hline
+ Enero                     & 365     & 240     & 181     & 7       & 55      & 0       & 6      \\
+ Febrero                   & 16.832  & 29.430  & 20.588  & 15.699  & 13.245  & 5.302   & 4.024  \\
+ Marzo                     & 78.093  & 39.823  & 166.107 & 127.241 & 107.962 & 33.431  & 182.026 \\
+ Abril                     & 102.505 & 16.125  & 34.003  & 75.346  & 64.807  & 103.728 & 95.004 \\
+ Mayo                      & 71.075  & 26.582  & 30.823  & 31.767  & 32.028  & 37.170  & 20.422 \\
+ Junio                     & 12.835  & 33.496  & 12.988  & 22.893  & 14.904  & 8.620   & 4.924 \\ \hline
+ Julio                     & 12.885  & 20.550  & 12.875  & 1.280   & 6.807   & 4.272   &        \\
+ Agosto                    & 4.570   & 75      & 89      & 48      & 6       & 12      &        \\
+ Septiembre                & 34      & 209     & 13      & 162     & 14      & 2       &        \\
+ Octubre                   & 33.955  & 28.423  & 20.616  & 13.483  & 1.019   & 8.203   &        \\
+ Noviembre                 & 79.477  & 59.980  & 28.541  & 46.060  & 47.575  & 30.345  &        \\
+ Diciembre                 & 23.237  & 25.488  & 13.860  & 7.522   & 29.704  & 27.004  &          \\ \hline
+ \textbf{TOTAL}            & 435.863 & 280.421 & 340.684 & 341.508 & 318.126 & 258.089 & 306.406 \\
+ \textbf{Total Semestre 1} & 281.705 & 145.696 & 264.690 & 272.953 & 233.001 & 188.251 & 306.406 \\
+ \textbf{Total Semestre 2} & 154.158 & 134.725 & 75.994  & 68.555  & 85.125  & 69.838  &    -     \\ 
+ \hline
+  \end{tabular}}
+        \end{table}
+```
+
+\vspace{0.5cm}
+
 
 ```{=tex}
 \pagebreak
