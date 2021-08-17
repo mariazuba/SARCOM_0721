@@ -60,7 +60,7 @@ entre las Regiones de Valparaíso y Los Lagos".; (5) publicaciones científicas 
 
 En relación con los datos de entrada al modelo de evaluación de stock de sardina común, desde 2015 las biomasas acústicas de verano se mantienen en niveles en torno a 2 millones de toneladas (t), mientras las capturas se mantienen en torno a las 350 mil t promedio. Las biomasas acústicas de otoño reflejan el efecto de la remoción ejercidas por la pesca y causas naturales, con biomasas en general menores a las estimadas en el crucero de verano (1,3 millones de t). No obstante, para el año 2020 la biomasa estimada por el crucero acústico de verano se redujo a un millón de toneladas (54% menor al 2019), la biomasa del crucero de otoño disminuye un 40% respecto al 2019 y las capturas 2019/20 se redujeron un 10% respecto al año previo. El desembarque 2020 alcanzó las 258 mil t, equivalente a un 80% de la Cuota establecida (321.307 toneladas). Para el año 2021, la biomasa total estimada por el crucero de enero retornó a los niveles observados entre el 2015 al 2019 (~ 2 millones de t), incrementando un 125 % respecto a lo estimado para el año 2020. El crucero de otoño 2021, estimó un nivel de biomasa superior en 27% respecto del año anterior. En relación con la captura 2020/21, se resgistró un aumento del 38% respecto del año biológico 2019/20. El modelo de evaluación de stock reproduce adecuadamente la tendencia general de los niveles de biomasa que han presentado las estimaciones de cruceros acústicos de verano y otoño, en particular durante los últimos 7 años, considerando que estos contienen un importante nivel de variabilidad interanual.
 
-La pesquería de sardina común se sustenta entre un 60%-70% por la abundancia del grupo de edad cero (GE 0). Los resultados del crucero de verano 2019 y 2020 presentan una disminución en los niveles de abundancia de la fracción recluta, por lo tanto, el estimado de biomasa total del crucero de verano 2019 es sostenido por la fracción adulta (edad 1+), mientras que el estimado 2020 es sostenido por individuos de edad 2+. Esta disminución se confirma al actualizar la composición de edad de la flota 2018/19 y 2019/20 y del crucero de otoño 2019 y 2020. Por lo anterior, la disminución de la biomasa total 2020 estaría fuertemente relacionada a la reducción del número de individuos de los grupos de edad 0 y 1 principalmente. Los resultados del crucero de verano 2021 muestran un incremento significativo en los niveles de abundancia de la fracción recluta (92% individuos de edad 0), a diferencia de los dos años previos. La biomasa total del crucero de verano 2021 es sostenido principalmente por la fracción recluta (edad 0), observándose una baja presencia de individuos adultos (edad 1+). El crucero de otoño 2021 mantiene una importante representatividad (72%) de ejemplares del grupo de edad 0.
+La pesquería de sardina común se sustenta entre un 60%-70% por la abundancia del grupo de edad cero (GE 0). Los resultados del crucero de verano 2019 y 2020 presentan una disminución en los niveles de abundancia de la fracción recluta, por lo tanto, el estimado de biomasa total del crucero de verano 2019 es sostenido por la fracción adulta (edad 1+), mientras que el estimado 2020 es sostenido por individuos de edad 2+. Esta disminución se confirma al actualizar la composición de edad de la flota 2018/19 y 2019/20 y del crucero de otoño 2019 y 2020. Por lo anterior, la disminución de la biomasa total 2020 estaría fuertemente relacionada a la reducción del número de individuos de los grupos de edad 0 y 1 principalmente. Los resultados del crucero de verano 2021 muestran un incremento significativo en los niveles de abundancia de la fracción recluta (94% individuos de edad 0), a diferencia de los dos años previos. La biomasa total del crucero de verano 2021 es sostenido principalmente por la fracción recluta (edad 0), observándose una baja presencia de individuos adultos (edad 1+). El crucero de otoño 2021 mantiene una importante representatividad (83%) de ejemplares del grupo de edad 0.
 
 Las tendencias de las variables poblacionales muestran que los reclutamientos presentan importantes fluctuaciones interanuales y en su historia conocida, se aprecian tres períodos relevantes: a) Rprom(1991-2007) con los niveles más bajos de reclutamientos (114 mil millones de peces), b) Rprom(2008-2012) con los más altos niveles de reclutamiento (410 mil millones de peces) y c) Rprom(2013- 2021) con reclutamientos medios en torno a 180 mil millones de peces. Comparado con estos períodos, el reclutamiento 2021 es un 94% mayor al Rprom(1991-2007), un 46% menor al Rprom(2008- 2012) y un 23% mayor al Rprom(2013-2021). A su vez, el incremento del reclutamiento 2021 genera una recuperación en el nivel de biomasa total,  del 21% por sobre el promedio histórico de la serie (promedio 1991-2021 = 1,65 millones de t). Por otro lado, la biomasa desovante promedio de la serie histórica se encuentra en torno a 718 mil t, mientras que el promedio de los ultimos 9 años (período 2013-2021) es de 980 mil de t. Al respecto, la biomasa desovante esperada para el año biológico 2020/2021 es un 29% menor al promedio histórico y un 48% menor al promedio de los últimos 9 años (período 2013-2021). En consecuencia, la condición estimada para el año 2020/2021, indica que la sardina común se encuentra en sobreexplotación (38% bajo BD~RMS~ y 9% sobre F~RMS~ ), con un 18% de probabilidad de colapso y un 48% de riesgo de sobrepesca. La asesoría actual (julio 2021) confirma el estatus proyectado en la asesoría previa (marzo 2021), no obstante, posiciona a la sardina común de la zona centro sur en una condición de menor riesgo de agotamiento o colapso.
 
@@ -270,7 +270,7 @@ En base al modelo conceptual de la dinámica del stock de sardina común se sust
 
 ## 2.7. Estatus
 
-Considerando que la anchoveta constituye una pesquería mixta con sardina común y que ambas se encuentran en niveles de productividad muy disímiles, resulta complejo alcanzar el máximo rendimiento sostenido simultáneamente para cada una de las especies (\textbf{Figura \ref{Fig10b}}). A partir del año 2018 se observa una recuperación de anchoveta centro-sur desplazandose desde una condición de agotada/colapsada a una condición de plenaexplotación. Esta recuperación se debe al incremento en los niveles de biomasa en la UPCS, registrado tanto por los cruceros hidroacústicos como en la composición de edad y pesos medios de la flota. Mientras que los bajos niveles de reclutamiento registrados en sardina común durante dos años consecutivos han generado una disminución de los niveles de biomasa desovante, registrándose una condición de sobreexplotación para el año 2021. No obstante, el reclutamiento estimado para el año 2021 de sardina común podría generar una recuperación de los niveles de biomasa desovante durante el 2021/22. \vspace{0.5cm}
+Considerando que la sardina común constituye una pesquería mixta con anchoveta y que ambas se encuentran en niveles de productividad muy disímiles, resulta complejo alcanzar el máximo rendimiento sostenido simultáneamente para cada una de las especies (\textbf{Figura \ref{Fig10b}}). A partir del año 2018 se observa una recuperación de anchoveta centro-sur desplazandose desde una condición de agotada/colapsada a una condición de plenaexplotación. Esta recuperación se debe al incremento en los niveles de biomasa en la UPCS, registrado tanto por los cruceros hidroacústicos como en la composición de edad y pesos medios de la flota. Mientras que los bajos niveles de reclutamiento registrados en sardina común durante dos años consecutivos han generado una disminución de los niveles de biomasa desovante, registrándose una condición de sobreexplotación para el año 2021. No obstante, el reclutamiento estimado para el año 2021 de sardina común podría generar una recuperación de los niveles de biomasa desovante durante el 2021/22. \vspace{0.5cm}
 
 
 ```{=tex}
@@ -289,29 +289,20 @@ De acuerdo al ciclo de manejo histórico de esta pesquería, la recomendación d
 
 El año 2013 se realizó el establecimiento del nuevo Reglamento (D:S: N° 77, Mayo 2013) dispuesto en la Ley General de Pesca y Acuicultura (LGPA) que establece que las pesquerías deberán alcanzar o mantenerse en torno del Rendimiento Máximo Sostenido (RMS) considerando las características biológicas de los recursos explotados. La nueva LGPA establece que el Comité Científico Técnico será quien recomiende el marco biológico de referencia, estatus de conservación biológica y rango de captura biológicamente aceptable (CBA). Este hecho coincide con la fuerte caída en el desembarque (232 mil t), disminuyendo un 73% respecto al año 2012, producto de una falla del reclutamiento en el 2013.
 
-En consecuencia, considerando la caída del reclutamiento 2013, el CTT-PP recomienda una CBA inicial 2014 (establecida en diciembre 2013) de 373 mil toneladas. En marzo del 2014, se re-calculó la CBA con la información entregada por el crucero de evaluación hidroacústica de enero, que arrojó un incremento de la biomasa acústica, permitiendo aumentar la CBA a 572 mil toneladas (t) para el mismo año. Del desembarque total registrado el 2014 (543 mil t) un 77% fue capturado entre los meses de enero y junio.
+En consecuencia, considerando la caída del reclutamiento 2013, el CTT-PP recomienda una CBA inicial 2014 de 373 mil toneladas. En marzo del 2014, se re-calculó la CBA con la información entregada por el crucero de evaluación hidroacústica de enero, que arrojó un incremento de la biomasa acústica, permitiendo aumentar la CBA a 572 mil toneladas (t) para el mismo año. Del desembarque total registrado el 2014 (543 mil t) un 77% fue capturado entre los meses de enero y junio.
 
-Para el año 2015 se recomendó una CBA inicial de 323 mil t, en marzo del 2015 se re-calculó con información del crucero de enero 2015 que arrojó una disminución en la presencia de reclutas por lo tanto la CBA se incrementa levemente a 356 mil t. En junio 2015 se re-calcula nuevamente con información del crucero de mayo 2015 que arrojó un aumento de la biomasa acústica permitiendo un incremento en la CBA 2015 a 478 mil t. Del desembarque total registrado el 2015 (430 mil t) un 64% fue capturado entre los meses de enero-junio.
+Para el año 2015 se recomendó una CBA inicial de 323 mil t, en marzo del 2015 se re-calculó con información del crucero de enero 2015 que arrojó una disminución en la presencia de reclutas por lo tanto la CBA se incrementa levemente a 356 mil t. En junio 2015 se re-calcula nuevamente con información del crucero de mayo 2015 que arrojó un aumento de la biomasa acústica permitiendo un incremento en la CBA 2015 a 478 mil t. Del desembarque total registrado el 2015 (435 mil t) un 65% fue capturado entre los meses de enero-junio.
 
-Debido a la alta incertidumbre en el nivel del reclutamiento 2016, la CBA inicial 2016 recomendada por el CCT-PP bajo un enfoque precautorio fue de 286 mil t, la que fue incrementada luego de la actualización con información del crucero de enero 2016 a 326 mil t. Sin embargo, los desembarques registrados para el año 2016 sólo alcanzaron las 275 mil toneladas, con un 51% capturado entre los meses de enero-junio (\textbf{Tabla \ref{Tab2}}). 
+Debido a la alta incertidumbre en el nivel del reclutamiento 2016, la CBA inicial 2016 recomendada por el CCT-PP bajo un enfoque precautorio fue de 286 mil t, la que fue incrementada luego de la actualización con información del crucero de enero 2016 a 326 mil t. Sin embargo, los desembarques registrados para el año 2016 sólo alcanzaron las 280 mil toneladas, con un 52% capturado entre los meses de enero-junio (\textbf{Tabla \ref{Tab2}}). Esta disminución en las capturas se asocia a la presencia del evento "El Niño 2015-2016" que afectaría a la distribución relativa del stock. Aranís *et al*. (2016) señalaron que el recurso no estaría accesible a la flota artesanal de la Región del Biobío provocando una baja importante en las capturas y rendimientos de pesca. Continuando con el enfoque precautorio, la recomendación para la CBA inicial 2017 fue de 273 mil toneladas, la cual fue incrementada luego de la actualización con información del crucero de verano 2017 a 310 mil t y luego con información del crucero de otoño 2017 a 336 mil t. Para el año 2018, la CBA inicial recomendada incorpora un 4% de descarte y, por lo tanto, queda establecida en 296 mil t. Luego de la primera actualización de marzo se incrementa la cuota a 321 mil t. Para el año 2019 la CBA inicial recomendada incorpora un 2% de descarte, estableciéndose en 274 mil t, la primera actualización de marzo se incrementa la cuota a 335 mil t y en agosto se incrementa a 337 mil t. Durante el 2019 se capturó un 95% de la CBA recomendada en agosto 2019.
 
-Esta disminución en las capturas se asocia a la presencia del evento "El Niño 2015-2016" que afectaría a la distribución relativa del stock. Aranís *et al*. (2016) señalaron que el recurso no estaría accesible a la flota artesanal de la Región del Biobío provocando una baja importante en las capturas y rendimientos de pesca. Continuando con el enfoque precautorio, la recomendación para la CBA inicial 2017 fue de 273 mil toneladas, la cual fue incrementada luego de la actualización con información del crucero de verano 2017 a 310 mil t y luego con información del crucero de otoño 2017 a 336 mil t. 
+Para el año 2020 la CBA inicial recomendada incorpora un 2% de descarte, estableciéndose en 321 mil t, considerando por primera vez una probabilidad de sobrepasar el objetivo de manejo del 40% (lo general era utilizar un 30% de probabilidad). En la primera y segunda actualización de marzo y julio los resultados de la evaluación de stock arrojaron menores estimados de captura debido a la disminución de los reclutamientos de los últimos años y de las biomasas registradas por los cruceros acústicos. Desde un punto de vista práctico y administrativo es imposible disminuir la cuota asignada, aunque se cuente con información actualizada y estimados de estatus y CBA más confliables, esto debido a que por lo general a mitad de año gran parte de la cuota ha sido consumida. Ante esta situación el CCT-PP ha recomendado mantener una situación de "statu quo" cada vez que se ha presentado una disminución de la CBA en el segundo y/o tercer hito del ciclo de manejo. Durante el año 2020 se capturó un 80% de la CBA recomendada, generando un remanente de 63 mil toneladas aproximadamente. Esta reducción en los niveles de captura al parecer tiene relación con la disminución de los niveles de biomasa de sardina común (condición de sobreexplotación año biológico 2020/21, causado por los bajos niveles de reclutamiento 2019 y 2020), como a la condición de pandemia que generó una disminución del esfuerzo pesquero en la zona centro-sur de Chile. 
 
-Para el año 2018, la CBA inicial recomendada incorpora un 4% de descarte y, por lo tanto, queda establecida en 296 mil t. Luego de la primera actualización de marzo se incrementa la cuota a 321 mil t. 
+Debido a la alta incertidumbre en el nivel del reclutamiento 2021, dada la condición de sobreexplotación  proyectada para el año 2020/21, la CBA inicial 2021 recomendada por el CCT-PP bajo un enfoque precautorio fue de 201 mil t, la cual fue incrementada luego de la actualización con información del crucero de enero 2021 a 251 mil toneladas (\textbf{Tabla \ref{Tab2}}). El desembarque registrado por Sernapesca acumulado a junio 2021 es de 306 mil toneladas, es decir, 1,22 veces la CBA recomendada para el año calendario 2021. 
 
-Para el año 2019 la CBA inicial recomendada incorpora un 2% de descarte, estableciéndose en 274 mil t, la primera actualización de marzo se incrementa la cuota a 335 mil t y en agosto se incrementa a 337 mil t. Durante el 2019 se capturó un 95% de la CBA recomendada en agosto 2019.
-
-Para el año 2020 la CBA inicial recomendada incorpora un 2% de descarte, estableciéndose en 321 mil t, considerando por primera vez una probabilidad de sobrepasar el objetivo de manejo del 40% (lo general era utilizar un 30% de probabilidad). En la primera y segunda actualización de marzo y julio los resultados de la evaluación de stock arrojaron menores estimados de captura debido a la disminución de los reclutamientos de los últimos años y de las biomasas registradas por los cruceros acústicos. Desde un punto de vista práctico y administrativo es imposible disminuir la cuota asignada, aunque se cuente con información actualizada y estimados de estatus y CBA más confliables, esto debido a que por lo general a mitad de año gran parte de la cuota ha sido consumida. Ante esta situación el CCT-PP ha recomendado mantener una situación de "statu quo" cada vez que se ha presentado una disminución de la CBA en el segundo y/o tercer hito del ciclo de manejo. 
-
-No obstante, a junio del 2020 se ha capturado tan sólo 59% de la CBA recomendada, lo general es que se captura sobre un 70% el primer semestre del año. Esta reducción en los niveles de captura tienen al parecer tiene relación con la disminución de los niveles de biomasa de sardina común como a la condición de pandemia que ha disminuido el esfuerzo pesquero en la zona centro-sur de Chile.
+Respecto los desembarques mensuales registrados por SERNAPESCA durante el primer semestre entre los años 2015 al 2020 se reportan capturas en torno a las 231 mil toneladas. No obstante, para el año 2021, las capturas registradas durante el primer semestre se incrementaron un 32% respecto al promedio (231 mil t en promedio) (\textbf{Tabla \ref{Tab2b}}). Este incremento en los desembarques registrados durante el primer semestre del año 2021 tiene relación con la autorización de capturar los remanentes no consumidos de la cuota anual del año 2020 (http://www.sernapesca.cl/sites/default/files/res.ex_.182-2021_0.pdf). De acuerdo a los datos publicados por SERNAPESCA correspondiente al control Cuota remanente de anchoveta y sardina común de la flota artesanal de la V-XIV Regiones (http://www.sernapesca.cl/informacion-utilidad/consumo-de-cuotas), la cuota remanente capturada durante el primer semestre del año 2021 de sardina común es de 30.600 t.
 
 
-No obstante, para el año 2021, las capturas registradas durante el primer semestre se incrementaron un 32% respecto al promedio (231 mil t en promedio) (**Tabla 1**). Al parecer, este incremento en los desembarques registrados durante el primer semestre del año 2021 tiene relación con la autorización de capturar los remanentes no consumidos de cuotas anuales durante el año 2020 (http://www.sernapesca.cl/sites/default/files/res.ex_.182-2021_0.pdf). 
-
-Al respecto, la CBA 2020 recomendada por el CCT-PP fue de 321 mil t (**Tabla 2**). La captura registrada durante el 2020 fueron 258 mil toneladas, generando un remanente de 63 mil toneladas aproximadamente. De acuerdo a los datos publicados por SERNAPESCA correspondiente al control Cuota remanente de anchoveta y sardina común de la flota artesanal de la V-XIV Regiones (http://www.sernapesca.cl/informacion- utilidad/consumo-de-cuotas), la cuota remanente capturada durante el primer semestre del año 2021 de sardina común es de 30.600 t.
-
-
-\pagebreak
+\vspace{0.5cm}
 
 \small
 
@@ -337,7 +328,7 @@ Al respecto, la CBA 2020 recomendada por el CCT-PP fue de 321 mil t (**Tabla 2**
 | 2021 | 201           | 251               | \-               | 306*          |
 +------+---------------+-------------------+------------------+---------------+
 
-: \label{Tab2} Capturas biológicamente aceptables recomendadas por el CCT-PP en las distintas etapas de establecimiento de CBA y estatus de sardina común y el Desembarque registrado.
+: \label{Tab2} Capturas Biológicamente Aceptables (CBA) recomendadas por el CCT-PP en las distintas etapas de establecimiento de CBA y estatus de sardina común y el Desembarque registrado.
 
 \footnotesize
 + \*306 mil toneladas corresponde al desembarque acumulado a junio 2021
@@ -918,7 +909,7 @@ y capturabilidad de cruceros              &            & $\sigma_{q^{co}} = 100.
 
 De manera similar a los coeficientes de variación empleados para ponderar los índices de abundancia y desembarques entre sus estimadores de verosimilitud, el tamaño de muestra corresponde a una expresión proporcional a la incertidumbre que tienen las composiciones de tallas/edades de las capturas empleadas en la evaluación de stock. De acuerdo a Francis (2011), los datos de composición de edad corresponderían a medidas indirectas de la escala poblacional ya que requiere conocer los mecanismos de selección de la pesquería y la estructura por edades de la población. Por lo tanto, son mucho menos informativos acerca del tamaño de la población y requiere supuestos fuertes para obtener esa información. A pesar de lo anterior, los datos de composición a la edad a menudo son más informativos que los índices de abundancia. Por lo tanto, es importante asegurarnos que la dinámica de la población esté influenciada por los datos más confiables. Un factor relevante es el ponderador asociado con las composiciones de edades de la flota y los cruceros acústicos de verano y otoño. Estos ponderadores son asociados con el tamaño de muestra efectivo dado que la función de probabilidad empleada es multinomial.
 
-En la asesoría realizada en marzo de 2017 (Zúñiga, 2017), se estimó un tamaño de muestra considerando las recomendaciones emanadas del workshop sobre ponderadores de las fuentes de información en evaluación de stock, realizados por Center for the Advancement of Population Assessment Methodology (CAPAM, 2015: <https://www.nwfsc.noaa.Gov/news/features/data_source_workshop>). Se compararon dos metodologías para estimar el tamaño de muestra para la flota y cruceros de verano y otoño, el método T.A 1.8, indicada por Francis (2011) y el proceso iterativo recomendado por McAllister & Ianelli (1997) considerándose el promedio armónico (\textbf{Tabla \ref{Tab10}}). Ambos procesos inician con un valor arbitrario de tamaños de muestra, comenzando con el valor empleado por defecto de la asesoría de septiembre 2016 (Canales & Zúñiga, 2016), nm=38 para la flota y nm=10 para el crucero de verano y nm=7,8 para el crucero de otoño, para luego de repetidos ajustes del modelo, llegar a valores estables que son los propuestos en esta evaluación de stock. A menudo es deseable verificar estas estimaciones cuando en el modelo se van integrando nuevas composiciones de edades/tallas o como estos valores pueden variar dependiendo de cambios en los supuestos del modelo.
+En la asesoría realizada en marzo de 2017 (Zúñiga, 2017), se estimó un tamaño de muestra considerando las recomendaciones emanadas del workshop sobre ponderadores de las fuentes de información en evaluación de stock, realizados por Center for the Advancement of Population Assessment Methodology (CAPAM, 2015: <https://www.nwfsc.noaa.Gov/news/features/data_source_workshop>). Se compararon dos metodologías para estimar el tamaño de muestra para la flota y cruceros de verano y otoño, el método T.A 1.8, indicada por Francis (2011) y el proceso iterativo recomendado por McAllister & Ianelli (1997) considerándose el promedio armónico (\textbf{Tabla \ref{Tab10}}). Ambos procesos inician con un valor arbitrario de tamaños de muestra, comenzando con el valor empleado por defecto de la asesoría de septiembre 2016 (Canales & Zúñiga, 2016), nm=38 para la flota y nm=10 para el crucero de verano y nm=7,8 para el crucero de otoño, para luego de repetidos ajustes del modelo, llegar a valores estables que son los propuestos en esta evaluación de stock. Estas estimaciones son verificadas  cuando en el modelo se van integrando nuevas composiciones de edades/tallas y/o cuando se realizan cambios en los supuestos del modelo.
 
 \vspace{0.5cm}
 
@@ -1012,9 +1003,12 @@ Al respecto, en el taller de Revisión Por Pares (RPP) se discutió sobre los pr
 
 \quad
 
-El modelo de la dinámica poblacional fue programado en la plataforma AD Model Builder (Fournier *et al*. 2012). Todos los códigos fuente y datos empleados en la evaluación son debidamente documentados e informados detalladamente, incluyendo su versión digital, estableciéndose una numeración específica para cada versión. Cualquier modificación del modelo y/o de su correspondiente código es reportada en el informe respectivo, dejando constancia de las versiones que se emplearon hasta la fecha en que se emite el informe y definiendo específicamente la versión que se empleará en éste, para fines de revisiones posteriores. Los códigos MAE0920, MAE0321 y MAE0721, fueron compilados en "macOS Big Sur Versión 11,4" y en "ADMB Versión 12,2". 
+El modelo de la dinámica poblacional fue programado en la plataforma AD Model Builder (Fournier *et al*. 2012). Todos los códigos fuente y datos empleados en la evaluación son debidamente documentados e informados detalladamente, incluyendo su versión digital, estableciéndose una numeración específica para cada versión. Cualquier modificación del modelo y/o de su correspondiente código es reportada en el informe respectivo, dejando constancia de las versiones que se emplearon hasta la fecha en que se emite el informe y definiendo específicamente la versión que se empleará en éste, para fines de revisiones posteriores. Los códigos MAE0920, MAE0321 y MAE0721, fueron compilados en "macOS Big Sur Versión 11,4" y en "ADMB Versión 12,2". Los parámetros del modelo MAE0721 fueron = 78,  Objective function value = 511.567321229920 y  Maximum gradient component = 1.14616837066307e-05. 
 
-Los parámetros del modelo MAE0721 fueron = 78,  Objective function value = 511.567321229920 y  Maximum gradient component = 1.14616837066307e-05. Respecto a la convergencia de los modelos, hemos encontrado diferencias en los modelos compilados en los Software Windows y MAC, principalmente relacionada con las fases de estimación de algunos parámetros, lo cual esperamos resolver en el transcurso de las próximas asesorías. Para fines de asesoría la base de datos incluye los códigos .dat y .tpl compilados en Windows y MAC, junto a los reportes (.rep, .std y .par). Al respecto, no se observan diferencias entre las salidas de los reportes, la única diferencia se encuentra en las fases de estimación de los parámetros especificados en el ".dat".
+Respecto a la convergencia de los modelos, hemos encontrado diferencias en los modelos compilados en los Software Windows y MAC, principalmente relacionada con las fases de estimación de algunos parámetros, lo cual esperamos resolver en el transcurso de las próximas asesorías. 
+
+
+Considerando los conflictos encontrados por el evaluador externo respecto a la convergencia del modelo MAE0721. Se adjunta la base de datos que considera los códigos .dat y .tpl compilados en Windows y MAC, junto a los reportes (.rep, .std y .par). La diferencia entre los códigos tiene relación con la fase de estimación de los parámetros relacionados con los desvíos del reclutamiento, que en MAC se estiman en fase 2 y en Windows en fase 1. Las diferencias en las fases de estimación  no mostraron diferencias entre las salidas de los reportes.
   
  \vspace{0.5cm}
  
@@ -1439,7 +1433,7 @@ En este sentido, todo lo referido a sistemas o procesos fuera del alcance de est
 
 A continuación, se detalla el contenido presentado la **Sección 4.4** de este informe:
 
--   Esquema de trabajo y plan de actividades 2017-2018 acordado con SUBPESCA.
+-   Esquema de trabajo y plan de actividades acordado con SUBPESCA.
 
 -   Mejoras realizadas al modelo de evaluación de stock
 
@@ -1686,13 +1680,13 @@ La biomasa total estimada por el crucero de enero 2021 retorno a los niveles obs
 
 \quad
 
-La pesquería de sardina común está sustentada principalmente por la abundancia del grupo de edad 0, con una proporción en torno al 60-70% de la captura en número de la flota entre San Antonio-Corral. La captura en número a la edad se caracteriza por presentar una alta variabilidad interanual, siendo los años 2007, 2013, 2016, 2019 y 2020 los años con menor proporción de reclutas. Los pesos medios del grupo de edad 0 se encuentra en torno a los 8 grs. Se observa una estabilización de los pesos medios a partir del 2013 para todos los grupos de edad (\textbf{Figura \ref{Fig21}} y \textbf{\ref{Fig22}}). En relación de la composición de edad de los cruceros de verano se observa que el grupo de edad 0 representa el 74% de la captura en número. Por otro lado, en el caso del crucero de otoño, el grupo de edad 0 representa el 65% de la captura en número (\textbf{Figura \ref{Fig23}} y \textbf{\ref{Fig24}}).
+La pesquería de sardina común está sustentada principalmente por la abundancia del grupo de edad 0, con una proporción en torno al 60-70% de la captura en número de la flota entre San Antonio-Corral. La captura en número a la edad se caracteriza por presentar una alta variabilidad interanual, siendo los años 2007, 2013, 2016, 2019 y 2020 los años con menor proporción de reclutas. Los pesos medios del grupo de edad 0 se encuentra en torno a los 8 grs. Se observa una estabilización de los pesos medios a partir del 2013 para todos los grupos de edad (\textbf{Figura \ref{Fig21}} y \textbf{\ref{Fig22}}). 
 
-Los resultados del crucero de verano 2019 y 2020 presentan una disminución en los niveles de abundancia de la fracción recluta, el estimado de biomasa total del crucero de verano 2019 es sostenido por la fracción adulta (edad 1+). Mientras que el estimado 2020 es sostenido por individuos de edad 1+.
+En relación de la composición de edad de los cruceros de verano se observa que el grupo de edad 0 representa el 77% de la captura en número. Por otro lado, en el caso del crucero de otoño, el grupo de edad 0 representa el 67% de la captura en número (\textbf{Figura \ref{Fig23}} y \textbf{\ref{Fig24}}).
 
-Esta disminución se confirma al actualizar la composición de edad de la flota 2018/19 y 2019/20 y del crucero de otoño 2019 y 2020. Por lo tanto, la disminución de la biomasa total 2020 estaría fuertemente relacionada a la reducción del número de individuos de los grupos de edad 0 y 1 principalmente.
+Los resultados del crucero de verano 2019 y 2020 presentan una disminución en los niveles de abundancia de la fracción recluta, el estimado de biomasa total del crucero de verano 2019 es sostenido por la fracción adulta (edad 1+). Mientras que el estimado 2020 es sostenido por individuos de edad 1+.Esta disminución se confirma al actualizar la composición de edad de la flota 2018/19 y 2019/20 y del crucero de otoño 2019 y 2020. Por lo tanto, la disminución de la biomasa total 2020 estaría fuertemente relacionada a la reducción del número de individuos de los grupos de edad 0 y 1 principalmente.
 
-Los resultados del crucero de verano 2021 muestran un incremento significativo en los niveles de abundancia de la fracción recluta (92% individuos de edad 0), a diferencia de los dos años previos, la biomasa total del crucero de verano 2021 es sostenido principalmente por la fracción recluta (edad 0), observandose una baja presencia de individuos adultos (edad 1+). Esta importante participación de la fracción recluta continúa en el crucero de otoño, con un 79% de individuos de edad 0 y una baja presencia de ejemplares adultos (edad 1+).
+Los resultados del crucero de verano 2021 muestran un incremento significativo en los niveles de abundancia de la fracción recluta (94% individuos de edad 0), a diferencia de los dos años previos, la biomasa total del crucero de verano 2021 es sostenido principalmente por la fracción recluta (edad 0), observandose una baja presencia de individuos adultos (edad 1+). Esta importante participación de la fracción recluta continúa en el crucero de otoño, con un 83% de individuos de edad 0 y una baja presencia de ejemplares adultos (edad 1+).
 
 ```{=tex}
 \begin{figure}
@@ -1954,7 +1948,7 @@ La biomasa total de este recurso, es sustentada esencialmente en los grupos de e
 
 \quad
 
-La mortalidad por pesca (Ft) ha sido más bien baja, en general menor a la mortalidad natural (M=1,0 año^-1^), excepto para el año 2004 cuando los niveles de biomasa eran bajos. Esto se ve reflejado en las capturas, que, en promedio, han seguido las fluctuaciones en biomasa con tasas de explotación moderadas (\textbf{Tabla \ref{Tab20b}} y \textbf{Figura \ref{Fig35}}). A partir del año 2005, la mortalidad por pesca ha seguido una tendencia al descenso, acentuada desde el año 2013 bajo el valor de F~RMS~ producto de la aplicación de F60%. Para el año 2020/2021 se estima una Ft=0,33 año^-1^, un 10% sobre F~RMS~, no obstante, este valor se debe considerar preliminar ya que está basado en un supuesto de captura 2020/21 (\textbf{Tabla \ref{Tab21}} y \textbf{\ref{Tab22}} y \textbf{Figura \ref{Fig35}}).
+La mortalidad por pesca (Ft) ha sido más bien baja, en general menor a la mortalidad natural (M=1,0 año^-1^), excepto para el año 2004 cuando los niveles de biomasa eran bajos. Esto se ve reflejado en las capturas, que, en promedio, han seguido las fluctuaciones en biomasa con tasas de explotación moderadas (\textbf{Tabla \ref{Tab20b}} y \textbf{Figura \ref{Fig35}}). A partir del año 2005, la mortalidad por pesca ha seguido una tendencia al descenso, acentuada desde el año 2013 bajo el valor de F~RMS~ producto de la aplicación de F60%. Para el año 2020/2021 se estima una Ft=0,33 año^-1^, en torno a un 10% sobre F~RMS~.
 
 #### Selectividades:
 \quad
@@ -2188,9 +2182,7 @@ La \textbf{Figura \ref{Fig39}} muestra que en el inicio de la serie histórica l
 
 En términos de la mortalidad por pesca (Ft año^-1^), ésta se había mantenido por sobre el nivel objetivo de referencia F~RMS~ en prácticamente toda la serie histórica analizada producto de la alta selección de juveniles capturados antes de que estos maduren (\textbf{Figura \ref{Fig39}}). La alta selectividad de juveniles conlleva a un valor de F~RMS~ (F60%BDPR) más moderado que una selectividad cercana o por sobre la ojiva de madurez. A partir del año 2013 los niveles de Ft se han mantenido bajo el nivel de referencia generado posiblemente por las caídas de los reclutamientos en algunos años y las bajas CBAs recomendadas luego de la implementación de los PBRs. 
 
-Con respecto a la razón entre F~2020/21~ y F~RMS~ fue de 1,09, siendo un 9% mayor a F~RMS~, no obstante, este valor se debe considerar preliminar ya que está basado en un supuesto de captura 2020/21 (\textbf{Figura \ref{Fig39}}).
-
-La condición estimada con información para el año 2020/2021 indica que la sardina común se encuentra en sobreexplotación (38% bajo BD~RMS~ y 9% bajo F~RMS~), con un 18% de probabilidad de colapso y 48% de sobrepesca (\textbf{Tabla \ref{Tab22}}  y \textbf{Figura \ref{Fig40}}).
+Con respecto a la razón entre F~2020/21~ y F~RMS~ fue de 1,09, siendo un 9% mayor a F~RMS~ (\textbf{Figura \ref{Fig39}}). La condición estimada con información completa para el año 2020/2021 indica que la sardina común se encuentra en sobreexplotación (38% bajo BD~RMS~ y 9% bajo F~RMS~), con un 18% de probabilidad de colapso y 48% de sobrepesca (\textbf{Tabla \ref{Tab22}}  y \textbf{Figura \ref{Fig40}}).
 
 \pagebreak
 
@@ -2280,7 +2272,7 @@ La condición estimada con información para el año 2020/2021 indica que la sar
 \normalsize
 
 \pagebreak
-
+\footnotesize
 +---------+---------------+--------------+--------------+------------------+-----------------+-----------------+
 | Año     | $Y/BT_{sept}$ | $Y/BT_{mar}$ | $Y/BT_{jul}$ | $C\#/N\#_{sept}$ | $C\#/N\#_{mar}$ | $C\#/N\#_{jul}$ |
 +=========+===============+==============+==============+==================+=================+=================+
@@ -3614,12 +3606,12 @@ Como parte del proceso de mejora continua en el desarrollo de presente proyecto 
 
 ### 4.4.5. Recomendaciones realizadas en Informe de evaluación técnica de proyectos del programa de investigación básica o permanente para la regulación pesquera y de acuicultura.
 
-Recomendaciones realizadas en Informe de evaluación técnica de proyectos del programa de investigación básica o permanente para la regulación pesquera y de acuicultura. A continuación, se describe las principales observaciones realizadas para el primer y segundo informe (Zúñiga, 2019 y Zúniga *et al*. 2020), las cuales serán acogidas como parte del programa de mejoramiento continuo y por lo tanto, serán abordadas durante el período 2021-22. 
+Recomendaciones realizadas en Informe de evaluación técnica de proyectos del programa de investigación básica o permanente para la regulación pesquera y de acuicultura. A continuación, se describe las principales observaciones realizadas para el primer y segundo informe (Zúñiga, 2019 y Zúniga *et al*. 2020), y tercer informe 2021, las cuales serán acogidas como parte del programa de mejoramiento continuo y por lo tanto, serán abordadas durante el período 2021-22. 
 \vspace{0.5cm}
 
 ```{=tex}
 \begin{table}[h!]
-\caption{Principales observaciones realizadas para el primer y segundo informe 2019 (Zúñiga, 2019), las cuales serán acogidas como parte del programa de mejoramiento continuo y por lo tanto, serán abordadas durante el período 2020-21.}
+\caption{Principales observaciones realizadas para el primer y segundo informe 2019 (Zúñiga, 2019), las cuales serán acogidas como parte del programa de mejoramiento continuo y por lo tanto, serán abordadas durante el período 2021-22.}
 \label{Tab52}
   \centering
   \resizebox{13cm}{!} {
@@ -3673,6 +3665,77 @@ Recomendaciones realizadas en Informe de evaluación técnica de proyectos del p
 
 \pagebreak
 
+
+
+```{=tex}
+\begin{table}[h!]
+\caption{Principales recomendaciones realizadas al tercer informe 2021, las cuales serán acogidas como parte del programa de mejoramiento continuo y por lo tanto, serán abordadas durante el período 2021-22.}
+\label{Tab52}
+  \centering
+  \resizebox{13cm}{!} {
+  \begin{tabular}{|l|l|}
+  \hline
+  Ítem                    & Observación                                                                  \\ 
+                          &                                                                              \\ \hline  
+                          & En la sección "Reproducción" se sugiere incorporar información actualizada. \\
+  Reproducción            & Al respecto, se cuenta con información actualizada desde los cruceros de huevos \\
+                          & (MPH), los cuales albergan importante información respecto a la dinámica y \\
+                          & situación reproductiva actualizada. (Actualizar figura 10 a la condición 2020/21) \\
+                          & \\ \hline
+  Reclutamiento           & Se indica que el reclutamiento es estimado de manera aleatoria                \\
+                          & y asumido a inicios de enero. Dado que la variable reclutamiento              \\
+                          & tiene una distribución log-normal, la mediana no sería la misma que la media. \\ 
+                          & En ese contexto, sería posible explorar la corrección por sesgo en            \\ 
+                          & la estimación de reclutamiento. Por lo tanto, se sugiere al ejecutor          \\
+                          & explorar o discutir acerca de la pertinencia de generar dicha estimación       \\
+                          & con corrección.                                                                 \\ \hline
+                          &                                                                                 \\ \hline
+                          & Se sugiere que el peso promedio en la proyección sea aquel peso verificado        \\
+                          & en niveles de reclutamiento promedio. Vale decir, cuando los reclutamientos       \\
+                          & son bajos o altos el aporte en peso del grupo de edad 0 puede variar.              \\
+ Pesos medios             & La observación se orienta a que el peso medio sea representativo de la estructura   \\
+                          & etaria que se asume. Explorar el comportamiento de los pesos medios ante distintos  \\
+                          & escenarios de reclutamiento puede dar evidencia de patrones que permitan asumir      \\
+                          & supuestos con menor incerteza.                                                        \\
+                          &                                                                                     \\ \hline
+ Mortalidad natural       & Se podría explorar estimaciones de mortalidad natural edad dependiente al            \\ 
+                          & interior del modelo de evaluación de stock.                                         \\ \hline
+                          &                                                                                        \\
+                          & No se indica la significancia estadística del análisis de quiebre del reclutamiento.\\
+ Reclutamiento            & Se debe establecer fundadamente que hubo cambios en la media o varianza                \\
+ proyectado               & (según el método aplicado). Este aspecto es crítico, ya que la definición                  \\
+                          & de los cortes temporales condiciona los supuestos de reclutamiento para determinar la CBA.\\ \hline
+                          &                                                                                            \\ 
+                          &                                                                                            \\ 
+                          & La madurez sexual corresponde a un vector de edades donde los maduros se concentran \\
+                          & desde el grupo de edad 1 en adelante. Bajo lo anterior, el modelo asume que el grupo \\
+                          & de edad 0 no tiene ejemplares maduros. No obstante, en este informe consolidado se \\
+ Madurez sexual           & cita distintos estudios acerca de la talla de madurez sexual (página 57), cuya madurez \\
+                          & al 50\% se concentra entre 10 y 11 cms de LT. En ese contexto, imponer un valor 0 en la \\
+                          & madurez del grupo de edad recluta no sería representativo, ya que existe un pequeño \\
+                          & porcentaje de maduros incipientes bajo los 11,5 cms que puede aportar a la biomasa \\
+                          & desovante y que actualmente no se está considerando. \\ \hline
+                          & \\
+                          & Se sugiere revisar los coeficientes de capturabilidad en ambos cruceros donde la \\
+ Capturabilidad           & estimación indica valores por sobre 1 (Reclas 1,32 y Pelaces 1,82). Sobre todo el \\
+                          & alto valor del crucero Pelaces. Estos valores no están justificados en el informe, \\
+                          & más allá que se indique la opción de estimarlos libremente. \\ \hline
+                          & \\
+                          & Los resultados de la proyección al año 2021/22 varian según el nivel de reclutamiento \\
+                          &  y mortalidad por pesca en el RMS. Destaca el bajo impacto          \\
+  Estatus proyectado      & que tiene las variantes de reclutamiento sobre el estatus, donde sólo se generan cambios     \\
+                          & al variar el nivel de FRMS. Se sugiere probar niveles de F más altos respecto al valor de    \\
+                          & RMS, con el objeto de demostrar el efecto de capturas sobre el nivel objetivo.                \\ 
+                          &                                                                                                \\ \hline
+    \end{tabular}}
+    \end{table}
+```
+
+
+
+\pagebreak
+
+
 # 5. ANÁLISIS Y DISCUSIÓN DE RESULTADOS
 
 El período de análisis del presente estudio (Asesoría de julio 2021) comprende los años biológicos desde 1990/91 a 2020/21 con información del crucero de otoño 2021 (composición de edad y biomasa total) y supuestos de captura, descarte, composición de edad y pesos medios de la flota. El porcentaje de descarte 2020/21 se asume igual al 4% (supuesto de proyección acordado en primera sesión del CCT-PP, febrero 2021). Una de las principales características del stock de sardina común es el comportamiento estacional de las capturas, donde cerca del 70% de la captura total anual se obtiene al primer semestre de cada año, con máximos entre marzo y abril. Esta estacionalidad es altamente influenciada por el pulso de reclutamiento de enero, observándose una fuerte relación entre la biomasa estimada por el crucero de enero y los desembarques. Al respecto, a partir del 2015 las biomasas acústicas de verano se mantuvieron en niveles en torno a los dos millones de toneladas, lo cual se ve reflejado también en una estabilidad en las capturas en torno a las 350 mil toneladas promedio.
@@ -3687,9 +3750,20 @@ El comportamiento de los residuales de los cruceros sugiere ciertos patrones que
 
 En relación a las tendencias de las variables poblacionales se observa que los reclutamientos han mostrado importantes fluctuaciones interanuales y en su historia conocida se aprecian tres períodos relevantes, a) Rprom(1991-2007) con los niveles más bajos de reclutamientos (114 mil millones de peces), b) Rprom(2008-2012) con los más altos niveles de reclutamiento (410 mil millones de peces) y c) Rprom(2013-2021) con reclutamientos medios en torno a 180 mil millones de peces. En relación con los tres períodos relevantes, el reclutamiento 2021 es un 94% mayor al Rprom(1991-2007), un 46% menor al Rprom(2008-2012) y un 23% mayor al Rprom(2013-2021). El incremento del reclutamiento 2021 genera una recuperación en los niveles de biomasa total, encontrándose un 21% sobre el promedio histórico de la serie (promedio 1991-2021 = 1,65 millones de t). Por otro lado, la biomasa desovante promedio de la serie histórica se encuentra en torno a 718 mil toneladas, mientras que el promedio de los ultimos 9 años (período 2013-2021) es de 980 mil de toneladas. Al respecto, la biomasa desovante esperada para el año biológico 2020/2021 es un 29% menor al promedio histórico y un 48% menor al promedio de los últimos 9 años (período 2013-2021). La condición estimada en este estudio para el año 2020/2021 indica que la sardina común se encuentra en sobreexplotación (38% bajo BD~RMS~ y 9% sobre F~RMS~), con un 18% de probabilidad de colapso y 48% de riesgo de sobrepesca. La asesoría actual (julio 2021) confirma el estatus proyectado en la asesoría previa (marzo 2021), no obstante, posiciona a la sardina común de la zona centro sur en una condición de menor riesgo (18%) de encontrarse agotada/colapsada.
 
-Adicionalmente, en este estudio se analizó el efecto del retorno del reclutamiento 2021 ha niveles favorables sobre el estatus proyectado hacia el 2021/22 bajo una mortalidad por pesca en torno al F~RMS~. Los resultados indican una recuperación del estatus para el año biológico 2021/22, acercándose a una condición de plena-explotación con un 49% de probabilidad de sobre-explotación y un 4% de probabilidad de colapso, independiente del escenario de reclutamiento proyectado. Al parecer, esta recuperación podría estar relacionada a las condiciones ambientales favorables registradas hacia fines del 2020 e inicios del año 2021, donde se registró una condición fría, con gran cobertura espacial de ATSM negativas al norte de los 40ºS y procesos de intensa surgencia costera, con elevadas concentraciones de clorofila-a en la costa, lo que se tradujo en una mayor disponibilidad de alimento (fitoplancton) para los reclutas de anchoveta y sardina común (Saavedra *et al*., 2021a). 
+Adicionalmente, en este estudio se analizó el efecto del retorno del reclutamiento 2021 ha niveles favorables sobre el estatus proyectado hacia el 2021/22 bajo una mortalidad por pesca en torno al F~RMS~. Los resultados indican una recuperación del estatus para el año biológico 2021/22, acercándose a una condición de plena-explotación con un 49% de probabilidad de sobre-explotación y un 4% de probabilidad de colapso, independiente del escenario de reclutamiento proyectado. Al parecer, esta recuperación podría estar relacionada a las condiciones ambientales favorables registradas hacia fines del 2020 e inicios del año 2021, donde se registró una condición fría, con gran cobertura espacial de ATSM negativas al norte de los 40ºS y procesos de intensa surgencia costera, con elevadas concentraciones de clorofila-a en la costa, lo que se tradujo en una mayor disponibilidad de alimento (fitoplancton) para los reclutas de sardina común (Saavedra *et al*., 2021a). 
 
 La pesquería de sardina común está muy asociada a la de anchoveta centro-sur, con la cual presenta una importante interacción tecnológica y biológica. Estas características originan operaciones de pesca mixta, con alternancia de dominio intra e inter anual. El análisis de los indicadores de ambos stock muestran niveles de productividad muy disímiles (\textbf{Figura \ref{Fig51}}) revelando alternancia y predominancias importantes una sobre la otra. Estos cambios de productividad podrían ser producto de diversos factores biológicos (fenómenos depensatorios de la dinámica poblacional, reducción del potencial reproductivo) y factores oceanográficos desfavorables para anchoveta y que han favorecido la producción de la sardina común dejando en evidencia la alternancia de ambas especies, las cuales son explotadas en la misma área y por la misma flota.
+
+
+```{=tex}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.8\textwidth]{Figuras/Fig48-1.pdf}
+\caption{Razón $BD/BD_{RMS}$ de sardina común y anchoveta centro-sur.}
+\label{Fig51}
+\end{figure}
+```
+
 
 Al respecto, considerando la recuperación de anchoveta los últimos años, ratificado por los resultados del crucero de otoño 2021, los cuales muestran que al igual que el año pasado, anchoveta pasa a cohabitar junto a sardina común con una mayor distribución geográfica y mayor biomasa, transformándose en este período otoñal, en la especie principal en el ecosistema de la zona centro-sur. No obstante, Saavedra *et al*. (2021b) advierten que esta situación es momentánea ya que en el período estival esta situación normalmente cambia, dependiendo de un reclutamiento exitoso para revertirse.
 
@@ -3708,17 +3782,20 @@ De acuerdo al ciclo de manejo histórico de esta pesquería, este estudio entreg
 
 De este modo, la captura para el año 2021, descontando el 4% de descarte y estimada bajo un escenario de reclutamientos bajos (período 1991-2007) se encuentra entre 336 mil t y 363 mil t. Bajo un escenario de reclutamientos altos (período 2008-2012), alcanza un rango entre 368 mil t y 403 mil toneladas y bajo un escenario de reclutamientos recientes (período 2013-2021), entre 338 mil t y 370 mil t.
 
+Respecto al efecto de la cuota remanente 2020 en el estatus 2020/21 de sardina común, la captura registrada por Sernapesca para el año biológico 2020/21 fue de 376 mil toneladas. Considerando la captura descartada supuesta para el mismo año (15 mil t, equivante al 4% de descarte) como una causa de mortalidad por pesca adicional, la remoción total ocurrida durante el 2020/21 fue de 391 mil t, lo cual equivale a una mortalidad por pesca de 0,326 año^-1^. Dado que, la mortalidad por pesca objetivo ($F_{RMS}$) es igual a 0,3 año^-1^, la $F_{2020/21}$ fue un 9% mayor al $F_{RMS}$ (\textbf{Figura \ref{Fig51b}}).  La captura 2020/21 al RMS debería estar en torno a las 359 mil t ($C_{RMS}$), si descontamos la captura descartada (14 mil t equivalente al 4%descarte), la captura 2020/21 debería ser 344,8 mil t. Al respecto, si consideramos que la captura registrada por Sernapesca durante el segundo semestre 2020 fue de 69,8 mil t, la captura del primer semestre que hubiera permitido estar en $F_{RMS}$, sería 275 mil t. Es decir, la $C_{RMS}$ se sobrepasó en 31 mil t, valor muy cercano a la cuota remanente capturada de 30.600 t  (http://www.sernapesca.cl/informacion-utilidad/consumo-de-cuotas).
+
+\vspace{0.5cm}
 
 ```{=tex}
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.8\textwidth]{Figuras/Fig48-1.pdf}
-\caption{Razón $BD/BD_{RMS}$ de sardina común y anchoveta centro-sur.}
-\label{Fig51}
+\includegraphics[width=0.45\textwidth]{Figuras/Fig41b-1.pdf}
+\includegraphics[width=0.45\textwidth]{Figuras/Fig41b_Frms202021-1.pdf}
+\caption{Diagrama de fases de explotación de la biomasa desovante respecto de la mortalidad por pesca de la asesoría de  julio 2021 (panel izquierdo) y asesoría de julio 2021 considerando un $F_{2020/21}$ igual al $F_{RMS}$ (panel derecho). Los ejes están estandarizados a los valores que generan el RMS proxy. Cruz azul corresponde a los intervalos de confianza de la razón $BD/BD_{RMS}$ y $F/F_{RMS}$. El año con cruz continua corresponde a "\textit{Estatus completo}" y la cruz con línea discontinua a "\textit{Estatus preliminar}".}
+\label{Fig51b}
 \end{figure}
 ```
 
-\vspace{0.5cm}
 \normalsize
 
 \pagebreak
